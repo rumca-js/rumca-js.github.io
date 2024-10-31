@@ -1,0 +1,117 @@
+
+body{
+    color:#66bfbf;
+    background-color: #000000;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto  ;
+    font-family: 'Courier New', monospace;
+    color:#66bfbf;
+    font-weight: normal; 
+}
+h2{
+    color:#66bfbf;
+    font-size: 2.5rem;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    padding-bottom:10px;
+}
+
+h3{
+    color: #11999e;
+    font-family: 'Courier New', monospace;
+}
+p {
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999e;
+    font-family: 'Courier New', monospace;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #00f000;
+}
+ul {
+    text-align: left;
+}
+   
+.top-container{
+    background-color: #000000;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0 ;
+    background-color: #000000;
+   
+}
+.bottom-container{
+    background-color: #000000;
+    padding: 50% 0 20px;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+}
+.brand-0{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pro{
+    text-decoration:underline ;
+}
+.quote{
+    color:#66bfbf;
+    /* width: 30%; */
+    margin: auto;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size:0.75rem;
+    padding: 20px 0;
+    
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:340px
+}
+.bottom-cloud{
+    margin-top: 20%;
+    /*position: absolute;
+    left: 300px;
+    bottom: 250px;
+    */
+}
+.dogpit-img{
+    margin-right:30px;
+    width: 25%;
+    float: left;
+    
+}
+.icecream-img{
+    margin-left:30px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
