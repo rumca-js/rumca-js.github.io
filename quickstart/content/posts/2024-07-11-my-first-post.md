@@ -1,6 +1,7 @@
 +++
 title = 'My first post'
-date = 2024-11-07 16:43:32
+date = 2024-11-06 16:43:32
+draft = false
 +++
 
 So it happened. This is my first post.
