@@ -6,6 +6,8 @@ I am interested in:
  - self-hosting
  - bookmarking, crawling, analysing the web
 
+Blog @ [https://rumca-js.github.io/quickstart/public/posts](https://rumca-js.github.io/quickstart/public/posts)
+
 My main projects:
  - [https://github.com/rumca-js/Django-link-archive](https://github.com/rumca-js/Django-link-archive) - bookmarking software
  - [https://github.com/rumca-js/Internet-Places-Database](https://github.com/rumca-js/Internet-Places-Database) - mostly domains
