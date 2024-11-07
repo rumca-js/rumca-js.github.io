@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/</loc>
     <lastmod>2024-09-07T12:43:32+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/my-first-post/</loc>
     <lastmod>2024-09-07T12:43:32+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
     <lastmod>2024-09-07T12:43:32+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/tags/</loc>
   </url>
 </urlset>
