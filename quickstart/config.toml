@@ -1,4 +1,13 @@
 #theme = 'hugo-theme-learn'
 theme = 'risotto'
 baseUrl = 'https://rumca-js.github.io/quickstart/public'
+title = "My name is rumca-js"
 languageCode = 'en-us'
+
+paginate = 30
+
+[params]
+   author="rumca-js"
+   description="This is my site"
+   # for SEO
+   keywords = ["Programming", "Blog"]
