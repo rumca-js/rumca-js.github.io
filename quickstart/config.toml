@@ -1,3 +1,4 @@
-theme = 'hugo-theme-learn'
+#theme = 'hugo-theme-learn'
+theme = 'risotto'
 baseUrl = 'https://rumca-js.github.io/quickstart/public'
 languageCode = 'en-us'
