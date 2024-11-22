@@ -11,3 +11,17 @@ paginate = 30
    description="This is my site"
    # for SEO
    keywords = ["Programming", "Blog"]
+   social = [
+   { name = "github", url="https://github.com/rumca-js" }
+   ]
+
+[menu]
+   [[menu.main]]
+    name="Home"
+    url="/"
+    weight=1
+   [[menu.main]]
+    name="Blog"
+    url="quicktart/public/posts"
+    weight=2
+
