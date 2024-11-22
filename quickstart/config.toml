@@ -19,7 +19,7 @@ description = "...[]..."
 
 [menu]
    [[menu.main]]
-    name="Domains"
+    name="Main"
     url="https://rumca-js.github.io"
     weight=1
    [[menu.main]]
