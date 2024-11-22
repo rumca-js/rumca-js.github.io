@@ -12,9 +12,10 @@ paginate = 30
    # for SEO
    keywords = ["Programming", "Blog"]
 
-[[params.social]]
-   title = "github"
-   url="https://github.com/rumca-js"
+# sidebar
+[params.about]
+title="rumca-js"
+description = "...[]..."
 
 [menu]
    [[menu.main]]
@@ -25,4 +26,8 @@ paginate = 30
     name="Blog"
     url="/posts"
     weight=2
+
+[[params.socialLinks]]
+   title = "github"
+   url="https://github.com/rumca-js"
 
