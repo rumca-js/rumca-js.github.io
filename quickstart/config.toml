@@ -19,8 +19,8 @@ description = "...[]..."
 
 [menu]
    [[menu.main]]
-    name="Home"
-    url="/"
+    name="Domains"
+    url="https://rumca-js.github.io"
     weight=1
    [[menu.main]]
     name="Blog"
