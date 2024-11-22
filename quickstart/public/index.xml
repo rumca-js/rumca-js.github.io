@@ -5,48 +5,14 @@
     <link>https://rumca-js.github.io/quickstart/public/</link>
     <description>Recent content on My name is rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2024 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awesome lists</title>
-      <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/</link>
-      <pubDate>Thu, 21 Nov 2024 16:43:32 +0000</pubDate>
-      
-      <guid>https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/</guid>
-      <description>For some time now, I’ve been exploring awesome lists.
-If you’re not familiar with them, awesome lists are curated collections of resources, tools, libraries, tutorials, and other valuable content, typically centered around a specific topic or theme. They are usually created by developers or enthusiasts and hosted on GitHub, making them easily accessible and open for contributions.
-What fascinates me is why such lists exist in the first place. My theory is that search engines are failing us in some important ways.</description>
-    </item>
-    
-    <item>
-      <title>Bug problem</title>
-      <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/</link>
-      <pubDate>Thu, 14 Nov 2024 16:43:32 +0000</pubDate>
-      
-      <guid>https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/</guid>
-      <description>Another amusing yet frustrating incident occurred recently.
-I discovered a particularly nasty bug in my code - it froze the entire app after exactly 10 page refreshes. I was initially baffled and unsure where to start debugging.
-I’m no Python expert, and my main safety net is a solid suite of unit tests. These help a lot, but they don’t catch issues like memory leaks or recursion problems. Clearly, I still have a lot to learn.</description>
-    </item>
-    
-    <item>
-      <title>Table problem</title>
-      <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/</link>
-      <pubDate>Wed, 13 Nov 2024 16:43:32 +0000</pubDate>
-      
-      <guid>https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/</guid>
-      <description>here was this one time I got up and checked my webpage. It&amp;rsquo;s a habit of mine—checking, making sure everything is up and running. I&amp;rsquo;m not doing it for anyone else. Nobody uses my app instances; I’m the sole user. Yet, I&amp;rsquo;m devoted.
-That day, I ran into a problem. A table in my database had a data error and became completely unreadable. I tried fixing it—several times. I sifted through pages of documentation and even enlisted ChatGPT for assistance.</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/</link>
+      <title>Index</title>
+      <link>https://rumca-js.github.io/quickstart/public/</link>
       <pubDate>Wed, 06 Nov 2024 16:43:32 +0000</pubDate>
       
-      <guid>https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/</guid>
-      <description>So it happened. This is my first post.
-In this &amp;ldquo;blog&amp;rdquo; of sorts I will try introducing progress made on my software.</description>
+      <guid>https://rumca-js.github.io/quickstart/public/</guid>
+      <description>This is my personal blog</description>
     </item>
     
   </channel>

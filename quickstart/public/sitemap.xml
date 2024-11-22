@@ -2,25 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/</loc>
-    <lastmod>2024-11-21T16:43:32+00:00</lastmod>
-  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/</loc>
-    <lastmod>2024-11-21T16:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2024-11-21T16:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/</loc>
-    <lastmod>2024-11-14T16:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/</loc>
-    <lastmod>2024-11-13T16:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/</loc>
     <lastmod>2024-11-06T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/categories/</loc>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/</loc>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/tags/</loc>
   </url>
