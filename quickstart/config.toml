@@ -28,6 +28,7 @@ description = "...[]..."
     weight=2
 
 [[params.socialLinks]]
+   icon = "fa-brands fa-github"
    title = "github"
-   url="https://github.com/rumca-js"
+   url = "https://github.com/rumca-js"
 
