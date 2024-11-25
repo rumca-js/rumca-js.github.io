@@ -1,5 +1,5 @@
 theme = 'risotto'
-baseUrl = 'https://rumca-js.github.io/quickstart'
+baseUrl = 'https://rumca-js.github.io/quickstart/public'
 title = "My name is rumca-js"
 languageCode = 'en-us'
 
