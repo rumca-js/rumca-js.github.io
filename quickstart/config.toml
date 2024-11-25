@@ -1,6 +1,5 @@
-#theme = 'hugo-theme-learn'
 theme = 'risotto'
-baseUrl = 'https://rumca-js.github.io/quickstart/public'
+baseUrl = 'https://rumca-js.github.io/quickstart'
 title = "My name is rumca-js"
 languageCode = 'en-us'
 
