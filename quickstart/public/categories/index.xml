@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My name is rumca-js</title>
-    <link>https://rumca-js.github.io/quickstart/categories/</link>
+    <link>https://rumca-js.github.io/quickstart/public/categories/</link>
     <description>Recent content in Categories on My name is rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://rumca-js.github.io/quickstart/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://rumca-js.github.io/quickstart/public/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
