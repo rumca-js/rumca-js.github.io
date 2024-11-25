@@ -1,6 +1,6 @@
 theme = 'risotto'
 baseUrl = 'https://rumca-js.github.io/quickstart/public'
-title = "My name is rumca-js"
+title = "rumca-js"
 languageCode = 'en-us'
 
 paginate = 30
@@ -31,3 +31,22 @@ description = "...[]..."
    title = "github"
    url = "https://github.com/rumca-js"
 
+[[params.socialLinks]]
+   icon = "fa-brands fa-docker"
+   title = "docker"
+   url = "https://hub.docker.com/r/rozbujnik/django-link-archive"
+
+[[params.socialLinks]]
+   icon = "fa-brands fa-reddit"
+   title = "reddit"
+   url = "https://www.reddit.com/user/renegat0x0"
+
+[[params.socialLinks]]
+   icon = "fa-brands fa-youtube"
+   title = "YouTube"
+   url = "https://www.youtube.com/channel/UCilzRuEs5uBWp06PWw1ejkA"
+
+[[params.socialLinks]]
+   icon = "fa-brands fa-paint-brush"
+   title = "DeviantArt"
+   url = "https://www.deviantart.com/renegat0x0"
