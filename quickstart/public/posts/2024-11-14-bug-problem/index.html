@@ -65,6 +65,9 @@
 <p>Luckily, I had a backup—of sorts. It was in JSON format. Importing it worked, but it was a painstakingly slow process. I spent some time experimenting with PostgreSQL’s native tools, like pg_backup and pg_restore. To my amazement, they worked like magic, taking a fraction of the time and resources compared to my improvised import/export process. It turns out my manual methods weren’t “optimal,” or perhaps PostgreSQL’s internal scripts benefit from directly copying tables, which is always faster for straightforward operations.</p>
 <p>In the end, I wrote a handy new script to perform PostgreSQL backups using its native tools—a silver lining to the ordeal.</p>
 <p>A week later, disaster struck again: a cascade delete operation wiped out most of my data. But this time, I was prepared. With my new backup script, I restored everything within minutes. Funny how things turn out sometimes.</p>
+<p>You better watchout, because there can always be another monster after your bug.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
     </div>
     <footer class="content__footer"></footer>
