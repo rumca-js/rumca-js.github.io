@@ -6,7 +6,18 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2024 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet sins</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-26-web-sins/</link>
+      <pubDate>Tue, 26 Nov 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2024-11-26-web-sins/</guid>
+      <description>There are many things wrong with the current web, I wanted to keep track of them.
+You can disagree with some of them, but that may not indicate you are right.
+your page does not provide valid meta fields. There is a lot of them. Title, description. There are og: fields, there are LD-JSON data your page is not bot friendly. I am not saying that the web page should provide data for free.</description>
+    </item>
+    
     <item>
       <title>Awesome lists</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/</link>
