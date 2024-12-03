@@ -25,6 +25,10 @@ description = "...[]..."
     name="Main"
     url="https://rumca-js.github.io"
     weight=2
+   [[menu.lists]]
+    name="Main"
+    url="https://rumca-js.github.io/quickstart/public/static_lists"
+    weight=3
 
 [[params.socialLinks]]
    icon = "fa-brands fa-github"
