@@ -315,7 +315,7 @@ let currentVersion = 0;
 function requestData(attempt = 1) {
     let requestVersion = ++currentVersion;
 
-    let url = "data/" + getQueryParam('file');
+    let url = "data/" + getQueryParam('file') + ".json";
 
     $.ajax({
         url: url,
