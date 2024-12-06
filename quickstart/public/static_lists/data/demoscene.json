@@ -21,7 +21,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://asma.atari.org/favicon.ico"
+            "thumbnail": "https://asma.atari.org/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 104155,
@@ -44,7 +49,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pouet.net/favicon.ico"
+            "thumbnail": "https://pouet.net/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 23687,
@@ -67,7 +76,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://worldofmenchi.fr/favicon.ico"
+            "thumbnail": "https://worldofmenchi.fr/favicon.ico",
+            "tags": [
+                "tracker music",
+                "chiptune",
+                "amiga",
+                "personal",
+                "keygen"
+            ]
         },
         {
             "id": 24931,
@@ -90,7 +106,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://modarchive.org/favicon.ico"
+            "thumbnail": "https://modarchive.org/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 16849,
@@ -113,7 +134,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://c64radio.com/favicon.ico"
+            "thumbnail": "https://c64radio.com/favicon.ico",
+            "tags": [
+                "chiptune",
+                "commodore",
+                "keygen"
+            ]
         },
         {
             "id": 881,
@@ -136,7 +162,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdm.link/app/uploads/2015/12/cdmlogo-60x60.png"
+            "thumbnail": "https://cdm.link/app/uploads/2015/12/cdmlogo-60x60.png",
+            "tags": [
+                "keygen",
+                "chiptune",
+                "audio eqipment",
+                "audio news"
+            ]
         },
         {
             "id": 16863,
@@ -159,7 +191,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kohina.com/favicon.ico"
+            "thumbnail": "https://kohina.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 9070,
@@ -182,7 +217,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://modules.pl/gfx/fb.jpg"
+            "thumbnail": "https://modules.pl/gfx/fb.jpg",
+            "tags": [
+                "demoscene",
+                "tracker music"
+            ]
         },
         {
             "id": 1391,
@@ -205,7 +244,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200"
+            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 17706,
@@ -228,7 +272,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.elwoodproductions.com/favicon.ico"
+            "thumbnail": "https://www.elwoodproductions.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "retro music",
+                "keygen"
+            ]
         },
         {
             "id": 462909,
@@ -251,7 +301,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 462911,
@@ -274,7 +328,13 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 19744,
@@ -297,7 +357,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.lukhash.com/background/bg1.jpg"
+            "thumbnail": "http://www.lukhash.com/background/bg1.jpg",
+            "tags": [
+                "music band",
+                "chiptune",
+                "demoscene",
+                "amiga",
+                "news retro wave",
+                "personal",
+                "keygen"
+            ]
         },
         {
             "id": 86745,
@@ -320,7 +389,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://geeks3d.com/favicon.ico"
+            "thumbnail": "https://geeks3d.com/favicon.ico",
+            "tags": [
+                "tech news"
+            ]
         },
         {
             "id": 906,
@@ -343,7 +415,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://csdb.dk/gfx/csdb-fb-logo.gif"
+            "thumbnail": "https://csdb.dk/gfx/csdb-fb-logo.gif",
+            "tags": [
+                "demoscene",
+                "social forum",
+                "commodore"
+            ]
         },
         {
             "id": 8659,
@@ -366,7 +443,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://demozoo.org/static/images/favicon/favicon-32x32.png"
+            "thumbnail": "https://demozoo.org/static/images/favicon/favicon-32x32.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8902,
@@ -389,7 +469,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gathering.org/static/opengraph.jpg"
+            "thumbnail": "https://gathering.org/static/opengraph.jpg",
+            "tags": [
+                "demoscene",
+                "retro games"
+            ]
         },
         {
             "id": 9768,
@@ -412,7 +496,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://keygenmusic.tk/favicon.ico"
+            "thumbnail": "https://keygenmusic.tk/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 109348,
@@ -435,7 +524,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mountainbytes.ch/favicon.ico"
+            "thumbnail": "https://mountainbytes.ch/favicon.ico",
+            "tags": [
+                "demoscene",
+                "retro games"
+            ]
         },
         {
             "id": 109349,
@@ -458,7 +551,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroscene.org/favicon.ico"
+            "thumbnail": "https://retroscene.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 29450,
@@ -481,7 +577,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sillyventure.eu/templates/sv/images/logo.png?20231126212500"
+            "thumbnail": "https://sillyventure.eu/templates/sv/images/logo.png?20231126212500",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "atari",
+                "keygen"
+            ]
         },
         {
             "id": 109359,
@@ -504,7 +606,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://jormas.com/favicon.ico"
+            "thumbnail": "http://jormas.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "personal"
+            ]
         },
         {
             "id": 7666,
@@ -527,7 +633,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://2024.revision-party.net/images/favicon.png"
+            "thumbnail": "https://2024.revision-party.net/images/favicon.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16216,
@@ -550,7 +659,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kohina.brona.dk/favicon.ico"
+            "thumbnail": "https://kohina.brona.dk/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 78121,
@@ -573,7 +685,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://64k-scene.github.io/favicon.ico"
+            "thumbnail": "https://64k-scene.github.io/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 22965,
@@ -596,7 +711,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zxm.cz/favicon.ico"
+            "thumbnail": "https://zxm.cz/favicon.ico",
+            "tags": [
+                "zine",
+                "demoscene",
+                "retro games",
+                "zx spectrum",
+                "magazine"
+            ]
         },
         {
             "id": 13108,
@@ -619,7 +741,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.modplug.com/favicon.ico"
+            "thumbnail": "https://www.modplug.com/favicon.ico",
+            "tags": [
+                "music tracker",
+                "chiptune",
+                "modplug tracker",
+                "keygen"
+            ]
         },
         {
             "id": 8126,
@@ -642,7 +770,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.bitfellas.org/favicon.ico"
+            "thumbnail": "http://www.bitfellas.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 106453,
@@ -665,7 +796,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://alcatraz.untergrund.net/favicon.ico"
+            "thumbnail": "https://alcatraz.untergrund.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16832,
@@ -688,7 +822,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.6581-8580.com/favicon.ico"
+            "thumbnail": "https://www.6581-8580.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "interesting page design",
+                "sid"
+            ]
         },
         {
             "id": 105927,
@@ -711,7 +850,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://thisweekinchiptune.com/wp-content/uploads/2018/12/TWiC-Gameboy-e1545361756973.png"
+            "thumbnail": "https://thisweekinchiptune.com/wp-content/uploads/2018/12/TWiC-Gameboy-e1545361756973.png",
+            "tags": [
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 29072,
@@ -734,7 +877,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scenestream.net/favicon.ico"
+            "thumbnail": "https://scenestream.net/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "radio",
+                "keygen"
+            ]
         },
         {
             "id": 115156,
@@ -757,7 +906,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://modp3.mikendezign.com/favicon.ico"
+            "thumbnail": "https://modp3.mikendezign.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 22642,
@@ -780,7 +935,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://amigavoid.wordpress.com/wp-content/uploads/2019/11/catro.png"
+            "thumbnail": "https://amigavoid.wordpress.com/wp-content/uploads/2019/11/catro.png",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 14937,
@@ -803,7 +962,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://remix64.com/images/r64/main-page-social-pic.webp"
+            "thumbnail": "https://remix64.com/images/r64/main-page-social-pic.webp",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "commodore"
+            ]
         },
         {
             "id": 8105,
@@ -826,7 +990,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://16-bits.org/favicon.ico"
+            "thumbnail": "https://16-bits.org/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "tracker music",
+                "keygen"
+            ]
         },
         {
             "id": 10513,
@@ -849,7 +1019,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.allradio.net/icon-512x512.png"
+            "thumbnail": "https://www.allradio.net/icon-512x512.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8123,
@@ -872,7 +1045,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://alxq.org/favicon.ico"
+            "thumbnail": "https://alxq.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 299504,
@@ -895,7 +1071,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://amigaforever.com/favicon.ico"
+            "thumbnail": "https://amigaforever.com/favicon.ico",
+            "tags": [
+                "amiga"
+            ]
         },
         {
             "id": 16845,
@@ -918,7 +1097,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.arcaderadio.com/images/favicon.ico"
+            "thumbnail": "http://www.arcaderadio.com/images/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 877,
@@ -941,7 +1123,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.c64forever.com/favicon.ico"
+            "thumbnail": "https://www.c64forever.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "commodore",
+                "emulation"
+            ]
         },
         {
             "id": 8001,
@@ -964,7 +1151,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://chiru.no/favicon.ico"
+            "thumbnail": "https://chiru.no/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 22995,
@@ -987,7 +1177,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hvsc.de/favicon.ico"
+            "thumbnail": "https://hvsc.de/favicon.ico",
+            "tags": [
+                "demoscene",
+                "commodore"
+            ]
         },
         {
             "id": 24642,
@@ -1010,7 +1204,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://iquilezles.org/logo.jpg"
+            "thumbnail": "https://iquilezles.org/logo.jpg",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 12449,
@@ -1033,7 +1230,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://liquiddoom.net/favicon.gif"
+            "thumbnail": "https://liquiddoom.net/favicon.gif",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 13463,
@@ -1056,7 +1256,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nolife-radio.com/favicon.png"
+            "thumbnail": "https://nolife-radio.com/favicon.png",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 9335,
@@ -1079,7 +1284,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radiominor.ru/favicon.ico"
+            "thumbnail": "https://radiominor.ru/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 23435,
@@ -1102,7 +1310,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scenemusic.eu/favicon.ico"
+            "thumbnail": "https://scenemusic.eu/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 23002,
@@ -1125,7 +1336,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.sidspieler.de/assets/apple-icon-60x60.png"
+            "thumbnail": "http://www.sidspieler.de/assets/apple-icon-60x60.png",
+            "tags": [
+                "demoscene",
+                "chiptune"
+            ]
         },
         {
             "id": 115164,
@@ -1148,7 +1363,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://spaceballs.no/favicon.ico"
+            "thumbnail": "https://spaceballs.no/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 43616,
@@ -1171,7 +1390,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://streamfinder.com/favicon.ico"
+            "thumbnail": "https://streamfinder.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16892,
@@ -1194,7 +1416,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tunein.com/favicon.ico"
+            "thumbnail": "https://tunein.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 43579,
@@ -1217,7 +1442,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://turpeau.net/favicon.ico"
+            "thumbnail": "https://turpeau.net/favicon.ico",
+            "tags": [
+                "demoscene",
+                "retro hardware",
+                "personal"
+            ]
         },
         {
             "id": 109350,
@@ -1240,7 +1470,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://untergrund.net/favicon.ico"
+            "thumbnail": "https://untergrund.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 10510,
@@ -1263,7 +1496,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zeno.fm/apple-icon-512x512.png"
+            "thumbnail": "https://zeno.fm/apple-icon-512x512.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 109352,
@@ -1286,7 +1522,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zxtunes.com/favicon.ico"
+            "thumbnail": "https://zxtunes.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "zx spectrum"
+            ]
         },
         {
             "id": 255454,
@@ -1309,7 +1549,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.c64.com/images/c64_com_logo.jpg"
+            "thumbnail": "http://www.c64.com/images/c64_com_logo.jpg",
+            "tags": [
+                "demoscene",
+                "commodore"
+            ]
         },
         {
             "id": 12451,
@@ -1332,7 +1576,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.rpgamers.net/favicon.ico"
+            "thumbnail": "http://www.rpgamers.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16850,
@@ -1355,7 +1602,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://commodexplorer.com/favicon.ico"
+            "thumbnail": "https://commodexplorer.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 10512,
@@ -1378,7 +1628,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dir.rcast.net/uploads/logo/logo_651d326f1f3cc.png"
+            "thumbnail": "https://dir.rcast.net/uploads/logo/logo_651d326f1f3cc.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8140,
@@ -1401,7 +1654,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dir.xiph.org/static/favicons/favicon-32x32.png"
+            "thumbnail": "https://dir.xiph.org/static/favicons/favicon-32x32.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 5948,
@@ -1424,7 +1680,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Two_people_riding_in_an_electriquette_%281915%29.jpg/1200px-Two_people_riding_in_an_electriquette_%281915%29.jpg"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Two_people_riding_in_an_electriquette_%281915%29.jpg/1200px-Two_people_riding_in_an_electriquette_%281915%29.jpg",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 12702,
@@ -1447,7 +1706,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gamebytesradio.net/wp-content/uploads/2019/11/cropped-favicon.png"
+            "thumbnail": "https://gamebytesradio.net/wp-content/uploads/2019/11/cropped-favicon.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16857,
@@ -1470,7 +1732,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gameover-radio.com/./img/core-img/favicon.ico"
+            "thumbnail": "https://gameover-radio.com/./img/core-img/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16862,
@@ -1493,7 +1758,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gttradio.com/static/img/gtt-logo-256.png"
+            "thumbnail": "https://gttradio.com/static/img/gtt-logo-256.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16895,
@@ -1516,7 +1784,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://info.woolyss.com/favicon.ico"
+            "thumbnail": "https://info.woolyss.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 106415,
@@ -1539,7 +1810,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://m.pouet.net/favicon.ico"
+            "thumbnail": "https://m.pouet.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8134,
@@ -1562,7 +1836,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://remix.kwed.org/assets/images/logo-opengraph-v2.png"
+            "thumbnail": "https://remix.kwed.org/assets/images/logo-opengraph-v2.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16884,
@@ -1585,7 +1862,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.spritelayerradio.com/api/nowplaying/spritelayer_video_game_radio/art/1726387503.jpg"
+            "thumbnail": "https://www.spritelayerradio.com/api/nowplaying/spritelayer_video_game_radio/art/1726387503.jpg",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 10517,
@@ -1608,7 +1888,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://the.nag.zone/wp-content/uploads/2020/02/discord_join-256x73.png"
+            "thumbnail": "https://the.nag.zone/wp-content/uploads/2020/02/discord_join-256x73.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 109361,
@@ -1631,7 +1914,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://theoldcomputer.com/favicon.ico"
+            "thumbnail": "https://theoldcomputer.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16852,
@@ -1654,7 +1940,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.lmp.d2g.com/favicon-32x32.png"
+            "thumbnail": "http://www.lmp.d2g.com/favicon-32x32.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 7819,
@@ -1677,7 +1966,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ada.untergrund.net/favicon.ico"
+            "thumbnail": "https://ada.untergrund.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 315536,
@@ -1700,7 +1992,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://c64demo.com/favicon.ico"
+            "thumbnail": "https://c64demo.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 39558,
@@ -1723,7 +2016,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://c64graphicsdb.s3.ap-southeast-2.amazonaws.com/collages/0.png"
+            "thumbnail": "https://c64graphicsdb.s3.ap-southeast-2.amazonaws.com/collages/0.png",
+            "tags": []
         },
         {
             "id": 106449,
@@ -1746,7 +2040,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scenecity.site/favicon.ico"
+            "thumbnail": "https://scenecity.site/favicon.ico",
+            "tags": []
         },
         {
             "id": 29452,
@@ -1769,7 +2064,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/1*pcALj06L88kGjJ9tjEWAlA.jpeg"
+            "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/1*pcALj06L88kGjJ9tjEWAlA.jpeg",
+            "tags": []
         },
         {
             "id": 368154,
@@ -1792,7 +2088,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://syntaxparty.org/favicon.ico"
+            "thumbnail": "https://syntaxparty.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 8139,
@@ -1815,7 +2112,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://the-solaris-agency.org/favicon.ico"
+            "thumbnail": "https://the-solaris-agency.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 342612,
@@ -1838,7 +2138,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://xenium.rocks/favicon.ico"
+            "thumbnail": "https://xenium.rocks/favicon.ico",
+            "tags": []
         },
         {
             "id": 12447,
@@ -1861,7 +2162,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dos.liquiddoom.net/ico.ico"
+            "thumbnail": "https://dos.liquiddoom.net/ico.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8130,
@@ -1884,7 +2188,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kohina.duckdns.org/favicon.ico"
+            "thumbnail": "https://kohina.duckdns.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16865,
@@ -1907,7 +2214,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://player.kohina.com/favicon.ico"
+            "thumbnail": "https://player.kohina.com/favicon.ico",
+            "tags": [
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 8132,
@@ -1930,7 +2241,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radio.gamesboro.org/api/nowplaying/gamesboro_radio/art/1723406237.jpg"
+            "thumbnail": "https://radio.gamesboro.org/api/nowplaying/gamesboro_radio/art/1723406237.jpg",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 341704,
@@ -1953,7 +2267,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://hypr.ru/favicon.ico"
+            "thumbnail": "http://hypr.ru/favicon.ico",
+            "tags": []
         },
         {
             "id": 9341,
@@ -1976,7 +2291,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://keygen-fm.ru/favicon.ico"
+            "thumbnail": "http://keygen-fm.ru/favicon.ico",
+            "tags": []
         },
         {
             "id": 255457,
@@ -1999,7 +2315,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://f4.bcbits.com/img/0004133087_23.jpg"
+            "thumbnail": "https://f4.bcbits.com/img/0004133087_23.jpg",
+            "tags": []
         },
         {
             "id": 39560,
@@ -2022,7 +2339,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://secure.gravatar.com/blavatar/53ed4eda56a5ef8d8846c000a51c89971fd992dc44eb48a5a8a873ce623f36d0?s=200&ts=1720095423"
+            "thumbnail": "https://secure.gravatar.com/blavatar/53ed4eda56a5ef8d8846c000a51c89971fd992dc44eb48a5a8a873ce623f36d0?s=200&ts=1720095423",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "commodore"
+            ]
         },
         {
             "id": 8136,
@@ -2045,7 +2367,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hyperadio.retroscene.org/favicon.ico"
+            "thumbnail": "https://hyperadio.retroscene.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16858,
@@ -2068,7 +2393,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gttradio.com/static/img/gtt-logo-256.png"
+            "thumbnail": "https://gttradio.com/static/img/gtt-logo-256.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 22684,
@@ -2091,7 +2419,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200"
+            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200",
+            "tags": [
+                "amiga"
+            ]
         },
         {
             "id": 11159,
@@ -2114,7 +2445,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radionos.com.br/favicon.ico"
+            "thumbnail": "https://radionos.com.br/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 317477,
@@ -2137,7 +2471,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://re.kv.io/favicon.ico"
+            "thumbnail": "https://re.kv.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 43609,
@@ -2160,7 +2495,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg"
+            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg",
+            "tags": []
         },
         {
             "id": 10509,
@@ -2183,7 +2519,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stream.zeno.fm/favicon.ico"
+            "thumbnail": "https://stream.zeno.fm/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 12450,
@@ -2206,7 +2545,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.rpgamers.net/favicon.ico"
+            "thumbnail": "http://www.rpgamers.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 11158,
@@ -2229,7 +2571,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.awsli.com.br/17/17197/logo/logo-novo-htnart.png"
+            "thumbnail": "https://cdn.awsli.com.br/17/17197/logo/logo-novo-htnart.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 250791,
@@ -2252,7 +2597,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.zeldaxtreme.com/img/logofb.png"
+            "thumbnail": "https://www.zeldaxtreme.com/img/logofb.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 356916,
@@ -2275,7 +2623,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://atparty-demoscene.net/favicon.ico"
+            "thumbnail": "http://atparty-demoscene.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 12159,
@@ -2298,7 +2647,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://81.152.251.44:8080/favicon.ico"
+            "thumbnail": "http://81.152.251.44:8080/favicon.ico",
+            "tags": [
+                "demoscene",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 12442,
@@ -2321,7 +2675,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://commodexplorer.c-prod.net/favicon.ico"
+            "thumbnail": "https://commodexplorer.c-prod.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 1878,
@@ -2344,7 +2701,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://demoscene-the-art-of-coding.net/wp-content/uploads/2020/04/AOC-Main-Images-042020.png"
+            "thumbnail": "http://demoscene-the-art-of-coding.net/wp-content/uploads/2020/04/AOC-Main-Images-042020.png",
+            "tags": []
         },
         {
             "id": 109351,
@@ -2367,7 +2725,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://events.retroscene.org/favicon.ico"
+            "thumbnail": "https://events.retroscene.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 310156,
@@ -2390,7 +2749,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://markus-klein-artwork.de/images/drawings/digital/lman-return-44-back-to-the-future.webp"
+            "thumbnail": "https://markus-klein-artwork.de/images/drawings/digital/lman-return-44-back-to-the-future.webp",
+            "tags": []
         },
         {
             "id": 73756,
@@ -2413,7 +2773,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radio-paralax.de/favicon.ico"
+            "thumbnail": "https://radio-paralax.de/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 310151,
@@ -2436,7 +2799,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yoyofr.blogspot.com/favicon.ico"
+            "thumbnail": "https://yoyofr.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 366481,
@@ -2459,7 +2823,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.demoscene.ru/favicon.ico"
+            "thumbnail": "http://www.demoscene.ru/favicon.ico",
+            "tags": []
         },
         {
             "id": 366457,
@@ -2482,7 +2847,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://bitjam.bitfellas.org/favicon.ico"
+            "thumbnail": "http://bitjam.bitfellas.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 12158,
@@ -2505,7 +2871,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://cgm-stream.noip.me/favicon-32x32.png"
+            "thumbnail": "http://cgm-stream.noip.me/favicon-32x32.png",
+            "tags": []
         },
         {
             "id": 343,
@@ -2528,7 +2895,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.amigaremix.com/assets/img/social.png"
+            "thumbnail": "https://www.amigaremix.com/assets/img/social.png",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "chiptune",
+                "keygen"
+            ]
         },
         {
             "id": 14667,
@@ -2551,7 +2924,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arnaud-carre.github.io/assets/img/main_background.jpg"
+            "thumbnail": "https://arnaud-carre.github.io/assets/img/main_background.jpg",
+            "tags": []
         },
         {
             "id": 437718,
@@ -2574,7 +2948,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://f4.bcbits.com/img/a3700700110_5.jpg"
+            "thumbnail": "https://f4.bcbits.com/img/a3700700110_5.jpg",
+            "tags": []
         },
         {
             "id": 366508,
@@ -2597,7 +2972,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://demoscene.multimatograf.ru/favicon.ico"
+            "thumbnail": "http://demoscene.multimatograf.ru/favicon.ico",
+            "tags": []
         },
         {
             "id": 94271,
@@ -2620,7 +2996,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.digitalekultur.org/assets/icons/dkev-512.png"
+            "thumbnail": "https://www.digitalekultur.org/assets/icons/dkev-512.png",
+            "tags": []
         },
         {
             "id": 68594,
@@ -2643,7 +3020,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://keygen.sh/images/focus-on-product.jpg"
+            "thumbnail": "https://keygen.sh/images/focus-on-product.jpg",
+            "tags": []
         },
         {
             "id": 22998,
@@ -2666,7 +3044,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://the.nag.zone/wp-content/uploads/2020/02/discord_join-256x73.png"
+            "thumbnail": "https://the.nag.zone/wp-content/uploads/2020/02/discord_join-256x73.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 22724,
@@ -2689,7 +3070,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radio.worlio.com/favicon.png"
+            "thumbnail": "https://radio.worlio.com/favicon.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 366499,
@@ -2712,7 +3096,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://zxaaa.untergrund.net/favicon.ico"
+            "thumbnail": "http://zxaaa.untergrund.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 359980,
@@ -2735,7 +3120,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://256bytes.untergrund.net/favicon.ico"
+            "thumbnail": "http://256bytes.untergrund.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 366453,
@@ -2758,7 +3144,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://demoscene.bitfellas.org/favicon.ico"
+            "thumbnail": "http://demoscene.bitfellas.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 366455,
@@ -2781,7 +3168,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://demoszene.bitfellas.org/favicon.ico"
+            "thumbnail": "http://demoszene.bitfellas.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 199055,
@@ -2804,7 +3192,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://usefathom.com/assets/src/share-usefathom.com.jpg"
+            "thumbnail": "https://usefathom.com/assets/src/share-usefathom.com.jpg",
+            "tags": []
         },
         {
             "id": 177705,
@@ -2827,7 +3216,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://alia-traces.github.io/favicon.ico"
+            "thumbnail": "https://alia-traces.github.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 255453,
@@ -2850,7 +3240,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://secure.gravatar.com/blavatar/53ed4eda56a5ef8d8846c000a51c89971fd992dc44eb48a5a8a873ce623f36d0?s=200&ts=1720465318"
+            "thumbnail": "https://secure.gravatar.com/blavatar/53ed4eda56a5ef8d8846c000a51c89971fd992dc44eb48a5a8a873ce623f36d0?s=200&ts=1720465318",
+            "tags": []
         },
         {
             "id": 366454,
@@ -2873,7 +3264,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://scenecity.bitfellas.org/favicon.ico"
+            "thumbnail": "http://scenecity.bitfellas.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 234235,
@@ -2896,7 +3288,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://64.media.tumblr.com/avatar_c2f606b27982_128.pnj"
+            "thumbnail": "https://64.media.tumblr.com/avatar_c2f606b27982_128.pnj",
+            "tags": []
         },
         {
             "id": 255643,
@@ -2919,7 +3312,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.function.hu/favicon.ico"
+            "thumbnail": "http://www.function.hu/favicon.ico",
+            "tags": []
         },
         {
             "id": 286967,
@@ -2942,7 +3336,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.p01.org/cover.jpg"
+            "thumbnail": "http://www.p01.org/cover.jpg",
+            "tags": []
         },
         {
             "id": 78106,
@@ -2965,7 +3360,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cookie.paris/image.jpg"
+            "thumbnail": "https://cookie.paris/image.jpg",
+            "tags": []
         },
         {
             "id": 78123,
@@ -2988,7 +3384,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://datunnel.blogspot.com/favicon.ico"
+            "thumbnail": "https://datunnel.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 18244,
@@ -3011,7 +3408,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://janeway.exotica.org.uk/favicon.ico"
+            "thumbnail": "https://janeway.exotica.org.uk/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 18817,
@@ -3034,7 +3435,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nectarine.from-de.com/favicon.ico"
+            "thumbnail": "https://nectarine.from-de.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 73723,
@@ -3057,7 +3461,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.classic-videogames.de/wp-content/uploads/2017/01/radiologobreitdunkelblaujpg.jpg"
+            "thumbnail": "https://www.classic-videogames.de/wp-content/uploads/2017/01/radiologobreitdunkelblaujpg.jpg",
+            "tags": []
         },
         {
             "id": 16870,
@@ -3080,7 +3485,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.paula8364.com/favicon.ico"
+            "thumbnail": "https://www.paula8364.com/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 234234,
@@ -3103,7 +3512,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://64.media.tumblr.com/avatar_ed68f99f5478_128.pnj"
+            "thumbnail": "https://64.media.tumblr.com/avatar_ed68f99f5478_128.pnj",
+            "tags": []
         },
         {
             "id": 1711,
@@ -3126,7 +3536,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ctrl-alt-test.fr/favicon.ico"
+            "thumbnail": "https://ctrl-alt-test.fr/favicon.ico",
+            "tags": []
         },
         {
             "id": 199057,
@@ -3149,7 +3560,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://status.keygen.sh/assets/status_pages/og_operational-b02e3c30367784b0fc6f0ad9a8278409c336107a0eab28aa64f0f55458d91567.png"
+            "thumbnail": "https://status.keygen.sh/assets/status_pages/og_operational-b02e3c30367784b0fc6f0ad9a8278409c336107a0eab28aa64f0f55458d91567.png",
+            "tags": []
         },
         {
             "id": 78100,
@@ -3172,7 +3584,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://2016.revision-party.net/media/images/2016/revision-2016-og.jpg"
+            "thumbnail": "https://2016.revision-party.net/media/images/2016/revision-2016-og.jpg",
+            "tags": []
         },
         {
             "id": 78122,
@@ -3195,7 +3608,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://2017.revision-party.net/media/images/2017/revision-2017-og.jpg"
+            "thumbnail": "https://2017.revision-party.net/media/images/2017/revision-2017-og.jpg",
+            "tags": []
         },
         {
             "id": 246123,
@@ -3218,7 +3632,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://fusecon.com/uploads/3/4/0/1/34017339/1401554251.png"
+            "thumbnail": "http://fusecon.com/uploads/3/4/0/1/34017339/1401554251.png",
+            "tags": []
         },
         {
             "id": 267980,
@@ -3241,7 +3656,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://phaazon.blogspot.com/favicon.ico"
+            "thumbnail": "http://phaazon.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 267989,
@@ -3264,7 +3680,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://phaazon.blogspot.fr/favicon.ico"
+            "thumbnail": "http://phaazon.blogspot.fr/favicon.ico",
+            "tags": []
         },
         {
             "id": 78105,
@@ -3287,7 +3704,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://demoscene-bof.blogspot.com/favicon.ico"
+            "thumbnail": "https://demoscene-bof.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 78113,
@@ -3310,7 +3728,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://conspiracy.hu/favicon.ico"
+            "thumbnail": "https://conspiracy.hu/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 234193,
@@ -3333,7 +3754,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://navis-asd.blogspot.com/favicon.ico"
+            "thumbnail": "http://navis-asd.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 78096,
@@ -3356,7 +3778,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://2015.revision-party.net/media/images/300x300_banner.png"
+            "thumbnail": "http://2015.revision-party.net/media/images/300x300_banner.png",
+            "tags": []
         },
         {
             "id": 23587,
@@ -3379,7 +3802,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://manager8.streamradio.fr/favicon.ico"
+            "thumbnail": "https://manager8.streamradio.fr/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 255468,
@@ -3402,7 +3828,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://amigaskool.net/favicon.ico"
+            "thumbnail": "http://amigaskool.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 265761,
@@ -3425,7 +3852,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://blog.rosseaux.net/favicon.ico"
+            "thumbnail": "http://blog.rosseaux.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 233114,
@@ -3448,7 +3876,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://memoryfull.net/favicon.ico"
+            "thumbnail": "http://memoryfull.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 255843,
@@ -3471,7 +3900,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://exotica.org.uk/favicon.ico"
+            "thumbnail": "https://exotica.org.uk/favicon.ico",
+            "tags": [
+                "demoscene",
+                "amiga"
+            ]
         },
         {
             "id": 83856,
@@ -3494,7 +3927,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scene.org/favicon.ico"
+            "thumbnail": "https://scene.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 263761,
@@ -3517,7 +3953,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zxart.ee/favicon.ico"
+            "thumbnail": "https://zxart.ee/favicon.ico",
+            "tags": []
         },
         {
             "id": 234122,
@@ -3540,7 +3977,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://2013.revision-party.net/media/images/favicons/favicon.ico"
+            "thumbnail": "http://2013.revision-party.net/media/images/favicons/favicon.ico",
+            "tags": []
         },
         {
             "id": 234132,
@@ -3563,7 +4001,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://2014.revision-party.net/media/images/favicons/favicon.ico"
+            "thumbnail": "http://2014.revision-party.net/media/images/favicons/favicon.ico",
+            "tags": []
         },
         {
             "id": 199054,
@@ -3586,7 +4025,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://app.keygen.sh/favicon.ico"
+            "thumbnail": "https://app.keygen.sh/favicon.ico",
+            "tags": []
         },
         {
             "id": 10511,
@@ -3609,7 +4049,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.commoradio.net/favicon.ico"
+            "thumbnail": "http://www.commoradio.net/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 164472,
@@ -3632,7 +4075,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.md1.hu/favicon.ico"
+            "thumbnail": "http://www.md1.hu/favicon.ico",
+            "tags": []
         },
         {
             "id": 234130,
@@ -3655,7 +4099,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://2011.revision-party.net/images/favicon.ico"
+            "thumbnail": "http://2011.revision-party.net/images/favicon.ico",
+            "tags": []
         },
         {
             "id": 234127,
@@ -3678,7 +4123,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://2012.revision-party.net/images/favicon.ico"
+            "thumbnail": "http://2012.revision-party.net/images/favicon.ico",
+            "tags": []
         },
         {
             "id": 270899,
@@ -3701,7 +4147,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://podcast.bitfellas.org/favicon.ico"
+            "thumbnail": "http://podcast.bitfellas.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 91579,
@@ -3724,7 +4171,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://demoparty.net/favicon.ico"
+            "thumbnail": "https://demoparty.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 245913,
@@ -3747,7 +4195,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://games.resistance.no/favicon.ico"
+            "thumbnail": "https://games.resistance.no/favicon.ico",
+            "tags": []
         },
         {
             "id": 218970,
@@ -3770,7 +4219,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jack.untergrund.net/favicon.ico"
+            "thumbnail": "https://jack.untergrund.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 14331,
@@ -3793,7 +4243,8 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 85886,
@@ -3816,7 +4267,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kurisu.sakamoto.pl/favicon.ico"
+            "thumbnail": "https://kurisu.sakamoto.pl/favicon.ico",
+            "tags": []
         },
         {
             "id": 156363,
@@ -3839,7 +4291,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://demoscene.vc/favicon.ico"
+            "thumbnail": "http://demoscene.vc/favicon.ico",
+            "tags": []
         },
         {
             "id": 14380,
@@ -3862,7 +4315,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://nectarine.shakeme.info/favicon.ico"
+            "thumbnail": "http://nectarine.shakeme.info/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 16868,
@@ -3885,7 +4341,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://objectstorage.us-ashburn-1.oraclecloud.com/favicon.ico"
+            "thumbnail": "https://objectstorage.us-ashburn-1.oraclecloud.com/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 12452,
@@ -3908,7 +4367,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rolandradio.net/favicons/favicon-32x32.png"
+            "thumbnail": "https://rolandradio.net/favicons/favicon-32x32.png",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 8128,
@@ -3931,7 +4393,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.deliancourt.org/favicon.ico"
+            "thumbnail": "http://www.deliancourt.org/favicon.ico",
+            "tags": [
+                "demoscene"
+            ]
         },
         {
             "id": 109360,
@@ -3954,7 +4419,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://zxdemo.org/favicon.ico"
+            "thumbnail": "http://zxdemo.org/favicon.ico",
+            "tags": [
+                "demoscene",
+                "zx spectrum"
+            ]
         },
         {
             "id": 12798,
@@ -3977,7 +4446,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://keygenmusic.net/favicon.ico"
+            "thumbnail": "http://keygenmusic.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 22683,
@@ -4000,7 +4470,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oldschoolgameblog.files.wordpress.com/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200"
+            "thumbnail": "https://oldschoolgameblog.files.wordpress.com/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200",
+            "tags": []
         },
         {
             "id": 43611,
@@ -4023,7 +4494,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg"
+            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg",
+            "tags": []
         },
         {
             "id": 43607,
@@ -4046,7 +4518,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg"
+            "thumbnail": "https://static.scenesat.com/sos_sharing_vol1-6.jpg",
+            "tags": []
         }
     ]
 }

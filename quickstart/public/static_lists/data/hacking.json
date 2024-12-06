@@ -21,7 +21,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://flipperzero.one/img/tild3333-3939-4737-b563-633463326661__thumbnail.png"
+            "thumbnail": "https://flipperzero.one/img/tild3333-3939-4737-b563-633463326661__thumbnail.png",
+            "tags": [
+                "hardware hacking",
+                "hardware",
+                "hacking"
+            ]
         },
         {
             "id": 8599,
@@ -44,7 +49,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ctftime.org/favicon.png"
+            "thumbnail": "https://ctftime.org/favicon.png",
+            "tags": [
+                "hackers",
+                "dark design",
+                "cybersecurity"
+            ]
         },
         {
             "id": 11985,
@@ -67,7 +77,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dragonsector.pl/favicon.ico"
+            "thumbnail": "https://dragonsector.pl/favicon.ico",
+            "tags": [
+                "hackers",
+                "cybersecurity"
+            ]
         },
         {
             "id": 9010,
@@ -90,7 +104,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "tech news",
+                "hacking news"
+            ]
         },
         {
             "id": 111165,
@@ -113,7 +131,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.makerhacks.com/wp-content/uploads/2016/10/makerhacks-logo-highres.png"
+            "thumbnail": "https://www.makerhacks.com/wp-content/uploads/2016/10/makerhacks-logo-highres.png",
+            "tags": [
+                "hardware hacking",
+                "hardware tinkering"
+            ]
         },
         {
             "id": 9167,
@@ -136,7 +158,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sekurak.pl/wp-content/themes/Sekuraq/img/favicon.ico"
+            "thumbnail": "https://sekurak.pl/wp-content/themes/Sekuraq/img/favicon.ico",
+            "tags": [
+                "tech news",
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 9089,
@@ -159,7 +186,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://niebezpiecznik.pl/favicon.ico"
+            "thumbnail": "https://niebezpiecznik.pl/favicon.ico",
+            "tags": [
+                "tech news",
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 3224,
@@ -182,7 +214,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://letsencrypt.org/favicon.ico"
+            "thumbnail": "https://letsencrypt.org/favicon.ico",
+            "tags": [
+                "certificate",
+                "ssl",
+                "cybersecurity"
+            ]
         },
         {
             "id": 24926,
@@ -205,7 +242,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cve.mitre.org/favicon.ico"
+            "thumbnail": "https://cve.mitre.org/favicon.ico",
+            "tags": [
+                "vulnerabilities",
+                "cybersecurity"
+            ]
         },
         {
             "id": 274732,
@@ -228,7 +269,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cisa.gov/favicon.ico"
+            "thumbnail": "https://cisa.gov/favicon.ico",
+            "tags": [
+                "cyber defender agency",
+                "cybersecurity"
+            ]
         },
         {
             "id": 24334,
@@ -251,7 +296,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://radar.cloudflare.com/favicon.ico"
+            "thumbnail": "https://radar.cloudflare.com/favicon.ico",
+            "tags": [
+                "cybersecurity",
+                "cybersafty",
+                "url scanner",
+                "online tool"
+            ]
         },
         {
             "id": 8649,
@@ -274,7 +325,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://defcon.org/images/logos/DEFCON-logo.webp"
+            "thumbnail": "https://defcon.org/images/logos/DEFCON-logo.webp",
+            "tags": [
+                "hacking",
+                "convention",
+                "conference",
+                "cybersecurity"
+            ]
         },
         {
             "id": 106355,
@@ -297,7 +354,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ioccc.org/favicon.ico"
+            "thumbnail": "https://ioccc.org/favicon.ico",
+            "tags": [
+                "hacking",
+                "contest",
+                "programming"
+            ]
         },
         {
             "id": 29618,
@@ -320,7 +382,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://certbot.eff.org/favicon.ico"
+            "thumbnail": "https://certbot.eff.org/favicon.ico",
+            "tags": [
+                "ssl",
+                "cybersecurity"
+            ]
         },
         {
             "id": 1308,
@@ -343,7 +409,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://krebsonsecurity.com/favicon.ico"
+            "thumbnail": "https://krebsonsecurity.com/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 24622,
@@ -366,7 +435,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://infocon.org/infocon.org-images/infocon-twitter-876.webp"
+            "thumbnail": "https://infocon.org/infocon.org-images/infocon-twitter-876.webp",
+            "tags": [
+                "hacking",
+                "tutorials"
+            ]
         },
         {
             "id": 883,
@@ -389,7 +462,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cert.pl/favicon.ico"
+            "thumbnail": "https://cert.pl/favicon.ico",
+            "tags": [
+                "security",
+                "cybersecurity"
+            ]
         },
         {
             "id": 23777,
@@ -412,7 +489,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gweb-h4ck1ng-g00gl3.uc.r.appspot.com/assets/share.png"
+            "thumbnail": "https://gweb-h4ck1ng-g00gl3.uc.r.appspot.com/assets/share.png",
+            "tags": [
+                "hacking",
+                "interesting",
+                "cybersecurity challanges"
+            ]
         },
         {
             "id": 462265,
@@ -435,7 +517,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackyeah.pl/favicon.ico"
+            "thumbnail": "https://hackyeah.pl/favicon.ico",
+            "tags": [
+                "hacking",
+                "hackathon",
+                "cybersecurity"
+            ]
         },
         {
             "id": 16609,
@@ -458,7 +545,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://secret.club/assets/twitter.png"
+            "thumbnail": "https://secret.club/assets/twitter.png",
+            "tags": [
+                "reverse engineering",
+                "hacking"
+            ]
         },
         {
             "id": 13379,
@@ -481,7 +572,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nextron-systems.com/wp-content/uploads/2024/02/social-media-large-image-2.png"
+            "thumbnail": "https://nextron-systems.com/wp-content/uploads/2024/02/social-media-large-image-2.png",
+            "tags": [
+                "asgard",
+                "cybersecurity"
+            ]
         },
         {
             "id": 462761,
@@ -504,7 +599,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/165548191/20454080-42d8-11ea-9076-57d151462f64"
+            "thumbnail": "https://repository-images.githubusercontent.com/165548191/20454080-42d8-11ea-9076-57d151462f64",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 6055,
@@ -527,7 +625,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zaufanatrzeciastrona.pl/wp-content/uploads/2024/02/z3s-logo_light1.svg"
+            "thumbnail": "https://zaufanatrzeciastrona.pl/wp-content/uploads/2024/02/z3s-logo_light1.svg",
+            "tags": [
+                "tech news",
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 1066,
@@ -550,7 +653,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.talosintelligence.com/content/images/size/w1200/2022/10/GnericCiscoTalos-Header-1.jpg"
+            "thumbnail": "https://blog.talosintelligence.com/content/images/size/w1200/2022/10/GnericCiscoTalos-Header-1.jpg",
+            "tags": [
+                "tech news",
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 26724,
@@ -573,7 +681,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://2783428383-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FmuMguNrsRx2mNyNqEox4%2Fsocialpreview%2FNtYxX5Um1Ml0KhPq6gZR%2Ffondo.png?alt=media&token=257c330a-9e87-4c69-bb95-c0b54588ea79"
+            "thumbnail": "https://2783428383-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FmuMguNrsRx2mNyNqEox4%2Fsocialpreview%2FNtYxX5Um1Ml0KhPq6gZR%2Ffondo.png?alt=media&token=257c330a-9e87-4c69-bb95-c0b54588ea79",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 30127,
@@ -596,7 +707,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cultdeadcow.com/favicon.ico"
+            "thumbnail": "https://cultdeadcow.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "blog",
+                "interesting page design"
+            ]
         },
         {
             "id": 90965,
@@ -619,7 +735,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg"
+            "thumbnail": "https://www.fortinet.com/content/dam/fortinet/images/icons/fortinet-social-icon.jpg",
+            "tags": [
+                "security keys",
+                "cybersecurity"
+            ]
         },
         {
             "id": 28504,
@@ -642,7 +762,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://crankysec.com/favicon.ico"
+            "thumbnail": "https://crankysec.com/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 109269,
@@ -665,7 +788,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://crysearch.nl/favicon.ico"
+            "thumbnail": "https://crysearch.nl/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "memory scanner",
+                "hacking tools",
+                "hacking"
+            ]
         },
         {
             "id": 1594,
@@ -688,7 +817,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dphacks.com/favicon.ico"
+            "thumbnail": "https://dphacks.com/favicon.ico",
+            "tags": [
+                "hardware hacking",
+                "hardware tinkering"
+            ]
         },
         {
             "id": 104399,
@@ -711,7 +844,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackingparty.pl/wp-content/uploads/2019/06/MSHP19.jpg"
+            "thumbnail": "https://hackingparty.pl/wp-content/uploads/2019/06/MSHP19.jpg",
+            "tags": [
+                "hacking",
+                "convention",
+                "sekurak",
+                "cybersecurity"
+            ]
         },
         {
             "id": 6407,
@@ -734,7 +873,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://owasp.org/www--site-theme/favicon.ico"
+            "thumbnail": "https://owasp.org/www--site-theme/favicon.ico",
+            "tags": [
+                "security",
+                "cybersecurity"
+            ]
         },
         {
             "id": 108652,
@@ -757,7 +900,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.troyhunt.com/content/images/2017/01/1.jpg"
+            "thumbnail": "https://www.troyhunt.com/content/images/2017/01/1.jpg",
+            "tags": [
+                "have i been pwned",
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109285,
@@ -780,7 +928,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vector35.com/favicon.ico"
+            "thumbnail": "https://vector35.com/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "hacking",
+                "ctf",
+                "cybersecurity"
+            ]
         },
         {
             "id": 26723,
@@ -803,7 +957,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*SWJxYWGZzgmBP1D0Qg_3zQ.png"
+            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*SWJxYWGZzgmBP1D0Qg_3zQ.png",
+            "tags": [
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 19155,
@@ -826,7 +984,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://greatscottgadgets.com/favicon.ico"
+            "thumbnail": "https://greatscottgadgets.com/favicon.ico",
+            "tags": [
+                "hardware hacking",
+                "hackrf",
+                "open source"
+            ]
         },
         {
             "id": 19819,
@@ -849,7 +1012,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.mandiant.com/sites/default/files/inline-images/mandiant-google-banner.png"
+            "thumbnail": "https://www.mandiant.com/sites/default/files/inline-images/mandiant-google-banner.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 105729,
@@ -872,7 +1038,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cscee24.cybersecforum.eu/./wp-content/uploads/2024/01/home_page.jpg"
+            "thumbnail": "https://cscee24.cybersecforum.eu/./wp-content/uploads/2024/01/home_page.jpg",
+            "tags": [
+                "convention",
+                "cybersecurity"
+            ]
         },
         {
             "id": 219701,
@@ -895,7 +1065,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.mitre.org/sites/default/files/2022-08/MITRE.png"
+            "thumbnail": "https://www.mitre.org/sites/default/files/2022-08/MITRE.png",
+            "tags": [
+                "activism",
+                "cybersecurity"
+            ]
         },
         {
             "id": 26687,
@@ -918,7 +1092,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://perception-point.io/wp-content/uploads/2020/03/favicon-1.png"
+            "thumbnail": "https://perception-point.io/wp-content/uploads/2020/03/favicon-1.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 462946,
@@ -941,7 +1118,38 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
+        },
+        {
+            "id": 463630,
+            "title": "Mateusz Chrobok",
+            "title_safe": "Mateusz Chrobok",
+            "description": "",
+            "description_safe": "",
+            "link": "https://www.youtube.com/channel/UCTTZqMWBvLsUYqYwKTdjvkw",
+            "link_absolute": "/apps/places/entry/463630/",
+            "is_valid": true,
+            "date_published": "2024-12-04T21:17:46Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-04T20:17:50.365Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": "Mateusz Chrobok",
+            "album": null,
+            "page_rating_contents": 80,
+            "page_rating_votes": 20,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 87840,
@@ -964,7 +1172,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nask.pl/favicon.ico"
+            "thumbnail": "https://nask.pl/favicon.ico",
+            "tags": [
+                "organization",
+                "naukowa i akademicka sie\u0107 komputerowa",
+                "cybersecurity"
+            ]
         },
         {
             "id": 87412,
@@ -987,7 +1200,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tria.ge/favicon.ico"
+            "thumbnail": "https://tria.ge/favicon.ico",
+            "tags": [
+                "sandbox",
+                "malware",
+                "cybersecurity"
+            ]
         },
         {
             "id": 21654,
@@ -1010,7 +1228,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openwall.com/favicon.ico"
+            "thumbnail": "https://openwall.com/favicon.ico",
+            "tags": [
+                "security",
+                "cybersecurity"
+            ]
         },
         {
             "id": 8651,
@@ -1033,7 +1255,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://defcon.org/images/logos/DEFCON-logo.webp"
+            "thumbnail": "https://defcon.org/images/logos/DEFCON-logo.webp",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 22120,
@@ -1056,7 +1281,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://proxmark.com/favicon.ico"
+            "thumbnail": "https://proxmark.com/favicon.ico",
+            "tags": [
+                "hardware hacking"
+            ]
         },
         {
             "id": 28358,
@@ -1079,7 +1307,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hope.net/favicon.ico"
+            "thumbnail": "https://hope.net/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention",
+                "cybersecurity"
+            ]
         },
         {
             "id": 7856,
@@ -1102,7 +1335,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wololo.net/favicon.ico"
+            "thumbnail": "https://wololo.net/favicon.ico",
+            "tags": [
+                "hardware hacking",
+                "software hacking",
+                "homebrew"
+            ]
         },
         {
             "id": 14057,
@@ -1125,7 +1363,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://csrc.nist.gov/images/icons/favicon-32x32.png"
+            "thumbnail": "https://csrc.nist.gov/images/icons/favicon-32x32.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 463118,
@@ -1148,7 +1389,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://4zm.org/favicon.ico"
+            "thumbnail": "https://4zm.org/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 459925,
@@ -1171,7 +1415,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://7h30th3r0n3.fr/favicon.ico"
+            "thumbnail": "https://7h30th3r0n3.fr/favicon.ico",
+            "tags": [
+                "hacking",
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 139893,
@@ -1194,7 +1443,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dc9.pl/img/dc9-ogimg-min.png"
+            "thumbnail": "https://dc9.pl/img/dc9-ogimg-min.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 359992,
@@ -1217,7 +1469,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dstike.com/favicon.ico"
+            "thumbnail": "https://dstike.com/favicon.ico",
+            "tags": [
+                "open hardware",
+                "hardware hacking"
+            ]
         },
         {
             "id": 8813,
@@ -1240,7 +1496,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.first.org/_/img/first-big-icon.png"
+            "thumbnail": "https://www.first.org/_/img/first-big-icon.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 109263,
@@ -1263,7 +1522,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://frida.re/favicon.ico"
+            "thumbnail": "https://frida.re/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "debugging",
+                "hacking",
+                "program monitoring"
+            ]
         },
         {
             "id": 310852,
@@ -1286,7 +1551,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gpg4win.org/favicon.ico"
+            "thumbnail": "https://gpg4win.org/favicon.ico",
+            "tags": [
+                "encryption",
+                "cybersecurity"
+            ]
         },
         {
             "id": 359993,
@@ -1309,7 +1578,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.shopify.com/s/files/1/0068/2142/files/hak5_logo_180_f0dcd9e0-e46c-4602-8664-20af10fe2e2e.png?height=628&pad_color=ffffff&v=1614333643&width=1200"
+            "thumbnail": "https://cdn.shopify.com/s/files/1/0068/2142/files/hak5_logo_180_f0dcd9e0-e46c-4602-8664-20af10fe2e2e.png?height=628&pad_color=ffffff&v=1614333643&width=1200",
+            "tags": [
+                "hardware hacking"
+            ]
         },
         {
             "id": 460679,
@@ -1332,7 +1604,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://happymod.com/favicon.ico"
+            "thumbnail": "https://happymod.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "mod apk",
+                "app store",
+                "android"
+            ]
         },
         {
             "id": 107504,
@@ -1355,7 +1633,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hashcat.net/favicon.ico"
+            "thumbnail": "https://hashcat.net/favicon.ico",
+            "tags": [
+                "hacking",
+                "password recovery"
+            ]
         },
         {
             "id": 109267,
@@ -1378,7 +1660,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kaitai.io/favicon.ico"
+            "thumbnail": "https://kaitai.io/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "programming language",
+                "hacking"
+            ]
         },
         {
             "id": 104714,
@@ -1401,7 +1688,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.kuketz-blog.de/wp-content/themes/kuketz-security/images/open-graph.png"
+            "thumbnail": "https://www.kuketz-blog.de/wp-content/themes/kuketz-security/images/open-graph.png",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 10679,
@@ -1424,7 +1715,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pwnagotchi.ai/favicon.png"
+            "thumbnail": "https://pwnagotchi.ai/favicon.png",
+            "tags": [
+                "wifi",
+                "hardware hacking"
+            ]
         },
         {
             "id": 4728,
@@ -1447,7 +1742,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+            "thumbnail": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+            "tags": [
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109286,
@@ -1470,7 +1769,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://split-code.com/favicon.ico"
+            "thumbnail": "https://split-code.com/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "hacking"
+            ]
         },
         {
             "id": 1475,
@@ -1493,7 +1796,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.stormshield.com/wp-content/uploads/stormshield_logo.png"
+            "thumbnail": "https://www.stormshield.com/wp-content/uploads/stormshield_logo.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 17336,
@@ -1516,7 +1822,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.shopify.com/s/files/1/0325/7650/3948/collections/defcon27-generic.jpg?v=1722012993"
+            "thumbnail": "https://cdn.shopify.com/s/files/1/0325/7650/3948/collections/defcon27-generic.jpg?v=1722012993",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 109266,
@@ -1539,7 +1848,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://devxdevelopment.com/favicon.ico"
+            "thumbnail": "https://devxdevelopment.com/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "debugging",
+                "hacking"
+            ]
         },
         {
             "id": 862,
@@ -1562,7 +1876,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://buspirate.com/content/images/2024/01/20240117_144352.jpg"
+            "thumbnail": "https://buspirate.com/content/images/2024/01/20240117_144352.jpg",
+            "tags": [
+                "open source",
+                "open hardware",
+                "hardware hacking",
+                "uart",
+                "spi",
+                "i2c"
+            ]
         },
         {
             "id": 1959,
@@ -1585,7 +1907,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://miro.medium.com/v2/resize:fit:640/1*euFkwA7zJWm-l7aDoNtJrw.jpeg"
+            "thumbnail": "https://miro.medium.com/v2/resize:fit:640/1*euFkwA7zJWm-l7aDoNtJrw.jpeg",
+            "tags": [
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 104412,
@@ -1608,7 +1934,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ha.cking.ch/favicon.ico"
+            "thumbnail": "https://ha.cking.ch/favicon.ico",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 219703,
@@ -1631,7 +1960,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.netcraft.com/wp-content/uploads/2023/04/home-hero-final-5.png"
+            "thumbnail": "https://www.netcraft.com/wp-content/uploads/2023/04/home-hero-final-5.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 26906,
@@ -1654,7 +1986,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/6356c441ce34029b327802bf/64d4fd87f783632b0f215cd3_MicrosoftTeams-image%20(93).png"
+            "thumbnail": "https://cdn.prod.website-files.com/6356c441ce34029b327802bf/64d4fd87f783632b0f215cd3_MicrosoftTeams-image%20(93).png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 26740,
@@ -1677,7 +2012,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://websec.nl/opengraph/index.jpg"
+            "thumbnail": "https://websec.nl/opengraph/index.jpg",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 109262,
@@ -1700,7 +2038,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://ghostintheshellcode.com/favicon.ico"
+            "thumbnail": "http://ghostintheshellcode.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention",
+                "ctf",
+                "cybersecurity"
+            ]
         },
         {
             "id": 290533,
@@ -1723,7 +2067,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://firehol.github.io/blocklist-ipsets/iplist-map.png?v5"
+            "thumbnail": "https://firehol.github.io/blocklist-ipsets/iplist-map.png?v5",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 14378,
@@ -1746,7 +2093,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://securityonline.info/wp-content/uploads/2017/03/cropped-white-hat-icon-9-1-150x150.png"
+            "thumbnail": "https://securityonline.info/wp-content/uploads/2017/03/cropped-white-hat-icon-9-1-150x150.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 462948,
@@ -1769,7 +2119,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 462952,
@@ -1792,7 +2145,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 462955,
@@ -1815,7 +2171,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 462956,
@@ -1838,7 +2198,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 22125,
@@ -1861,7 +2225,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.psx-place.com/img/psx_sq.jpg"
+            "thumbnail": "https://www.psx-place.com/img/psx_sq.jpg",
+            "tags": [
+                "reverse engineering",
+                "playstation portable",
+                "hardware hacking"
+            ]
         },
         {
             "id": 27657,
@@ -1884,7 +2253,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.ciemnastrona.com.pl/assets/og-image-default.jpg"
+            "thumbnail": "https://www.ciemnastrona.com.pl/assets/og-image-default.jpg",
+            "tags": [
+                "blog",
+                "cybersecurity"
+            ]
         },
         {
             "id": 20028,
@@ -1907,7 +2280,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lostfilearchives.github.io/favicon.ico"
+            "thumbnail": "https://lostfilearchives.github.io/favicon.ico",
+            "tags": [
+                "hacking",
+                "securom"
+            ]
         },
         {
             "id": 26745,
@@ -1930,7 +2307,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gamehacking.academy/favicon.ico"
+            "thumbnail": "https://gamehacking.academy/favicon.ico",
+            "tags": [
+                "game hacking"
+            ]
         },
         {
             "id": 26756,
@@ -1953,7 +2333,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackmag.com/favicon.ico"
+            "thumbnail": "https://hackmag.com/favicon.ico",
+            "tags": [
+                "cybersecurity",
+                "tech news",
+                "cybersecurity news",
+                "hacking",
+                "hacking news"
+            ]
         },
         {
             "id": 290505,
@@ -1976,7 +2363,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://remnux.org/favicon.ico"
+            "thumbnail": "https://remnux.org/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "cybersecurity",
+                "malware analysis"
+            ]
         },
         {
             "id": 95577,
@@ -1999,7 +2391,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.unknowncheats.me/forum/ambience/misc/forum_banner.png"
+            "thumbnail": "https://www.unknowncheats.me/forum/ambience/misc/forum_banner.png",
+            "tags": [
+                "game hacking"
+            ]
         },
         {
             "id": 60007,
@@ -2022,7 +2417,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cebrf.knf.gov.pl/favicon.ico"
+            "thumbnail": "https://cebrf.knf.gov.pl/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 17164,
@@ -2045,7 +2443,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cybernews.com/favicon.ico"
+            "thumbnail": "https://cybernews.com/favicon.ico",
+            "tags": [
+                "news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 26734,
@@ -2068,7 +2470,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://guidedhacking.com/favicon.ico"
+            "thumbnail": "https://guidedhacking.com/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "game hacking"
+            ]
         },
         {
             "id": 105528,
@@ -2091,7 +2497,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://0x7d0.dev/favicon.ico"
+            "thumbnail": "https://0x7d0.dev/favicon.ico",
+            "tags": [
+                "hacking",
+                "personal"
+            ]
         },
         {
             "id": 95553,
@@ -2114,7 +2524,39 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gbhackers.com/favicon.ico"
+            "thumbnail": "https://gbhackers.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "news",
+                "cybersecurity"
+            ]
+        },
+        {
+            "id": 459924,
+            "title": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
+            "title_safe": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/infinition/Bjorn",
+            "link_absolute": "/apps/places/entry/459924/",
+            "is_valid": true,
+            "date_published": "2024-11-09T18:33:03Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-09T18:33:07.345Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 9,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/809326864/0fe34573-8870-470b-a735-f515248200c0",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 110531,
@@ -2137,7 +2579,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.romhacking.net/images/rhdnfacebook.jpg"
+            "thumbnail": "https://www.romhacking.net/images/rhdnfacebook.jpg",
+            "tags": [
+                "reverse engineering",
+                "homebrew",
+                "hacking"
+            ]
         },
         {
             "id": 73445,
@@ -2160,7 +2607,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zerodayinitiative.com/images/logo-footer.svg"
+            "thumbnail": "https://zerodayinitiative.com/images/logo-footer.svg",
+            "tags": [
+                "hacking",
+                "software vulnerabilities"
+            ]
         },
         {
             "id": 24084,
@@ -2183,7 +2634,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5f3c7479f4b3c702571a047d/t/65c2a5ff1511b74d0487e6f4/1707255303478/CSW24-RadioHack.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5f3c7479f4b3c702571a047d/t/65c2a5ff1511b74d0487e6f4/1707255303478/CSW24-RadioHack.png?format=1500w",
+            "tags": [
+                "hacking",
+                "cybersecurity",
+                "convention",
+                "pwn2own"
+            ]
         },
         {
             "id": 323963,
@@ -2206,7 +2663,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackerspace.pl/favicon.ico"
+            "thumbnail": "https://hackerspace.pl/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention"
+            ]
         },
         {
             "id": 373943,
@@ -2229,7 +2690,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackertarget.com/images/featured-appearances.webp"
+            "thumbnail": "https://hackertarget.com/images/featured-appearances.webp",
+            "tags": [
+                "hacking",
+                "online tool"
+            ]
         },
         {
             "id": 106012,
@@ -2252,7 +2717,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackmit.org/images/Main2/logo.svg"
+            "thumbnail": "https://hackmit.org/images/Main2/logo.svg",
+            "tags": [
+                "hacking",
+                "convention"
+            ]
         },
         {
             "id": 460982,
@@ -2275,7 +2744,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://humansecurity.com/favicon.ico"
+            "thumbnail": "https://humansecurity.com/favicon.ico",
+            "tags": [
+                "internet traffic control",
+                "cybersecurity"
+            ]
         },
         {
             "id": 55957,
@@ -2298,7 +2771,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://milpitashacks.com/favicon.ico"
+            "thumbnail": "https://milpitashacks.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention"
+            ]
         },
         {
             "id": 95489,
@@ -2321,7 +2798,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*gncXIKhx5QOIX0K9MGcVkg.jpeg"
+            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*gncXIKhx5QOIX0K9MGcVkg.jpeg",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 114475,
@@ -2344,7 +2825,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://ghoztcraft.net/favicon.ico"
+            "thumbnail": "http://ghoztcraft.net/favicon.ico",
+            "tags": [
+                "diablo",
+                "starcraft",
+                "game hacking"
+            ]
         },
         {
             "id": 22467,
@@ -2367,7 +2853,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.wemod.com/static/images/meta-en-7df4f54d17.png"
+            "thumbnail": "https://www.wemod.com/static/images/meta-en-7df4f54d17.png",
+            "tags": [
+                "game hacking",
+                "modding",
+                "game trainers"
+            ]
         },
         {
             "id": 90989,
@@ -2390,7 +2881,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://3ds.hacks.guide/images/home-page-feature.jpg"
+            "thumbnail": "https://3ds.hacks.guide/images/home-page-feature.jpg",
+            "tags": [
+                "hacking",
+                "nintendo 3ds",
+                "nintendo"
+            ]
         },
         {
             "id": 207006,
@@ -2413,7 +2909,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.scmagazine.com/images/fallback-image.png"
+            "thumbnail": "https://www.scmagazine.com/images/fallback-image.png",
+            "tags": [
+                "news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 28848,
@@ -2436,7 +2936,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.crowdsec.net/images/seo/publication-cover.png"
+            "thumbnail": "https://www.crowdsec.net/images/seo/publication-cover.png",
+            "tags": [
+                "monetization",
+                "company",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109274,
@@ -2459,7 +2964,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://aldeid.com/favicon.ico"
+            "thumbnail": "https://aldeid.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "personal",
+                "ctf",
+                "cybersecurity"
+            ]
         },
         {
             "id": 29763,
@@ -2482,7 +2993,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://avast.io/wp-content/uploads/2021/09/cropped-Asset-1-32x32.png"
+            "thumbnail": "https://avast.io/wp-content/uploads/2021/09/cropped-Asset-1-32x32.png",
+            "tags": [
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 441202,
@@ -2505,7 +3020,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://babel-street.transforms.svdcdn.com/production/Babel-Synthesis-Hero2.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1715977102&s=2b5e84cc52722cb0708b9dbf9c362071"
+            "thumbnail": "https://babel-street.transforms.svdcdn.com/production/Babel-Synthesis-Hero2.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1715977102&s=2b5e84cc52722cb0708b9dbf9c362071",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 29775,
@@ -2528,7 +3046,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.browserscan.net/og.png"
+            "thumbnail": "https://www.browserscan.net/og.png",
+            "tags": [
+                "cybersecurity",
+                "online verification",
+                "privacy",
+                "online tool"
+            ]
         },
         {
             "id": 96187,
@@ -2551,7 +3075,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cyberkendra.com/PLACE_IMAGE_URL_HERE"
+            "thumbnail": "https://cyberkendra.com/PLACE_IMAGE_URL_HERE",
+            "tags": [
+                "hacking",
+                "news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 12653,
@@ -2574,7 +3103,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://doubleagent.net/content/images/size/w256h256/2024/04/logo2.png"
+            "thumbnail": "https://doubleagent.net/content/images/size/w256h256/2024/04/logo2.png",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 109287,
@@ -2597,7 +3129,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.elitepvpers.com/images/logo_99x99.gif"
+            "thumbnail": "https://www.elitepvpers.com/images/logo_99x99.gif",
+            "tags": [
+                "reverse engineering",
+                "game hacking"
+            ]
         },
         {
             "id": 58809,
@@ -2620,7 +3156,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackcon.org/favicon.ico"
+            "thumbnail": "https://hackcon.org/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention",
+                "cybersecurity"
+            ]
         },
         {
             "id": 105532,
@@ -2643,7 +3184,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hacker9-cdn.b-cdn.net/wp-content/uploads/2022/03/Hacker9_Logo.png"
+            "thumbnail": "https://hacker9-cdn.b-cdn.net/wp-content/uploads/2022/03/Hacker9_Logo.png",
+            "tags": [
+                "hacking",
+                "news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 459407,
@@ -2666,7 +3212,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hackeru.pl/favicon.ico"
+            "thumbnail": "https://hackeru.pl/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 105531,
@@ -2689,7 +3238,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.hackthebox.com/images/landingv3/og/og-home-page.jpg"
+            "thumbnail": "https://www.hackthebox.com/images/landingv3/og/og-home-page.jpg",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 459961,
@@ -2712,7 +3265,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ios.com/favicon.ico"
+            "thumbnail": "https://ios.com/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 460760,
@@ -2735,7 +3291,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/65080baa3f9a607985451de3/66a1010095b91d8a241d8748_Screenshot%202024-07-24%20at%2015.26.01-min.png"
+            "thumbnail": "https://cdn.prod.website-files.com/65080baa3f9a607985451de3/66a1010095b91d8a241d8748_Screenshot%202024-07-24%20at%2015.26.01-min.png",
+            "tags": [
+                "artificial intelligence",
+                "cybersecurity"
+            ]
         },
         {
             "id": 95581,
@@ -2758,7 +3318,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mpgh.net/favicon.ico"
+            "thumbnail": "https://mpgh.net/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "game hacking"
+            ]
         },
         {
             "id": 107595,
@@ -2781,7 +3345,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.nzyme.org/assets/img/social.png"
+            "thumbnail": "https://www.nzyme.org/assets/img/social.png",
+            "tags": [
+                "networking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 114511,
@@ -2804,7 +3372,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.ownedcore.com/forums/images/styles/OwnedCore/statusicon/forum_new-48.png"
+            "thumbnail": "http://www.ownedcore.com/forums/images/styles/OwnedCore/statusicon/forum_new-48.png",
+            "tags": [
+                "warcraft",
+                "game hacking"
+            ]
         },
         {
             "id": 29935,
@@ -2827,7 +3399,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://prosopo.io/static/favicon-32x32.png"
+            "thumbnail": "https://prosopo.io/static/favicon-32x32.png",
+            "tags": [
+                "bot protection",
+                "captcha",
+                "cybersecurity"
+            ]
         },
         {
             "id": 93758,
@@ -2850,7 +3427,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://securitum.pl/favicon.ico"
+            "thumbnail": "https://securitum.pl/favicon.ico",
+            "tags": [
+                "monetization",
+                "training",
+                "cybersecurity"
+            ]
         },
         {
             "id": 110630,
@@ -2873,7 +3455,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.sekoia.io/wp-content/uploads/2023/03/image_sekoia_overview.png"
+            "thumbnail": "https://www.sekoia.io/wp-content/uploads/2023/03/image_sekoia_overview.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 109300,
@@ -2896,7 +3481,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://shmoocon.org/favicon.ico"
+            "thumbnail": "https://shmoocon.org/favicon.ico",
+            "tags": [
+                "hacking",
+                "convention",
+                "cybersecurity"
+            ]
         },
         {
             "id": 45322,
@@ -2919,7 +3509,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://syfuhs.net/img/icon180x180.png"
+            "thumbnail": "https://syfuhs.net/img/icon180x180.png",
+            "tags": [
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109589,
@@ -2942,7 +3536,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://storage.googleapis.com/taikai-storage/landing/og/og-homepage.jpg"
+            "thumbnail": "https://storage.googleapis.com/taikai-storage/landing/og/og-homepage.jpg",
+            "tags": [
+                "hacking",
+                "hackathon",
+                "cybersecurity"
+            ]
         },
         {
             "id": 95539,
@@ -2965,7 +3564,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://thehackerish.com/favicon.ico"
+            "thumbnail": "https://thehackerish.com/favicon.ico",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 29717,
@@ -2988,7 +3591,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://thenewoil.org/favicon.ico"
+            "thumbnail": "https://thenewoil.org/favicon.ico",
+            "tags": [
+                "data privacy",
+                "education",
+                "cybersecurity"
+            ]
         },
         {
             "id": 29505,
@@ -3011,7 +3619,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://watchtowr.com/wp-content/uploads/2023/07/opengraph.png"
+            "thumbnail": "https://watchtowr.com/wp-content/uploads/2023/07/opengraph.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 106550,
@@ -3034,7 +3645,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.yubico.com/wp-content/uploads/2022/09/english.jpg"
+            "thumbnail": "https://www.yubico.com/wp-content/uploads/2022/09/english.jpg",
+            "tags": [
+                "security keys",
+                "cybersecurity"
+            ]
         },
         {
             "id": 15811,
@@ -3057,7 +3672,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.0x7d0.dev/assets/img/favicons/favicon-32x32.png"
+            "thumbnail": "https://blog.0x7d0.dev/assets/img/favicons/favicon-32x32.png",
+            "tags": [
+                "hacking",
+                "personal"
+            ]
         },
         {
             "id": 110624,
@@ -3080,7 +3699,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.sekoia.io/favicon.ico"
+            "thumbnail": "https://blog.sekoia.io/favicon.ico",
+            "tags": [
+                "news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 25722,
@@ -3103,7 +3726,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://decoded.avast.io/wp-content/uploads/sites/2/2019/07/cropped-Asset-25ldpi-32x32.png"
+            "thumbnail": "https://decoded.avast.io/wp-content/uploads/sites/2/2019/07/cropped-Asset-25ldpi-32x32.png",
+            "tags": [
+                "cybersecurity news",
+                "cybersecurity"
+            ]
         },
         {
             "id": 359991,
@@ -3126,7 +3753,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://electroniccats.com/favicon.ico"
+            "thumbnail": "https://electroniccats.com/favicon.ico",
+            "tags": [
+                "open hardware",
+                "hardware hacking"
+            ]
         },
         {
             "id": 29566,
@@ -3149,7 +3780,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://trustworthy.systems/favicon-32x32.png"
+            "thumbnail": "https://trustworthy.systems/favicon-32x32.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 29706,
@@ -3172,7 +3806,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i.snap.as/L0p25luC.jpg"
+            "thumbnail": "https://i.snap.as/L0p25luC.jpg",
+            "tags": [
+                "data privacy",
+                "cybersecurity"
+            ]
         },
         {
             "id": 459926,
@@ -3195,30 +3833,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/6f883001799aea0edc9d76df52b268d9a1c1496d77e912f7e50b07b1cb6a3ca0/7h30th3r0n3/Evil-M5Core2"
-        },
-        {
-            "id": 459924,
-            "title": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
-            "title_safe": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/infinition/Bjorn",
-            "link_absolute": "/apps/places/entry/459924/",
-            "is_valid": true,
-            "date_published": "2024-11-09T18:33:03Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-09T18:33:07.345Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/809326864/0fe34573-8870-470b-a735-f515248200c0"
+            "thumbnail": "https://opengraph.githubassets.com/6f883001799aea0edc9d76df52b268d9a1c1496d77e912f7e50b07b1cb6a3ca0/7h30th3r0n3/Evil-M5Core2",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 29469,
@@ -3241,7 +3859,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://labs.watchtowr.com/content/images/size/w1200/2022/05/Screenshot-2022-05-19-at-8.13.53-PM-1.png"
+            "thumbnail": "https://labs.watchtowr.com/content/images/size/w1200/2022/05/Screenshot-2022-05-19-at-8.13.53-PM-1.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 109588,
@@ -3264,7 +3885,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://web3securitysummit.com/web3-sec-summit-og.jpg"
+            "thumbnail": "https://web3securitysummit.com/web3-sec-summit-og.jpg",
+            "tags": [
+                "convention",
+                "web3",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109288,
@@ -3287,7 +3913,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://easyhook.github.io/favicon.ico"
+            "thumbnail": "https://easyhook.github.io/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "hacking"
+            ]
         },
         {
             "id": 153854,
@@ -3310,7 +3940,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.darknet.org.uk/wp-content/uploads/2022/12/cropped-darknet_2022_logo.png"
+            "thumbnail": "https://www.darknet.org.uk/wp-content/uploads/2022/12/cropped-darknet_2022_logo.png",
+            "tags": [
+                "hacking",
+                "news",
+                "articles",
+                "darknet"
+            ]
         },
         {
             "id": 110041,
@@ -3333,7 +3969,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.underworld.no/favicon.ico"
+            "thumbnail": "https://www.underworld.no/favicon.ico",
+            "tags": [
+                "organisation",
+                "cybersecurity"
+            ]
         },
         {
             "id": 148889,
@@ -3356,7 +3996,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5ed20a53985e455b09fbe32e/t/66a626d707b81e5b6f9bd5e6/1722164951908/Darker+Gold+-+V3_horizontal+1.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5ed20a53985e455b09fbe32e/t/66a626d707b81e5b6f9bd5e6/1722164951908/Darker+Gold+-+V3_horizontal+1.png?format=1500w",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 70693,
@@ -3379,7 +4022,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.domaintools.com/wp-content/uploads/DomainTools-Featured-Image-1.jpg"
+            "thumbnail": "https://www.domaintools.com/wp-content/uploads/DomainTools-Featured-Image-1.jpg",
+            "tags": [
+                "internet intelligence",
+                "company",
+                "cybersecurity"
+            ]
         },
         {
             "id": 60672,
@@ -3402,7 +4050,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sansec.io/assets/images/cam.jpg"
+            "thumbnail": "https://sansec.io/assets/images/cam.jpg",
+            "tags": [
+                "company",
+                "cybersecurity"
+            ]
         },
         {
             "id": 109631,
@@ -3425,7 +4077,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.devfolio.co/hackathons/4e8de890b61947e99d367c212e68206d/assets/cover/346.jpeg"
+            "thumbnail": "https://assets.devfolio.co/hackathons/4e8de890b61947e99d367c212e68206d/assets/cover/346.jpeg",
+            "tags": [
+                "hacking",
+                "hackathon",
+                "cybersecurity"
+            ]
         },
         {
             "id": 27213,
@@ -3448,7 +4105,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.fdd.org/wp-content/uploads/2018/06/fdd.share_.png"
+            "thumbnail": "https://www.fdd.org/wp-content/uploads/2018/06/fdd.share_.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 2390,
@@ -3471,7 +4131,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://garyodernichts.blogspot.com/favicon.ico"
+            "thumbnail": "https://garyodernichts.blogspot.com/favicon.ico",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 26742,
@@ -3494,7 +4157,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.datocms-assets.com/85623/1709291743-website_shareimage_main_04720.png?auto=format&fit=max&w=1200"
+            "thumbnail": "https://www.datocms-assets.com/85623/1709291743-website_shareimage_main_04720.png?auto=format&fit=max&w=1200",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 115543,
@@ -3517,7 +4184,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mixmaster.sourceforge.net/favicon.ico"
+            "thumbnail": "https://mixmaster.sourceforge.net/favicon.ico",
+            "tags": [
+                "email",
+                "cybersecurity"
+            ]
         },
         {
             "id": 69373,
@@ -3540,7 +4211,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ik.imagekit.io/qualys/image/logo/qualys-vertical-sans-tagline-social.png"
+            "thumbnail": "https://ik.imagekit.io/qualys/image/logo/qualys-vertical-sans-tagline-social.png",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 26739,
@@ -3563,7 +4237,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://training.hacktricks.xyz/favicon.ico"
+            "thumbnail": "https://training.hacktricks.xyz/favicon.ico",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 88851,
@@ -3586,7 +4263,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yeswehack.com/assets/images/meta_ywh.png"
+            "thumbnail": "https://yeswehack.com/assets/images/meta_ywh.png",
+            "tags": [
+                "hacking",
+                "hackers",
+                "bug bounty"
+            ]
         },
         {
             "id": 191121,
@@ -3609,7 +4291,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cs4ca.com/favicon.ico"
+            "thumbnail": "https://cs4ca.com/favicon.ico",
+            "tags": [
+                "convention",
+                "cybersecurity"
+            ]
         },
         {
             "id": 90992,
@@ -3632,7 +4318,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hacks.guide/images/home-page-feature.jpg"
+            "thumbnail": "https://hacks.guide/images/home-page-feature.jpg",
+            "tags": [
+                "hacking",
+                "hardware repair"
+            ]
         },
         {
             "id": 462950,
@@ -3655,7 +4345,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.hackingtutorials.org/wp-content/uploads/2015/05/Untitled2.jpg"
+            "thumbnail": "https://www.hackingtutorials.org/wp-content/uploads/2015/05/Untitled2.jpg",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
         },
         {
             "id": 290463,
@@ -3678,7 +4372,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://k0deless.github.io/assets/img/cover.svg"
+            "thumbnail": "https://k0deless.github.io/assets/img/cover.svg",
+            "tags": [
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 63400,
@@ -3701,30 +4399,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.paulosyibelo.com/favicon.ico"
-        },
-        {
-            "id": 463630,
-            "title": "Mateusz Chrobok",
-            "title_safe": "Mateusz Chrobok",
-            "description": "",
-            "description_safe": "",
-            "link": "https://www.youtube.com/channel/UCTTZqMWBvLsUYqYwKTdjvkw",
-            "link_absolute": "/apps/places/entry/463630/",
-            "is_valid": true,
-            "date_published": "2024-12-04T21:17:46Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-04T20:17:50.365Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": "Mateusz Chrobok",
-            "album": null,
-            "page_rating_contents": 80,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.paulosyibelo.com/favicon.ico",
+            "tags": [
+                "personal",
+                "cybersecurity"
+            ]
         },
         {
             "id": 26735,
@@ -3747,7 +4426,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://og-image.spri.ng/api/og?&title=PEASS"
+            "thumbnail": "https://og-image.spri.ng/api/og?&title=PEASS",
+            "tags": [
+                "hacking",
+                "merchendise"
+            ]
         },
         {
             "id": 22353,
@@ -3770,7 +4453,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://voidstarsec.com/favicon.ico"
+            "thumbnail": "https://voidstarsec.com/favicon.ico",
+            "tags": [
+                "company",
+                "cybersecurity"
+            ]
         },
         {
             "id": 290481,
@@ -3793,7 +4480,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wiremask.eu/favicon.ico"
+            "thumbnail": "https://wiremask.eu/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "cybersecurity"
+            ]
         },
         {
             "id": 34190,
@@ -3816,7 +4507,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://talosintelligence.com/favicon.ico"
+            "thumbnail": "https://talosintelligence.com/favicon.ico",
+            "tags": [
+                "cybersecurity"
+            ]
         },
         {
             "id": 26725,
@@ -3839,7 +4533,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gamehacking.org/favicon.ico"
+            "thumbnail": "https://gamehacking.org/favicon.ico",
+            "tags": [
+                "game hacking"
+            ]
         },
         {
             "id": 59548,
@@ -3862,7 +4559,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://offensivecon.org/favicon.ico"
+            "thumbnail": "https://offensivecon.org/favicon.ico",
+            "tags": [
+                "hacking",
+                "hackera",
+                "conference",
+                "cybersecurity"
+            ]
         },
         {
             "id": 51959,
@@ -3885,7 +4588,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://smwcentral.net/favicon.ico"
+            "thumbnail": "https://smwcentral.net/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "mario",
+                "rom",
+                "hacking"
+            ]
         },
         {
             "id": 107923,
@@ -3908,7 +4617,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://insomnihack.ch/favicon.ico"
+            "thumbnail": "https://insomnihack.ch/favicon.ico",
+            "tags": [
+                "conference",
+                "cybersecurity"
+            ]
         }
     ]
 }

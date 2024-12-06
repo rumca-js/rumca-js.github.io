@@ -21,7 +21,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.bing.com/th?id=OHR.SpottedOwlet_ROW7217108888_tmb.jpg&rf="
+            "thumbnail": "https://www.bing.com/th?id=OHR.SpottedOwlet_ROW7217108888_tmb.jpg&rf=",
+            "tags": [
+                "gatekeeper",
+                "search engine",
+                "artificial intelligence bot",
+                "gateway"
+            ]
         },
         {
             "id": 17576,
@@ -44,7 +50,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://duckduckgo.com/assets/logo_social-media.png"
+            "thumbnail": "https://duckduckgo.com/assets/logo_social-media.png",
+            "tags": [
+                "privacy",
+                "search engine",
+                "web browser"
+            ]
         },
         {
             "id": 19069,
@@ -67,7 +78,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://google.com/favicon.ico"
+            "thumbnail": "https://google.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "search engine",
+                "gateway"
+            ]
         },
         {
             "id": 22813,
@@ -90,7 +106,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yahoo.com/favicon.ico"
+            "thumbnail": "https://yahoo.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 84149,
@@ -113,7 +132,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://startpage.com/sp/cdn/images/startpage_og_image.png"
+            "thumbnail": "https://startpage.com/sp/cdn/images/startpage_og_image.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 103528,
@@ -136,7 +158,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://perplexity.ai/favicon.ico"
+            "thumbnail": "https://perplexity.ai/favicon.ico",
+            "tags": [
+                "search engine",
+                "artificial intelligence",
+                "artificial intelligence bot"
+            ]
         },
         {
             "id": 26912,
@@ -159,7 +186,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://baidu.com/favicon.ico"
+            "thumbnail": "https://baidu.com/favicon.ico",
+            "tags": [
+                "china",
+                "search engine"
+            ]
         },
         {
             "id": 47753,
@@ -182,7 +213,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://seznam.cz/media/img/logo-share-square_v2.png"
+            "thumbnail": "https://seznam.cz/media/img/logo-share-square_v2.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 29881,
@@ -205,7 +239,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.webmasterworld.com/images/wmw-facebook-share.jpg"
+            "thumbnail": "https://www.webmasterworld.com/images/wmw-facebook-share.jpg",
+            "tags": [
+                "search engines",
+                "seo",
+                "ad business"
+            ]
         },
         {
             "id": 159592,
@@ -228,7 +267,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.wolfram.com/share.png"
+            "thumbnail": "https://www.wolfram.com/share.png",
+            "tags": [
+                "data science",
+                "search engine"
+            ]
         },
         {
             "id": 195559,
@@ -251,7 +294,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://t1.daumcdn.net/daumtop_deco/images/og/og_daum.png"
+            "thumbnail": "https://t1.daumcdn.net/daumtop_deco/images/og/og_daum.png",
+            "tags": [
+                "gossip",
+                "news",
+                "search engine"
+            ]
         },
         {
             "id": 104532,
@@ -274,7 +322,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wolframalpha.com/_next/static/images/share_3eSzXbxb.png"
+            "thumbnail": "https://wolframalpha.com/_next/static/images/share_3eSzXbxb.png",
+            "tags": [
+                "science",
+                "knowledge",
+                "search engine"
+            ]
         },
         {
             "id": 22816,
@@ -297,7 +350,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yastatic.net/s3/home-static/_/90/9034470dfcb0bea0db29a281007b8a38.png"
+            "thumbnail": "https://yastatic.net/s3/home-static/_/90/9034470dfcb0bea0db29a281007b8a38.png",
+            "tags": [
+                "russia",
+                "search engine"
+            ]
         },
         {
             "id": 26670,
@@ -320,7 +377,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://books.google.com/favicon.ico"
+            "thumbnail": "https://books.google.com/favicon.ico",
+            "tags": [
+                "niche search engine",
+                "books"
+            ]
         },
         {
             "id": 23939,
@@ -343,7 +404,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.search.brave.com/serp/v2/_app/immutable/assets/ogImg.DqcWnT-h.png"
+            "thumbnail": "https://cdn.search.brave.com/serp/v2/_app/immutable/assets/ogImg.DqcWnT-h.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 15294,
@@ -366,7 +430,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.searchenginejournal.com/wp-content/uploads/2022/12/search-engine-journal-63a45e94c4cfa-sej.jpg"
+            "thumbnail": "https://www.searchenginejournal.com/wp-content/uploads/2022/12/search-engine-journal-63a45e94c4cfa-sej.jpg",
+            "tags": [
+                "search engines",
+                "seo",
+                "news"
+            ]
         },
         {
             "id": 7444,
@@ -389,7 +458,37 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.kagi.com/v2/kagi_assets/doggo/doggo_1.png"
+            "thumbnail": "https://assets.kagi.com/v2/kagi_assets/doggo/doggo_1.png",
+            "tags": [
+                "gateway",
+                "search engine"
+            ]
+        },
+        {
+            "id": 459403,
+            "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+            "title_safe": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/searxng/searxng",
+            "link_absolute": "/apps/places/entry/459403/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:48:56Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:49:00.016Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 30,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/de6dc675315d8a755cd2af52c3c51af8d9763c434e41e4da43462e763a413717/searxng/searxng",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 19081,
@@ -412,7 +511,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.google.com/favicon.ico"
+            "thumbnail": "https://search.google.com/favicon.ico",
+            "tags": [
+                "google",
+                "search engine"
+            ]
         },
         {
             "id": 42057,
@@ -435,7 +538,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://marginalia.nu/favicon.ico"
+            "thumbnail": "https://marginalia.nu/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 108416,
@@ -458,7 +564,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://szukaj.onet.pl/favicon.ico"
+            "thumbnail": "https://szukaj.onet.pl/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 8030,
@@ -481,7 +590,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.marginalia.nu/favicon.ico"
+            "thumbnail": "https://search.marginalia.nu/favicon.ico",
+            "tags": [
+                "personal sites source",
+                "search engine"
+            ]
         },
         {
             "id": 8274,
@@ -504,7 +617,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lucene.apache.org/theme/images/lucene/lucene_og_image.png?v=0e493d7a"
+            "thumbnail": "https://lucene.apache.org/theme/images/lucene/lucene_og_image.png?v=0e493d7a",
+            "tags": [
+                "search engine system",
+                "open source",
+                "self-host"
+            ]
         },
         {
             "id": 369752,
@@ -527,7 +645,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.metacrawler.com/favicon.ico"
+            "thumbnail": "https://www.metacrawler.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 26951,
@@ -550,7 +671,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://feedle.world/assets/img/og.jpg"
+            "thumbnail": "https://feedle.world/assets/img/og.jpg",
+            "tags": [
+                "niche search engine"
+            ]
         },
         {
             "id": 7865,
@@ -573,7 +697,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yacy.net/favicon.ico"
+            "thumbnail": "https://yacy.net/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 24970,
@@ -596,7 +723,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mwmbl.org/favicon.ico"
+            "thumbnail": "https://mwmbl.org/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 102382,
@@ -619,7 +749,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ohnorobot.com/favicon.ico"
+            "thumbnail": "https://ohnorobot.com/favicon.ico",
+            "tags": [
+                "comics",
+                "search",
+                "personal sites source",
+                "comics search engine"
+            ]
         },
         {
             "id": 440896,
@@ -642,7 +778,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://4get.ch/favicon.ico"
+            "thumbnail": "https://4get.ch/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 31342,
@@ -665,7 +804,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.elastic.co/static-res/images/social_media_default.png"
+            "thumbnail": "https://www.elastic.co/static-res/images/social_media_default.png",
+            "tags": [
+                "search engine system"
+            ]
         },
         {
             "id": 17044,
@@ -688,7 +830,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.ahrefs.com/static/assets/ahrefs-YU6Y7RBK.png"
+            "thumbnail": "https://static.ahrefs.com/static/assets/ahrefs-YU6Y7RBK.png",
+            "tags": [
+                "search engines",
+                "seo"
+            ]
         },
         {
             "id": 110778,
@@ -711,7 +857,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dsearch.com/favicon.ico"
+            "thumbnail": "https://dsearch.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 26053,
@@ -734,7 +883,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.ecosia.org/static/og/facebook.jpg"
+            "thumbnail": "https://www.ecosia.org/static/og/facebook.jpg",
+            "tags": [
+                "environment",
+                "search engine"
+            ]
         },
         {
             "id": 106270,
@@ -757,7 +910,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mojeek.com/favicon.ico"
+            "thumbnail": "https://mojeek.com/favicon.ico",
+            "tags": [
+                "privacy",
+                "search engine"
+            ]
         },
         {
             "id": 106368,
@@ -780,7 +937,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://morphic.sh/opengraph-image.png?0720a92459949c23"
+            "thumbnail": "https://morphic.sh/opengraph-image.png?0720a92459949c23",
+            "tags": [
+                "search engine",
+                "artificial intelligence bot",
+                "open source"
+            ]
         },
         {
             "id": 26055,
@@ -803,7 +965,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searx.space/favicon.png"
+            "thumbnail": "https://searx.space/favicon.png",
+            "tags": [
+                "open source",
+                "search engine"
+            ]
         },
         {
             "id": 108996,
@@ -826,7 +992,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.shodan.io/static/img/opengraph.png"
+            "thumbnail": "https://www.shodan.io/static/img/opengraph.png",
+            "tags": [
+                "account requirement",
+                "search engine"
+            ]
         },
         {
             "id": 104892,
@@ -849,7 +1019,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sogou.com/favicon.ico"
+            "thumbnail": "https://sogou.com/favicon.ico",
+            "tags": [
+                "china",
+                "search engine"
+            ]
         },
         {
             "id": 13711,
@@ -872,7 +1046,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stract.com/images/biglogo-with-text.png"
+            "thumbnail": "https://stract.com/images/biglogo-with-text.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 26051,
@@ -895,7 +1072,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://swisscows.com/favicon.ico"
+            "thumbnail": "https://swisscows.com/favicon.ico",
+            "tags": [
+                "privacy",
+                "search engine"
+            ]
         },
         {
             "id": 12353,
@@ -918,7 +1099,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wiby.me/favicon.ico"
+            "thumbnail": "https://wiby.me/favicon.ico",
+            "tags": [
+                "personal sites source",
+                "personal",
+                "indie web",
+                "search engine",
+                "web1"
+            ]
         },
         {
             "id": 19061,
@@ -941,7 +1129,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://programmablesearchengine.google.com/about/social_banner.jpg"
+            "thumbnail": "https://programmablesearchengine.google.com/about/social_banner.jpg",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110661,
@@ -964,7 +1155,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.gmx.com/favicon.ico"
+            "thumbnail": "https://search.gmx.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 304576,
@@ -987,7 +1181,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 104605,
@@ -1010,7 +1207,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.yahoo.com/favicon.ico"
+            "thumbnail": "https://search.yahoo.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 463125,
@@ -1033,7 +1233,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/665ce844007ef963aed2a39d716869a8c0919ec531b450f4f9f8fd617947afc1/theotherp/nzbhydra2"
+            "thumbnail": "https://opengraph.githubassets.com/665ce844007ef963aed2a39d716869a8c0919ec531b450f4f9f8fd617947afc1/theotherp/nzbhydra2",
+            "tags": [
+                "niche search engine",
+                "usenet"
+            ]
         },
         {
             "id": 462981,
@@ -1056,7 +1260,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "search engines"
+            ]
         },
         {
             "id": 14473,
@@ -1079,7 +1286,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bitmagnet.io/favicon.ico"
+            "thumbnail": "https://bitmagnet.io/favicon.ico",
+            "tags": [
+                "p2p search engine"
+            ]
         },
         {
             "id": 26043,
@@ -1102,7 +1312,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu-de-1.presearch.com/images/sharing.png"
+            "thumbnail": "https://eu-de-1.presearch.com/images/sharing.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 187857,
@@ -1125,7 +1338,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://luxxle.com/assets/images/LuxxleLogoWithExtraPadding252525.png"
+            "thumbnail": "https://luxxle.com/assets/images/LuxxleLogoWithExtraPadding252525.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 26054,
@@ -1148,7 +1364,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://metager.org/favicon.ico"
+            "thumbnail": "https://metager.org/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 83686,
@@ -1171,7 +1390,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tineye.com/favicon.ico"
+            "thumbnail": "https://tineye.com/favicon.ico",
+            "tags": [
+                "niche search engine"
+            ]
         },
         {
             "id": 26052,
@@ -1194,7 +1416,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.disconnect.me/favicon.ico"
+            "thumbnail": "https://search.disconnect.me/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 20704,
@@ -1217,7 +1442,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://whoogle.io/favicon.ico"
+            "thumbnail": "https://whoogle.io/favicon.ico",
+            "tags": [
+                "search engine",
+                "open source"
+            ]
         },
         {
             "id": 106271,
@@ -1240,7 +1469,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searxng.org/favicon.ico"
+            "thumbnail": "https://searxng.org/favicon.ico",
+            "tags": [
+                "search engine",
+                "meta search engine"
+            ]
         },
         {
             "id": 187867,
@@ -1263,7 +1496,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searchexpander.com/favicon.ico"
+            "thumbnail": "https://searchexpander.com/favicon.ico",
+            "tags": [
+                "monetization",
+                "search engine implementation",
+                "propietary"
+            ]
         },
         {
             "id": 110853,
@@ -1286,7 +1524,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://anoox.com/favicon.ico"
+            "thumbnail": "https://anoox.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110802,
@@ -1309,7 +1550,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://clew.se/assets/images/logo-512.png"
+            "thumbnail": "https://clew.se/assets/images/logo-512.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 114386,
@@ -1332,7 +1576,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://codefinder.dev/static/assets/icon.png"
+            "thumbnail": "https://codefinder.dev/static/assets/icon.png",
+            "tags": [
+                "niche search engine",
+                "github",
+                "programming"
+            ]
         },
         {
             "id": 459380,
@@ -1355,7 +1604,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://filemood.com/favicon.ico"
+            "thumbnail": "https://filemood.com/favicon.ico",
+            "tags": [
+                "niche search engine",
+                "piracy"
+            ]
         },
         {
             "id": 1244,
@@ -1378,7 +1631,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gibiru.com/favicon.ico"
+            "thumbnail": "https://gibiru.com/favicon.ico",
+            "tags": [
+                "privacy",
+                "search engine"
+            ]
         },
         {
             "id": 110762,
@@ -1401,7 +1658,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://greppr.org/favicon.ico"
+            "thumbnail": "https://greppr.org/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 29162,
@@ -1424,7 +1684,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://historio.us/favicon.ico"
+            "thumbnail": "https://historio.us/favicon.ico",
+            "tags": [
+                "bookmark library",
+                "proprietary",
+                "search engine"
+            ]
         },
         {
             "id": 110822,
@@ -1447,7 +1712,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://letsearch.ru/favicon.ico"
+            "thumbnail": "https://letsearch.ru/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 109108,
@@ -1470,7 +1738,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lycos.com/favicon.ico"
+            "thumbnail": "https://lycos.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 104889,
@@ -1493,7 +1764,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openverse.org/openverse-default.jpg"
+            "thumbnail": "https://openverse.org/openverse-default.jpg",
+            "tags": [
+                "audio assets",
+                "image assets",
+                "search engine"
+            ]
         },
         {
             "id": 110833,
@@ -1516,7 +1792,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://plumb.one/favicon.ico"
+            "thumbnail": "https://plumb.one/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 108086,
@@ -1539,7 +1818,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.qwant.com/public/qwant-logo-seo.0ea4e62ad0a6047e242cdb57128d7995.png"
+            "thumbnail": "https://www.qwant.com/public/qwant-logo-seo.0ea4e62ad0a6047e242cdb57128d7995.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110729,
@@ -1562,7 +1844,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rightdao.com/favicon.ico"
+            "thumbnail": "https://rightdao.com/favicon.ico",
+            "tags": [
+                "privacy",
+                "search engine"
+            ]
         },
         {
             "id": 110712,
@@ -1585,7 +1871,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.sapo.pt/assets/img/homepage-sapo/facebook.jpg"
+            "thumbnail": "https://www.sapo.pt/assets/img/homepage-sapo/facebook.jpg",
+            "tags": [
+                "news",
+                "search engine"
+            ]
         },
         {
             "id": 369710,
@@ -1608,7 +1898,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.ch/favicon.ico"
+            "thumbnail": "https://search.ch/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110841,
@@ -1631,7 +1924,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searchcode.com/favicon.ico"
+            "thumbnail": "https://searchcode.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110873,
@@ -1654,7 +1950,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://seekquarry.com/favicon.ico"
+            "thumbnail": "https://seekquarry.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110874,
@@ -1677,7 +1976,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sengine.info/favicon.ico"
+            "thumbnail": "https://sengine.info/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110784,
@@ -1700,7 +2002,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://teclis.com/favicon.ico"
+            "thumbnail": "https://teclis.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110714,
@@ -1723,7 +2028,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stract.com/images/biglogo-with-text.png"
+            "thumbnail": "https://stract.com/images/biglogo-with-text.png",
+            "tags": [
+                "search engine",
+                "open source"
+            ]
         },
         {
             "id": 29010,
@@ -1746,7 +2055,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://voilib.com/home.png"
+            "thumbnail": "https://voilib.com/home.png",
+            "tags": [
+                "niche search engine",
+                "self-host"
+            ]
         },
         {
             "id": 110851,
@@ -1769,7 +2082,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wiby.org/favicon.ico"
+            "thumbnail": "https://wiby.org/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 104891,
@@ -1792,7 +2108,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wiki.com/favicon.ico"
+            "thumbnail": "https://wiki.com/favicon.ico",
+            "tags": [
+                "wikipedia",
+                "search engine"
+            ]
         },
         {
             "id": 104888,
@@ -1815,7 +2135,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yep.com/favicon.ico"
+            "thumbnail": "https://yep.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110877,
@@ -1838,7 +2161,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.yessle.com/favicon.png"
+            "thumbnail": "https://www.yessle.com/favicon.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 22838,
@@ -1861,7 +2187,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.you.com/img/shared/ydc-og-image.png"
+            "thumbnail": "https://cdn.you.com/img/shared/ydc-og-image.png",
+            "tags": [
+                "artificial intelligence",
+                "search engine"
+            ]
         },
         {
             "id": 110692,
@@ -1884,7 +2214,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.zarebin.com/static/bundles/logo512.png"
+            "thumbnail": "https://www.zarebin.com/static/bundles/logo512.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110783,
@@ -1907,7 +2240,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://kaz.kz/favicon.ico"
+            "thumbnail": "http://kaz.kz/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110798,
@@ -1930,7 +2266,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bonzamate.com.au/favicon.ico"
+            "thumbnail": "https://bonzamate.com.au/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 29851,
@@ -1953,7 +2292,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://books.google.pl/favicon.ico"
+            "thumbnail": "https://books.google.pl/favicon.ico",
+            "tags": [
+                "niche search engine",
+                "books"
+            ]
         },
         {
             "id": 7564,
@@ -1976,7 +2319,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://leta.mullvad.net/MullvadVPN_logo_Round_RGB_Color_positive.png"
+            "thumbnail": "https://leta.mullvad.net/MullvadVPN_logo_Round_RGB_Color_positive.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 104890,
@@ -1999,7 +2345,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.aol.com/favicon.ico"
+            "thumbnail": "https://search.aol.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 29964,
@@ -2022,7 +2371,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://metacpan.org/static/images/dots.png"
+            "thumbnail": "https://metacpan.org/static/images/dots.png",
+            "tags": [
+                "internal search engine"
+            ]
         },
         {
             "id": 110842,
@@ -2045,7 +2397,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searchengine.party/favicon.ico"
+            "thumbnail": "https://searchengine.party/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110945,
@@ -2068,7 +2423,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d55-a.sdn.cz/d_55/c_data_QI_c/FJSB.png"
+            "thumbnail": "https://d55-a.sdn.cz/d_55/c_data_QI_c/FJSB.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110753,
@@ -2091,7 +2449,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sese.yyj.moe/favicon.ico"
+            "thumbnail": "https://sese.yyj.moe/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 13939,
@@ -2114,7 +2475,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://talentsignals.com/favicon.ico"
+            "thumbnail": "https://talentsignals.com/favicon.ico",
+            "tags": [
+                "niche search engine"
+            ]
         },
         {
             "id": 110790,
@@ -2137,7 +2501,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://alpha.infotiger.com/favicon.ico"
+            "thumbnail": "https://alpha.infotiger.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110740,
@@ -2160,7 +2527,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.alexandria.org/favicon.ico"
+            "thumbnail": "https://www.alexandria.org/favicon.ico",
+            "tags": [
+                "search engine",
+                "open source"
+            ]
         },
         {
             "id": 426057,
@@ -2183,7 +2554,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searchenginecolossus.com/favicon.ico"
+            "thumbnail": "https://searchenginecolossus.com/favicon.ico",
+            "tags": [
+                "search engines"
+            ]
         },
         {
             "id": 110839,
@@ -2206,7 +2580,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.lixialabs.com/favicon.ico"
+            "thumbnail": "https://search.lixialabs.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 178868,
@@ -2229,7 +2606,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://filepursuit.com/assets/images/fp_500x500.png"
+            "thumbnail": "https://filepursuit.com/assets/images/fp_500x500.png",
+            "tags": [
+                "niche search engine",
+                "piracy"
+            ]
         },
         {
             "id": 53313,
@@ -2252,7 +2633,12 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hackersearch.net/ask/opengraph-image.png?e22ac334f80e3df2"
+            "thumbnail": "https://hackersearch.net/ask/opengraph-image.png?e22ac334f80e3df2",
+            "tags": [
+                "niche search engine",
+                "project",
+                "hacker news"
+            ]
         },
         {
             "id": 178869,
@@ -2275,7 +2661,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://odcrawler.xyz/ODCrawler Logo.png"
+            "thumbnail": "https://odcrawler.xyz/ODCrawler Logo.png",
+            "tags": [
+                "niche search engine"
+            ]
         },
         {
             "id": 87158,
@@ -2298,7 +2687,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://presearch.io/opengraph.png"
+            "thumbnail": "https://presearch.io/opengraph.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 23393,
@@ -2321,7 +2713,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://same.energy/blacklogo-bg.png"
+            "thumbnail": "https://same.energy/blacklogo-bg.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 105101,
@@ -2344,7 +2739,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.creativecommons.org/favicon.ico"
+            "thumbnail": "https://search.creativecommons.org/favicon.ico",
+            "tags": [
+                "internet archive",
+                "search engine"
+            ]
         },
         {
             "id": 159609,
@@ -2367,7 +2766,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.zarebin.com/static/bundles/logo512.png"
+            "thumbnail": "https://www.zarebin.com/static/bundles/logo512.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159610,
@@ -2390,7 +2792,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://artadosearch.com/favicon.ico"
+            "thumbnail": "https://artadosearch.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 178701,
@@ -2413,7 +2818,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.alltheinternet.com/img/alltheinternet1200x630.png"
+            "thumbnail": "https://www.alltheinternet.com/img/alltheinternet1200x630.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 104893,
@@ -2436,7 +2844,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png"
+            "thumbnail": "https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png",
+            "tags": [
+                "south korea",
+                "search engine"
+            ]
         },
         {
             "id": 159623,
@@ -2459,7 +2871,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vuhuv.com.tr/statik/simge/vuhuv.svg"
+            "thumbnail": "https://vuhuv.com.tr/statik/simge/vuhuv.svg",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 87316,
@@ -2482,7 +2897,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://search.wolfram.com/favicon.ico"
+            "thumbnail": "https://search.wolfram.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 178856,
@@ -2505,7 +2923,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://1337x.to/favicon.ico"
+            "thumbnail": "https://1337x.to/favicon.ico",
+            "tags": [
+                "torrent search engine",
+                "piracy"
+            ]
         },
         {
             "id": 159628,
@@ -2528,7 +2950,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.crawlson.com/images/logo.png"
+            "thumbnail": "https://www.crawlson.com/images/logo.png",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 178878,
@@ -2551,7 +2976,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.searchftps.net/favicon.ico"
+            "thumbnail": "https://www.searchftps.net/favicon.ico",
+            "tags": [
+                "niche search engine"
+            ]
         },
         {
             "id": 159631,
@@ -2574,7 +3002,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://activesearchresults.com/favicon.ico"
+            "thumbnail": "https://activesearchresults.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159632,
@@ -2597,7 +3028,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog-search.com/favicon.ico"
+            "thumbnail": "https://blog-search.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159637,
@@ -2620,7 +3054,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://seekport.com/favicon.ico"
+            "thumbnail": "http://seekport.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159633,
@@ -2643,7 +3080,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://exactseek.com/favicon.ico"
+            "thumbnail": "https://exactseek.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159634,
@@ -2666,7 +3106,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://searchenginemap.com/favicon.ico"
+            "thumbnail": "https://searchenginemap.com/favicon.ico",
+            "tags": [
+                "search engines",
+                "search engine"
+            ]
         },
         {
             "id": 159635,
@@ -2689,7 +3133,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yioop.com/favicon.ico"
+            "thumbnail": "https://yioop.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 159636,
@@ -2712,7 +3159,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://amidalla.de/favicon.ico"
+            "thumbnail": "http://amidalla.de/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 194021,
@@ -2735,7 +3185,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://webcrawler.com/favicon.ico"
+            "thumbnail": "http://webcrawler.com/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 110821,
@@ -2758,7 +3211,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kozmonavt.ml/favicon.ico"
+            "thumbnail": "https://kozmonavt.ml/favicon.ico",
+            "tags": [
+                "search engine"
+            ]
         },
         {
             "id": 29752,
@@ -2781,7 +3237,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openorb.idiot.sh/static/crystal-ball.svg"
+            "thumbnail": "https://openorb.idiot.sh/static/crystal-ball.svg",
+            "tags": [
+                "rss",
+                "search engine"
+            ]
         }
     ]
 }

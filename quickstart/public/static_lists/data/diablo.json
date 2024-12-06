@@ -21,7 +21,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "diablo",
+                "starcraft",
+                "warcraft",
+                "game store",
+                "gatekeeper",
+                "overwatch",
+                "gateway"
+            ]
         },
         {
             "id": 10423,
@@ -44,7 +53,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/bltbe1a42777abcc0da/620d1898a38b0106946f17d2/thumbnail-home.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/bltbe1a42777abcc0da/620d1898a38b0106946f17d2/thumbnail-home.jpg",
+            "tags": [
+                "diablo",
+                "world of warcraft",
+                "starcraft",
+                "video game developer",
+                "company",
+                "overwatch"
+            ]
         },
         {
             "id": 104692,
@@ -67,7 +84,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "starcraft",
+                "warcraft",
+                "video game developer",
+                "diablo",
+                "gateway",
+                "gatekeeper",
+                "overwatch"
+            ]
         },
         {
             "id": 250756,
@@ -90,7 +116,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 12543,
@@ -113,7 +143,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "warcraft",
+                "overwatch",
+                "diablo",
+                "starcraft"
+            ]
         },
         {
             "id": 44027,
@@ -136,7 +172,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 114481,
@@ -159,7 +199,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 2200,
@@ -182,7 +226,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fabiensanglard.net/favicon.ico"
+            "thumbnail": "https://fabiensanglard.net/favicon.ico",
+            "tags": [
+                "diablo",
+                "street figher",
+                "quake",
+                "doom",
+                "personal"
+            ]
         },
         {
             "id": 462112,
@@ -205,7 +256,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "video game"
+            ]
         },
         {
             "id": 462113,
@@ -228,7 +282,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg",
+            "tags": [
+                "video game"
+            ]
         },
         {
             "id": 10424,
@@ -251,7 +308,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt0e00eb71333df64e/blt78c5bf77897066f1/6581641abb381a2d9c8a53a3/og_image.webp"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt0e00eb71333df64e/blt78c5bf77897066f1/6581641abb381a2d9c8a53a3/og_image.webp",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 17404,
@@ -274,7 +335,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 463910,
@@ -297,7 +362,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114472,
@@ -320,7 +388,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://briankoponen.com/favicon.ico"
+            "thumbnail": "https://briankoponen.com/favicon.ico",
+            "tags": [
+                "warcraft",
+                "diablo",
+                "blog"
+            ]
         },
         {
             "id": 114484,
@@ -343,7 +416,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d3andre.com/favicon.ico"
+            "thumbnail": "https://d3andre.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114474,
@@ -366,7 +442,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo-2.net/images/banners/og-d2-remaster.png"
+            "thumbnail": "https://diablo-2.net/images/banners/og-d2-remaster.png",
+            "tags": [
+                "diablo",
+                "fan page"
+            ]
         },
         {
             "id": 9094,
@@ -389,7 +469,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://noktis.pl/favicon.png"
+            "thumbnail": "https://noktis.pl/favicon.png",
+            "tags": [
+                "diablo",
+                "red alert",
+                "warcraft",
+                "starcraft"
+            ]
         },
         {
             "id": 305377,
@@ -412,7 +498,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt0b41183f11404532/61660a3ace267e66ae2fe854/di-opengraph_001.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt0b41183f11404532/61660a3ace267e66ae2fe854/di-opengraph_001.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 372773,
@@ -435,7 +524,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 114525,
@@ -458,7 +551,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 12544,
@@ -481,7 +578,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://us.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://us.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "starcraft",
+                "diablo",
+                "warcraft",
+                "game store",
+                "overwatch"
+            ]
         },
         {
             "id": 229230,
@@ -504,7 +608,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt0b41183f11404532/61660a3ace267e66ae2fe854/di-opengraph_001.jpg"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt0b41183f11404532/61660a3ace267e66ae2fe854/di-opengraph_001.jpg",
+            "tags": [
+                "diablo",
+                "video game"
+            ]
         },
         {
             "id": 274070,
@@ -527,7 +635,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://d2tomb.com/favicon.ico"
+            "thumbnail": "http://d2tomb.com/favicon.ico",
+            "tags": [
+                "diablo",
+                "fan page"
+            ]
         },
         {
             "id": 114509,
@@ -550,7 +662,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.icy-veins.com/images/common/icy-veins-icon-social.png"
+            "thumbnail": "https://static.icy-veins.com/images/common/icy-veins-icon-social.png",
+            "tags": [
+                "world of warcraft",
+                "diablo"
+            ]
         },
         {
             "id": 114490,
@@ -573,7 +689,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo3gemcalculator.com/favicon.ico"
+            "thumbnail": "https://diablo3gemcalculator.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114493,
@@ -596,7 +715,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blizzplanet.com/favicon.ico"
+            "thumbnail": "https://blizzplanet.com/favicon.ico",
+            "tags": [
+                "diablo",
+                "world of warcraft",
+                "video game news",
+                "fan page",
+                "blizzard"
+            ]
         },
         {
             "id": 459832,
@@ -619,7 +745,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://strangebytes.com/favicon.ico"
+            "thumbnail": "http://strangebytes.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 14329,
@@ -642,7 +771,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d2mods.info/d2mods.info/pkog.png"
+            "thumbnail": "https://d2mods.info/d2mods.info/pkog.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 14548,
@@ -665,7 +797,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo2.io/images/media/newogimg.png"
+            "thumbnail": "https://diablo2.io/images/media/newogimg.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114473,
@@ -688,7 +823,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.icy-veins.com/images/common/icy-veins-icon-social.png"
+            "thumbnail": "https://static.icy-veins.com/images/common/icy-veins-icon-social.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114475,
@@ -711,7 +849,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://ghoztcraft.net/favicon.ico"
+            "thumbnail": "http://ghoztcraft.net/favicon.ico",
+            "tags": [
+                "diablo",
+                "starcraft",
+                "game hacking"
+            ]
         },
         {
             "id": 217293,
@@ -734,7 +877,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arreat-summit-ao5dxuumv-diablo4-life2.vercel.app/opengraph-image.png?e2246593f165345d"
+            "thumbnail": "https://arreat-summit-ao5dxuumv-diablo4-life2.vercel.app/opengraph-image.png?e2246593f165345d",
+            "tags": [
+                "diablo",
+                "fan page"
+            ]
         },
         {
             "id": 22139,
@@ -757,7 +904,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.purediablo.com/wp-content/uploads/2024/02/Twitter-Icon.jpg"
+            "thumbnail": "https://www.purediablo.com/wp-content/uploads/2024/02/Twitter-Icon.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 3829,
@@ -780,7 +930,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://media.diablofans.com/avatars/11/114/635170006764642332.png"
+            "thumbnail": "https://media.diablofans.com/avatars/11/114/635170006764642332.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 14151,
@@ -803,7 +956,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d2r.guide/favicon.ico?t=8fb9230682413f1896dc415fe53b2f00"
+            "thumbnail": "https://d2r.guide/favicon.ico?t=8fb9230682413f1896dc415fe53b2f00",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 17174,
@@ -826,7 +982,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d2runewizard.com/thumbnail.png"
+            "thumbnail": "https://d2runewizard.com/thumbnail.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 1904,
@@ -849,7 +1008,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.d3bg.org/img/d3bg-logo-d4.jpg"
+            "thumbnail": "https://www.d3bg.org/img/d3bg-logo-d4.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 114477,
@@ -872,7 +1034,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.diablonext.com/wp-content/uploads/2020/06/logo-diablonext-scaled.jpg"
+            "thumbnail": "https://www.diablonext.com/wp-content/uploads/2020/06/logo-diablonext-scaled.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 17407,
@@ -895,7 +1060,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablotavern.com/wp-content/uploads/2022/04/logo_main.png"
+            "thumbnail": "https://diablotavern.com/wp-content/uploads/2022/04/logo_main.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 95581,
@@ -918,7 +1086,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mpgh.net/favicon.ico"
+            "thumbnail": "https://mpgh.net/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "game hacking"
+            ]
         },
         {
             "id": 114479,
@@ -941,7 +1113,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wowchakra.com/favicon.ico"
+            "thumbnail": "https://wowchakra.com/favicon.ico",
+            "tags": [
+                "fan page"
+            ]
         },
         {
             "id": 114476,
@@ -964,7 +1139,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://d3maxstats.com/favicon.ico"
+            "thumbnail": "http://d3maxstats.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 12638,
@@ -987,7 +1165,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://old.diablo-2.net/favicon.ico"
+            "thumbnail": "https://old.diablo-2.net/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 116484,
@@ -1010,7 +1191,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png"
+            "thumbnail": "https://blzmedia-a.akamaihd.net/battle.net/logos/og-d3.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 22137,
@@ -1033,7 +1217,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.purediablo.com/wp-content/uploads/2021/03/char2.jpg"
+            "thumbnail": "https://www.purediablo.com/wp-content/uploads/2021/03/char2.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 361764,
@@ -1056,7 +1243,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d4armory.io/favicon.ico"
+            "thumbnail": "https://d4armory.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 114491,
@@ -1079,7 +1267,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo2runecalculator.com/favicon.ico"
+            "thumbnail": "https://diablo2runecalculator.com/favicon.ico",
+            "tags": [
+                "diablo 2"
+            ]
         },
         {
             "id": 12094,
@@ -1102,7 +1293,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://holygrail.link/favicon.ico"
+            "thumbnail": "https://holygrail.link/favicon.ico",
+            "tags": []
         },
         {
             "id": 46571,
@@ -1125,7 +1317,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://indiablockchainweek.com/assets/banner_less-a4d6df0dffdd156d44ac79405d9301c87f3ef25630fc612373a97df2c3d654d2.png"
+            "thumbnail": "https://indiablockchainweek.com/assets/banner_less-a4d6df0dffdd156d44ac79405d9301c87f3ef25630fc612373a97df2c3d654d2.png",
+            "tags": [
+                "web3"
+            ]
         },
         {
             "id": 114497,
@@ -1148,7 +1343,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rpgstash.com/favicon.ico"
+            "thumbnail": "https://rpgstash.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 337065,
@@ -1171,7 +1367,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wp.rtsonics.com/wp-content/uploads/2019/11/Horror_Pack_Square.jpg"
+            "thumbnail": "https://wp.rtsonics.com/wp-content/uploads/2019/11/Horror_Pack_Square.jpg",
+            "tags": []
         },
         {
             "id": 439016,
@@ -1194,7 +1391,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://horadric.ru/sites/default/files/work/logo_square_white_50px.png"
+            "thumbnail": "http://horadric.ru/sites/default/files/work/logo_square_white_50px.png",
+            "tags": []
         },
         {
             "id": 366451,
@@ -1217,7 +1415,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://knights-bg.com/favicon.ico"
+            "thumbnail": "http://knights-bg.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 463072,
@@ -1240,7 +1439,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/diablo-3/6/60/Diablo-3-Reaper-of-Souls-Wallpaper-6.jpg"
+            "thumbnail": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/diablo-3/6/60/Diablo-3-Reaper-of-Souls-Wallpaper-6.jpg",
+            "tags": []
         },
         {
             "id": 102779,
@@ -1263,7 +1463,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fblizzplanet.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1729108229%26version%3D9"
+            "thumbnail": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fblizzplanet.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1729108229%26version%3D9",
+            "tags": [
+                "diablo",
+                "blizzard",
+                "news",
+                "warcraft"
+            ]
         },
         {
             "id": 12074,
@@ -1286,7 +1492,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d4lifepro-m5lmcnlyu-diablo4-life2.vercel.app/opengraph-image.png?e2246593f165345d"
+            "thumbnail": "https://d4lifepro-m5lmcnlyu-diablo4-life2.vercel.app/opengraph-image.png?e2246593f165345d",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 25576,
@@ -1309,7 +1518,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diabloprogress.com/favicon.ico"
+            "thumbnail": "https://diabloprogress.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 305370,
@@ -1332,7 +1542,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt0e00eb71333df64e/blt1ddae1f967bbd300/65baf21388b8ab550559bfb9/og_image.webp"
+            "thumbnail": "https://blz-contentstack-images.akamaized.net/v3/assets/blt0e00eb71333df64e/blt1ddae1f967bbd300/65baf21388b8ab550559bfb9/og_image.webp",
+            "tags": []
         },
         {
             "id": 366449,
@@ -1355,7 +1566,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.d3bg.org/img/d3bg-logo-d4.jpg"
+            "thumbnail": "https://www.d3bg.org/img/d3bg-logo-d4.jpg",
+            "tags": []
         },
         {
             "id": 18562,
@@ -1378,7 +1590,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.wikia.com/diablo/images/b/bc/Wiki.png"
+            "thumbnail": "https://images.wikia.com/diablo/images/b/bc/Wiki.png",
+            "tags": []
         },
         {
             "id": 460978,
@@ -1401,7 +1614,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.indiablooms.com/logo.jpg"
+            "thumbnail": "https://www.indiablooms.com/logo.jpg",
+            "tags": []
         },
         {
             "id": 387829,
@@ -1424,7 +1638,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blizzard.gamespress.com/favicon.ico"
+            "thumbnail": "https://blizzard.gamespress.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 142241,
@@ -1447,7 +1662,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://f4.bcbits.com/img/0022569188_23.jpg"
+            "thumbnail": "https://f4.bcbits.com/img/0022569188_23.jpg",
+            "tags": []
         },
         {
             "id": 23754,
@@ -1470,7 +1686,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets-ng.maxroll.gg/wordpress/maxroll-embed-image.png"
+            "thumbnail": "https://assets-ng.maxroll.gg/wordpress/maxroll-embed-image.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 404242,
@@ -1493,7 +1712,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.indiablockchainsummit.in/thumbnail.png"
+            "thumbnail": "https://www.indiablockchainsummit.in/thumbnail.png",
+            "tags": []
         },
         {
             "id": 124393,
@@ -1516,7 +1736,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://indiablockchainweek.com/image.png"
+            "thumbnail": "https://indiablockchainweek.com/image.png",
+            "tags": []
         },
         {
             "id": 124328,
@@ -1539,7 +1760,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://indiablockchainweek.com/image.png"
+            "thumbnail": "https://indiablockchainweek.com/image.png",
+            "tags": []
         },
         {
             "id": 458575,
@@ -1562,7 +1784,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://mountain-man-steve.blogspot.com/favicon.ico"
+            "thumbnail": "http://mountain-man-steve.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 380918,
@@ -1585,7 +1808,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://secure.gravatar.com/blavatar/80a9e789779742c7865d9739261896ca8c452fbe3de9d3646b829039509c8f26?s=200&ts=1725853811"
+            "thumbnail": "https://secure.gravatar.com/blavatar/80a9e789779742c7865d9739261896ca8c452fbe3de9d3646b829039509c8f26?s=200&ts=1725853811",
+            "tags": []
         },
         {
             "id": 346624,
@@ -1608,7 +1832,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d2-holy-grail.herokuapp.com/favicon.ico"
+            "thumbnail": "https://d2-holy-grail.herokuapp.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 229143,
@@ -1631,7 +1856,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d3boost.com/favicon.ico"
+            "thumbnail": "https://d3boost.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 148990,
@@ -1654,7 +1880,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo2.diablowiki.net/favicon.ico"
+            "thumbnail": "https://diablo2.diablowiki.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 102778,
@@ -1677,7 +1904,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo.blizzplanet.com/favicon.ico"
+            "thumbnail": "https://diablo.blizzplanet.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 145525,
@@ -1700,7 +1928,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.wikia.com/diablofanon/images/b/bc/Wiki.png"
+            "thumbnail": "https://images.wikia.com/diablofanon/images/b/bc/Wiki.png",
+            "tags": []
         },
         {
             "id": 391140,
@@ -1723,7 +1952,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diabloresources.com.au/favicon.ico"
+            "thumbnail": "https://diabloresources.com.au/favicon.ico",
+            "tags": []
         },
         {
             "id": 404784,
@@ -1746,7 +1976,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.indiablockchainforum.in/favicon.ico"
+            "thumbnail": "https://www.indiablockchainforum.in/favicon.ico",
+            "tags": []
         },
         {
             "id": 22138,
@@ -1769,7 +2000,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.purediablo.com/diablo4/images/lilithicon.webp"
+            "thumbnail": "https://www.purediablo.com/diablo4/images/lilithicon.webp",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 200916,
@@ -1792,7 +2026,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i0.wp.com/mediablog.prnewswire.com/wp-content/uploads/2017/10/cropped-cropped-prnj_blog_header-v3-5.jpg"
+            "thumbnail": "https://i0.wp.com/mediablog.prnewswire.com/wp-content/uploads/2017/10/cropped-cropped-prnj_blog_header-v3-5.jpg",
+            "tags": []
         },
         {
             "id": 463044,
@@ -1815,7 +2050,8 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://web.archive.org/favicon.ico"
+            "thumbnail": "https://web.archive.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 191476,
@@ -1838,7 +2074,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://up1.typepad.com/6a00d8341bf8e153ef00e55291fe198833-220si"
+            "thumbnail": "https://up1.typepad.com/6a00d8341bf8e153ef00e55291fe198833-220si",
+            "tags": []
         },
         {
             "id": 22533,
@@ -1861,7 +2098,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.wikia.com/diablo/images/b/bc/Wiki.png"
+            "thumbnail": "https://images.wikia.com/diablo/images/b/bc/Wiki.png",
+            "tags": []
         },
         {
             "id": 226182,
@@ -1884,7 +2122,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.typepad.com/.shared/default-userpics/10-220si.gif"
+            "thumbnail": "https://static.typepad.com/.shared/default-userpics/10-220si.gif",
+            "tags": []
         },
         {
             "id": 12620,
@@ -1907,7 +2146,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d2trader.net/favicon.ico"
+            "thumbnail": "https://d2trader.net/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 9092,
@@ -1930,7 +2172,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://diablo.noktis.pl/bl-themes/blogx/img/favicon.png"
+            "thumbnail": "https://diablo.noktis.pl/bl-themes/blogx/img/favicon.png",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 250759,
@@ -1953,7 +2198,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.nibbits.com/static/images/niblogo_black.png"
+            "thumbnail": "https://www.nibbits.com/static/images/niblogo_black.png",
+            "tags": [
+                "warcraft",
+                "diablo",
+                "starcraft"
+            ]
         },
         {
             "id": 17177,
@@ -1976,7 +2226,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d3resource.com/favicon.ico"
+            "thumbnail": "https://d3resource.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 9093,
@@ -1999,7 +2252,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mod.diablo.noktis.pl/opg-d3.jpg"
+            "thumbnail": "https://mod.diablo.noktis.pl/opg-d3.jpg",
+            "tags": [
+                "diablo"
+            ]
         },
         {
             "id": 250927,
@@ -2022,7 +2278,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.nibbits.com/static/images/niblogo_black.png"
+            "thumbnail": "https://www.nibbits.com/static/images/niblogo_black.png",
+            "tags": []
         },
         {
             "id": 203929,
@@ -2045,7 +2302,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://hotel-diablo.hotels-lombardy.com/favicon.ico"
+            "thumbnail": "http://hotel-diablo.hotels-lombardy.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 90355,
@@ -2068,7 +2326,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opendiablo2.com/favicon.ico"
+            "thumbnail": "https://opendiablo2.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 217294,
@@ -2091,7 +2350,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://forum.diablo.noktis.pl/favicon.ico"
+            "thumbnail": "https://forum.diablo.noktis.pl/favicon.ico",
+            "tags": []
         },
         {
             "id": 261717,
@@ -2114,7 +2374,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://push-2739.5centscdn.com/http/diablo/uploads/2021/11/favicon.bmp"
+            "thumbnail": "https://push-2739.5centscdn.com/http/diablo/uploads/2021/11/favicon.bmp",
+            "tags": []
         },
         {
             "id": 124351,
@@ -2137,7 +2398,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://indiablockchainweek.super.site/favicon.ico"
+            "thumbnail": "https://indiablockchainweek.super.site/favicon.ico",
+            "tags": [
+                "web3"
+            ]
         },
         {
             "id": 114488,
@@ -2160,7 +2424,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.diablo3-esp.com/favicon.ico"
+            "thumbnail": "https://www.diablo3-esp.com/favicon.ico",
+            "tags": [
+                "diablo"
+            ]
         }
     ]
 }

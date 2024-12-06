@@ -21,7 +21,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://thunderbird.net/media/img/thunderbird/thunderbird-256.png"
+            "thumbnail": "http://thunderbird.net/media/img/thunderbird/thunderbird-256.png",
+            "tags": [
+                "rss client",
+                "email client"
+            ]
         },
         {
             "id": 368883,
@@ -44,7 +48,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://inoreader.com/images/landing/v2/og-images/og-image-default.png"
+            "thumbnail": "https://inoreader.com/images/landing/v2/og-images/og-image-default.png",
+            "tags": [
+                "rss",
+                "rss client",
+                "online tool"
+            ]
         },
         {
             "id": 7102,
@@ -67,7 +76,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://isrssdead.com/favicon.ico"
+            "thumbnail": "https://isrssdead.com/favicon.ico",
+            "tags": [
+                "activism",
+                "rss fan page"
+            ]
         },
         {
             "id": 10840,
@@ -90,7 +103,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rsshub.app/favicon.ico"
+            "thumbnail": "https://rsshub.app/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 279114,
@@ -113,7 +129,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://seamonkey-project.org/favicon.ico"
+            "thumbnail": "https://seamonkey-project.org/favicon.ico",
+            "tags": [
+                "open source",
+                "application suite",
+                "web-browser",
+                "rss client",
+                "irc client",
+                "e-mail"
+            ]
         },
         {
             "id": 461973,
@@ -136,7 +160,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c01eac82f371d583cdb9326d0c216b56d36ea1c0eb13caff00da933839338b29/yang991178/fluent-reader-lite"
+            "thumbnail": "https://opengraph.githubassets.com/c01eac82f371d583cdb9326d0c216b56d36ea1c0eb13caff00da933839338b29/yang991178/fluent-reader-lite",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 11358,
@@ -159,7 +186,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rssboard.org/favicon.ico"
+            "thumbnail": "https://rssboard.org/favicon.ico",
+            "tags": [
+                "rss",
+                "standards"
+            ]
         },
         {
             "id": 28895,
@@ -182,7 +213,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hoarder.app/opengraph-image.png?3e605cd6ec3a4475"
+            "thumbnail": "https://hoarder.app/opengraph-image.png?3e605cd6ec3a4475",
+            "tags": [
+                "bookmark manager",
+                "link aggregator",
+                "rss client",
+                "self-host"
+            ]
         },
         {
             "id": 4014,
@@ -205,7 +242,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openrss.org/icon-512x512.png"
+            "thumbnail": "https://openrss.org/icon-512x512.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 462296,
@@ -228,7 +268,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a1ffcafce080f46e896f6eb41174c4a4a9658c764d0abe217db0acf668cfa8fb/HenryQW/Awesome-TTRSS"
+            "thumbnail": "https://opengraph.githubassets.com/a1ffcafce080f46e896f6eb41174c4a4a9658c764d0abe217db0acf668cfa8fb/HenryQW/Awesome-TTRSS",
+            "tags": [
+                "tiny tiny rss",
+                "rss client"
+            ]
         },
         {
             "id": 462259,
@@ -251,7 +295,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/313304bfddc8a43618a58b0909bc431d50e00f9f61a5f5fb3c36e80cb76b0f6c/hoarder-app/hoarder"
+            "thumbnail": "https://opengraph.githubassets.com/313304bfddc8a43618a58b0909bc431d50e00f9f61a5f5fb3c36e80cb76b0f6c/hoarder-app/hoarder",
+            "tags": [
+                "bookmark manager",
+                "rss client"
+            ]
         },
         {
             "id": 16940,
@@ -274,7 +322,10 @@
             "age": null,
             "source__title": "What is a feed? (a.k.a. RSS)",
             "source__url": "https://aboutfeeds.com",
-            "thumbnail": "https://aboutfeeds.com/icons/orange-square.png"
+            "thumbnail": "https://aboutfeeds.com/icons/orange-square.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 147236,
@@ -297,7 +348,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bazqux.com/images/screenshot.v1728553695.png"
+            "thumbnail": "https://bazqux.com/images/screenshot.v1728553695.png",
+            "tags": [
+                "rss",
+                "rss client"
+            ]
         },
         {
             "id": 117220,
@@ -320,7 +375,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feedbin.com/favicon.ico"
+            "thumbnail": "https://feedbin.com/favicon.ico",
+            "tags": [
+                "monetization",
+                "rss client",
+                "proprietary"
+            ]
         },
         {
             "id": 18629,
@@ -343,7 +403,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s1.feedly.com/images/fx/og/homepage.png"
+            "thumbnail": "https://s1.feedly.com/images/fx/og/homepage.png",
+            "tags": [
+                "rss client",
+                "online tool"
+            ]
         },
         {
             "id": 371498,
@@ -366,7 +430,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://morss.it/favicon.ico"
+            "thumbnail": "https://morss.it/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 13331,
@@ -389,7 +456,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://netnewswire.com/images/nnw-6-icon-256.png?defeat=twitter-cache"
+            "thumbnail": "https://netnewswire.com/images/nnw-6-icon-256.png?defeat=twitter-cache",
+            "tags": [
+                "rss client",
+                "open source"
+            ]
         },
         {
             "id": 29002,
@@ -412,7 +483,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tt-rss.org/favicon.ico"
+            "thumbnail": "https://tt-rss.org/favicon.ico",
+            "tags": [
+                "open source",
+                "self-host",
+                "rss client",
+                "rss",
+                "link aggregator"
+            ]
         },
         {
             "id": 462974,
@@ -435,7 +513,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 21039,
@@ -458,7 +539,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s.theoldreader.com/assets/favicon-196x196-b2a8c74975d8498591dd629b89797dea.png"
+            "thumbnail": "https://s.theoldreader.com/assets/favicon-196x196-b2a8c74975d8498591dd629b89797dea.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 10839,
@@ -481,7 +565,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://docs.rsshub.app/logo.png"
+            "thumbnail": "https://docs.rsshub.app/logo.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 22161,
@@ -504,7 +591,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://qireader.com/favicon.ico"
+            "thumbnail": "https://qireader.com/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 107660,
@@ -527,7 +617,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rssgizmos.com/favicon.ico"
+            "thumbnail": "https://rssgizmos.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 92772,
@@ -550,7 +643,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rssisawesome.com/favicon.ico"
+            "thumbnail": "https://rssisawesome.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 200315,
@@ -573,7 +669,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feedreader.com/favicon.ico"
+            "thumbnail": "https://feedreader.com/favicon.ico",
+            "tags": [
+                "rss",
+                "rss client"
+            ]
         },
         {
             "id": 16667,
@@ -596,7 +696,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feeder.co/favicon.ico"
+            "thumbnail": "https://feeder.co/favicon.ico",
+            "tags": [
+                "rss",
+                "rss client"
+            ]
         },
         {
             "id": 8873,
@@ -619,7 +723,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://freshrss.org/card.png"
+            "thumbnail": "https://freshrss.org/card.png",
+            "tags": [
+                "rss",
+                "rss client",
+                "self-host"
+            ]
         },
         {
             "id": 461975,
@@ -642,7 +751,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/0f550e4d3cc734b5b2586f07c6b75b6c05c3dc0e9a95c2b3ace0d3c2bb5a9555/rumca-js/Django-link-archive"
+            "thumbnail": "https://opengraph.githubassets.com/0f550e4d3cc734b5b2586f07c6b75b6c05c3dc0e9a95c2b3ace0d3c2bb5a9555/rumca-js/Django-link-archive",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 104039,
@@ -665,7 +777,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vienna-rss.com/favicon.ico"
+            "thumbnail": "https://vienna-rss.com/favicon.ico",
+            "tags": [
+                "rss client",
+                "open source"
+            ]
         },
         {
             "id": 25086,
@@ -688,7 +804,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://newsboat.org/favicon.ico"
+            "thumbnail": "https://newsboat.org/favicon.ico",
+            "tags": [
+                "rss",
+                "rss client"
+            ]
         },
         {
             "id": 115850,
@@ -711,7 +831,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feedmail.org/favicon.ico"
+            "thumbnail": "https://feedmail.org/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 462736,
@@ -734,7 +857,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.get-rss.com/rss.avif"
+            "thumbnail": "https://www.get-rss.com/rss.avif",
+            "tags": [
+                "rss",
+                "online tool"
+            ]
         },
         {
             "id": 46894,
@@ -757,30 +884,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://web-assets.ifttt.com/packs/media/shared/ifttt-banner-287889aa7d44e76a8d08.png"
-        },
-        {
-            "id": 413017,
-            "title": "Welcome to Kurator",
-            "title_safe": "Welcome to Kurator",
-            "description": "License Headline News Media, Historical Films, Youtube Clips, Instagram Reels... License Any Asset From Anywhere",
-            "description_safe": "License Headline News Media, Historical Films, Youtube Clips, Instagram Reels... License Any Asset From Anywhere",
-            "link": "https://kurator.com",
-            "link_absolute": "/apps/places/entry/413017/",
-            "is_valid": true,
-            "date_published": "2024-02-10T00:00:00Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-04T20:04:32.726Z",
-            "bookmarked": true,
-            "permanent": true,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 100,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://kurator.com/favicon.ico"
+            "thumbnail": "https://web-assets.ifttt.com/packs/media/shared/ifttt-banner-287889aa7d44e76a8d08.png",
+            "tags": [
+                "application suite",
+                "rss client"
+            ]
         },
         {
             "id": 376666,
@@ -803,7 +911,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lighthouseapp.io/_next/static/media/og-image.b30b00cd.png"
+            "thumbnail": "https://lighthouseapp.io/_next/static/media/og-image.b30b00cd.png",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 104036,
@@ -826,7 +937,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://miniflux.net/favicon.ico"
+            "thumbnail": "https://miniflux.net/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 117224,
@@ -849,7 +963,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://newsblur.com/favicon.ico"
+            "thumbnail": "https://newsblur.com/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 372802,
@@ -872,7 +989,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://newsify.co/favicon.ico"
+            "thumbnail": "https://newsify.co/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 413016,
@@ -895,7 +1015,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://newsreadeck.com/landing/image/logo/logo.png"
+            "thumbnail": "https://newsreadeck.com/landing/image/logo/logo.png",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 351951,
@@ -918,7 +1041,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nodetics.com/favicon.ico"
+            "thumbnail": "https://nodetics.com/favicon.ico",
+            "tags": [
+                "feedbro",
+                "rss client"
+            ]
         },
         {
             "id": 413014,
@@ -941,7 +1068,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ravenreader.app/favicon.ico"
+            "thumbnail": "https://ravenreader.app/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 20556,
@@ -964,7 +1094,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://readwise-assets.s3.amazonaws.com/static/images/readwisecard.058019f9f4b1.jpg"
+            "thumbnail": "https://readwise-assets.s3.amazonaws.com/static/images/readwisecard.058019f9f4b1.jpg",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 193273,
@@ -987,7 +1120,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://reeder.app/favicon.ico"
+            "thumbnail": "https://reeder.app/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 81769,
@@ -1010,7 +1146,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://reederapp.com/favicon.ico"
+            "thumbnail": "https://reederapp.com/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 15122,
@@ -1033,7 +1172,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.rssbrain.com/images/icon_outlined.png"
+            "thumbnail": "https://www.rssbrain.com/images/icon_outlined.png",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 11357,
@@ -1056,7 +1198,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rss-bridge.org/favicon.ico"
+            "thumbnail": "https://rss-bridge.org/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 462614,
@@ -1079,7 +1224,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://unfeed.net/banner.png"
+            "thumbnail": "https://unfeed.net/banner.png",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 88498,
@@ -1102,7 +1250,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kill-the-newsletter.com/favicon.ico"
+            "thumbnail": "https://kill-the-newsletter.com/favicon.ico",
+            "tags": [
+                "rss",
+                "rss client",
+                "online tool"
+            ]
         },
         {
             "id": 413015,
@@ -1125,7 +1278,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/660ffe5790a33b60195da4eb/6675770aea48121983704d40_digest-opengraph.jpg"
+            "thumbnail": "https://cdn.prod.website-files.com/660ffe5790a33b60195da4eb/6675770aea48121983704d40_digest-opengraph.jpg",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 153405,
@@ -1148,7 +1304,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.commafeed.com/favicon.ico"
+            "thumbnail": "https://www.commafeed.com/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 413018,
@@ -1171,7 +1330,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feeeed.nateparrott.com/favicon.ico"
+            "thumbnail": "https://feeeed.nateparrott.com/favicon.ico",
+            "tags": [
+                "rss client"
+            ]
         },
         {
             "id": 36541,
@@ -1194,7 +1356,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fetchrss.com/img/og-logo.png"
+            "thumbnail": "https://fetchrss.com/img/og-logo.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 15123,
@@ -1217,7 +1382,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rssfeedasap.com/rssfeedasap.png"
+            "thumbnail": "https://rssfeedasap.com/rssfeedasap.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 217304,
@@ -1240,7 +1408,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rssviewer.app/favicon.ico"
+            "thumbnail": "https://rssviewer.app/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 70361,
@@ -1263,7 +1434,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rss.app/static/img/images/rss-app.png"
+            "thumbnail": "https://rss.app/static/img/images/rss-app.png",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 70620,
@@ -1286,7 +1460,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://feedlisting.com/favicon.ico"
+            "thumbnail": "https://feedlisting.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 28933,
@@ -1309,7 +1486,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://miniflux.app/favicon.ico"
+            "thumbnail": "https://miniflux.app/favicon.ico",
+            "tags": [
+                "rss",
+                "self-host"
+            ]
         },
         {
             "id": 7681,
@@ -1332,7 +1513,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rss-parrot.net/favicon.ico"
+            "thumbnail": "https://rss-parrot.net/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 192962,
@@ -1355,7 +1539,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://feeddigest.com/favicon.ico"
+            "thumbnail": "http://feeddigest.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 85179,
@@ -1378,7 +1565,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://siftrss.com/favicon.ico"
+            "thumbnail": "https://siftrss.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 69597,
@@ -1401,7 +1591,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://page2rss.com/favicon.ico"
+            "thumbnail": "https://page2rss.com/favicon.ico",
+            "tags": [
+                "rss"
+            ]
         },
         {
             "id": 29752,
@@ -1424,7 +1617,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openorb.idiot.sh/static/crystal-ball.svg"
+            "thumbnail": "https://openorb.idiot.sh/static/crystal-ball.svg",
+            "tags": [
+                "rss",
+                "search engine"
+            ]
         }
     ]
 }

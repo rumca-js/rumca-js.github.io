@@ -21,7 +21,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://4programmers.net/img/apple-touch.png"
+            "thumbnail": "https://4programmers.net/img/apple-touch.png",
+            "tags": [
+                "java",
+                "c++",
+                "programming",
+                "cpp",
+                "c#"
+            ]
         },
         {
             "id": 29334,
@@ -44,7 +51,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://shields.io/img/favicon.ico"
+            "thumbnail": "https://shields.io/img/favicon.ico",
+            "tags": [
+                "programming",
+                "repository badges"
+            ]
         },
         {
             "id": 21468,
@@ -67,7 +78,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://unpkg.com/favicon.ico"
+            "thumbnail": "https://unpkg.com/favicon.ico",
+            "tags": [
+                "javascript",
+                "programming"
+            ]
         },
         {
             "id": 8570,
@@ -90,7 +105,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://coppershade.org/site-thumbnail.jpg"
+            "thumbnail": "http://coppershade.org/site-thumbnail.jpg",
+            "tags": [
+                "amiga",
+                "personal",
+                "programming"
+            ]
         },
         {
             "id": 871,
@@ -113,7 +133,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bytesnbits.co.uk/favicon.ico"
+            "thumbnail": "https://bytesnbits.co.uk/favicon.ico",
+            "tags": [
+                "retro gaming",
+                "amiga",
+                "programming"
+            ]
         },
         {
             "id": 1681,
@@ -136,7 +161,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cppcast.com/static/cppcast-logo-square.png"
+            "thumbnail": "https://cppcast.com/static/cppcast-logo-square.png",
+            "tags": [
+                "podcast",
+                "c++",
+                "programming",
+                "cpp"
+            ]
         },
         {
             "id": 106355,
@@ -159,7 +190,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ioccc.org/favicon.ico"
+            "thumbnail": "https://ioccc.org/favicon.ico",
+            "tags": [
+                "hacking",
+                "contest",
+                "programming"
+            ]
         },
         {
             "id": 28332,
@@ -182,7 +218,12 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "tutorials",
+                "php",
+                "programming"
+            ]
         },
         {
             "id": 874,
@@ -205,7 +246,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.cppstories.com/image/theme/og.png"
+            "thumbnail": "https://www.cppstories.com/image/theme/og.png",
+            "tags": [
+                "programming",
+                "cpp"
+            ]
         },
         {
             "id": 3824,
@@ -228,7 +273,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://peps.python.org/_static/og-image.png"
+            "thumbnail": "https://peps.python.org/_static/og-image.png",
+            "tags": [
+                "programming",
+                "python"
+            ]
         },
         {
             "id": 13737,
@@ -251,7 +300,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stroustrup.com/favicon.ico"
+            "thumbnail": "https://stroustrup.com/favicon.ico",
+            "tags": [
+                "personal",
+                "c++",
+                "programming"
+            ]
         },
         {
             "id": 29870,
@@ -274,7 +328,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+            "thumbnail": "https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png",
+            "tags": [
+                "learning",
+                "courses",
+                "education",
+                "programming",
+                "tutorials"
+            ]
         },
         {
             "id": 28693,
@@ -297,7 +358,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ctrlcode.pl/zdj/lightLogo.png"
+            "thumbnail": "https://ctrlcode.pl/zdj/lightLogo.png",
+            "tags": [
+                "learning",
+                "programming"
+            ]
         },
         {
             "id": 1746,
@@ -320,7 +385,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg"
+            "thumbnail": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
+            "tags": [
+                "programming",
+                "game development",
+                "software development"
+            ]
         },
         {
             "id": 17688,
@@ -343,7 +413,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://elixirschool.com/favicon.ico"
+            "thumbnail": "https://elixirschool.com/favicon.ico",
+            "tags": [
+                "courses",
+                "tutorials",
+                "programming"
+            ]
         },
         {
             "id": 29804,
@@ -366,7 +441,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.funcall.org/favicon.ico"
+            "thumbnail": "https://blog.funcall.org/favicon.ico",
+            "tags": [
+                "personal",
+                "interesting",
+                "tech",
+                "programming"
+            ]
         },
         {
             "id": 110390,
@@ -389,7 +470,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.theprogrammersoath.com/img/oath.png"
+            "thumbnail": "https://www.theprogrammersoath.com/img/oath.png",
+            "tags": [
+                "programming",
+                "funny",
+                "activism",
+                "programmer's oath"
+            ]
         },
         {
             "id": 26790,
@@ -412,7 +499,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.pythonmorsels.com/static/images/favicons/og-linkedin-image.73822a5bc79c.jpg"
+            "thumbnail": "https://www.pythonmorsels.com/static/images/favicons/og-linkedin-image.73822a5bc79c.jpg",
+            "tags": [
+                "programming",
+                "python"
+            ]
         },
         {
             "id": 25911,
@@ -435,7 +526,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cpp0x.pl/favicon.ico"
+            "thumbnail": "https://cpp0x.pl/favicon.ico",
+            "tags": [
+                "cources",
+                "tutorials",
+                "programming"
+            ]
         },
         {
             "id": 995,
@@ -458,7 +554,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.changelog.com/static/images/share/all-podcasts-7b45ddf7a9d413b02c326a4789827121.png"
+            "thumbnail": "https://cdn.changelog.com/static/images/share/all-podcasts-7b45ddf7a9d413b02c326a4789827121.png",
+            "tags": [
+                "audio streaming",
+                "programming"
+            ]
         },
         {
             "id": 243116,
@@ -481,7 +581,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wickstrom.tech/favicon.ico"
+            "thumbnail": "https://wickstrom.tech/favicon.ico",
+            "tags": [
+                "personal",
+                "programming"
+            ]
         },
         {
             "id": 25475,
@@ -504,7 +608,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.fireside.fm/file/fireside-images/podcasts/images/e/ed4e373f-21b4-44bb-a2f3-630a56c17f71/cover_medium.jpg"
+            "thumbnail": "https://assets.fireside.fm/file/fireside-images/podcasts/images/e/ed4e373f-21b4-44bb-a2f3-630a56c17f71/cover_medium.jpg",
+            "tags": [
+                "podcast",
+                "programming"
+            ]
         },
         {
             "id": 9449,
@@ -527,7 +635,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hanukkah.bluebird.sh/favicon-32x32.png"
+            "thumbnail": "https://hanukkah.bluebird.sh/favicon-32x32.png",
+            "tags": [
+                "wtf",
+                "challnege",
+                "puzzle game",
+                "programming",
+                "internet"
+            ]
         },
         {
             "id": 161260,
@@ -550,7 +665,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://codetalks.com/landing_page/slider_1.jpeg"
+            "thumbnail": "https://codetalks.com/landing_page/slider_1.jpeg",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 5999,
@@ -573,7 +692,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://writesoftwarewell.com/favicon.ico"
+            "thumbnail": "https://writesoftwarewell.com/favicon.ico",
+            "tags": [
+                "ruby",
+                "personal",
+                "programming",
+                "ruby on rails"
+            ]
         },
         {
             "id": 462958,
@@ -596,7 +721,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "funny",
+                "programming"
+            ]
         },
         {
             "id": 462960,
@@ -619,7 +748,36 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "programming"
+            ]
+        },
+        {
+            "id": 463394,
+            "title": "freeCodeCamp.org",
+            "title_safe": "freeCodeCamp.org",
+            "description": "",
+            "description_safe": "",
+            "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+            "link_absolute": "/apps/places/entry/463394/",
+            "is_valid": true,
+            "date_published": "2024-12-04T11:53:53Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-04T10:53:55.727Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": "freeCodeCamp.org",
+            "album": null,
+            "page_rating_contents": 80,
+            "page_rating_votes": 10,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 463333,
@@ -642,7 +800,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 462553,
@@ -665,7 +827,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "tutorials",
+                "tech",
+                "programming"
+            ]
         },
         {
             "id": 25404,
@@ -688,7 +855,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://factoryfactoryfactory.net/img.png"
+            "thumbnail": "https://factoryfactoryfactory.net/img.png",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 19801,
@@ -711,7 +881,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://makeartwithpython.com/favicon.ico"
+            "thumbnail": "https://makeartwithpython.com/favicon.ico",
+            "tags": [
+                "programming",
+                "python"
+            ]
         },
         {
             "id": 7648,
@@ -734,7 +908,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://projecteuler.net/favicon.ico"
+            "thumbnail": "https://projecteuler.net/favicon.ico",
+            "tags": [
+                "learning",
+                "courses",
+                "education",
+                "programming",
+                "mathematics"
+            ]
         },
         {
             "id": 20961,
@@ -757,7 +938,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://thedailywtf.com/favicon.ico"
+            "thumbnail": "https://thedailywtf.com/favicon.ico",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 156569,
@@ -780,7 +964,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sigbovik.org/favicon.ico"
+            "thumbnail": "https://sigbovik.org/favicon.ico",
+            "tags": [
+                "comedy",
+                "programming",
+                "parody"
+            ]
         },
         {
             "id": 3290,
@@ -803,7 +992,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lobste.rs/favicon.ico"
+            "thumbnail": "https://lobste.rs/favicon.ico",
+            "tags": [
+                "social platform",
+                "programming"
+            ]
         },
         {
             "id": 17725,
@@ -826,7 +1019,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://emptycrate.com/favicon.ico"
+            "thumbnail": "http://emptycrate.com/favicon.ico",
+            "tags": [
+                "programming",
+                "copy"
+            ]
         },
         {
             "id": 10013,
@@ -849,7 +1046,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arachnoid.com/favicon.ico"
+            "thumbnail": "https://arachnoid.com/favicon.ico",
+            "tags": [
+                "science",
+                "tech",
+                "programming",
+                "articles"
+            ]
         },
         {
             "id": 15889,
@@ -872,7 +1075,14 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://clig.dev/CLIG-social-card.jpg"
+            "thumbnail": "https://clig.dev/CLIG-social-card.jpg",
+            "tags": [
+                "command line interface",
+                "programming philosophy",
+                "programming",
+                "program design",
+                "cli tools"
+            ]
         },
         {
             "id": 30215,
@@ -895,7 +1105,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.codecademy.com/social/logo-codecademy-social.png"
+            "thumbnail": "https://images.codecademy.com/social/logo-codecademy-social.png",
+            "tags": [
+                "courses",
+                "tutorials",
+                "programming"
+            ]
         },
         {
             "id": 114386,
@@ -918,7 +1133,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://codefinder.dev/static/assets/icon.png"
+            "thumbnail": "https://codefinder.dev/static/assets/icon.png",
+            "tags": [
+                "niche search engine",
+                "github",
+                "programming"
+            ]
         },
         {
             "id": 29380,
@@ -941,7 +1161,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://codersnotes.com/favicon.ico"
+            "thumbnail": "https://codersnotes.com/favicon.ico",
+            "tags": [
+                "personal",
+                "tech",
+                "programming"
+            ]
         },
         {
             "id": 51606,
@@ -964,7 +1189,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ctrl-c.club/favicon.ico"
+            "thumbnail": "https://ctrl-c.club/favicon.ico",
+            "tags": [
+                "community",
+                "community platform",
+                "programming"
+            ]
         },
         {
             "id": 69515,
@@ -987,7 +1217,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://devconf.pl/images/social_media_header.png"
+            "thumbnail": "https://devconf.pl/images/social_media_header.png",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 7397,
@@ -1010,7 +1244,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jsisweird.com/jsisweird.png"
+            "thumbnail": "https://jsisweird.com/jsisweird.png",
+            "tags": [
+                "javascript",
+                "project",
+                "programming"
+            ]
         },
         {
             "id": 108258,
@@ -1033,7 +1272,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nycsystems.xyz/favicon.ico"
+            "thumbnail": "https://nycsystems.xyz/favicon.ico",
+            "tags": [
+                "podcast",
+                "programming"
+            ]
         },
         {
             "id": 106356,
@@ -1056,7 +1299,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://obfuscator.io/favicon.ico"
+            "thumbnail": "https://obfuscator.io/favicon.ico",
+            "tags": [
+                "obfuscator",
+                "javascript",
+                "programming"
+            ]
         },
         {
             "id": 106358,
@@ -1079,7 +1327,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://obfuscator.re/home/featured.webp"
+            "thumbnail": "https://obfuscator.re/home/featured.webp",
+            "tags": [
+                "obfuscator",
+                "programming"
+            ]
         },
         {
             "id": 36284,
@@ -1102,7 +1354,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oxidizeconf.com/images/oxidize-logo-full-horizontal-violet.png"
+            "thumbnail": "https://oxidizeconf.com/images/oxidize-logo-full-horizontal-violet.png",
+            "tags": [
+                "conference",
+                "programming",
+                "rust"
+            ]
         },
         {
             "id": 359785,
@@ -1125,7 +1382,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pragtical.dev/img/pragtical-social-card.jpg"
+            "thumbnail": "https://pragtical.dev/img/pragtical-social-card.jpg",
+            "tags": [
+                "programming ide",
+                "programming",
+                "open source"
+            ]
         },
         {
             "id": 26863,
@@ -1148,7 +1410,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://redis.io/wp-content/uploads/2021/08/redis-social-1200x628-1.jpg"
+            "thumbnail": "https://redis.io/wp-content/uploads/2021/08/redis-social-1200x628-1.jpg",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 315854,
@@ -1171,7 +1436,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://xaselgio.net/icon512.png"
+            "thumbnail": "https://xaselgio.net/icon512.png",
+            "tags": [
+                "personal",
+                "programming"
+            ]
         },
         {
             "id": 110073,
@@ -1194,7 +1463,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gotocon.com/favicons/gotopia/favicon-32x32.png"
+            "thumbnail": "https://gotocon.com/favicons/gotopia/favicon-32x32.png",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 2074,
@@ -1217,7 +1490,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eadn-wc05-197419.nxedge.io/cdn/wp-content/uploads/2021/05/cropped-embedded_artistry_transparent_with_mark_half.png"
+            "thumbnail": "https://eadn-wc05-197419.nxedge.io/cdn/wp-content/uploads/2021/05/cropped-embedded_artistry_transparent_with_mark_half.png",
+            "tags": [
+                "embedded systemem",
+                "programming"
+            ]
         },
         {
             "id": 29746,
@@ -1240,7 +1517,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pasja-informatyki.pl/bundles/pasjasite/images/favicon.ico"
+            "thumbnail": "https://pasja-informatyki.pl/bundles/pasjasite/images/favicon.ico",
+            "tags": [
+                "courses",
+                "it",
+                "education",
+                "programming"
+            ]
         },
         {
             "id": 29460,
@@ -1263,7 +1546,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true"
+            "thumbnail": "https://github.com/holtzy/The-Python-Graph-Gallery/blob/master/static/overview_PGG.png?raw=true",
+            "tags": [
+                "code snippets",
+                "programming",
+                "python"
+            ]
         },
         {
             "id": 3654,
@@ -1286,7 +1574,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.ghost.org/v5.0.0/images/publication-cover.jpg"
+            "thumbnail": "https://static.ghost.org/v5.0.0/images/publication-cover.jpg",
+            "tags": [
+                "personal",
+                "programming",
+                "python"
+            ]
         },
         {
             "id": 45317,
@@ -1309,7 +1602,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.maartenballiauw.be/splash/1.jpg"
+            "thumbnail": "https://blog.maartenballiauw.be/splash/1.jpg",
+            "tags": [
+                "personal",
+                "programming"
+            ]
         },
         {
             "id": 61126,
@@ -1332,7 +1629,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://hacktoberfest.com/_next/static/media/opengraph.e5fafe07.png"
+            "thumbnail": "https://hacktoberfest.com/_next/static/media/opengraph.e5fafe07.png",
+            "tags": [
+                "convention",
+                "programming",
+                "open source"
+            ]
         },
         {
             "id": 60988,
@@ -1355,7 +1657,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://conf.reactjs.org/twitter-card.png"
+            "thumbnail": "https://conf.reactjs.org/twitter-card.png",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 462498,
@@ -1378,7 +1684,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "programmer",
+                "programming"
+            ]
         },
         {
             "id": 60291,
@@ -1401,7 +1711,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://shiki.style/og.png"
+            "thumbnail": "https://shiki.style/og.png",
+            "tags": [
+                "syntax highlighting",
+                "programming",
+                "javascript library"
+            ]
         },
         {
             "id": 463906,
@@ -1424,30 +1739,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
-        },
-        {
-            "id": 463394,
-            "title": "freeCodeCamp.org",
-            "title_safe": "freeCodeCamp.org",
-            "description": "",
-            "description_safe": "",
-            "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
-            "link_absolute": "/apps/places/entry/463394/",
-            "is_valid": true,
-            "date_published": "2024-12-04T11:53:53Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-04T10:53:55.727Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": "freeCodeCamp.org",
-            "album": null,
-            "page_rating_contents": 80,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "computer science",
+                "programming"
+            ]
         },
         {
             "id": 463388,
@@ -1470,7 +1766,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "tutorials",
+                "courses",
+                "programming"
+            ]
         },
         {
             "id": 463707,
@@ -1493,7 +1794,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "comedy",
+                "satire",
+                "programming"
+            ]
         },
         {
             "id": 463811,
@@ -1516,7 +1822,13 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "education",
+                "lectures",
+                "tutorials",
+                "programming"
+            ]
         },
         {
             "id": 463369,
@@ -1539,7 +1851,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 463352,
@@ -1562,7 +1877,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 69683,
@@ -1585,7 +1903,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://devnexus.com/favicon.ico"
+            "thumbnail": "https://devnexus.com/favicon.ico",
+            "tags": [
+                "java",
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 61351,
@@ -1608,7 +1931,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://res.cloudinary.com/oredev/image/upload/v1711637396/2024/connecting_hands.png"
+            "thumbnail": "https://res.cloudinary.com/oredev/image/upload/v1711637396/2024/connecting_hands.png",
+            "tags": [
+                "programming",
+                "conference"
+            ]
         },
         {
             "id": 217199,
@@ -1631,7 +1958,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ostrapila.pl/favicon.ico"
+            "thumbnail": "https://ostrapila.pl/favicon.ico",
+            "tags": [
+                "programming"
+            ]
         },
         {
             "id": 107183,
@@ -1654,7 +1984,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gulas.ch/favicon.ico"
+            "thumbnail": "https://gulas.ch/favicon.ico",
+            "tags": [
+                "convention",
+                "programming"
+            ]
         }
     ]
 }

@@ -21,7 +21,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/fe2c13eba9e2eb5c538744381dafeab729bf565bd6c8c67b67137b68ccb14fe7/f/awesome-chatgpt-prompts"
+            "thumbnail": "https://opengraph.githubassets.com/fe2c13eba9e2eb5c538744381dafeab729bf565bd6c8c67b67137b68ccb14fe7/f/awesome-chatgpt-prompts",
+            "tags": [
+                "artificial intelligence",
+                "chatgpt",
+                "awesome list"
+            ]
         },
         {
             "id": 459696,
@@ -44,7 +49,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c25640650d2897cf64ac1c430bd5e3431a0bcac96eed11121769b2883e924dc4/trimstray/the-book-of-secret-knowledge"
+            "thumbnail": "https://opengraph.githubassets.com/c25640650d2897cf64ac1c430bd5e3431a0bcac96eed11121769b2883e924dc4/trimstray/the-book-of-secret-knowledge",
+            "tags": [
+                "knowledge",
+                "awesome list"
+            ]
         },
         {
             "id": 459665,
@@ -67,7 +76,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f13ac83d04ebf3b49a40a2de81a53ba05ffa48970d8526ab01b8a8965af995fb/awesome-selfhosted/awesome-selfhosted"
+            "thumbnail": "https://opengraph.githubassets.com/f13ac83d04ebf3b49a40a2de81a53ba05ffa48970d8526ab01b8a8965af995fb/awesome-selfhosted/awesome-selfhosted",
+            "tags": [
+                "bookmark managers",
+                "self-host",
+                "awesome list"
+            ]
         },
         {
             "id": 463177,
@@ -90,7 +104,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f122dfd78184ad9fc51dbc5772bde83befccae67d80cd69b3085d2f57bdf8105/owainlewis/awesome-artificial-intelligence"
+            "thumbnail": "https://opengraph.githubassets.com/f122dfd78184ad9fc51dbc5772bde83befccae67d80cd69b3085d2f57bdf8105/owainlewis/awesome-artificial-intelligence",
+            "tags": [
+                "artificial intelligence",
+                "awesome list"
+            ]
         },
         {
             "id": 459662,
@@ -113,7 +131,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac"
+            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 62884,
@@ -136,7 +157,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac"
+            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac",
+            "tags": [
+                "bookmarks",
+                "awesome list"
+            ]
         },
         {
             "id": 459699,
@@ -159,7 +184,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps"
+            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 459700,
@@ -182,7 +211,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/06e9b38e83032e342ab8be873c40cfdd8db0fcbd86e3c6dde349de019f906046/fffaraz/awesome-cpp"
+            "thumbnail": "https://opengraph.githubassets.com/06e9b38e83032e342ab8be873c40cfdd8db0fcbd86e3c6dde349de019f906046/fffaraz/awesome-cpp",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 459667,
@@ -205,7 +237,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/97ec507347884127dbf9d78a7799f8ad49b254adb4f705e7c28898787f2082aa/Hack-with-Github/Awesome-Hacking"
+            "thumbnail": "https://opengraph.githubassets.com/97ec507347884127dbf9d78a7799f8ad49b254adb4f705e7c28898787f2082aa/Hack-with-Github/Awesome-Hacking",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 459695,
@@ -228,7 +263,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9"
+            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 459664,
@@ -251,7 +290,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/0d4e094a0df8a73d409fe36bc43e07c8b29d326a98583bf9d161442715e17554/vinta/awesome-python"
+            "thumbnail": "https://opengraph.githubassets.com/0d4e094a0df8a73d409fe36bc43e07c8b29d326a98583bf9d161442715e17554/vinta/awesome-python",
+            "tags": [
+                "awesome list",
+                "python"
+            ]
         },
         {
             "id": 463192,
@@ -274,7 +317,13 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8151b77796405d22a0b0fc6f1048be017c6fe190a1be84bc4bfa16f15bb71035/guillaume-chevalier/Awesome-Deep-Learning-Resources"
+            "thumbnail": "https://opengraph.githubassets.com/8151b77796405d22a0b0fc6f1048be017c6fe190a1be84bc4bfa16f15bb71035/guillaume-chevalier/Awesome-Deep-Learning-Resources",
+            "tags": [
+                "deep learning",
+                "machine learning",
+                "artificial intelligence",
+                "awesome list"
+            ]
         },
         {
             "id": 459697,
@@ -297,7 +346,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/24a92c2c2c182cadbb886978e3be4cc9f35ee1843db31e8f059ec99d310e2fd0/papers-we-love/papers-we-love"
+            "thumbnail": "https://opengraph.githubassets.com/24a92c2c2c182cadbb886978e3be4cc9f35ee1843db31e8f059ec99d310e2fd0/papers-we-love/papers-we-love",
+            "tags": [
+                "science",
+                "awesome list"
+            ]
         },
         {
             "id": 459394,
@@ -320,7 +373,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "awesome list",
+                "piracy"
+            ]
         },
         {
             "id": 28355,
@@ -343,7 +400,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://selfh.st/content/images/2024/07/selfh-st-logo-banner-3.png"
+            "thumbnail": "https://selfh.st/content/images/2024/07/selfh-st-logo-banner-3.png",
+            "tags": [
+                "self-host source",
+                "awesome list"
+            ]
         },
         {
             "id": 369341,
@@ -366,7 +427,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://awexplor.github.io/android-chrome-512x512.png"
+            "thumbnail": "https://awexplor.github.io/android-chrome-512x512.png",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 463509,
@@ -389,7 +453,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality"
+            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
         },
         {
             "id": 463492,
@@ -412,7 +480,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://awesome-docker.netlify.app/favicon.ico"
+            "thumbnail": "https://awesome-docker.netlify.app/favicon.ico",
+            "tags": [
+                "docker",
+                "awesome list"
+            ]
         },
         {
             "id": 459395,
@@ -435,7 +507,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/159b583bd228dd1fd8850eb4dd220948c8866863723fde4b9a8e69c6bcc341b9/ImKKingshuk/Awesome-CustomROM"
+            "thumbnail": "https://opengraph.githubassets.com/159b583bd228dd1fd8850eb4dd220948c8866863723fde4b9a8e69c6bcc341b9/ImKKingshuk/Awesome-CustomROM",
+            "tags": [
+                "awesome list",
+                "android roms"
+            ]
         },
         {
             "id": 463480,
@@ -458,7 +534,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/acd67b6c906dac38c969ad845940f87cdc782d933403dceae2ddc0c605daf2d1/veggiemonk/awesome-docker"
+            "thumbnail": "https://opengraph.githubassets.com/acd67b6c906dac38c969ad845940f87cdc782d933403dceae2ddc0c605daf2d1/veggiemonk/awesome-docker",
+            "tags": [
+                "docker",
+                "awesome list"
+            ]
         },
         {
             "id": 463498,
@@ -481,7 +561,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome"
+            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
         },
         {
             "id": 459663,
@@ -504,7 +588,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://awesome.digitalbunker.dev/favicon.ico"
+            "thumbnail": "https://awesome.digitalbunker.dev/favicon.ico",
+            "tags": []
         },
         {
             "id": 85248,
@@ -527,7 +612,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://trackawesomelist.com/favicon.ico"
+            "thumbnail": "https://trackawesomelist.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 62873,
@@ -550,7 +636,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://awesomelists.top/favicon.ico"
+            "thumbnail": "https://awesomelists.top/favicon.ico",
+            "tags": []
         },
         {
             "id": 242161,
@@ -573,7 +660,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://awesome.ecosyste.ms/favicon.ico"
+            "thumbnail": "https://awesome.ecosyste.ms/favicon.ico",
+            "tags": []
         },
         {
             "id": 25313,
@@ -596,7 +684,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://project-awesome.org/favicon.ico"
+            "thumbnail": "https://project-awesome.org/favicon.ico",
+            "tags": []
         }
     ]
 }

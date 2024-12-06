@@ -21,7 +21,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://github.githubassets.com/assets/home24-5939032587c9.jpg"
+            "thumbnail": "https://github.githubassets.com/assets/home24-5939032587c9.jpg",
+            "tags": [
+                "software platform",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 459666,
@@ -44,7 +49,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/fe2c13eba9e2eb5c538744381dafeab729bf565bd6c8c67b67137b68ccb14fe7/f/awesome-chatgpt-prompts"
+            "thumbnail": "https://opengraph.githubassets.com/fe2c13eba9e2eb5c538744381dafeab729bf565bd6c8c67b67137b68ccb14fe7/f/awesome-chatgpt-prompts",
+            "tags": [
+                "artificial intelligence",
+                "chatgpt",
+                "awesome list"
+            ]
         },
         {
             "id": 459696,
@@ -67,7 +77,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c25640650d2897cf64ac1c430bd5e3431a0bcac96eed11121769b2883e924dc4/trimstray/the-book-of-secret-knowledge"
+            "thumbnail": "https://opengraph.githubassets.com/c25640650d2897cf64ac1c430bd5e3431a0bcac96eed11121769b2883e924dc4/trimstray/the-book-of-secret-knowledge",
+            "tags": [
+                "knowledge",
+                "awesome list"
+            ]
         },
         {
             "id": 459665,
@@ -90,7 +104,39 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f13ac83d04ebf3b49a40a2de81a53ba05ffa48970d8526ab01b8a8965af995fb/awesome-selfhosted/awesome-selfhosted"
+            "thumbnail": "https://opengraph.githubassets.com/f13ac83d04ebf3b49a40a2de81a53ba05ffa48970d8526ab01b8a8965af995fb/awesome-selfhosted/awesome-selfhosted",
+            "tags": [
+                "bookmark managers",
+                "self-host",
+                "awesome list"
+            ]
+        },
+        {
+            "id": 459951,
+            "title": "GitHub - gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+            "title_safe": "GitHub - gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/gorhill/uBlock",
+            "link_absolute": "/apps/places/entry/459951/",
+            "is_valid": true,
+            "date_published": "2024-11-10T11:58:44Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-10T11:58:46.964Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 40,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/8cd651134a415ed235bc24261aecf8e75035cbea323aaac9e63bcfb7ee4d9a5e/gorhill/uBlock",
+            "tags": [
+                "ad block",
+                "blocklist"
+            ]
         },
         {
             "id": 463177,
@@ -113,7 +159,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f122dfd78184ad9fc51dbc5772bde83befccae67d80cd69b3085d2f57bdf8105/owainlewis/awesome-artificial-intelligence"
+            "thumbnail": "https://opengraph.githubassets.com/f122dfd78184ad9fc51dbc5772bde83befccae67d80cd69b3085d2f57bdf8105/owainlewis/awesome-artificial-intelligence",
+            "tags": [
+                "artificial intelligence",
+                "awesome list"
+            ]
         },
         {
             "id": 459662,
@@ -136,7 +186,36 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac"
+            "thumbnail": "https://repository-images.githubusercontent.com/21737465/46445f80-a5ae-11ea-921f-c39aefbcdcac",
+            "tags": [
+                "awesome list"
+            ]
+        },
+        {
+            "id": 459404,
+            "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+            "title_safe": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/yt-dlp/yt-dlp",
+            "link_absolute": "/apps/places/entry/459404/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:49:05Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:49:08.723Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 40,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0",
+            "tags": [
+                "youtube"
+            ]
         },
         {
             "id": 459699,
@@ -159,7 +238,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps"
+            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 462016,
@@ -182,7 +265,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/214834409/e0ff2897-634c-4f6f-a8ae-17d107268e06"
+            "thumbnail": "https://repository-images.githubusercontent.com/214834409/e0ff2897-634c-4f6f-a8ae-17d107268e06",
+            "tags": [
+                "blocklist"
+            ]
         },
         {
             "id": 459700,
@@ -205,7 +291,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/06e9b38e83032e342ab8be873c40cfdd8db0fcbd86e3c6dde349de019f906046/fffaraz/awesome-cpp"
+            "thumbnail": "https://opengraph.githubassets.com/06e9b38e83032e342ab8be873c40cfdd8db0fcbd86e3c6dde349de019f906046/fffaraz/awesome-cpp",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 459667,
@@ -228,7 +317,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/97ec507347884127dbf9d78a7799f8ad49b254adb4f705e7c28898787f2082aa/Hack-with-Github/Awesome-Hacking"
+            "thumbnail": "https://opengraph.githubassets.com/97ec507347884127dbf9d78a7799f8ad49b254adb4f705e7c28898787f2082aa/Hack-with-Github/Awesome-Hacking",
+            "tags": [
+                "awesome list"
+            ]
         },
         {
             "id": 463127,
@@ -251,7 +343,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/455229168/ebba3238-9ef5-4891-ad58-a3b0223b12bd"
+            "thumbnail": "https://repository-images.githubusercontent.com/455229168/ebba3238-9ef5-4891-ad58-a3b0223b12bd",
+            "tags": [
+                "image library",
+                "self-host"
+            ]
         },
         {
             "id": 459695,
@@ -274,7 +370,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9"
+            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 463191,
@@ -297,7 +397,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/b8c1e31895ee6f8af118809ce2393fdacb28e8ab2cbd62985339f2ddd53f54e8/josephmisiti/awesome-machine-learning"
+            "thumbnail": "https://opengraph.githubassets.com/b8c1e31895ee6f8af118809ce2393fdacb28e8ab2cbd62985339f2ddd53f54e8/josephmisiti/awesome-machine-learning",
+            "tags": [
+                "machine learning",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 459397,
@@ -320,7 +424,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/112070198/7aff6900-e2f3-11e9-984d-447ae25aca10"
+            "thumbnail": "https://repository-images.githubusercontent.com/112070198/7aff6900-e2f3-11e9-984d-447ae25aca10",
+            "tags": [
+                "youtube",
+                "download manager"
+            ]
         },
         {
             "id": 463141,
@@ -343,7 +451,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/57ecdb136f813f1e481ffbd7d3a371d01bcc6770c3d41b4b5b13808020df1ea1/nylas/nylas-mail"
+            "thumbnail": "https://opengraph.githubassets.com/57ecdb136f813f1e481ffbd7d3a371d01bcc6770c3d41b4b5b13808020df1ea1/nylas/nylas-mail",
+            "tags": [
+                "email client"
+            ]
         },
         {
             "id": 462761,
@@ -366,7 +477,63 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/165548191/20454080-42d8-11ea-9076-57d151462f64"
+            "thumbnail": "https://repository-images.githubusercontent.com/165548191/20454080-42d8-11ea-9076-57d151462f64",
+            "tags": [
+                "hacking"
+            ]
+        },
+        {
+            "id": 459403,
+            "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+            "title_safe": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/searxng/searxng",
+            "link_absolute": "/apps/places/entry/459403/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:48:56Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:49:00.016Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 30,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/de6dc675315d8a755cd2af52c3c51af8d9763c434e41e4da43462e763a413717/searxng/searxng",
+            "tags": [
+                "search engine"
+            ]
+        },
+        {
+            "id": 459398,
+            "title": "GitHub - TeamNewPipe/NewPipe: A libre lightweight streaming front-end for Android.",
+            "title_safe": "GitHub - TeamNewPipe/NewPipe: A libre lightweight streaming front-end for Android.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/TeamNewPipe/NewPipe",
+            "link_absolute": "/apps/places/entry/459398/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:48:05Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:48:10.313Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 30,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/c31bad498e3cb7ff0d0263253cbe4c91c0d3a2048259eb676ceb7cf5890b1927/TeamNewPipe/NewPipe",
+            "tags": [
+                "youtube",
+                "youtube client"
+            ]
         },
         {
             "id": 459399,
@@ -389,7 +556,37 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/463aca140f3b1064d37b582efe3df6bfe1764bd8ce660b7ffc3446e56faa9044/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist"
+            "thumbnail": "https://opengraph.githubassets.com/463aca140f3b1064d37b582efe3df6bfe1764bd8ce660b7ffc3446e56faa9044/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist",
+            "tags": [
+                "blocklist"
+            ]
+        },
+        {
+            "id": 462299,
+            "title": "GitHub - usememos/memos: An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.",
+            "title_safe": "GitHub - usememos/memos: An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.",
+            "description": "An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way. - usememos/memos",
+            "description_safe": "An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way. - usememos/memos",
+            "link": "https://github.com/usememos/memos",
+            "link_absolute": "/apps/places/entry/462299/",
+            "is_valid": true,
+            "date_published": "2024-11-25T10:34:56Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-25T09:34:58.450Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 30,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/436297812/02a4fe19-4a8b-4d8b-bd1f-be120b90737a",
+            "tags": [
+                "notes program",
+                "self-host"
+            ]
         },
         {
             "id": 459664,
@@ -412,7 +609,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/0d4e094a0df8a73d409fe36bc43e07c8b29d326a98583bf9d161442715e17554/vinta/awesome-python"
+            "thumbnail": "https://opengraph.githubassets.com/0d4e094a0df8a73d409fe36bc43e07c8b29d326a98583bf9d161442715e17554/vinta/awesome-python",
+            "tags": [
+                "awesome list",
+                "python"
+            ]
         },
         {
             "id": 461973,
@@ -435,7 +636,34 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c01eac82f371d583cdb9326d0c216b56d36ea1c0eb13caff00da933839338b29/yang991178/fluent-reader-lite"
+            "thumbnail": "https://opengraph.githubassets.com/c01eac82f371d583cdb9326d0c216b56d36ea1c0eb13caff00da933839338b29/yang991178/fluent-reader-lite",
+            "tags": [
+                "rss client"
+            ]
+        },
+        {
+            "id": 459406,
+            "title": "GitHub - yuliskov/SmartTube: SmartTube - an advanced player for set-top boxes and tvs running Android OS",
+            "title_safe": "GitHub - yuliskov/SmartTube: SmartTube - an advanced player for set-top boxes and tvs running Android OS",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/yuliskov/SmartTube",
+            "link_absolute": "/apps/places/entry/459406/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:49:20Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:49:25.709Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 30,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/6ac9f2ca5e45dab0cf7cd586ee359b0eae90d3c3ddabadd5e1e2b61c09240ff6/yuliskov/SmartTube",
+            "tags": []
         },
         {
             "id": 463132,
@@ -458,7 +686,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/560284721/7394be6e-2bba-457a-ada7-ddf8e9901294"
+            "thumbnail": "https://repository-images.githubusercontent.com/560284721/7394be6e-2bba-457a-ada7-ddf8e9901294",
+            "tags": [
+                "image library",
+                "self-host"
+            ]
         },
         {
             "id": 463130,
@@ -481,7 +713,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/e058769cc4827c21b9b1801dad0adb0d4ca4ed704e53571d99b22f90ffc1e9d2/LibrePhotos/librephotos"
+            "thumbnail": "https://opengraph.githubassets.com/e058769cc4827c21b9b1801dad0adb0d4ca4ed704e53571d99b22f90ffc1e9d2/LibrePhotos/librephotos",
+            "tags": [
+                "image library",
+                "self-host"
+            ]
         },
         {
             "id": 459740,
@@ -504,7 +740,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://avatars.githubusercontent.com/u/59276?s=280&v=4"
+            "thumbnail": "https://avatars.githubusercontent.com/u/59276?s=280&v=4",
+            "tags": [
+                "c++"
+            ]
         },
         {
             "id": 460837,
@@ -527,7 +766,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/eebe493f93d71018e897d19355dc8b888d32f1e6ee2eff3fc8231ead65a0abe4/alexta69/metube"
+            "thumbnail": "https://opengraph.githubassets.com/eebe493f93d71018e897d19355dc8b888d32f1e6ee2eff3fc8231ead65a0abe4/alexta69/metube",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 460937,
@@ -550,7 +792,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/854e80658019f1ec10e1020d638d31f5f4436d51dde54b15746349b8678c353a/BrowserBox/BrowserBox"
+            "thumbnail": "https://opengraph.githubassets.com/854e80658019f1ec10e1020d638d31f5f4436d51dde54b15746349b8678c353a/BrowserBox/BrowserBox",
+            "tags": [
+                "remote web browser",
+                "web browser"
+            ]
         },
         {
             "id": 460850,
@@ -573,7 +819,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/2fc49dbc5d60c1afdd7c150f5099527d26b43ce852c12c5d9bc8fbcb806e9ccc/deniscerri/ytdlnis"
+            "thumbnail": "https://opengraph.githubassets.com/2fc49dbc5d60c1afdd7c150f5099527d26b43ce852c12c5d9bc8fbcb806e9ccc/deniscerri/ytdlnis",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 463187,
@@ -596,7 +845,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/272729720/5a264580-f622-11ea-982d-874ab4bc45d1"
+            "thumbnail": "https://repository-images.githubusercontent.com/272729720/5a264580-f622-11ea-982d-874ab4bc45d1",
+            "tags": [
+                "artificial intelligence"
+            ]
         },
         {
             "id": 463192,
@@ -619,7 +871,13 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8151b77796405d22a0b0fc6f1048be017c6fe190a1be84bc4bfa16f15bb71035/guillaume-chevalier/Awesome-Deep-Learning-Resources"
+            "thumbnail": "https://opengraph.githubassets.com/8151b77796405d22a0b0fc6f1048be017c6fe190a1be84bc4bfa16f15bb71035/guillaume-chevalier/Awesome-Deep-Learning-Resources",
+            "tags": [
+                "deep learning",
+                "machine learning",
+                "artificial intelligence",
+                "awesome list"
+            ]
         },
         {
             "id": 462296,
@@ -642,7 +900,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a1ffcafce080f46e896f6eb41174c4a4a9658c764d0abe217db0acf668cfa8fb/HenryQW/Awesome-TTRSS"
+            "thumbnail": "https://opengraph.githubassets.com/a1ffcafce080f46e896f6eb41174c4a4a9658c764d0abe217db0acf668cfa8fb/HenryQW/Awesome-TTRSS",
+            "tags": [
+                "tiny tiny rss",
+                "rss client"
+            ]
         },
         {
             "id": 462259,
@@ -665,7 +927,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/313304bfddc8a43618a58b0909bc431d50e00f9f61a5f5fb3c36e80cb76b0f6c/hoarder-app/hoarder"
+            "thumbnail": "https://opengraph.githubassets.com/313304bfddc8a43618a58b0909bc431d50e00f9f61a5f5fb3c36e80cb76b0f6c/hoarder-app/hoarder",
+            "tags": [
+                "bookmark manager",
+                "rss client"
+            ]
         },
         {
             "id": 460849,
@@ -688,7 +954,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/eaa17773dafca3e6d9b9fda61c060cf72e3a20a8ecafbb1ffeff98b205ed8e1d/JunkFood02/Seal"
+            "thumbnail": "https://opengraph.githubassets.com/eaa17773dafca3e6d9b9fda61c060cf72e3a20a8ecafbb1ffeff98b205ed8e1d/JunkFood02/Seal",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 463167,
@@ -711,7 +980,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/aaff0ca466122cb4e3e162dc19bb628431cc5243862a4a4246c10db30851b692/LadybirdBrowser/ladybird"
+            "thumbnail": "https://opengraph.githubassets.com/aaff0ca466122cb4e3e162dc19bb628431cc5243862a4a4246c10db30851b692/LadybirdBrowser/ladybird",
+            "tags": [
+                "web browser"
+            ]
         },
         {
             "id": 462181,
@@ -734,7 +1006,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a9d0360cfddc22dd6278aeb65dd7f780cddc81d79823a3ea79631c08d65ee9f5/lexiforest/curl_cffi"
+            "thumbnail": "https://opengraph.githubassets.com/a9d0360cfddc22dd6278aeb65dd7f780cddc81d79823a3ea79631c08d65ee9f5/lexiforest/curl_cffi",
+            "tags": [
+                "web scraping"
+            ]
         },
         {
             "id": 460926,
@@ -757,7 +1032,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/382496361/f21b61f5-693a-4925-9f1f-fea237ade223"
+            "thumbnail": "https://repository-images.githubusercontent.com/382496361/f21b61f5-693a-4925-9f1f-fea237ade223",
+            "tags": [
+                "server administration",
+                "self-host"
+            ]
         },
         {
             "id": 463785,
@@ -780,7 +1059,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/233472199/7f86712b-fee6-4659-a2cf-c967d6b0d733"
+            "thumbnail": "https://repository-images.githubusercontent.com/233472199/7f86712b-fee6-4659-a2cf-c967d6b0d733",
+            "tags": [
+                "windows",
+                "activation"
+            ]
         },
         {
             "id": 459697,
@@ -803,7 +1086,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/24a92c2c2c182cadbb886978e3be4cc9f35ee1843db31e8f059ec99d310e2fd0/papers-we-love/papers-we-love"
+            "thumbnail": "https://opengraph.githubassets.com/24a92c2c2c182cadbb886978e3be4cc9f35ee1843db31e8f059ec99d310e2fd0/papers-we-love/papers-we-love",
+            "tags": [
+                "science",
+                "awesome list"
+            ]
         },
         {
             "id": 463166,
@@ -826,7 +1113,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/d84626820de090fa30d8cb3f25222fcc882d65caa3a365aeb832c63bf1043a21/tailscale-dev/docker-mod"
+            "thumbnail": "https://opengraph.githubassets.com/d84626820de090fa30d8cb3f25222fcc882d65caa3a365aeb832c63bf1043a21/tailscale-dev/docker-mod",
+            "tags": [
+                "docker images"
+            ]
         },
         {
             "id": 462884,
@@ -849,7 +1139,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f14bdf497f89f0a054abf86f800423f263a95d3da864790b6527df6b253161cc/ValveSoftware/openvr"
+            "thumbnail": "https://opengraph.githubassets.com/f14bdf497f89f0a054abf86f800423f263a95d3da864790b6527df6b253161cc/ValveSoftware/openvr",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 463129,
@@ -872,7 +1165,117 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/195657294/60789b00-9451-11ea-827f-3198af4de474"
+            "thumbnail": "https://repository-images.githubusercontent.com/195657294/60789b00-9451-11ea-827f-3198af4de474",
+            "tags": [
+                "image library",
+                "self-host"
+            ]
+        },
+        {
+            "id": 463014,
+            "title": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+            "title_safe": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+            "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
+            "description_safe": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
+            "link": "https://github.com/IceWhaleTech/CasaOS",
+            "link_absolute": "/apps/places/entry/463014/",
+            "is_valid": true,
+            "date_published": "2024-12-02T12:58:21Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-02T11:58:23.254Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 18,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/410430370/abdd2e89-5639-4d68-b363-4a3d3b7b369d",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
+        },
+        {
+            "id": 459401,
+            "title": "GitHub - lorien/awesome-web-scraping: List of libraries, tools and APIs for web scraping and data processing.",
+            "title_safe": "GitHub - lorien/awesome-web-scraping: List of libraries, tools and APIs for web scraping and data processing.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/lorien/awesome-web-scraping",
+            "link_absolute": "/apps/places/entry/459401/",
+            "is_valid": true,
+            "date_published": "2024-11-07T09:48:37Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-07T09:48:41.347Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 13,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/0e5e1023bf666c01a38e2146ca85a34111805d710b906a89343fc66e9f48e308/lorien/awesome-web-scraping",
+            "tags": [
+                "web scraping"
+            ]
+        },
+        {
+            "id": 460833,
+            "title": "GitHub - meeb/tubesync: Syncs YouTube channels and playlists to a locally hosted media server",
+            "title_safe": "GitHub - meeb/tubesync: Syncs YouTube channels and playlists to a locally hosted media server",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/meeb/tubesync",
+            "link_absolute": "/apps/places/entry/460833/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:41:22Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:41:26.739Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 13,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/e10e26a7fe063718488b8685605d6b99d41c7f3ca0810315aee7b8e8f6827b28/meeb/tubesync",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 460822,
+            "title": "GitHub - StefanLobbenmeier/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js",
+            "title_safe": "GitHub - StefanLobbenmeier/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/StefanLobbenmeier/youtube-dl-gui",
+            "link_absolute": "/apps/places/entry/460822/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:37:46Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:38:01.023Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 13,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/aa698f83998277a87c7c3ed47ec5a5de114d12fa68bc63376cfc0454b18b9305/StefanLobbenmeier/youtube-dl-gui",
+            "tags": [
+                "youtube",
+                "download manager"
+            ]
         },
         {
             "id": 463190,
@@ -895,7 +1298,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/5b23a4eff1913deb67db010fd4da6c5d3936e9b8306ed79c4047d60963935e28/Alex-Linhares/FARGonautica"
+            "thumbnail": "https://opengraph.githubassets.com/5b23a4eff1913deb67db010fd4da6c5d3936e9b8306ed79c4047d60963935e28/Alex-Linhares/FARGonautica",
+            "tags": [
+                "artificial intelligence"
+            ]
         },
         {
             "id": 460095,
@@ -918,7 +1324,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/46f0fd2fef8baf65cfd88640f1f029916b8297f7689ccb4cb8b39ca5b3d4afc5/ares-emulator/ares"
+            "thumbnail": "https://opengraph.githubassets.com/46f0fd2fef8baf65cfd88640f1f029916b8297f7689ccb4cb8b39ca5b3d4afc5/ares-emulator/ares",
+            "tags": [
+                "nintendo",
+                "emulator"
+            ]
         },
         {
             "id": 459992,
@@ -941,7 +1351,38 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/6659e105fad4ecba444bdc64bd5072653618072f53c44cc42182cafcd60b1155/atom0s/Steamless"
+            "thumbnail": "https://opengraph.githubassets.com/6659e105fad4ecba444bdc64bd5072653618072f53c44cc42182cafcd60b1155/atom0s/Steamless",
+            "tags": [
+                "steam",
+                "drm"
+            ]
+        },
+        {
+            "id": 460823,
+            "title": "GitHub - axcore/tartube: A GUI front-end for youtube-dl, partly based on youtube-dl-gui and written in Python 3 / Gtk 3",
+            "title_safe": "GitHub - axcore/tartube: A GUI front-end for youtube-dl, partly based on youtube-dl-gui and written in Python 3 / Gtk 3",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/axcore/tartube",
+            "link_absolute": "/apps/places/entry/460823/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:39:01Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:39:05.683Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 10,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/5911c6bb6446d25f8b8e79c9817fcc2d00b6dbfb9879ee3f2e9dbbe2b929ecef/axcore/tartube",
+            "tags": [
+                "youtube",
+                "download manager"
+            ]
         },
         {
             "id": 460832,
@@ -964,7 +1405,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/403368935/15ca7691-b66b-4f90-a1ca-955ccd8fb72f"
+            "thumbnail": "https://repository-images.githubusercontent.com/403368935/15ca7691-b66b-4f90-a1ca-955ccd8fb72f",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 463194,
@@ -987,7 +1431,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/152444880/207d0680-99ac-11e9-9b42-d763342f0a1b"
+            "thumbnail": "https://repository-images.githubusercontent.com/152444880/207d0680-99ac-11e9-9b42-d763342f0a1b",
+            "tags": [
+                "machine learning",
+                "artificial intelligence",
+                "deep learning"
+            ]
         },
         {
             "id": 463195,
@@ -1010,7 +1459,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/186166778/48227b00-8dbf-11e9-8d62-e0d54cae1431"
+            "thumbnail": "https://repository-images.githubusercontent.com/186166778/48227b00-8dbf-11e9-8d62-e0d54cae1431",
+            "tags": [
+                "machine learning",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 463197,
@@ -1033,7 +1486,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/188821801/01444c80-8154-11e9-97db-b1250f720967"
+            "thumbnail": "https://repository-images.githubusercontent.com/188821801/01444c80-8154-11e9-97db-b1250f720967",
+            "tags": [
+                "machine learning",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 463196,
@@ -1056,7 +1513,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/186163475/acd05400-7d84-11e9-8f05-84fedee77748"
+            "thumbnail": "https://repository-images.githubusercontent.com/186163475/acd05400-7d84-11e9-8f05-84fedee77748",
+            "tags": [
+                "machine learning",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 463193,
@@ -1079,7 +1540,12 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/140943444/1ccb3780-95da-11e9-8236-39c607d8ccaf"
+            "thumbnail": "https://repository-images.githubusercontent.com/140943444/1ccb3780-95da-11e9-8236-39c607d8ccaf",
+            "tags": [
+                "machine learning",
+                "artificial intelligence",
+                "deep learning"
+            ]
         },
         {
             "id": 460930,
@@ -1102,7 +1568,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/626896474/747764f0-c320-4172-adde-1e2e739e2184"
+            "thumbnail": "https://repository-images.githubusercontent.com/626896474/747764f0-c320-4172-adde-1e2e739e2184",
+            "tags": [
+                "reverse proxy"
+            ]
         },
         {
             "id": 463198,
@@ -1125,7 +1594,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ce499bca294132857ba23f6c1d1d5e52970cdf9e3efb6da9bf48579ca9efc429/crypdick/awesome-neural-art"
+            "thumbnail": "https://opengraph.githubassets.com/ce499bca294132857ba23f6c1d1d5e52970cdf9e3efb6da9bf48579ca9efc429/crypdick/awesome-neural-art",
+            "tags": [
+                "machine learning",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 462028,
@@ -1148,7 +1621,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/85209548/f2946e00-c3db-11eb-965b-c33771f6b55a"
+            "thumbnail": "https://repository-images.githubusercontent.com/85209548/f2946e00-c3db-11eb-965b-c33771f6b55a",
+            "tags": [
+                "blocklist"
+            ]
         },
         {
             "id": 462085,
@@ -1171,7 +1647,36 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/664013991/8b16b484-683a-4ed9-a132-6d070704cc12"
+            "thumbnail": "https://repository-images.githubusercontent.com/664013991/8b16b484-683a-4ed9-a132-6d070704cc12",
+            "tags": [
+                "social media management"
+            ]
+        },
+        {
+            "id": 460820,
+            "title": "GitHub - kannagi0303/yt-dlp-gui: Windows GUI for yt-dlp",
+            "title_safe": "GitHub - kannagi0303/yt-dlp-gui: Windows GUI for yt-dlp",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/kannagi0303/yt-dlp-gui",
+            "link_absolute": "/apps/places/entry/460820/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:36:45Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:37:05.507Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 10,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/8e1b14f1c8fb9c0c45203c688e9227e95c4a9f99063181430761e03288d38491/kannagi0303/yt-dlp-gui",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 462789,
@@ -1194,7 +1699,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/708775091/65893b2a-e134-4797-8b37-a49bc4d7ad98"
+            "thumbnail": "https://repository-images.githubusercontent.com/708775091/65893b2a-e134-4797-8b37-a49bc4d7ad98",
+            "tags": [
+                "docker",
+                "self-host"
+            ]
         },
         {
             "id": 462790,
@@ -1217,7 +1726,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/1a4f777b79c536705b6b754e4646152fd1d139b918cdae0c2a34a19b203a33ab/mealie-recipes/mealie"
+            "thumbnail": "https://opengraph.githubassets.com/1a4f777b79c536705b6b754e4646152fd1d139b918cdae0c2a34a19b203a33ab/mealie-recipes/mealie",
+            "tags": [
+                "recipe manager",
+                "self-host"
+            ]
         },
         {
             "id": 463149,
@@ -1240,7 +1753,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c7a141a2256ce11fafb64f2449a2f578572b42d8f814b57093682d84904d8385/openwrt/openwrt"
+            "thumbnail": "https://opengraph.githubassets.com/c7a141a2256ce11fafb64f2449a2f578572b42d8f814b57093682d84904d8385/openwrt/openwrt",
+            "tags": [
+                "openwrt"
+            ]
         },
         {
             "id": 463131,
@@ -1263,7 +1779,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/d34d9fb6c0d51f9224410dc3fec57a07890ea4d8572642488042ca6c415b2299/Piwigo/Piwigo"
+            "thumbnail": "https://opengraph.githubassets.com/d34d9fb6c0d51f9224410dc3fec57a07890ea4d8572642488042ca6c415b2299/Piwigo/Piwigo",
+            "tags": [
+                "image library",
+                "self-host"
+            ]
         },
         {
             "id": 459942,
@@ -1286,7 +1806,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/05a451f03ea7887b7b0f7604cc4ae8c6c008d3a5fa17b4bf8b021d23065c9596/praydog/UEVR"
+            "thumbnail": "https://opengraph.githubassets.com/05a451f03ea7887b7b0f7604cc4ae8c6c008d3a5fa17b4bf8b021d23065c9596/praydog/UEVR",
+            "tags": [
+                "video game mod"
+            ]
         },
         {
             "id": 462768,
@@ -1309,7 +1832,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/d28c2b2958f1ba65f1f8cfa19b43f4f74ad48f3421672f627c5994a3d229a1d7/PyPSA/pypsa-eur"
+            "thumbnail": "https://opengraph.githubassets.com/d28c2b2958f1ba65f1f8cfa19b43f4f74ad48f3421672f627c5994a3d229a1d7/PyPSA/pypsa-eur",
+            "tags": [
+                "energy",
+                "electricity"
+            ]
         },
         {
             "id": 463125,
@@ -1332,7 +1859,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/665ce844007ef963aed2a39d716869a8c0919ec531b450f4f9f8fd617947afc1/theotherp/nzbhydra2"
+            "thumbnail": "https://opengraph.githubassets.com/665ce844007ef963aed2a39d716869a8c0919ec531b450f4f9f8fd617947afc1/theotherp/nzbhydra2",
+            "tags": [
+                "niche search engine",
+                "usenet"
+            ]
         },
         {
             "id": 463143,
@@ -1355,7 +1886,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/091c8195e376109d008b469583a9375c2ddc3d3c929c141544c92b06eca41c58/thunderbird/thunderbird-android"
+            "thumbnail": "https://opengraph.githubassets.com/091c8195e376109d008b469583a9375c2ddc3d3c929c141544c92b06eca41c58/thunderbird/thunderbird-android",
+            "tags": [
+                "email client"
+            ]
         },
         {
             "id": 460821,
@@ -1378,7 +1912,37 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/403368935/15ca7691-b66b-4f90-a1ca-955ccd8fb72f"
+            "thumbnail": "https://repository-images.githubusercontent.com/403368935/15ca7691-b66b-4f90-a1ca-955ccd8fb72f",
+            "tags": [
+                "youtube",
+                "download manager"
+            ]
+        },
+        {
+            "id": 460834,
+            "title": "GitHub - Tzahi12345/YoutubeDL-Material: Self-hosted YouTube downloader built on Material Design",
+            "title_safe": "GitHub - Tzahi12345/YoutubeDL-Material: Self-hosted YouTube downloader built on Material Design",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/Tzahi12345/YoutubeDL-Material",
+            "link_absolute": "/apps/places/entry/460834/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:41:38Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:41:44.573Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 10,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/ccd6c13f199476e5451a5f3506b63cd9f6e37cf8ba9cd2aa37f4395930a42918/Tzahi12345/YoutubeDL-Material",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 463509,
@@ -1401,7 +1965,40 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality"
+            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
+        },
+        {
+            "id": 463088,
+            "title": "GitHub - yourselfhosted/slash: An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management.",
+            "title_safe": "GitHub - yourselfhosted/slash: An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management.",
+            "description": "An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management. - yourselfhos...",
+            "description_safe": "An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management. - yourselfhos...",
+            "link": "https://github.com/yourselfhosted/slash",
+            "link_absolute": "/apps/places/entry/463088/",
+            "is_valid": true,
+            "date_published": "2024-12-03T08:26:04Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-03T07:26:10.167Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 10,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/c7d94cc6df36509183c5ab4949492609d122cdb5ced4fbdf332154788dbeec01/yourselfhosted/slash",
+            "tags": [
+                "bookmark manager",
+                "link service",
+                "link aggregator",
+                "open source"
+            ]
         },
         {
             "id": 462099,
@@ -1424,7 +2021,170 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/000570e84a08e7584de04156d0c4bd00359f503d7baeda625da7c0e906bdd266/zotify-dev/zotify"
+            "thumbnail": "https://opengraph.githubassets.com/000570e84a08e7584de04156d0c4bd00359f503d7baeda625da7c0e906bdd266/zotify-dev/zotify",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 463018,
+            "title": "GitHub - IceWhaleTech/ZimaOS",
+            "title_safe": "GitHub - IceWhaleTech/ZimaOS",
+            "description": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
+            "description_safe": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
+            "link": "https://github.com/IceWhaleTech/ZimaOS",
+            "link_absolute": "/apps/places/entry/463018/",
+            "is_valid": true,
+            "date_published": "2024-12-02T12:58:47Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-02T11:58:50.242Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 9,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/ff63c6a33c5bfe3fa4b83d84e387ce3be907e2894dfb67ab9cfea2f17bd72ff3/IceWhaleTech/ZimaOS",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
+        },
+        {
+            "id": 459924,
+            "title": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
+            "title_safe": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/infinition/Bjorn",
+            "link_absolute": "/apps/places/entry/459924/",
+            "is_valid": true,
+            "date_published": "2024-11-09T18:33:03Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-09T18:33:07.345Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 9,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/809326864/0fe34573-8870-470b-a735-f515248200c0",
+            "tags": [
+                "hacking",
+                "cybersecurity"
+            ]
+        },
+        {
+            "id": 460872,
+            "title": "GitHub - jellyfin/jellyfin-kodi: Jellyfin Plugin for Kodi",
+            "title_safe": "GitHub - jellyfin/jellyfin-kodi: Jellyfin Plugin for Kodi",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/jellyfin/jellyfin-kodi",
+            "link_absolute": "/apps/places/entry/460872/",
+            "is_valid": true,
+            "date_published": "2024-11-14T14:08:08Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T14:08:16.656Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 9,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/b7a81f115a280fdd8e22948d44ccd058bccd88c69565a3b72628b0c6c210bdf0/jellyfin/jellyfin-kodi",
+            "tags": [
+                "kodi"
+            ]
+        },
+        {
+            "id": 460838,
+            "title": "GitHub - horahoradev/horahora: Multi-user video download manager supporting hundreds of sites",
+            "title_safe": "GitHub - horahoradev/horahora: Multi-user video download manager supporting hundreds of sites",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/horahoradev/horahora",
+            "link_absolute": "/apps/places/entry/460838/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:42:45Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:42:50.584Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 8,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/266911274/1dc1c6e4-7969-402e-b703-48c0341db2c8",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 460846,
+            "title": "GitHub - database64128/youtube-dl-wpf: A simple GUI wrapper for youtube-dl and yt-dlp.",
+            "title_safe": "GitHub - database64128/youtube-dl-wpf: A simple GUI wrapper for youtube-dl and yt-dlp.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/database64128/youtube-dl-wpf",
+            "link_absolute": "/apps/places/entry/460846/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:44:51Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:45:12.882Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 7,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/59e3e410010047a5c008ad2a4f775bb9a6f065f12eaad2d5971c0fc8f7ed5aa4/database64128/youtube-dl-wpf",
+            "tags": [
+                "yt-dlp",
+                "youtube-dl",
+                "download manager"
+            ]
+        },
+        {
+            "id": 460843,
+            "title": "GitHub - Maxstupo/ydl-ui: A UI for the command-line video downloader \"youtube-dl\"",
+            "title_safe": "GitHub - Maxstupo/ydl-ui: A UI for the command-line video downloader youtube-dl",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/Maxstupo/ydl-ui",
+            "link_absolute": "/apps/places/entry/460843/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:44:33Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:44:38.728Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 7,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/abcc03c2e8933fa35244b3c6f7abd9b7b47df70943355ffd9b2e848ce02c1716/Maxstupo/ydl-ui",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 462062,
@@ -1447,7 +2207,115 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/9bf8a8936d2c379f6758c2782f676fe418bce18b25d07524536427b998af9139/alecmuffett/real-world-onion-sites"
+            "thumbnail": "https://opengraph.githubassets.com/9bf8a8936d2c379f6758c2782f676fe418bce18b25d07524536427b998af9139/alecmuffett/real-world-onion-sites",
+            "tags": [
+                "onion web pages",
+                "onion aires"
+            ]
+        },
+        {
+            "id": 460836,
+            "title": "GitHub - chibicitiberiu/ytsm: Self-hosted tool which manages your YouTube subscriptions, and downloads files automatically.",
+            "title_safe": "GitHub - chibicitiberiu/ytsm: Self-hosted tool which manages your YouTube subscriptions, and downloads files automatically.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/chibicitiberiu/ytsm",
+            "link_absolute": "/apps/places/entry/460836/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:42:10Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:42:16.855Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 5,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/c7040a44545d9dd72f498991abae58d52e19642a529aeed5c13d83c940d1a6f5/chibicitiberiu/ytsm",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 462027,
+            "title": "GitHub - FadeMind/hosts.extras: Extra rules for StevenBlack's hosts project [ https://git.io/Je0XR ] See also hosts.whitelists [ https://git.io/J3bdI ]",
+            "title_safe": "GitHub - FadeMind/hosts.extras: Extra rules for StevenBlacks hosts project [ https://git.io/Je0XR ] See also hosts.whitelists [ https://git.io/J3bdI ]",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/FadeMind/hosts.extras",
+            "link_absolute": "/apps/places/entry/462027/",
+            "is_valid": true,
+            "date_published": "2024-11-19T14:29:22Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-19T14:29:31.054Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 5,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/2a3da57cc9f31c47fb0f9b55199ac5f6c5a8a014964fc3aa5feb25c15be09eb1/FadeMind/hosts.extras",
+            "tags": [
+                "blocklist"
+            ]
+        },
+        {
+            "id": 462026,
+            "title": "GitHub - FiltersHeroes/KADhosts: Wersja hosts, PiHole, dnsmasq, domenowa (Forti Guard) filtr\u00f3w KAD",
+            "title_safe": "GitHub - FiltersHeroes/KADhosts: Wersja hosts, PiHole, dnsmasq, domenowa (Forti Guard) filtr\u00f3w KAD",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/FiltersHeroes/KADhosts",
+            "link_absolute": "/apps/places/entry/462026/",
+            "is_valid": true,
+            "date_published": "2024-11-19T14:29:06Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-19T14:29:13.008Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 5,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/b69babd25dbf347b97ffb911aef8e6237be4095754f0516139512648307a7ad7/FiltersHeroes/KADhosts",
+            "tags": [
+                "blocklist"
+            ]
+        },
+        {
+            "id": 460835,
+            "title": "GitHub - Rudloff/alltube: Web GUI for youtube-dl",
+            "title_safe": "GitHub - Rudloff/alltube: Web GUI for youtube-dl",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/Rudloff/alltube",
+            "link_absolute": "/apps/places/entry/460835/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:41:54Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:42:00.496Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 5,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/e205686f76f614438a8b6e3eb063581e72213640dfe9562eb5210d952adb5163/Rudloff/alltube",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 461975,
@@ -1470,7 +2338,114 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/0f550e4d3cc734b5b2586f07c6b75b6c05c3dc0e9a95c2b3ace0d3c2bb5a9555/rumca-js/Django-link-archive"
+            "thumbnail": "https://opengraph.githubassets.com/0f550e4d3cc734b5b2586f07c6b75b6c05c3dc0e9a95c2b3ace0d3c2bb5a9555/rumca-js/Django-link-archive",
+            "tags": [
+                "rss client"
+            ]
+        },
+        {
+            "id": 460829,
+            "title": "GitHub - stefnotch/downline: Free cross-platform desktop application for downloading video and audio from YouTube and many other sites",
+            "title_safe": "GitHub - stefnotch/downline: Free cross-platform desktop application for downloading video and audio from YouTube and many other sites",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/stefnotch/downline",
+            "link_absolute": "/apps/places/entry/460829/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:40:32Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:40:38.797Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 3,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/80e1e20ada5d5474824b36f1aab8458672b8ae8cddc619b489427e5c9c50738f/stefnotch/downline",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 459655,
+            "title": "GitHub - geerlingguy/pi-kiosk: A simple Raspberry Pi Kiosk app",
+            "title_safe": "GitHub - geerlingguy/pi-kiosk: A simple Raspberry Pi Kiosk app",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/geerlingguy/pi-kiosk",
+            "link_absolute": "/apps/places/entry/459655/",
+            "is_valid": true,
+            "date_published": "2024-11-08T15:54:45Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-08T15:54:52.712Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 2,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/34e4b8ba4a3447d462d59120829da85ca0e0c14e1eabb288e6454d6e1fcb8af3/geerlingguy/pi-kiosk",
+            "tags": [
+                "raspberry pi"
+            ]
+        },
+        {
+            "id": 460827,
+            "title": "GitHub - ShalmonAnandas/Gui-Youtube-dl: A cross platform GUI for youtube-dl written entirely in python using the WX library.",
+            "title_safe": "GitHub - ShalmonAnandas/Gui-Youtube-dl: A cross platform GUI for youtube-dl written entirely in python using the WX library.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/ShalmonAnandas/GUI-Youtube-dl",
+            "link_absolute": "/apps/places/entry/460827/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:39:59Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:40:05.309Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 1,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/323551589/3113b100-be4f-11eb-98a7-88a03d8de1cb",
+            "tags": [
+                "download manager"
+            ]
+        },
+        {
+            "id": 460830,
+            "title": "GitHub - tardisx/gropple: Server and bookmarklet to download files via youtube-dl directly from your browser. Cross platform single binary installation, web browser configurable.",
+            "title_safe": "GitHub - tardisx/gropple: Server and bookmarklet to download files via youtube-dl directly from your browser. Cross platform single binary installation, web browser configurable.",
+            "description": "",
+            "description_safe": "",
+            "link": "https://github.com/tardisx/gropple",
+            "link_absolute": "/apps/places/entry/460830/",
+            "is_valid": true,
+            "date_published": "2024-11-14T11:40:49Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-11-14T11:40:55.190Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 1,
+            "age": null,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/7c514c1f47a55a9f4dab68aa7110d2b2f72fd12695fd2b847663d750a3849f60/tardisx/gropple",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 462701,
@@ -1493,7 +2468,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f674e506639da1cf525713fabfaaa195b02bfd228d1b9b609a336c2729a8bca1/go-rod/rod"
+            "thumbnail": "https://opengraph.githubassets.com/f674e506639da1cf525713fabfaaa195b02bfd228d1b9b609a336c2729a8bca1/go-rod/rod",
+            "tags": [
+                "web scraping"
+            ]
         },
         {
             "id": 459926,
@@ -1516,7 +2494,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/6f883001799aea0edc9d76df52b268d9a1c1496d77e912f7e50b07b1cb6a3ca0/7h30th3r0n3/Evil-M5Core2"
+            "thumbnail": "https://opengraph.githubassets.com/6f883001799aea0edc9d76df52b268d9a1c1496d77e912f7e50b07b1cb6a3ca0/7h30th3r0n3/Evil-M5Core2",
+            "tags": [
+                "hacking"
+            ]
         },
         {
             "id": 460887,
@@ -1539,76 +2520,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/658980510/90d2199e-454b-4c87-9faa-c0fdd31169c4"
-        },
-        {
-            "id": 460823,
-            "title": "GitHub - axcore/tartube: A GUI front-end for youtube-dl, partly based on youtube-dl-gui and written in Python 3 / Gtk 3",
-            "title_safe": "GitHub - axcore/tartube: A GUI front-end for youtube-dl, partly based on youtube-dl-gui and written in Python 3 / Gtk 3",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/axcore/tartube",
-            "link_absolute": "/apps/places/entry/460823/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:39:01Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:39:05.683Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/5911c6bb6446d25f8b8e79c9817fcc2d00b6dbfb9879ee3f2e9dbbe2b929ecef/axcore/tartube"
-        },
-        {
-            "id": 460836,
-            "title": "GitHub - chibicitiberiu/ytsm: Self-hosted tool which manages your YouTube subscriptions, and downloads files automatically.",
-            "title_safe": "GitHub - chibicitiberiu/ytsm: Self-hosted tool which manages your YouTube subscriptions, and downloads files automatically.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/chibicitiberiu/ytsm",
-            "link_absolute": "/apps/places/entry/460836/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:42:10Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:42:16.855Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c7040a44545d9dd72f498991abae58d52e19642a529aeed5c13d83c940d1a6f5/chibicitiberiu/ytsm"
-        },
-        {
-            "id": 460846,
-            "title": "GitHub - database64128/youtube-dl-wpf: A simple GUI wrapper for youtube-dl and yt-dlp.",
-            "title_safe": "GitHub - database64128/youtube-dl-wpf: A simple GUI wrapper for youtube-dl and yt-dlp.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/database64128/youtube-dl-wpf",
-            "link_absolute": "/apps/places/entry/460846/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:44:51Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:45:12.882Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/59e3e410010047a5c008ad2a4f775bb9a6f065f12eaad2d5971c0fc8f7ed5aa4/database64128/youtube-dl-wpf"
+            "thumbnail": "https://repository-images.githubusercontent.com/658980510/90d2199e-454b-4c87-9faa-c0fdd31169c4",
+            "tags": [
+                "anime"
+            ]
         },
         {
             "id": 460842,
@@ -1631,7 +2546,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/bf86e065fc91685b47c44f7ed947cd0776ea36485bb9fdd37961c1c4ec77caba/emberedsky/skydl"
+            "thumbnail": "https://opengraph.githubassets.com/bf86e065fc91685b47c44f7ed947cd0776ea36485bb9fdd37961c1c4ec77caba/emberedsky/skydl",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 460841,
@@ -1654,30 +2572,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8b756ab46b2e3e7ac98cb5a761ba90012c506a7e64ed4749d8dffb00c445dceb/ErrorFlynn/ytdlp-interface"
-        },
-        {
-            "id": 462027,
-            "title": "GitHub - FadeMind/hosts.extras: Extra rules for StevenBlack's hosts project [ https://git.io/Je0XR ] See also hosts.whitelists [ https://git.io/J3bdI ]",
-            "title_safe": "GitHub - FadeMind/hosts.extras: Extra rules for StevenBlacks hosts project [ https://git.io/Je0XR ] See also hosts.whitelists [ https://git.io/J3bdI ]",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/FadeMind/hosts.extras",
-            "link_absolute": "/apps/places/entry/462027/",
-            "is_valid": true,
-            "date_published": "2024-11-19T14:29:22Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-19T14:29:31.054Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/2a3da57cc9f31c47fb0f9b55199ac5f6c5a8a014964fc3aa5feb25c15be09eb1/FadeMind/hosts.extras"
+            "thumbnail": "https://opengraph.githubassets.com/8b756ab46b2e3e7ac98cb5a761ba90012c506a7e64ed4749d8dffb00c445dceb/ErrorFlynn/ytdlp-interface",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 460927,
@@ -1700,76 +2598,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8634bd2e63ee4f89dcb5b94af274b3fcba6596cd4bc053043853d316f176227c/fatedier/frp"
-        },
-        {
-            "id": 462026,
-            "title": "GitHub - FiltersHeroes/KADhosts: Wersja hosts, PiHole, dnsmasq, domenowa (Forti Guard) filtr\u00f3w KAD",
-            "title_safe": "GitHub - FiltersHeroes/KADhosts: Wersja hosts, PiHole, dnsmasq, domenowa (Forti Guard) filtr\u00f3w KAD",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/FiltersHeroes/KADhosts",
-            "link_absolute": "/apps/places/entry/462026/",
-            "is_valid": true,
-            "date_published": "2024-11-19T14:29:06Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-19T14:29:13.008Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/b69babd25dbf347b97ffb911aef8e6237be4095754f0516139512648307a7ad7/FiltersHeroes/KADhosts"
-        },
-        {
-            "id": 459951,
-            "title": "GitHub - gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
-            "title_safe": "GitHub - gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/gorhill/uBlock",
-            "link_absolute": "/apps/places/entry/459951/",
-            "is_valid": true,
-            "date_published": "2024-11-10T11:58:44Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-10T11:58:46.964Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8cd651134a415ed235bc24261aecf8e75035cbea323aaac9e63bcfb7ee4d9a5e/gorhill/uBlock"
-        },
-        {
-            "id": 460838,
-            "title": "GitHub - horahoradev/horahora: Multi-user video download manager supporting hundreds of sites",
-            "title_safe": "GitHub - horahoradev/horahora: Multi-user video download manager supporting hundreds of sites",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/horahoradev/horahora",
-            "link_absolute": "/apps/places/entry/460838/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:42:45Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:42:50.584Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/266911274/1dc1c6e4-7969-402e-b703-48c0341db2c8"
+            "thumbnail": "https://opengraph.githubassets.com/8634bd2e63ee4f89dcb5b94af274b3fcba6596cd4bc053043853d316f176227c/fatedier/frp",
+            "tags": [
+                "reverse proxy"
+            ]
         },
         {
             "id": 459395,
@@ -1792,122 +2624,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/159b583bd228dd1fd8850eb4dd220948c8866863723fde4b9a8e69c6bcc341b9/ImKKingshuk/Awesome-CustomROM"
-        },
-        {
-            "id": 459924,
-            "title": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
-            "title_safe": "GitHub - infinition/Bjorn: Bjorn is a powerful network scanning and offensive security tool for the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies open ports, exposed services, and potential vulnerabilities. Bjorn can perform brute force attacks, file stealing, host zombification, and supports custom attack scripts.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/infinition/Bjorn",
-            "link_absolute": "/apps/places/entry/459924/",
-            "is_valid": true,
-            "date_published": "2024-11-09T18:33:03Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-09T18:33:07.345Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/809326864/0fe34573-8870-470b-a735-f515248200c0"
-        },
-        {
-            "id": 460872,
-            "title": "GitHub - jellyfin/jellyfin-kodi: Jellyfin Plugin for Kodi",
-            "title_safe": "GitHub - jellyfin/jellyfin-kodi: Jellyfin Plugin for Kodi",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/jellyfin/jellyfin-kodi",
-            "link_absolute": "/apps/places/entry/460872/",
-            "is_valid": true,
-            "date_published": "2024-11-14T14:08:08Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T14:08:16.656Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/b7a81f115a280fdd8e22948d44ccd058bccd88c69565a3b72628b0c6c210bdf0/jellyfin/jellyfin-kodi"
-        },
-        {
-            "id": 460820,
-            "title": "GitHub - kannagi0303/yt-dlp-gui: Windows GUI for yt-dlp",
-            "title_safe": "GitHub - kannagi0303/yt-dlp-gui: Windows GUI for yt-dlp",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/kannagi0303/yt-dlp-gui",
-            "link_absolute": "/apps/places/entry/460820/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:36:45Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:37:05.507Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/8e1b14f1c8fb9c0c45203c688e9227e95c4a9f99063181430761e03288d38491/kannagi0303/yt-dlp-gui"
-        },
-        {
-            "id": 459401,
-            "title": "GitHub - lorien/awesome-web-scraping: List of libraries, tools and APIs for web scraping and data processing.",
-            "title_safe": "GitHub - lorien/awesome-web-scraping: List of libraries, tools and APIs for web scraping and data processing.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/lorien/awesome-web-scraping",
-            "link_absolute": "/apps/places/entry/459401/",
-            "is_valid": true,
-            "date_published": "2024-11-07T09:48:37Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-07T09:48:41.347Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/0e5e1023bf666c01a38e2146ca85a34111805d710b906a89343fc66e9f48e308/lorien/awesome-web-scraping"
-        },
-        {
-            "id": 460843,
-            "title": "GitHub - Maxstupo/ydl-ui: A UI for the command-line video downloader \"youtube-dl\"",
-            "title_safe": "GitHub - Maxstupo/ydl-ui: A UI for the command-line video downloader youtube-dl",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/Maxstupo/ydl-ui",
-            "link_absolute": "/apps/places/entry/460843/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:44:33Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:44:38.728Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/abcc03c2e8933fa35244b3c6f7abd9b7b47df70943355ffd9b2e848ce02c1716/Maxstupo/ydl-ui"
+            "thumbnail": "https://opengraph.githubassets.com/159b583bd228dd1fd8850eb4dd220948c8866863723fde4b9a8e69c6bcc341b9/ImKKingshuk/Awesome-CustomROM",
+            "tags": [
+                "awesome list",
+                "android roms"
+            ]
         },
         {
             "id": 460819,
@@ -1930,30 +2651,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/93d47d38d303dd712792fec3885d4a996475154c402f7373b9b0cb7c93fc7b74/MediaHarbor/mediaharbor"
-        },
-        {
-            "id": 460833,
-            "title": "GitHub - meeb/tubesync: Syncs YouTube channels and playlists to a locally hosted media server",
-            "title_safe": "GitHub - meeb/tubesync: Syncs YouTube channels and playlists to a locally hosted media server",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/meeb/tubesync",
-            "link_absolute": "/apps/places/entry/460833/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:41:22Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:41:26.739Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/e10e26a7fe063718488b8685605d6b99d41c7f3ca0810315aee7b8e8f6827b28/meeb/tubesync"
+            "thumbnail": "https://opengraph.githubassets.com/93d47d38d303dd712792fec3885d4a996475154c402f7373b9b0cb7c93fc7b74/MediaHarbor/mediaharbor",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 460824,
@@ -1976,7 +2677,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/87f314a8bdbb310d7b7bd02f7858884d682c8a65bbb15cf5a2712a057a5b6cce/mhogomchungu/media-downloader"
+            "thumbnail": "https://opengraph.githubassets.com/87f314a8bdbb310d7b7bd02f7858884d682c8a65bbb15cf5a2712a057a5b6cce/mhogomchungu/media-downloader",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 31896,
@@ -1999,7 +2703,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png"
+            "thumbnail": "https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png",
+            "tags": []
         },
         {
             "id": 460828,
@@ -2022,53 +2727,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/24697d35a6c2b97d26ce4cc1001f8fc8d97817bc239b9a678eacfb0b01d45501/persepolisdm/persepolis"
-        },
-        {
-            "id": 460835,
-            "title": "GitHub - Rudloff/alltube: Web GUI for youtube-dl",
-            "title_safe": "GitHub - Rudloff/alltube: Web GUI for youtube-dl",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/Rudloff/alltube",
-            "link_absolute": "/apps/places/entry/460835/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:41:54Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:42:00.496Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/e205686f76f614438a8b6e3eb063581e72213640dfe9562eb5210d952adb5163/Rudloff/alltube"
-        },
-        {
-            "id": 460827,
-            "title": "GitHub - ShalmonAnandas/Gui-Youtube-dl: A cross platform GUI for youtube-dl written entirely in python using the WX library.",
-            "title_safe": "GitHub - ShalmonAnandas/Gui-Youtube-dl: A cross platform GUI for youtube-dl written entirely in python using the WX library.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/ShalmonAnandas/GUI-Youtube-dl",
-            "link_absolute": "/apps/places/entry/460827/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:39:59Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:40:05.309Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/323551589/3113b100-be4f-11eb-98a7-88a03d8de1cb"
+            "thumbnail": "https://opengraph.githubassets.com/24697d35a6c2b97d26ce4cc1001f8fc8d97817bc239b9a678eacfb0b01d45501/persepolisdm/persepolis",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 459950,
@@ -2091,76 +2753,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/69421e12087fd3ccad47f31e85c20da96c28fff1d9ac929440f6f6ae8d615df7/SpotX-Official/SpotX"
-        },
-        {
-            "id": 460822,
-            "title": "GitHub - StefanLobbenmeier/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js",
-            "title_safe": "GitHub - StefanLobbenmeier/youtube-dl-gui: A cross-platform GUI for youtube-dl made in Electron and node.js",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/StefanLobbenmeier/youtube-dl-gui",
-            "link_absolute": "/apps/places/entry/460822/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:37:46Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:38:01.023Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/aa698f83998277a87c7c3ed47ec5a5de114d12fa68bc63376cfc0454b18b9305/StefanLobbenmeier/youtube-dl-gui"
-        },
-        {
-            "id": 460829,
-            "title": "GitHub - stefnotch/downline: Free cross-platform desktop application for downloading video and audio from YouTube and many other sites",
-            "title_safe": "GitHub - stefnotch/downline: Free cross-platform desktop application for downloading video and audio from YouTube and many other sites",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/stefnotch/downline",
-            "link_absolute": "/apps/places/entry/460829/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:40:32Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:40:38.797Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/80e1e20ada5d5474824b36f1aab8458672b8ae8cddc619b489427e5c9c50738f/stefnotch/downline"
-        },
-        {
-            "id": 460830,
-            "title": "GitHub - tardisx/gropple: Server and bookmarklet to download files via youtube-dl directly from your browser. Cross platform single binary installation, web browser configurable.",
-            "title_safe": "GitHub - tardisx/gropple: Server and bookmarklet to download files via youtube-dl directly from your browser. Cross platform single binary installation, web browser configurable.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/tardisx/gropple",
-            "link_absolute": "/apps/places/entry/460830/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:40:49Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:40:55.190Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/7c514c1f47a55a9f4dab68aa7110d2b2f72fd12695fd2b847663d750a3849f60/tardisx/gropple"
+            "thumbnail": "https://opengraph.githubassets.com/69421e12087fd3ccad47f31e85c20da96c28fff1d9ac929440f6f6ae8d615df7/SpotX-Official/SpotX",
+            "tags": [
+                "spotify",
+                "ad block"
+            ]
         },
         {
             "id": 460840,
@@ -2183,53 +2780,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/81f4f13c19c2f483f836f69841e6d9ddcabb9cace4eeaf5575f1fceb50907b5f/Totonyus/ydl_api_ng"
-        },
-        {
-            "id": 460834,
-            "title": "GitHub - Tzahi12345/YoutubeDL-Material: Self-hosted YouTube downloader built on Material Design",
-            "title_safe": "GitHub - Tzahi12345/YoutubeDL-Material: Self-hosted YouTube downloader built on Material Design",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/Tzahi12345/YoutubeDL-Material",
-            "link_absolute": "/apps/places/entry/460834/",
-            "is_valid": true,
-            "date_published": "2024-11-14T11:41:38Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-14T11:41:44.573Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ccd6c13f199476e5451a5f3506b63cd9f6e37cf8ba9cd2aa37f4395930a42918/Tzahi12345/YoutubeDL-Material"
-        },
-        {
-            "id": 462299,
-            "title": "GitHub - usememos/memos: An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.",
-            "title_safe": "GitHub - usememos/memos: An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.",
-            "description": "An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way. - usememos/memos",
-            "description_safe": "An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way. - usememos/memos",
-            "link": "https://github.com/usememos/memos",
-            "link_absolute": "/apps/places/entry/462299/",
-            "is_valid": true,
-            "date_published": "2024-11-25T10:34:56Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-25T09:34:58.450Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/436297812/02a4fe19-4a8b-4d8b-bd1f-be120b90737a"
+            "thumbnail": "https://opengraph.githubassets.com/81f4f13c19c2f483f836f69841e6d9ddcabb9cace4eeaf5575f1fceb50907b5f/Totonyus/ydl_api_ng",
+            "tags": [
+                "yt-dlp",
+                "youtube-dl",
+                "download manager"
+            ]
         },
         {
             "id": 460839,
@@ -2252,7 +2808,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c8a5c2cc6308bcb98c1a9cb39063d6a25cda2ae7b124272f54dc6c6ed7f4dd3c/xcodian/youtube-dl-web"
+            "thumbnail": "https://opengraph.githubassets.com/c8a5c2cc6308bcb98c1a9cb39063d6a25cda2ae7b124272f54dc6c6ed7f4dd3c/xcodian/youtube-dl-web",
+            "tags": [
+                "download manager"
+            ]
         },
         {
             "id": 463188,
@@ -2275,7 +2834,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://avatars.githubusercontent.com/u/17015933?s=280&v=4"
+            "thumbnail": "https://avatars.githubusercontent.com/u/17015933?s=280&v=4",
+            "tags": [
+                "programming code examples",
+                "artificial intelligence"
+            ]
         },
         {
             "id": 462883,
@@ -2298,76 +2861,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/255187869/b14f8f80-3b17-11eb-856f-fabbe3263d61"
-        },
-        {
-            "id": 459655,
-            "title": "GitHub - geerlingguy/pi-kiosk: A simple Raspberry Pi Kiosk app",
-            "title_safe": "GitHub - geerlingguy/pi-kiosk: A simple Raspberry Pi Kiosk app",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/geerlingguy/pi-kiosk",
-            "link_absolute": "/apps/places/entry/459655/",
-            "is_valid": true,
-            "date_published": "2024-11-08T15:54:45Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-08T15:54:52.712Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/34e4b8ba4a3447d462d59120829da85ca0e0c14e1eabb288e6454d6e1fcb8af3/geerlingguy/pi-kiosk"
-        },
-        {
-            "id": 463014,
-            "title": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-            "title_safe": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-            "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
-            "description_safe": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
-            "link": "https://github.com/IceWhaleTech/CasaOS",
-            "link_absolute": "/apps/places/entry/463014/",
-            "is_valid": true,
-            "date_published": "2024-12-02T12:58:21Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-02T11:58:23.254Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/410430370/abdd2e89-5639-4d68-b363-4a3d3b7b369d"
-        },
-        {
-            "id": 463018,
-            "title": "GitHub - IceWhaleTech/ZimaOS",
-            "title_safe": "GitHub - IceWhaleTech/ZimaOS",
-            "description": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
-            "description_safe": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
-            "link": "https://github.com/IceWhaleTech/ZimaOS",
-            "link_absolute": "/apps/places/entry/463018/",
-            "is_valid": true,
-            "date_published": "2024-12-02T12:58:47Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-02T11:58:50.242Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ff63c6a33c5bfe3fa4b83d84e387ce3be907e2894dfb67ab9cfea2f17bd72ff3/IceWhaleTech/ZimaOS"
+            "thumbnail": "https://repository-images.githubusercontent.com/255187869/b14f8f80-3b17-11eb-856f-fabbe3263d61",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 459400,
@@ -2390,7 +2887,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a6abd742677d5aa91a45cbe541baa6d6114eb110380724aa95af195365f9dd2d/kieraneglin/pinchflat"
+            "thumbnail": "https://opengraph.githubassets.com/a6abd742677d5aa91a45cbe541baa6d6114eb110380724aa95af195365f9dd2d/kieraneglin/pinchflat",
+            "tags": []
         },
         {
             "id": 459396,
@@ -2413,7 +2911,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/338719962/f61378ef-aa0f-43d2-b585-1cc121cb7cb9"
+            "thumbnail": "https://repository-images.githubusercontent.com/338719962/f61378ef-aa0f-43d2-b585-1cc121cb7cb9",
+            "tags": []
         },
         {
             "id": 463135,
@@ -2436,7 +2935,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/143298715/fc5d7d00-3934-11eb-979b-589f01dc0976"
+            "thumbnail": "https://repository-images.githubusercontent.com/143298715/fc5d7d00-3934-11eb-979b-589f01dc0976",
+            "tags": [
+                "email client"
+            ]
         },
         {
             "id": 463140,
@@ -2459,7 +2961,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/9213065832eb64e6d22f40156646606196886305c59e7106b2634df8c3eb37fa/mailpile/Mailpile"
+            "thumbnail": "https://opengraph.githubassets.com/9213065832eb64e6d22f40156646606196886305c59e7106b2634df8c3eb37fa/mailpile/Mailpile",
+            "tags": [
+                "email client"
+            ]
         },
         {
             "id": 463151,
@@ -2482,7 +2987,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a353127de3011fc399fe4154e3f0f33e5e03dd35cac1be312fc482574aa04ee9/mirror/dd-wrt"
+            "thumbnail": "https://opengraph.githubassets.com/a353127de3011fc399fe4154e3f0f33e5e03dd35cac1be312fc482574aa04ee9/mirror/dd-wrt",
+            "tags": [
+                "open source",
+                "dd-wrt"
+            ]
         },
         {
             "id": 459402,
@@ -2505,53 +3014,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/e227f5bcd0839109d315c77389111419a3bad7291056d4a59e4fccb2103de202/rshipp/awesome-malware-analysis"
-        },
-        {
-            "id": 459403,
-            "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
-            "title_safe": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/searxng/searxng",
-            "link_absolute": "/apps/places/entry/459403/",
-            "is_valid": true,
-            "date_published": "2024-11-07T09:48:56Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-07T09:49:00.016Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/de6dc675315d8a755cd2af52c3c51af8d9763c434e41e4da43462e763a413717/searxng/searxng"
-        },
-        {
-            "id": 459398,
-            "title": "GitHub - TeamNewPipe/NewPipe: A libre lightweight streaming front-end for Android.",
-            "title_safe": "GitHub - TeamNewPipe/NewPipe: A libre lightweight streaming front-end for Android.",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/TeamNewPipe/NewPipe",
-            "link_absolute": "/apps/places/entry/459398/",
-            "is_valid": true,
-            "date_published": "2024-11-07T09:48:05Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-07T09:48:10.313Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c31bad498e3cb7ff0d0263253cbe4c91c0d3a2048259eb676ceb7cf5890b1927/TeamNewPipe/NewPipe"
+            "thumbnail": "https://opengraph.githubassets.com/e227f5bcd0839109d315c77389111419a3bad7291056d4a59e4fccb2103de202/rshipp/awesome-malware-analysis",
+            "tags": []
         },
         {
             "id": 463480,
@@ -2574,7 +3038,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/acd67b6c906dac38c969ad845940f87cdc782d933403dceae2ddc0c605daf2d1/veggiemonk/awesome-docker"
+            "thumbnail": "https://opengraph.githubassets.com/acd67b6c906dac38c969ad845940f87cdc782d933403dceae2ddc0c605daf2d1/veggiemonk/awesome-docker",
+            "tags": [
+                "docker",
+                "awesome list"
+            ]
         },
         {
             "id": 463498,
@@ -2597,30 +3065,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome"
-        },
-        {
-            "id": 463088,
-            "title": "GitHub - yourselfhosted/slash: An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management.",
-            "title_safe": "GitHub - yourselfhosted/slash: An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management.",
-            "description": "An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management. - yourselfhos...",
-            "description_safe": "An open source, self-hosted platform for sharing and managing your most frequently used links. Easily create customizable, human-readable shortcuts to streamline your link management. - yourselfhos...",
-            "link": "https://github.com/yourselfhosted/slash",
-            "link_absolute": "/apps/places/entry/463088/",
-            "is_valid": true,
-            "date_published": "2024-12-03T08:26:04Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-03T07:26:10.167Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/c7d94cc6df36509183c5ab4949492609d122cdb5ced4fbdf332154788dbeec01/yourselfhosted/slash"
+            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
         },
         {
             "id": 459405,
@@ -2643,53 +3092,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/174b7938905aa4254dc54a2099f7b30684c962db743501a2a0f89ed7f9a04b1f/ytdl-org/youtube-dl"
-        },
-        {
-            "id": 459404,
-            "title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
-            "title_safe": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/yt-dlp/yt-dlp",
-            "link_absolute": "/apps/places/entry/459404/",
-            "is_valid": true,
-            "date_published": "2024-11-07T09:49:05Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-07T09:49:08.723Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0"
-        },
-        {
-            "id": 459406,
-            "title": "GitHub - yuliskov/SmartTube: SmartTube - an advanced player for set-top boxes and tvs running Android OS",
-            "title_safe": "GitHub - yuliskov/SmartTube: SmartTube - an advanced player for set-top boxes and tvs running Android OS",
-            "description": "",
-            "description_safe": "",
-            "link": "https://github.com/yuliskov/SmartTube",
-            "link_absolute": "/apps/places/entry/459406/",
-            "is_valid": true,
-            "date_published": "2024-11-07T09:49:20Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-11-07T09:49:25.709Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": null,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/6ac9f2ca5e45dab0cf7cd586ee359b0eae90d3c3ddabadd5e1e2b61c09240ff6/yuliskov/SmartTube"
+            "thumbnail": "https://opengraph.githubassets.com/174b7938905aa4254dc54a2099f7b30684c962db743501a2a0f89ed7f9a04b1f/ytdl-org/youtube-dl",
+            "tags": []
         }
     ]
 }

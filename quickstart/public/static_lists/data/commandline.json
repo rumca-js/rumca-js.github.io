@@ -21,7 +21,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps"
+            "thumbnail": "https://opengraph.githubassets.com/ba011a384d2173dfac01f43dd13bfcf4181c158aaac0c38eec9bb3b8103e1f94/agarrharr/awesome-cli-apps",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 459695,
@@ -44,7 +48,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9"
+            "thumbnail": "https://repository-images.githubusercontent.com/35955666/03420800-9e9b-11ea-8913-de5564db65c9",
+            "tags": [
+                "command line",
+                "awesome list"
+            ]
         },
         {
             "id": 57048,
@@ -67,7 +75,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ss64.com/favicon.ico"
+            "thumbnail": "https://ss64.com/favicon.ico",
+            "tags": [
+                "commandline reference"
+            ]
         },
         {
             "id": 59003,
@@ -90,7 +101,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fishshell.com/favicon.ico"
+            "thumbnail": "https://fishshell.com/favicon.ico",
+            "tags": [
+                "command line shell"
+            ]
         },
         {
             "id": 15889,
@@ -113,7 +127,14 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://clig.dev/CLIG-social-card.jpg"
+            "thumbnail": "https://clig.dev/CLIG-social-card.jpg",
+            "tags": [
+                "command line interface",
+                "programming philosophy",
+                "programming",
+                "program design",
+                "cli tools"
+            ]
         },
         {
             "id": 216020,
@@ -136,7 +157,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://planet-commandline.org/favicon.ico"
+            "thumbnail": "https://planet-commandline.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 5194,
@@ -159,7 +181,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stuff.charm.sh/charm-share.jpg"
+            "thumbnail": "https://stuff.charm.sh/charm-share.jpg",
+            "tags": [
+                "cli tool"
+            ]
         },
         {
             "id": 76902,
@@ -182,7 +207,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://danielrotter.at/favicon.ico"
+            "thumbnail": "https://danielrotter.at/favicon.ico",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 84336,
@@ -205,7 +233,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bashly.dannyb.co/assets/cast.gif"
+            "thumbnail": "https://bashly.dannyb.co/assets/cast.gif",
+            "tags": []
         },
         {
             "id": 38450,
@@ -228,7 +257,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://clap.rs/-/rustdoc.static/favicon-16x16-8b506e7a72182f1c.png"
+            "thumbnail": "https://clap.rs/-/rustdoc.static/favicon-16x16-8b506e7a72182f1c.png",
+            "tags": []
         },
         {
             "id": 450174,
@@ -251,7 +281,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://devassistant.ai/favicon.ico"
+            "thumbnail": "https://devassistant.ai/favicon.ico",
+            "tags": []
         },
         {
             "id": 14585,
@@ -274,7 +305,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fig.io/images/screenshots/meta-img.jpg"
+            "thumbnail": "https://fig.io/images/screenshots/meta-img.jpg",
+            "tags": []
         },
         {
             "id": 365178,
@@ -297,7 +329,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://force-color.org/favicon.ico"
+            "thumbnail": "https://force-color.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 116217,
@@ -320,7 +353,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gameex.com/favicon.ico"
+            "thumbnail": "https://gameex.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 457951,
@@ -343,7 +377,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://linuxcommand.org/favicon.ico"
+            "thumbnail": "https://linuxcommand.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 38454,
@@ -366,7 +401,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://picocli.info/favicon.ico"
+            "thumbnail": "https://picocli.info/favicon.ico",
+            "tags": []
         },
         {
             "id": 415957,
@@ -389,7 +425,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tanis.codes/opengraph.png"
+            "thumbnail": "https://tanis.codes/opengraph.png",
+            "tags": []
         },
         {
             "id": 184256,
@@ -412,7 +449,10 @@
             "age": null,
             "source__title": "searchmysite.net results",
             "source__url": "https://searchmysite.net/api/v1/feed/search/browse",
-            "thumbnail": "https://searchmysite.net/favicon.ico"
+            "thumbnail": "https://searchmysite.net/favicon.ico",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 372886,
@@ -435,7 +475,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://s3tools.org/favicon.ico"
+            "thumbnail": "http://s3tools.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 396238,
@@ -458,7 +499,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jeroenjanssens.com/img/social/an-impressionist-oil-painting-of-a-data-scientist-next-to-a-windmill.png"
+            "thumbnail": "https://jeroenjanssens.com/img/social/an-impressionist-oil-painting-of-a-data-scientist-next-to-a-windmill.png",
+            "tags": []
         },
         {
             "id": 299735,
@@ -481,7 +523,8 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 231534,
@@ -504,7 +547,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wunderbucket.io/img/card.png"
+            "thumbnail": "https://wunderbucket.io/img/card.png",
+            "tags": [
+                "monetization"
+            ]
         },
         {
             "id": 153031,
@@ -527,7 +573,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s3.amazonaws.com/cdn.getdnote.com/brand/logo-text-vertical-large.png"
+            "thumbnail": "https://s3.amazonaws.com/cdn.getdnote.com/brand/logo-text-vertical-large.png",
+            "tags": []
         },
         {
             "id": 65426,
@@ -550,7 +597,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cli.github.com/assets/images/social-card.png"
+            "thumbnail": "https://cli.github.com/assets/images/social-card.png",
+            "tags": [
+                "github",
+                "cli tool"
+            ]
         },
         {
             "id": 121498,
@@ -573,7 +624,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://datascienceatthecommandline.com/og.png"
+            "thumbnail": "https://datascienceatthecommandline.com/og.png",
+            "tags": []
         },
         {
             "id": 345580,
@@ -596,7 +648,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://developer.hashicorp.com/og-image/vagrant.jpg"
+            "thumbnail": "https://developer.hashicorp.com/og-image/vagrant.jpg",
+            "tags": []
         },
         {
             "id": 459527,
@@ -619,7 +672,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lcorg.blogspot.com/favicon.ico"
+            "thumbnail": "https://lcorg.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 300268,
@@ -642,7 +696,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://pdfocr.orpalis.com/img/content/thumbnail_new.png"
+            "thumbnail": "http://pdfocr.orpalis.com/img/content/thumbnail_new.png",
+            "tags": []
         },
         {
             "id": 101070,
@@ -665,7 +720,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://windows-commandline.com/favicon.ico"
+            "thumbnail": "https://windows-commandline.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 304638,
@@ -688,7 +744,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.adbandroid.com/favicon.ico"
+            "thumbnail": "https://www.adbandroid.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 356403,
@@ -711,7 +768,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://commandlinefanatic.com/favicon.ico"
+            "thumbnail": "http://commandlinefanatic.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 345743,
@@ -734,7 +792,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.linuxcommand.org/favicon.ico"
+            "thumbnail": "http://www.linuxcommand.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 226781,
@@ -757,7 +816,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://a.fsdn.com/allura/p/oggvideotools/icon?1578033571"
+            "thumbnail": "https://a.fsdn.com/allura/p/oggvideotools/icon?1578033571",
+            "tags": []
         },
         {
             "id": 273848,
@@ -780,7 +840,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://framerusercontent.com/images/7n3V10QFyvPZ8K8KE4eqL8IuE0.png"
+            "thumbnail": "https://framerusercontent.com/images/7n3V10QFyvPZ8K8KE4eqL8IuE0.png",
+            "tags": []
         },
         {
             "id": 70295,
@@ -803,7 +864,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dedupify.com/wp-content/uploads/2020/06/DeDupify-CLI-Featured-image.png"
+            "thumbnail": "https://dedupify.com/wp-content/uploads/2020/06/DeDupify-CLI-Featured-image.png",
+            "tags": []
         },
         {
             "id": 61149,
@@ -826,7 +888,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pagegen.phnd.net/include/images/pagegen_logo_300x300.png"
+            "thumbnail": "https://pagegen.phnd.net/include/images/pagegen_logo_300x300.png",
+            "tags": []
         },
         {
             "id": 28989,
@@ -849,7 +912,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://shellhub.io/favicon-32x32.png?v=b7691a4d022678a921902ece55ea2058"
+            "thumbnail": "https://shellhub.io/favicon-32x32.png?v=b7691a4d022678a921902ece55ea2058",
+            "tags": [
+                "ssh server",
+                "propietary"
+            ]
         },
         {
             "id": 84340,
@@ -872,7 +939,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://csv2db.github.io/favicon.ico"
+            "thumbnail": "https://csv2db.github.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 172136,
@@ -895,7 +963,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://developers.clever-cloud.com/images/feature.png"
+            "thumbnail": "https://developers.clever-cloud.com/images/feature.png",
+            "tags": []
         },
         {
             "id": 290552,
@@ -918,7 +987,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tylabs.com/assets/images/header.png"
+            "thumbnail": "https://tylabs.com/assets/images/header.png",
+            "tags": []
         },
         {
             "id": 290587,
@@ -941,7 +1011,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tylabs.com/assets/images/header.png"
+            "thumbnail": "https://tylabs.com/assets/images/header.png",
+            "tags": []
         },
         {
             "id": 132890,
@@ -964,7 +1035,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://argtable.sourceforge.net/favicon.ico"
+            "thumbnail": "http://argtable.sourceforge.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 187166,
@@ -987,7 +1059,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://d35e9bfo1msux2.cloudfront.net/site_uploads/files/000/000/001/@1x/9b510882bb95f1f7.png"
+            "thumbnail": "https://d35e9bfo1msux2.cloudfront.net/site_uploads/files/000/000/001/@1x/9b510882bb95f1f7.png",
+            "tags": []
         },
         {
             "id": 172333,
@@ -1010,7 +1083,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://commandlinepoweruser.com/images/CLPU/share.png"
+            "thumbnail": "https://commandlinepoweruser.com/images/CLPU/share.png",
+            "tags": []
         },
         {
             "id": 198797,
@@ -1033,7 +1107,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://portablecommandline.blogspot.com/favicon.ico"
+            "thumbnail": "http://portablecommandline.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 96138,
@@ -1056,7 +1131,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://containertoolbx.org/assets/card.png"
+            "thumbnail": "https://containertoolbx.org/assets/card.png",
+            "tags": []
         },
         {
             "id": 38449,
@@ -1079,7 +1155,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://climate.thephpleague.com/img/favicon.ico"
+            "thumbnail": "https://climate.thephpleague.com/img/favicon.ico",
+            "tags": [
+                "programming framework",
+                "php"
+            ]
         },
         {
             "id": 24416,
@@ -1102,7 +1182,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://commandlinefu.com/favicon.ico"
+            "thumbnail": "https://commandlinefu.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 59976,
@@ -1125,7 +1206,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jrnl.sh/favicon.ico"
+            "thumbnail": "https://jrnl.sh/favicon.ico",
+            "tags": []
         },
         {
             "id": 85969,
@@ -1148,7 +1230,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s3express.com/favicon.ico"
+            "thumbnail": "https://s3express.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 199017,
@@ -1171,7 +1254,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.qtrac.eu/favicon.ico"
+            "thumbnail": "http://www.qtrac.eu/favicon.ico",
+            "tags": []
         },
         {
             "id": 177712,
@@ -1194,7 +1278,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.iosdev.recipes/favicon.ico"
+            "thumbnail": "https://www.iosdev.recipes/favicon.ico",
+            "tags": []
         },
         {
             "id": 171903,
@@ -1217,7 +1302,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lym.rtfd.io/favicon.ico"
+            "thumbnail": "https://lym.rtfd.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 20545,
@@ -1240,7 +1326,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lym.readthedocs.io/favicon.ico"
+            "thumbnail": "https://lym.readthedocs.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 19632,
@@ -1263,7 +1350,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.ghost.org/v3.0.0/images/publication-cover.png"
+            "thumbnail": "https://static.ghost.org/v3.0.0/images/publication-cover.png",
+            "tags": []
         }
     ]
 }

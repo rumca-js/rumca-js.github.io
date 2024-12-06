@@ -21,7 +21,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://elastomania.com/images/og.png"
+            "thumbnail": "https://elastomania.com/images/og.png",
+            "tags": [
+                "video game",
+                "retro game"
+            ]
         },
         {
             "id": 11078,
@@ -44,7 +48,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.liero.be/favicon.png"
+            "thumbnail": "https://www.liero.be/favicon.png",
+            "tags": [
+                "video game",
+                "retro game",
+                "open source"
+            ]
         },
         {
             "id": 15532,
@@ -67,7 +76,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://soldat2.com/favicon.ico"
+            "thumbnail": "https://soldat2.com/favicon.ico",
+            "tags": [
+                "video game",
+                "retro game"
+            ]
         },
         {
             "id": 9176,
@@ -90,7 +103,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.thd.vg/unified/sites/soldat/favicon.ico"
+            "thumbnail": "https://static.thd.vg/unified/sites/soldat/favicon.ico",
+            "tags": [
+                "video game",
+                "retro game"
+            ]
         },
         {
             "id": 24304,
@@ -113,7 +130,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://classicreload.com/favicon.ico"
+            "thumbnail": "https://classicreload.com/favicon.ico",
+            "tags": [
+                "retro game",
+                "abandonware"
+            ]
         },
         {
             "id": 6856,
@@ -136,7 +157,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.howtoretro.com/wp-content/uploads/2019/10/cropped-icon-60x60.png"
+            "thumbnail": "https://www.howtoretro.com/wp-content/uploads/2019/10/cropped-icon-60x60.png",
+            "tags": [
+                "retro games",
+                "emulation"
+            ]
         },
         {
             "id": 9047,
@@ -159,7 +184,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://letsgoretro.pl/_grafika/fb.jpg"
+            "thumbnail": "https://letsgoretro.pl/_grafika/fb.jpg",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 105984,
@@ -182,7 +210,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vidgame.net/favicon.ico"
+            "thumbnail": "https://vidgame.net/favicon.ico",
+            "tags": [
+                "video games",
+                "game consoles",
+                "retro games"
+            ]
         },
         {
             "id": 8336,
@@ -205,7 +238,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://atariarchives.org/favicon.ico"
+            "thumbnail": "https://atariarchives.org/favicon.ico",
+            "tags": [
+                "atari",
+                "retro games"
+            ]
         },
         {
             "id": 295701,
@@ -228,7 +265,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://robin64.co.uk/favicon.ico"
+            "thumbnail": "https://robin64.co.uk/favicon.ico",
+            "tags": [
+                "nintendo",
+                "retro games"
+            ]
         },
         {
             "id": 3339,
@@ -251,7 +292,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lyonsden.net/wordpress_s/wp-content/uploads/2018/04/cropped-amiga_500_w1-1-1-32x32.jpeg"
+            "thumbnail": "https://lyonsden.net/wordpress_s/wp-content/uploads/2018/04/cropped-amiga_500_w1-1-1-32x32.jpeg",
+            "tags": [
+                "personal",
+                "commodore",
+                "retro games"
+            ]
         },
         {
             "id": 29760,
@@ -274,7 +320,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.scummvm.org/images/og-image.jpg"
+            "thumbnail": "https://www.scummvm.org/images/og-image.jpg",
+            "tags": [
+                "emulator",
+                "open source",
+                "game engines",
+                "retro games",
+                "video game engine",
+                "rpg"
+            ]
         },
         {
             "id": 18784,
@@ -297,7 +351,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fpgaarcade.com/favicon.ico"
+            "thumbnail": "https://fpgaarcade.com/favicon.ico",
+            "tags": [
+                "amiga",
+                "fpga",
+                "retro games"
+            ]
         },
         {
             "id": 5852,
@@ -320,7 +379,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wasm4.org/img/logo.png"
+            "thumbnail": "https://wasm4.org/img/logo.png",
+            "tags": [
+                "video games",
+                "webassembly"
+            ]
         },
         {
             "id": 1391,
@@ -343,7 +406,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200"
+            "thumbnail": "https://oldschoolgameblog.wordpress.com/wp-content/uploads/2018/05/cropped-heretic-oldschoolgamebloglogo1.jpg?w=200",
+            "tags": [
+                "demoscene",
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 389469,
@@ -366,7 +434,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://johnnygameovermag.wordpress.com/wp-content/uploads/2024/04/cropped-fcbc8-logo-fish.png?w=67"
+            "thumbnail": "https://johnnygameovermag.wordpress.com/wp-content/uploads/2024/04/cropped-fcbc8-logo-fish.png?w=67",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 4523,
@@ -389,7 +461,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://retrododo.com/wp-content/uploads/2023/01/retro-dodo.webp"
+            "thumbnail": "http://retrododo.com/wp-content/uploads/2023/01/retro-dodo.webp",
+            "tags": [
+                "video game news",
+                "retro games"
+            ]
         },
         {
             "id": 2764,
@@ -412,7 +488,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.indieretronews.com/favicon.ico"
+            "thumbnail": "https://www.indieretronews.com/favicon.ico",
+            "tags": [
+                "amiga",
+                "news",
+                "retro games"
+            ]
         },
         {
             "id": 22252,
@@ -435,7 +516,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rclassiccomputers.com/favicon.ico"
+            "thumbnail": "https://rclassiccomputers.com/favicon.ico",
+            "tags": [
+                "retro hardware",
+                "retro games"
+            ]
         },
         {
             "id": 106157,
@@ -458,7 +543,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retro.gg/img/banners/the-retro-spirit-450x700.png"
+            "thumbnail": "https://retro.gg/img/banners/the-retro-spirit-450x700.png",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 106440,
@@ -481,7 +569,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://atarionline.pl/favicon.ico"
+            "thumbnail": "https://atarionline.pl/favicon.ico",
+            "tags": [
+                "atari",
+                "retro games"
+            ]
         },
         {
             "id": 8528,
@@ -504,7 +596,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cncnet.org/build/assets/meta-15c31aa0.png"
+            "thumbnail": "https://cncnet.org/build/assets/meta-15c31aa0.png",
+            "tags": [
+                "red alert",
+                "retro games"
+            ]
         },
         {
             "id": 48856,
@@ -527,7 +623,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dosgameclub.com/favicon.ico"
+            "thumbnail": "https://dosgameclub.com/favicon.ico",
+            "tags": [
+                "video games",
+                "sos",
+                "retro games"
+            ]
         },
         {
             "id": 8902,
@@ -550,7 +651,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gathering.org/static/opengraph.jpg"
+            "thumbnail": "https://gathering.org/static/opengraph.jpg",
+            "tags": [
+                "demoscene",
+                "retro games"
+            ]
         },
         {
             "id": 19564,
@@ -573,7 +678,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.lemon64.com/assets/images/favicons/android-chrome-512x512.png"
+            "thumbnail": "https://www.lemon64.com/assets/images/favicons/android-chrome-512x512.png",
+            "tags": [
+                "commodore",
+                "retro games"
+            ]
         },
         {
             "id": 109348,
@@ -596,7 +705,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mountainbytes.ch/favicon.ico"
+            "thumbnail": "https://mountainbytes.ch/favicon.ico",
+            "tags": [
+                "demoscene",
+                "retro games"
+            ]
         },
         {
             "id": 295694,
@@ -619,7 +732,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retrogames.cz/grafika/Screenshots/RetroGamesCZ_title_screen_small.jpg"
+            "thumbnail": "https://www.retrogames.cz/grafika/Screenshots/RetroGamesCZ_title_screen_small.jpg",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 4526,
@@ -642,7 +758,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retro-otaku.com/favicon.ico"
+            "thumbnail": "https://retro-otaku.com/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 12662,
@@ -665,7 +784,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stare.e-gry.net/graf/2/logo.jpg"
+            "thumbnail": "https://stare.e-gry.net/graf/2/logo.jpg",
+            "tags": [
+                "amiga",
+                "commodore",
+                "retro games",
+                "roms",
+                "games"
+            ]
         },
         {
             "id": 144098,
@@ -688,7 +814,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://freedomplanetgame.com/favicon.ico"
+            "thumbnail": "https://freedomplanetgame.com/favicon.ico",
+            "tags": [
+                "freedom planet",
+                "retro games"
+            ]
         },
         {
             "id": 461994,
@@ -711,7 +841,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://officialmiyoomini.com/favicon.ico"
+            "thumbnail": "https://officialmiyoomini.com/favicon.ico",
+            "tags": [
+                "retro console",
+                "retro games"
+            ]
         },
         {
             "id": 32981,
@@ -734,7 +868,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroinvaders.com/favicon.ico"
+            "thumbnail": "https://retroinvaders.com/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 7506,
@@ -757,7 +895,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://amiga.lychesis.net/assets/Articles/Home.png"
+            "thumbnail": "https://amiga.lychesis.net/assets/Articles/Home.png",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 461993,
@@ -780,7 +922,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://onionui.github.io/img/onion_banner.png"
+            "thumbnail": "https://onionui.github.io/img/onion_banner.png",
+            "tags": [
+                "miyoo mini",
+                "emulation",
+                "operating system",
+                "retro games"
+            ]
         },
         {
             "id": 144099,
@@ -803,7 +951,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.freedomplanet2.com/favicon.ico"
+            "thumbnail": "https://www.freedomplanet2.com/favicon.ico",
+            "tags": [
+                "freedom planet",
+                "retro games"
+            ]
         },
         {
             "id": 2383,
@@ -826,7 +978,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://t.gamesnostalgia.com/img/logo640x400.png"
+            "thumbnail": "https://t.gamesnostalgia.com/img/logo640x400.png",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 4534,
@@ -849,7 +1005,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png"
+            "thumbnail": "https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png",
+            "tags": [
+                "reverse engineering"
+            ]
         },
         {
             "id": 245914,
@@ -872,7 +1031,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ready64.org/favicon.ico"
+            "thumbnail": "https://ready64.org/favicon.ico",
+            "tags": [
+                "commodore 64",
+                "retro games"
+            ]
         },
         {
             "id": 159425,
@@ -895,7 +1058,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://team17.com/favicon.ico"
+            "thumbnail": "https://team17.com/favicon.ico",
+            "tags": [
+                "video game developer",
+                "worms",
+                "amiga",
+                "retro games",
+                "company"
+            ]
         },
         {
             "id": 462968,
@@ -918,7 +1088,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 5730,
@@ -941,7 +1114,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ultimatemister.com/wp-content/uploads/2024/03/Commodore-64-2.png"
+            "thumbnail": "https://ultimatemister.com/wp-content/uploads/2024/03/Commodore-64-2.png",
+            "tags": [
+                "hardware",
+                "retro games"
+            ]
         },
         {
             "id": 246105,
@@ -964,7 +1141,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://t2e.pl/favicon.ico"
+            "thumbnail": "https://t2e.pl/favicon.ico",
+            "tags": [
+                "amiga",
+                "commodore",
+                "retro games",
+                "atari",
+                "emulation"
+            ]
         },
         {
             "id": 171380,
@@ -987,7 +1171,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tetris.com/assets/brand/project-logo.png"
+            "thumbnail": "https://tetris.com/assets/brand/project-logo.png",
+            "tags": [
+                "tetris",
+                "video game",
+                "retro games"
+            ]
         },
         {
             "id": 159426,
@@ -1010,7 +1199,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/63c854fe0409c6aa1d847a14/641bc47e5ee80afd01c1ef76_seo-min.jpg"
+            "thumbnail": "https://cdn.prod.website-files.com/63c854fe0409c6aa1d847a14/641bc47e5ee80afd01c1ef76_seo-min.jpg",
+            "tags": [
+                "video game developer",
+                "retro games"
+            ]
         },
         {
             "id": 267910,
@@ -1033,7 +1226,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oldgames.sk/favicon.ico"
+            "thumbnail": "https://oldgames.sk/favicon.ico",
+            "tags": [
+                "amiga",
+                "commodore",
+                "retro games",
+                "dos",
+                "old games",
+                "abandonware"
+            ]
         },
         {
             "id": 22965,
@@ -1056,7 +1257,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://zxm.cz/favicon.ico"
+            "thumbnail": "https://zxm.cz/favicon.ico",
+            "tags": [
+                "zine",
+                "demoscene",
+                "retro games",
+                "zx spectrum",
+                "magazine"
+            ]
         },
         {
             "id": 212891,
@@ -1079,7 +1287,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://spiderwebsoftware.com/favicon.ico"
+            "thumbnail": "http://spiderwebsoftware.com/favicon.ico",
+            "tags": [
+                "video game developer",
+                "geneforge",
+                "role playing games",
+                "retro game",
+                "rpg"
+            ]
         },
         {
             "id": 228022,
@@ -1102,7 +1317,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lemmingsuniverse.net/favicon.ico"
+            "thumbnail": "https://lemmingsuniverse.net/favicon.ico",
+            "tags": [
+                "lemmings",
+                "retro games"
+            ]
         },
         {
             "id": 90686,
@@ -1125,7 +1344,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://bringerp.free.fr/favicon.ico"
+            "thumbnail": "http://bringerp.free.fr/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "video games",
+                "retro games"
+            ]
         },
         {
             "id": 39370,
@@ -1148,7 +1372,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://msxcomputermagazine.nl/wp-content/uploads/2017/01/wammes.jpg"
+            "thumbnail": "https://msxcomputermagazine.nl/wp-content/uploads/2017/01/wammes.jpg",
+            "tags": [
+                "magazine",
+                "retro games"
+            ]
         },
         {
             "id": 11709,
@@ -1171,7 +1399,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vogons.org/./images/favicon.png"
+            "thumbnail": "https://www.vogons.org/./images/favicon.png",
+            "tags": [
+                "internet forum",
+                "retro games"
+            ]
         },
         {
             "id": 3085,
@@ -1194,7 +1426,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroage.net/wp-content/uploads/2022/02/cropped-logo512x512-32x32.jpg"
+            "thumbnail": "https://retroage.net/wp-content/uploads/2022/02/cropped-logo512x512-32x32.jpg",
+            "tags": [
+                "video games",
+                "retro games"
+            ]
         },
         {
             "id": 25641,
@@ -1217,7 +1453,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://macintoshgarden.org/favicon.ico"
+            "thumbnail": "https://macintoshgarden.org/favicon.ico",
+            "tags": [
+                "retro games",
+                "abandonware"
+            ]
         },
         {
             "id": 11986,
@@ -1240,7 +1480,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dsj2.pl/img/fb_og.png"
+            "thumbnail": "https://dsj2.pl/img/fb_og.png",
+            "tags": [
+                "retro game"
+            ]
         },
         {
             "id": 159424,
@@ -1263,7 +1506,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.rebellion.com/wp-content/uploads/2019/11/28141935/group-shot-with-Kingsleys-and-Mike-Montgomery-1106x1200.jpg"
+            "thumbnail": "https://assets.rebellion.com/wp-content/uploads/2019/11/28141935/group-shot-with-Kingsleys-and-Mike-Montgomery-1106x1200.jpg",
+            "tags": [
+                "video game developer",
+                "bitmap brothers",
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 69982,
@@ -1286,7 +1535,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vintageisthenewold.com/wp-content/uploads/2023/04/writing-contest-2023.png"
+            "thumbnail": "https://www.vintageisthenewold.com/wp-content/uploads/2023/04/writing-contest-2023.png",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 9124,
@@ -1309,7 +1562,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://polish-abandonware.pl/favicon.ico"
+            "thumbnail": "https://polish-abandonware.pl/favicon.ico",
+            "tags": [
+                "video games",
+                "retro games"
+            ]
         },
         {
             "id": 106153,
@@ -1332,7 +1589,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.1701.cz/wp-content/uploads/2022/01/nahled-pro-1701-02.jpg"
+            "thumbnail": "https://www.1701.cz/wp-content/uploads/2022/01/nahled-pro-1701-02.jpg",
+            "tags": [
+                "shop",
+                "retro games"
+            ]
         },
         {
             "id": 459809,
@@ -1355,7 +1616,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arcader.com/wp-content/uploads/2016/10/arcader-games.jpg"
+            "thumbnail": "https://arcader.com/wp-content/uploads/2016/10/arcader-games.jpg",
+            "tags": [
+                "retro games",
+                "online tool"
+            ]
         },
         {
             "id": 105981,
@@ -1378,7 +1643,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://atariprotos.com/favicon.ico"
+            "thumbnail": "https://atariprotos.com/favicon.ico",
+            "tags": [
+                "atari",
+                "personal",
+                "retro games"
+            ]
         },
         {
             "id": 2893,
@@ -1401,7 +1671,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jaylittle.com/images/system/danboard_tip_toeing.webp"
+            "thumbnail": "https://jaylittle.com/images/system/danboard_tip_toeing.webp",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 106438,
@@ -1424,7 +1697,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kunio.pl/favicon.ico"
+            "thumbnail": "https://kunio.pl/favicon.ico",
+            "tags": [
+                "nekketsu",
+                "retro games"
+            ]
         },
         {
             "id": 42883,
@@ -1447,7 +1724,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nivrig.com/favicon-32x32.png"
+            "thumbnail": "https://nivrig.com/favicon-32x32.png",
+            "tags": [
+                "amiga",
+                "retro games",
+                "video game developer"
+            ]
         },
         {
             "id": 4033,
@@ -1470,7 +1752,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openretro.org/favicon.ico"
+            "thumbnail": "https://openretro.org/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 4474,
@@ -1493,7 +1778,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.recalbox.com/static/card-simple-df83ab13df8f5ab9c6924382bc8d8507.png"
+            "thumbnail": "https://www.recalbox.com/static/card-simple-df83ab13df8f5ab9c6924382bc8d8507.png",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 116100,
@@ -1516,7 +1805,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retroedicola.com/images/logo_retroedicola.png"
+            "thumbnail": "https://www.retroedicola.com/images/logo_retroedicola.png",
+            "tags": [
+                "amiga",
+                "commodore",
+                "retro games"
+            ]
         },
         {
             "id": 106442,
@@ -1539,7 +1833,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroemu.pl/wp-content/uploads/2023/05/youtube-cover-test-min.jpg"
+            "thumbnail": "https://retroemu.pl/wp-content/uploads/2023/05/youtube-cover-test-min.jpg",
+            "tags": [
+                "amiga",
+                "emulation",
+                "retro games"
+            ]
         },
         {
             "id": 16493,
@@ -1562,7 +1861,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retrogames.cc/favicon.png"
+            "thumbnail": "https://www.retrogames.cc/favicon.png",
+            "tags": [
+                "retro game"
+            ]
         },
         {
             "id": 14962,
@@ -1585,7 +1887,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrolorian.com/favicon.ico"
+            "thumbnail": "https://retrolorian.com/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 4535,
@@ -1608,7 +1913,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.parastorage.com/client/pfavico.ico"
+            "thumbnail": "https://static.parastorage.com/client/pfavico.ico",
+            "tags": [
+                "hardware",
+                "retro games"
+            ]
         },
         {
             "id": 104418,
@@ -1631,7 +1940,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s0.wp.com/i/blank.jpg"
+            "thumbnail": "https://s0.wp.com/i/blank.jpg",
+            "tags": [
+                "personal",
+                "retro games"
+            ]
         },
         {
             "id": 72090,
@@ -1654,7 +1967,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stcarchiv.de/favicon.ico"
+            "thumbnail": "https://stcarchiv.de/favicon.ico",
+            "tags": [
+                "atari",
+                "retro games"
+            ]
         },
         {
             "id": 443082,
@@ -1677,7 +1994,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://classicrebirth.com/wp-content/uploads/2018/09/resident_evil_2.0.0.jpg"
+            "thumbnail": "https://classicrebirth.com/wp-content/uploads/2018/09/resident_evil_2.0.0.jpg",
+            "tags": [
+                "video games",
+                "retro games"
+            ]
         },
         {
             "id": 105980,
@@ -1700,7 +2021,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://evercade.co.uk/wp-content/uploads/2024/04/EXP-R-Visual-TR.png"
+            "thumbnail": "https://evercade.co.uk/wp-content/uploads/2024/04/EXP-R-Visual-TR.png",
+            "tags": [
+                "retro games",
+                "gaming console"
+            ]
         },
         {
             "id": 77024,
@@ -1723,7 +2048,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://jefklakscodex.com/img/favicon.png"
+            "thumbnail": "https://jefklakscodex.com/img/favicon.png",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 85738,
@@ -1746,7 +2074,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.a600gs.com/favicon.ico"
+            "thumbnail": "https://www.a600gs.com/favicon.ico",
+            "tags": [
+                "amiga"
+            ]
         },
         {
             "id": 355462,
@@ -1769,7 +2100,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://brianpeek.com/favicon.ico"
+            "thumbnail": "https://brianpeek.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 361826,
@@ -1792,7 +2124,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://freebie.games/wp-content/uploads/2023/06/freebiegames-facebook-share.png"
+            "thumbnail": "https://freebie.games/wp-content/uploads/2023/06/freebiegames-facebook-share.png",
+            "tags": []
         },
         {
             "id": 459828,
@@ -1815,7 +2148,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gamescomet.net/favicon.ico"
+            "thumbnail": "https://gamescomet.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 38700,
@@ -1838,7 +2172,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gbstudio.dev/img/share.png"
+            "thumbnail": "https://gbstudio.dev/img/share.png",
+            "tags": []
         },
         {
             "id": 62054,
@@ -1861,7 +2196,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://koin.theretrosaga.com/assets/landing.png"
+            "thumbnail": "https://koin.theretrosaga.com/assets/landing.png",
+            "tags": [
+                "monetization",
+                "retro games"
+            ]
         },
         {
             "id": 115119,
@@ -1884,7 +2223,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrogames.biz/favicon.ico"
+            "thumbnail": "https://retrogames.biz/favicon.ico",
+            "tags": []
         },
         {
             "id": 12456,
@@ -1907,7 +2247,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vgmrips.net/packs/images/favicon.ico"
+            "thumbnail": "https://vgmrips.net/packs/images/favicon.ico",
+            "tags": []
         },
         {
             "id": 73725,
@@ -1930,7 +2271,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.classic-videogames.de/wp-content/uploads/2023/03/CVGconschmal320.jpg"
+            "thumbnail": "https://www.classic-videogames.de/wp-content/uploads/2023/03/CVGconschmal320.jpg",
+            "tags": [
+                "convention",
+                "retro games"
+            ]
         },
         {
             "id": 104419,
@@ -1953,7 +2298,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://johan.driessen.se/favicon.ico"
+            "thumbnail": "https://johan.driessen.se/favicon.ico",
+            "tags": [
+                "personal",
+                "retro games"
+            ]
         },
         {
             "id": 90550,
@@ -1976,7 +2325,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lemmings.hmilch.net/favicon.ico"
+            "thumbnail": "https://lemmings.hmilch.net/favicon.ico",
+            "tags": [
+                "lemmings",
+                "retro games"
+            ]
         },
         {
             "id": 328919,
@@ -1999,7 +2352,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrofuturo.net/wp-content/uploads/2023/08/scifi-3617337_1920.jpg"
+            "thumbnail": "https://retrofuturo.net/wp-content/uploads/2023/08/scifi-3617337_1920.jpg",
+            "tags": []
         },
         {
             "id": 115153,
@@ -2022,7 +2376,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kiffosretrocomp.mikendezign.com/favicon.ico"
+            "thumbnail": "https://kiffosretrocomp.mikendezign.com/favicon.ico",
+            "tags": [
+                "amiga"
+            ]
         },
         {
             "id": 440589,
@@ -2045,7 +2402,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pixelatedaudio.com/wp-content/uploads/2016/05/pixelatedaudio-banner-final_kof_60per.jpg"
+            "thumbnail": "https://pixelatedaudio.com/wp-content/uploads/2016/05/pixelatedaudio-banner-final_kof_60per.jpg",
+            "tags": []
         },
         {
             "id": 385260,
@@ -2068,7 +2426,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrogamegoods.com/wp/wp-content/plugins/wordbooker/includes/wordbooker_blank.jpg"
+            "thumbnail": "https://retrogamegoods.com/wp/wp-content/plugins/wordbooker/includes/wordbooker_blank.jpg",
+            "tags": []
         },
         {
             "id": 33537,
@@ -2091,7 +2450,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrogamershub.com/favicon.ico"
+            "thumbnail": "https://retrogamershub.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 344381,
@@ -2114,7 +2474,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtt6etuagtKom2aiJ6kNIwHq7h1rHka0MI7orCjRKwMTge_kSSR0GIphc9T_hs2WT-8j_CRisfXaADFN1b1zol5QVZVkP38bU0fe-ZO-b5aSqza941PIsqneic7dl-eS-tEmUYzRBXPPBi8_rkgrpAghZVSU2YcspXVeQ6RvXkmbjPW6dmp6_Vu6xRCog/s16000/AS400logo.jpg"
+            "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtt6etuagtKom2aiJ6kNIwHq7h1rHka0MI7orCjRKwMTge_kSSR0GIphc9T_hs2WT-8j_CRisfXaADFN1b1zol5QVZVkP38bU0fe-ZO-b5aSqza941PIsqneic7dl-eS-tEmUYzRBXPPBi8_rkgrpAghZVSU2YcspXVeQ6RvXkmbjPW6dmp6_Vu6xRCog/s16000/AS400logo.jpg",
+            "tags": []
         },
         {
             "id": 424344,
@@ -2137,7 +2498,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrogamesplus.com/wp-content/uploads/2022/07/cropped-HOME-PAGE-Orange-Exterior-Good.jpeg"
+            "thumbnail": "https://retrogamesplus.com/wp-content/uploads/2022/07/cropped-HOME-PAGE-Orange-Exterior-Good.jpeg",
+            "tags": []
         },
         {
             "id": 42884,
@@ -2160,7 +2522,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retro.nivrig.com/favicon-32x32.png"
+            "thumbnail": "https://retro.nivrig.com/favicon-32x32.png",
+            "tags": []
         },
         {
             "id": 178484,
@@ -2183,7 +2546,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vimm.net/images/vimmbutton-100-black.png"
+            "thumbnail": "https://vimm.net/images/vimmbutton-100-black.png",
+            "tags": [
+                "video game roms",
+                "retro games",
+                "piracy"
+            ]
         },
         {
             "id": 358755,
@@ -2206,7 +2574,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.pyrdacor.net/favicon.ico"
+            "thumbnail": "https://www.pyrdacor.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 332523,
@@ -2229,7 +2598,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ziggurat.co.nz/favicon.ico"
+            "thumbnail": "https://ziggurat.co.nz/favicon.ico",
+            "tags": []
         },
         {
             "id": 459459,
@@ -2252,7 +2622,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2F32bits.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1602262242%26version%3D9"
+            "thumbnail": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2F32bits.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1602262242%26version%3D9",
+            "tags": []
         },
         {
             "id": 9558,
@@ -2275,7 +2646,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.wixstatic.com/media/5318cc_b0d6b0b30cab4c0db80a638e3c9bfb9f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/5318cc_b0d6b0b30cab4c0db80a638e3c9bfb9f%7Emv2.png"
+            "thumbnail": "https://static.wixstatic.com/media/5318cc_b0d6b0b30cab4c0db80a638e3c9bfb9f%7Emv2.png/v1/fit/w_2500,h_1330,al_c/5318cc_b0d6b0b30cab4c0db80a638e3c9bfb9f%7Emv2.png",
+            "tags": [
+                "amiga"
+            ]
         },
         {
             "id": 11913,
@@ -2298,7 +2672,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://h3mods.heroes.net.pl/cms/dist/img/favicon.ico"
+            "thumbnail": "https://h3mods.heroes.net.pl/cms/dist/img/favicon.ico",
+            "tags": [
+                "video games",
+                "retro games"
+            ]
         },
         {
             "id": 90396,
@@ -2321,7 +2699,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opensurge2d.org/img/surge.png"
+            "thumbnail": "https://opensurge2d.org/img/surge.png",
+            "tags": [
+                "video game engine",
+                "open source"
+            ]
         },
         {
             "id": 18349,
@@ -2344,7 +2726,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://readonlymemory.vg/favicon.ico"
+            "thumbnail": "https://readonlymemory.vg/favicon.ico",
+            "tags": [
+                "games",
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 287995,
@@ -2367,7 +2754,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s0.wp.com/i/blank.jpg"
+            "thumbnail": "https://s0.wp.com/i/blank.jpg",
+            "tags": [
+                "amiga",
+                "commodore",
+                "retro games"
+            ]
         },
         {
             "id": 288103,
@@ -2390,7 +2782,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://romsmania.games/favicon.ico"
+            "thumbnail": "https://romsmania.games/favicon.ico",
+            "tags": [
+                "retro games",
+                "video game roms",
+                "emulator",
+                "emulation"
+            ]
         },
         {
             "id": 21055,
@@ -2413,7 +2811,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://theretrosaga.com/images/games/pacman.gif"
+            "thumbnail": "https://theretrosaga.com/images/games/pacman.gif",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 295757,
@@ -2436,7 +2837,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.pastgames.net/favicon.ico"
+            "thumbnail": "https://www.pastgames.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 461045,
@@ -2459,7 +2861,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://coolrom.com.au/images/128x128.gif"
+            "thumbnail": "https://coolrom.com.au/images/128x128.gif",
+            "tags": []
         },
         {
             "id": 364433,
@@ -2482,7 +2885,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.rom-game.fr/favicon.ico"
+            "thumbnail": "http://www.rom-game.fr/favicon.ico",
+            "tags": []
         },
         {
             "id": 341695,
@@ -2505,7 +2909,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.locos-welt-gaming.de/wp-content/uploads/2024/05/loco_gaming_bg-1920x1080.png"
+            "thumbnail": "https://www.locos-welt-gaming.de/wp-content/uploads/2024/05/loco_gaming_bg-1920x1080.png",
+            "tags": []
         },
         {
             "id": 164292,
@@ -2528,7 +2933,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdromance.org/wp-content/uploads/2019/06/favicon-512.png"
+            "thumbnail": "https://cdromance.org/wp-content/uploads/2019/06/favicon-512.png",
+            "tags": [
+                "retro games",
+                "emulation"
+            ]
         },
         {
             "id": 299260,
@@ -2551,7 +2960,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://64.media.tumblr.com/b1ee44563fcd02ad479a2857254d0004/2709aacdf37b5501-08/s128x128u_c1/627cc6d49bd1848fe63961d4fd00ddb91e9df6dd.jpg"
+            "thumbnail": "https://64.media.tumblr.com/b1ee44563fcd02ad479a2857254d0004/2709aacdf37b5501-08/s128x128u_c1/627cc6d49bd1848fe63961d4fd00ddb91e9df6dd.jpg",
+            "tags": []
         },
         {
             "id": 424352,
@@ -2574,7 +2984,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCSDE3N0FRPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--87ecd73333efc6a1a8311e488f0026e15f54e74f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFmcHBBZnA3QmpvSlkzSnZjRG9MWTJWdWRISmxPZ3B6WVhabGNuc0dPZ3h4ZFdGc2FYUjVhVUU2RUdOdmJHOTFjbk53WVdObFNTSUpjM0puWWdZNkJrVlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--bfdad5b04912fa8a9db85eb3989e46c5908e2723/Pixel%20Plus%20Pod.jpg"
+            "thumbnail": "https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCSDE3N0FRPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--87ecd73333efc6a1a8311e488f0026e15f54e74f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFmcHBBZnA3QmpvSlkzSnZjRG9MWTJWdWRISmxPZ3B6WVhabGNuc0dPZ3h4ZFdGc2FYUjVhVUU2RUdOdmJHOTFjbk53WVdObFNTSUpjM0puWWdZNkJrVlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--bfdad5b04912fa8a9db85eb3989e46c5908e2723/Pixel%20Plus%20Pod.jpg",
+            "tags": []
         },
         {
             "id": 32940,
@@ -2597,7 +3008,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.retrogameon.com/favicon.ico"
+            "thumbnail": "http://www.retrogameon.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 115127,
@@ -2620,7 +3032,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroports.blogspot.com/favicon.ico"
+            "thumbnail": "https://retroports.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 347954,
@@ -2643,7 +3056,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s0.wp.com/i/blank.jpg"
+            "thumbnail": "https://s0.wp.com/i/blank.jpg",
+            "tags": []
         },
         {
             "id": 329654,
@@ -2666,7 +3080,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.retrogameon.com/favicon.ico"
+            "thumbnail": "http://www.retrogameon.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 179095,
@@ -2689,7 +3104,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://emulator.online/img/fb-preview-snes.jpg"
+            "thumbnail": "http://emulator.online/img/fb-preview-snes.jpg",
+            "tags": []
         },
         {
             "id": 275015,
@@ -2712,7 +3128,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5005d42ce4b0d534734e9706/t/557a559be4b0fca75f5cc335/1434080669052/oryx_crest_sm2.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5005d42ce4b0d534734e9706/t/557a559be4b0fca75f5cc335/1434080669052/oryx_crest_sm2.png?format=1500w",
+            "tags": []
         },
         {
             "id": 73232,
@@ -2735,7 +3152,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://anbernic.com/cdn/shop/files/20220627170216.png?v=1656321693&width=2048"
+            "thumbnail": "http://anbernic.com/cdn/shop/files/20220627170216.png?v=1656321693&width=2048",
+            "tags": []
         },
         {
             "id": 159691,
@@ -2758,7 +3176,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://captown.capcom.com/packs/media/images/front/top/ogp-347c6e825990fccb11d5.png"
+            "thumbnail": "https://captown.capcom.com/packs/media/images/front/top/ogp-347c6e825990fccb11d5.png",
+            "tags": []
         },
         {
             "id": 85391,
@@ -2781,7 +3200,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.wixstatic.com/media/cd3453_9d4611b9afa44e339165af57fcf9d88e~mv2.jpg/v1/fill/w_2500,h_1901,al_c/cd3453_9d4611b9afa44e339165af57fcf9d88e~mv2.jpg"
+            "thumbnail": "https://static.wixstatic.com/media/cd3453_9d4611b9afa44e339165af57fcf9d88e~mv2.jpg/v1/fill/w_2500,h_1901,al_c/cd3453_9d4611b9afa44e339165af57fcf9d88e~mv2.jpg",
+            "tags": []
         },
         {
             "id": 4524,
@@ -2804,7 +3224,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retrogamecoders.com/wp-content/uploads/2021/03/retro-game-coders-social.png"
+            "thumbnail": "https://retrogamecoders.com/wp-content/uploads/2021/03/retro-game-coders-social.png",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 267906,
@@ -2827,7 +3251,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s0.wp.com/i/blank.jpg"
+            "thumbnail": "https://s0.wp.com/i/blank.jpg",
+            "tags": [
+                "amiga",
+                "personal",
+                "blog",
+                "retro games"
+            ]
         },
         {
             "id": 115135,
@@ -2850,7 +3280,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroports.blogspot.co.uk/favicon.ico"
+            "thumbnail": "https://retroports.blogspot.co.uk/favicon.ico",
+            "tags": []
         },
         {
             "id": 365890,
@@ -2873,7 +3304,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i0.wp.com/www.retrospekt.com.au/wp-content/uploads/2017/01/cropped-New-Retrospekt-Logo-Profile-Pic-for-FB.png?fit=512%2C512"
+            "thumbnail": "https://i0.wp.com/www.retrospekt.com.au/wp-content/uploads/2017/01/cropped-New-Retrospekt-Logo-Profile-Pic-for-FB.png?fit=512%2C512",
+            "tags": []
         },
         {
             "id": 359849,
@@ -2896,7 +3328,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://reassembler.blogspot.com.au/favicon.ico"
+            "thumbnail": "http://reassembler.blogspot.com.au/favicon.ico",
+            "tags": []
         },
         {
             "id": 217936,
@@ -2919,7 +3352,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://anbernic.com/cdn/shop/files/20220627170216.png?v=1656321693&width=2048"
+            "thumbnail": "http://anbernic.com/cdn/shop/files/20220627170216.png?v=1656321693&width=2048",
+            "tags": []
         },
         {
             "id": 85733,
@@ -2942,7 +3376,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroplanet.gr/favicon.ico"
+            "thumbnail": "https://retroplanet.gr/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 275101,
@@ -2965,7 +3403,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://store.axelspringer.es/cdn/shop/files/axelspringer_logo_32353034-dd47-416d-9e4c-c37eae562f5d.png?v=1719826356"
+            "thumbnail": "http://store.axelspringer.es/cdn/shop/files/axelspringer_logo_32353034-dd47-416d-9e4c-c37eae562f5d.png?v=1719826356",
+            "tags": []
         },
         {
             "id": 280665,
@@ -2988,7 +3427,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.theconsoleclub.gr/images/console_club_logo_3d.png"
+            "thumbnail": "https://www.theconsoleclub.gr/images/console_club_logo_3d.png",
+            "tags": []
         },
         {
             "id": 90608,
@@ -3011,7 +3451,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://reassembler.blogspot.com/favicon.ico"
+            "thumbnail": "https://reassembler.blogspot.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 268820,
@@ -3034,7 +3475,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://reassembler.blogspot.co.uk/favicon.ico"
+            "thumbnail": "https://reassembler.blogspot.co.uk/favicon.ico",
+            "tags": []
         },
         {
             "id": 4529,
@@ -3057,7 +3499,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retro32.com/wp-content/uploads/sb-instagram-feed-images/448468594_448117097963778_851647576099430495_nlow.jpg"
+            "thumbnail": "https://www.retro32.com/wp-content/uploads/sb-instagram-feed-images/448468594_448117097963778_851647576099430495_nlow.jpg",
+            "tags": [
+                "shop",
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 163237,
@@ -3080,7 +3527,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vizzed.com/images/banner/2.jpg"
+            "thumbnail": "https://www.vizzed.com/images/banner/2.jpg",
+            "tags": []
         },
         {
             "id": 359960,
@@ -3103,7 +3551,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.retrovideogamer.co.uk/favicon.ico"
+            "thumbnail": "http://www.retrovideogamer.co.uk/favicon.ico",
+            "tags": []
         },
         {
             "id": 337467,
@@ -3126,7 +3575,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://retrogamedaisuki.blog.fc2.com/favicon.ico"
+            "thumbnail": "http://retrogamedaisuki.blog.fc2.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 270192,
@@ -3149,7 +3599,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.webliero.com/thumbnail.jpg"
+            "thumbnail": "https://www.webliero.com/thumbnail.jpg",
+            "tags": [
+                "retro game",
+                "liero"
+            ]
         },
         {
             "id": 85731,
@@ -3172,7 +3626,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retroid.gr/favicon.ico"
+            "thumbnail": "https://retroid.gr/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 228025,
@@ -3195,7 +3653,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lemmingsforums.net/favicon.ico"
+            "thumbnail": "https://lemmingsforums.net/favicon.ico",
+            "tags": [
+                "lemmings",
+                "retro games"
+            ]
         },
         {
             "id": 288009,
@@ -3218,7 +3680,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://old-games.com/favicon.ico"
+            "thumbnail": "https://old-games.com/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 98579,
@@ -3241,7 +3707,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://geekofalltrades.org/favicon.ico"
+            "thumbnail": "https://geekofalltrades.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 85425,
@@ -3264,7 +3731,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://panprase.cz/favicon.ico"
+            "thumbnail": "https://panprase.cz/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games"
+            ]
         },
         {
             "id": 77716,
@@ -3287,7 +3758,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://retronagazie.eu/favicon.ico"
+            "thumbnail": "https://retronagazie.eu/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         },
         {
             "id": 90709,
@@ -3310,7 +3784,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arrakis.dune2k.com/favicon.ico"
+            "thumbnail": "https://arrakis.dune2k.com/favicon.ico",
+            "tags": [
+                "open source",
+                "dune",
+                "dune 2",
+                "retro games",
+                "video game port"
+            ]
         },
         {
             "id": 267915,
@@ -3333,7 +3814,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://flashback-event.de/favicon.ico"
+            "thumbnail": "https://flashback-event.de/favicon.ico",
+            "tags": [
+                "amiga",
+                "retro games",
+                "zx spectrum"
+            ]
         },
         {
             "id": 100347,
@@ -3356,7 +3842,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://richwhitehouse.com/favicon.ico"
+            "thumbnail": "https://richwhitehouse.com/favicon.ico",
+            "tags": [
+                "retro games",
+                "personal",
+                "emulation"
+            ]
         },
         {
             "id": 178721,
@@ -3379,7 +3870,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.playretrogames.com/favicon.ico"
+            "thumbnail": "https://www.playretrogames.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 210987,
@@ -3402,7 +3894,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.retrogamesformac.com/favicon.ico"
+            "thumbnail": "https://www.retrogamesformac.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 234178,
@@ -3425,7 +3918,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.retroguru.com/favicon.ico"
+            "thumbnail": "http://www.retroguru.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 277996,
@@ -3448,7 +3942,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.badgerpunch.com/favicon.ico"
+            "thumbnail": "https://www.badgerpunch.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 106430,
@@ -3471,7 +3966,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://shenmuedojo.com/favicon.ico"
+            "thumbnail": "https://shenmuedojo.com/favicon.ico",
+            "tags": [
+                "retro games"
+            ]
         }
     ]
 }

@@ -21,7 +21,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.python.org/static/opengraph-icon-200x200.png"
+            "thumbnail": "https://www.python.org/static/opengraph-icon-200x200.png",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 26125,
@@ -44,7 +47,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.tiobe.com/wp-content/themes/tiobe/favicon/favicon-32x32.png"
+            "thumbnail": "https://www.tiobe.com/wp-content/themes/tiobe/favicon/favicon-32x32.png",
+            "tags": [
+                "programming languages"
+            ]
         },
         {
             "id": 252514,
@@ -67,7 +73,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://latex-project.org/favicon.ico"
+            "thumbnail": "https://latex-project.org/favicon.ico",
+            "tags": [
+                "latex",
+                "programming language",
+                "documentation software"
+            ]
         },
         {
             "id": 24650,
@@ -90,7 +101,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://isocpp.org/favicon.ico"
+            "thumbnail": "https://isocpp.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "c++",
+                "cpp"
+            ]
         },
         {
             "id": 252517,
@@ -113,7 +129,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://java.com/favicon.ico"
+            "thumbnail": "https://java.com/favicon.ico",
+            "tags": [
+                "java",
+                "programming language"
+            ]
         },
         {
             "id": 29983,
@@ -136,7 +156,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+            "thumbnail": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
+            "tags": [
+                "programming language",
+                "rust"
+            ]
         },
         {
             "id": 61942,
@@ -159,7 +183,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://typescriptlang.org/favicon.ico"
+            "thumbnail": "https://typescriptlang.org/favicon.ico",
+            "tags": [
+                "javascript",
+                "programming language",
+                "typescript",
+                "open source"
+            ]
         },
         {
             "id": 252522,
@@ -182,7 +212,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://verilog.com/favicon.ico"
+            "thumbnail": "https://verilog.com/favicon.ico",
+            "tags": [
+                "programming language",
+                "verilog"
+            ]
         },
         {
             "id": 15952,
@@ -205,7 +239,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://go.dev/favicon.ico"
+            "thumbnail": "https://go.dev/favicon.ico",
+            "tags": [
+                "go",
+                "programming language"
+            ]
         },
         {
             "id": 23048,
@@ -228,7 +266,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scratch.mit.edu/images/scratch-og.png"
+            "thumbnail": "https://scratch.mit.edu/images/scratch-og.png",
+            "tags": [
+                "scratch",
+                "programming language"
+            ]
         },
         {
             "id": 28540,
@@ -251,7 +293,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://haskell.org/favicon.ico"
+            "thumbnail": "https://haskell.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "haskell"
+            ]
         },
         {
             "id": 252523,
@@ -274,7 +320,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://perl.org/favicon.ico"
+            "thumbnail": "https://perl.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "perl"
+            ]
         },
         {
             "id": 15940,
@@ -297,7 +347,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png"
+            "thumbnail": "https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png",
+            "tags": [
+                "flutter",
+                "programming language"
+            ]
         },
         {
             "id": 24757,
@@ -320,7 +374,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kotlinlang.org/assets/images/open-graph/general.png"
+            "thumbnail": "https://kotlinlang.org/assets/images/open-graph/general.png",
+            "tags": [
+                "kotlin",
+                "programming language"
+            ]
         },
         {
             "id": 29996,
@@ -343,7 +401,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lisp-lang.org/assets/img/favicon/generated/favicon-32x32.png"
+            "thumbnail": "https://lisp-lang.org/assets/img/favicon/generated/favicon-32x32.png",
+            "tags": [
+                "programming language",
+                "lisp"
+            ]
         },
         {
             "id": 29994,
@@ -366,7 +428,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://squeak.org/static/img/favicon.png"
+            "thumbnail": "https://squeak.org/static/img/favicon.png",
+            "tags": [
+                "smalltalk",
+                "programming language",
+                "graphical toolkit",
+                "open source"
+            ]
         },
         {
             "id": 153672,
@@ -389,7 +457,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tcl-lang.org/favicon.ico"
+            "thumbnail": "https://tcl-lang.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "tcl"
+            ]
         },
         {
             "id": 28542,
@@ -412,7 +484,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tcl.tk/favicon.ico"
+            "thumbnail": "https://tcl.tk/favicon.ico",
+            "tags": [
+                "programming language",
+                "tcl"
+            ]
         },
         {
             "id": 30038,
@@ -435,7 +511,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://yaml.org/favicon.svg"
+            "thumbnail": "https://yaml.org/favicon.svg",
+            "tags": [
+                "yaml",
+                "programming language"
+            ]
         },
         {
             "id": 15939,
@@ -458,7 +538,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://docs.flutter.dev/assets/images/flutter-logo-sharing.png"
+            "thumbnail": "https://docs.flutter.dev/assets/images/flutter-logo-sharing.png",
+            "tags": [
+                "flutter",
+                "programming language"
+            ]
         },
         {
             "id": 118569,
@@ -481,7 +565,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://standardpascal.org/favicon.ico"
+            "thumbnail": "https://standardpascal.org/favicon.ico",
+            "tags": [
+                "pascal",
+                "programming language"
+            ]
         },
         {
             "id": 12691,
@@ -504,7 +592,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://flatassembler.net/images/flatassembler.gif"
+            "thumbnail": "http://flatassembler.net/images/flatassembler.gif",
+            "tags": [
+                "programming language",
+                "assembly",
+                "resources",
+                "fan page"
+            ]
         },
         {
             "id": 55833,
@@ -527,7 +621,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png"
+            "thumbnail": "https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png",
+            "tags": [
+                "scala",
+                "programming language"
+            ]
         },
         {
             "id": 252525,
@@ -550,7 +648,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nasm.us/favicon.ico"
+            "thumbnail": "https://nasm.us/favicon.ico",
+            "tags": [
+                "programming language",
+                "assembly"
+            ]
         },
         {
             "id": 26124,
@@ -573,7 +675,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://plrank.com/favicon.ico"
+            "thumbnail": "https://plrank.com/favicon.ico",
+            "tags": [
+                "programming languages",
+                "online ranking",
+                "online tool"
+            ]
         },
         {
             "id": 105893,
@@ -596,7 +703,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://amber-lang.com/og.jpeg"
+            "thumbnail": "https://amber-lang.com/og.jpeg",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 8838,
@@ -619,7 +729,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fortran-lang.org/_static/images/favicon.ico"
+            "thumbnail": "https://fortran-lang.org/_static/images/favicon.ico",
+            "tags": [
+                "fortran",
+                "programming language"
+            ]
         },
         {
             "id": 29967,
@@ -642,7 +756,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://raku.org/favicon.ico"
+            "thumbnail": "https://raku.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "raku"
+            ]
         },
         {
             "id": 252529,
@@ -665,7 +783,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ruby-lang.org/favicon.ico"
+            "thumbnail": "https://ruby-lang.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 8751,
@@ -688,7 +809,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.erlang.org/assets/img/erlang-228x200.png"
+            "thumbnail": "https://www.erlang.org/assets/img/erlang-228x200.png",
+            "tags": [
+                "programing language",
+                "erland",
+                "programming language"
+            ]
         },
         {
             "id": 8594,
@@ -711,7 +837,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://crystal-lang.org/assets/banner.webp"
+            "thumbnail": "https://crystal-lang.org/assets/banner.webp",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 24663,
@@ -734,7 +863,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://janet-lang.org/assets/janet-no-bg.png"
+            "thumbnail": "https://janet-lang.org/assets/janet-no-bg.png",
+            "tags": [
+                "programming language",
+                "janet"
+            ]
         },
         {
             "id": 24707,
@@ -757,7 +890,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://julialang.org/assets/infra/julia.ico"
+            "thumbnail": "https://julialang.org/assets/infra/julia.ico",
+            "tags": [
+                "programming language",
+                "julia",
+                "open source"
+            ]
         },
         {
             "id": 109267,
@@ -780,7 +918,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kaitai.io/favicon.ico"
+            "thumbnail": "https://kaitai.io/favicon.ico",
+            "tags": [
+                "reverse engineering",
+                "programming language",
+                "hacking"
+            ]
         },
         {
             "id": 25253,
@@ -803,7 +946,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pharo.org/files/favicon.ico"
+            "thumbnail": "https://pharo.org/files/favicon.ico",
+            "tags": [
+                "programming language",
+                "pharo",
+                "open source"
+            ]
         },
         {
             "id": 28773,
@@ -826,7 +974,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://vala.dev/img/vala-hero-wide.png"
+            "thumbnail": "https://vala.dev/img/vala-hero-wide.png",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 159376,
@@ -849,7 +1000,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://getlang.dev/hero.dark.png"
+            "thumbnail": "https://getlang.dev/hero.dark.png",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 94114,
@@ -872,7 +1026,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 20480,
@@ -895,7 +1052,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 29842,
@@ -918,7 +1078,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ada-lang.io/img/ada_logo.svg"
+            "thumbnail": "https://ada-lang.io/img/ada_logo.svg",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         },
         {
             "id": 29850,
@@ -941,7 +1105,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ada-language.com/favicon.ico"
+            "thumbnail": "https://ada-language.com/favicon.ico",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         },
         {
             "id": 1501,
@@ -964,7 +1132,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dlang.org/images/dlogo_opengraph.png"
+            "thumbnail": "https://dlang.org/images/dlogo_opengraph.png",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 29976,
@@ -987,7 +1158,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://go-language.org/favicon.ico"
+            "thumbnail": "https://go-language.org/favicon.ico",
+            "tags": [
+                "go",
+                "programming language"
+            ]
         },
         {
             "id": 106828,
@@ -1010,7 +1185,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 108082,
@@ -1033,7 +1211,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://inform7.com/favicon.ico"
+            "thumbnail": "https://inform7.com/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 24684,
@@ -1056,7 +1237,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://joker-lang.org/favicon.ico"
+            "thumbnail": "https://joker-lang.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 29975,
@@ -1079,7 +1263,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://learndelphi.org/wp-content/uploads/2022/07/BG6_1920x1080.jpg"
+            "thumbnail": "https://learndelphi.org/wp-content/uploads/2022/07/BG6_1920x1080.jpg",
+            "tags": [
+                "delphi",
+                "programming language"
+            ]
         },
         {
             "id": 13089,
@@ -1102,7 +1290,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.squarespace-cdn.com/content/v1/584219d403596e3099e0ee9b/1610726458229-E3ZEIQZM3995V4Y4TL39/favicon.ico?format=100w"
+            "thumbnail": "https://images.squarespace-cdn.com/content/v1/584219d403596e3099e0ee9b/1610726458229-E3ZEIQZM3995V4Y4TL39/favicon.ico?format=100w",
+            "tags": [
+                "programming language news",
+                "haskell"
+            ]
         },
         {
             "id": 25097,
@@ -1125,7 +1317,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nim-lang.org/assets/img/twitter_banner.png"
+            "thumbnail": "https://nim-lang.org/assets/img/twitter_banner.png",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 29926,
@@ -1148,7 +1343,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://podlite.org/favicon.png"
+            "thumbnail": "https://podlite.org/favicon.png",
+            "tags": [
+                "markup language",
+                "programming language"
+            ]
         },
         {
             "id": 29694,
@@ -1171,7 +1370,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 30095,
@@ -1194,7 +1396,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://velato.net/favicon.ico"
+            "thumbnail": "http://velato.net/favicon.ico",
+            "tags": [
+                "programming language",
+                "velato"
+            ]
         },
         {
             "id": 105310,
@@ -1217,7 +1423,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kuroko-lang.github.io/favicon.ico"
+            "thumbnail": "https://kuroko-lang.github.io/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 60868,
@@ -1240,7 +1449,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png"
+            "thumbnail": "https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png",
+            "tags": [
+                "programming language",
+                "open source"
+            ]
         },
         {
             "id": 88361,
@@ -1263,7 +1476,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.fireside.fm/file/fireside-images/podcasts/images/8/8504b886-5e40-422f-b79d-66d39aa58528/cover_medium.jpg"
+            "thumbnail": "https://assets.fireside.fm/file/fireside-images/podcasts/images/8/8504b886-5e40-422f-b79d-66d39aa58528/cover_medium.jpg",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 252485,
@@ -1286,7 +1502,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/753e5ced3dee643d89b3dcaa206310f4bf8517a04e91a5175affec7242fd5929/cdiggins/cat-language"
+            "thumbnail": "https://opengraph.githubassets.com/753e5ced3dee643d89b3dcaa206310f4bf8517a04e91a5175affec7242fd5929/cdiggins/cat-language",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 27138,
@@ -1309,7 +1528,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 62851,
@@ -1332,7 +1554,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://roc-lang.org/favicon.ico"
+            "thumbnail": "https://roc-lang.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 252533,
@@ -1355,7 +1580,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ada2012.org/favicon.ico"
+            "thumbnail": "https://ada2012.org/favicon.ico",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         },
         {
             "id": 252548,
@@ -1378,7 +1607,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://taichi-lang.org/favicon.ico"
+            "thumbnail": "https://taichi-lang.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 252538,
@@ -1401,7 +1633,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://adaic.org/favicon.ico"
+            "thumbnail": "https://adaic.org/favicon.ico",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         },
         {
             "id": 252537,
@@ -1424,7 +1660,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fstar-lang.org/favicon.ico"
+            "thumbnail": "https://fstar-lang.org/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 252542,
@@ -1447,7 +1686,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://getadanow.com/favicon.ico"
+            "thumbnail": "https://getadanow.com/favicon.ico",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         },
         {
             "id": 265189,
@@ -1470,7 +1713,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ponylang.io/favicon.ico"
+            "thumbnail": "https://ponylang.io/favicon.ico",
+            "tags": [
+                "programming language"
+            ]
         },
         {
             "id": 252543,
@@ -1493,7 +1739,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scilab.org/favicon.ico"
+            "thumbnail": "https://scilab.org/favicon.ico",
+            "tags": [
+                "programming language",
+                "scilab"
+            ]
         },
         {
             "id": 252544,
@@ -1516,7 +1766,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://ada-auth.org/favicon.ico"
+            "thumbnail": "http://ada-auth.org/favicon.ico",
+            "tags": [
+                "ada",
+                "programming language"
+            ]
         }
     ]
 }

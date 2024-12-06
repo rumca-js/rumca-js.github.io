@@ -21,7 +21,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1"
+            "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1",
+            "tags": [
+                "windows",
+                "gatekeeper",
+                "operating system",
+                "gateway"
+            ]
         },
         {
             "id": 157348,
@@ -44,7 +50,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lh3.googleusercontent.com/LYUDWiiqyTSiwzbPsJnYhfTzA3kUAoYgRy_1mpKTZOuLtpaMTaNdPKm8Xesm5mxA_zUSIGy6RO4PxhUnIDgTgbmroxgVpudnc0XKWW0cByZXppI2WGo"
+            "thumbnail": "https://lh3.googleusercontent.com/LYUDWiiqyTSiwzbPsJnYhfTzA3kUAoYgRy_1mpKTZOuLtpaMTaNdPKm8Xesm5mxA_zUSIGy6RO4PxhUnIDgTgbmroxgVpudnc0XKWW0cByZXppI2WGo",
+            "tags": [
+                "gatekeeper",
+                "operating system"
+            ]
         },
         {
             "id": 249595,
@@ -67,7 +77,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://debian.org/favicon.ico"
+            "thumbnail": "https://debian.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 19410,
@@ -90,7 +104,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://konstakang.com/img/konsta.png"
+            "thumbnail": "https://konstakang.com/img/konsta.png",
+            "tags": [
+                "lineageos",
+                "android",
+                "operating system",
+                "android roms"
+            ]
         },
         {
             "id": 43550,
@@ -113,7 +133,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openbsd.org/favicon.ico"
+            "thumbnail": "https://openbsd.org/favicon.ico",
+            "tags": [
+                "unix",
+                "operating system"
+            ]
         },
         {
             "id": 110978,
@@ -136,7 +160,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://raspbian.org/favicon.ico"
+            "thumbnail": "https://raspbian.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "open source",
+                "raspberry pi",
+                "linux"
+            ]
         },
         {
             "id": 95430,
@@ -159,7 +189,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.freebsd.org/images/logo-thepowertoserve.png"
+            "thumbnail": "https://www.freebsd.org/images/logo-thepowertoserve.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 98287,
@@ -182,7 +216,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rufus.ie/favicon.ico"
+            "thumbnail": "https://rufus.ie/favicon.ico",
+            "tags": [
+                "bootable drives",
+                "operating systems"
+            ]
         },
         {
             "id": 8494,
@@ -205,7 +243,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://chimeraos.org/favicon.ico"
+            "thumbnail": "https://chimeraos.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 17303,
@@ -228,7 +270,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dd-wrt.com/favicon.ico"
+            "thumbnail": "https://dd-wrt.com/favicon.ico",
+            "tags": [
+                "linux",
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 9913,
@@ -251,7 +298,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.gstatic.com/devrel-devsite/prod/v18deffdce717053d2574d396ca1a06d6589d5eab7eb54fc25710e3ed98d4a3ba/androidsource/images/favicon.svg"
+            "thumbnail": "https://www.gstatic.com/devrel-devsite/prod/v18deffdce717053d2574d396ca1a06d6589d5eab7eb54fc25710e3ed98d4a3ba/androidsource/images/favicon.svg",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 12505,
@@ -274,7 +325,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://amigaos.net/sites/default/files/favicon.png"
+            "thumbnail": "https://amigaos.net/sites/default/files/favicon.png",
+            "tags": [
+                "amiga",
+                "operating system"
+            ]
         },
         {
             "id": 27663,
@@ -297,7 +352,18 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.windriver.com/sites/default/files/2021-10/windriver-social-logo.jpg"
+            "thumbnail": "https://www.windriver.com/sites/default/files/2021-10/windriver-social-logo.jpg",
+            "tags": [
+                "aviation",
+                "do-178c",
+                "linux",
+                "wind river",
+                "rtos",
+                "real time operating system",
+                "operating system",
+                "do-178b",
+                "windriver"
+            ]
         },
         {
             "id": 8478,
@@ -320,7 +386,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://centos.org/favicon.ico"
+            "thumbnail": "https://centos.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 29302,
@@ -343,7 +413,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://edubuntu.org/assets/img/edubuntu-meta.jpeg"
+            "thumbnail": "https://edubuntu.org/assets/img/edubuntu-meta.jpeg",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 8900,
@@ -366,7 +439,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://garudalinux.org/images/garuda/home/link_icon.png"
+            "thumbnail": "https://garudalinux.org/images/garuda/home/link_icon.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 171512,
@@ -389,7 +466,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.kali.org/images/kali-logo.svg"
+            "thumbnail": "https://www.kali.org/images/kali-logo.svg",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 25072,
@@ -412,7 +492,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://netbsd.org/favicon.ico"
+            "thumbnail": "https://netbsd.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 29738,
@@ -435,7 +519,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.opensuse.org/build/images/facebook-preview.jpg"
+            "thumbnail": "https://www.opensuse.org/build/images/facebook-preview.jpg",
+            "tags": [
+                "open source",
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 19637,
@@ -458,7 +547,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://linuxmint.com/favicon.ico"
+            "thumbnail": "https://linuxmint.com/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 4036,
@@ -481,7 +573,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://openwrt.org/favicon.ico"
+            "thumbnail": "https://openwrt.org/favicon.ico",
+            "tags": [
+                "routers",
+                "operating system"
+            ]
         },
         {
             "id": 467,
@@ -504,7 +600,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://archlinux.org/static/favicon.29302f683ff8.ico"
+            "thumbnail": "https://archlinux.org/static/favicon.29302f683ff8.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 25681,
@@ -527,7 +626,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arcolinux.com/favicon.ico"
+            "thumbnail": "https://arcolinux.com/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 14492,
@@ -550,7 +652,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://casaos.io/./favicon/favicon-32x32.png"
+            "thumbnail": "https://casaos.io/./favicon/favicon-32x32.png",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 8970,
@@ -573,7 +679,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://grapheneos.org/opengraph.png"
+            "thumbnail": "https://grapheneos.org/opengraph.png",
+            "tags": [
+                "privacy",
+                "open source",
+                "operating system",
+                "android"
+            ]
         },
         {
             "id": 3258,
@@ -596,7 +708,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lineageos.org/favicon.ico"
+            "thumbnail": "https://lineageos.org/favicon.ico",
+            "tags": [
+                "lineageos",
+                "android roms",
+                "operating system",
+                "android"
+            ]
         },
         {
             "id": 24852,
@@ -619,7 +737,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://manjaro.org/meta-image.jpg"
+            "thumbnail": "https://manjaro.org/meta-image.jpg",
+            "tags": [
+                "open source",
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 30049,
@@ -642,7 +765,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.pcministry.com/images/favicon.ico"
+            "thumbnail": "https://www.pcministry.com/images/favicon.ico",
+            "tags": [
+                "privacy",
+                "telemetry",
+                "operating systems"
+            ]
         },
         {
             "id": 2326,
@@ -665,7 +793,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://reactos.org/sites/default/files/Mizu-Desktop.png"
+            "thumbnail": "https://reactos.org/sites/default/files/Mizu-Desktop.png",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 26406,
@@ -688,7 +820,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://digitalresearch.biz/favicon.ico"
+            "thumbnail": "https://digitalresearch.biz/favicon.ico",
+            "tags": [
+                "co/m",
+                "operating system"
+            ]
         },
         {
             "id": 8796,
@@ -711,7 +847,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fedora.gitlab.io/websites-apps/fedora-websites/fedora-websites-3.0/assets/images/fedora-default-meta-image.jpg"
+            "thumbnail": "https://fedora.gitlab.io/websites-apps/fedora-websites/fedora-websites-3.0/assets/images/fedora-default-meta-image.jpg",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 13918,
@@ -734,7 +873,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pop.system76.com/icon-16.png"
+            "thumbnail": "https://pop.system76.com/icon-16.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 20612,
@@ -757,7 +900,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://emutos.sourceforge.io/assets/img/emutos_og_image.png?v=4"
+            "thumbnail": "https://emutos.sourceforge.io/assets/img/emutos_og_image.png?v=4",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 170926,
@@ -780,7 +927,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.suse.com/assets/img/suse-social-platforms-image.png"
+            "thumbnail": "https://www.suse.com/assets/img/suse-social-platforms-image.png",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 169377,
@@ -803,7 +954,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.gentoo.org/assets/img/logo/gentoo-g.png"
+            "thumbnail": "https://www.gentoo.org/assets/img/logo/gentoo-g.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 20143,
@@ -826,7 +980,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://puppylinux-woof-ce.github.io/favicon.ico"
+            "thumbnail": "https://puppylinux-woof-ce.github.io/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 11361,
@@ -849,7 +1006,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rust-class.org/favicon.ico"
+            "thumbnail": "https://rust-class.org/favicon.ico",
+            "tags": [
+                "education",
+                "operating systems"
+            ]
         },
         {
             "id": 3242,
@@ -872,7 +1033,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://libreelec.tv/favicon.ico"
+            "thumbnail": "https://libreelec.tv/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 55906,
@@ -895,7 +1060,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sel4.systems/favicon.ico"
+            "thumbnail": "https://sel4.systems/favicon.ico",
+            "tags": [
+                "operating system kernel"
+            ]
         },
         {
             "id": 46413,
@@ -918,7 +1086,38 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.riscosopen.org/favicon.ico"
+            "thumbnail": "https://www.riscosopen.org/favicon.ico",
+            "tags": [
+                "risc",
+                "operating system"
+            ]
+        },
+        {
+            "id": 463014,
+            "title": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+            "title_safe": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+            "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
+            "description_safe": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
+            "link": "https://github.com/IceWhaleTech/CasaOS",
+            "link_absolute": "/apps/places/entry/463014/",
+            "is_valid": true,
+            "date_published": "2024-12-02T12:58:21Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-02T11:58:23.254Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 18,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://repository-images.githubusercontent.com/410430370/abdd2e89-5639-4d68-b363-4a3d3b7b369d",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 7557,
@@ -941,7 +1140,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://morphos-team.net/favicon.ico"
+            "thumbnail": "https://morphos-team.net/favicon.ico",
+            "tags": [
+                "amiga",
+                "operating system"
+            ]
         },
         {
             "id": 99637,
@@ -964,7 +1167,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://freertos.org/favicon.ico"
+            "thumbnail": "https://freertos.org/favicon.ico",
+            "tags": [
+                "rtos",
+                "real time operating system",
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 756,
@@ -987,7 +1196,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://almalinux.org/images/newhero.png"
+            "thumbnail": "https://almalinux.org/images/newhero.png",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 8326,
@@ -1010,7 +1223,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png"
+            "thumbnail": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 17415,
@@ -1033,7 +1249,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dietpi.com/images/dietpi-logo_720x720.png"
+            "thumbnail": "https://dietpi.com/images/dietpi-logo_720x720.png",
+            "tags": [
+                "raspberry pi",
+                "pine64",
+                "odroid",
+                "operating system"
+            ]
         },
         {
             "id": 18312,
@@ -1056,7 +1278,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://getsol.us/favicon.ico"
+            "thumbnail": "https://getsol.us/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 3896,
@@ -1079,7 +1305,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nixos.org/logo/nixos-lores.png"
+            "thumbnail": "https://nixos.org/logo/nixos-lores.png",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 109117,
@@ -1102,7 +1332,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tockos.org/favicon.ico"
+            "thumbnail": "https://tockos.org/favicon.ico",
+            "tags": [
+                "embedded",
+                "operating system"
+            ]
         },
         {
             "id": 26961,
@@ -1125,7 +1359,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://voidlinux.org/favicon.ico"
+            "thumbnail": "https://voidlinux.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 461993,
@@ -1148,7 +1386,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://onionui.github.io/img/onion_banner.png"
+            "thumbnail": "https://onionui.github.io/img/onion_banner.png",
+            "tags": [
+                "miyoo mini",
+                "emulation",
+                "operating system",
+                "retro games"
+            ]
         },
         {
             "id": 14564,
@@ -1171,7 +1415,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://elementary.io/images/preview.png"
+            "thumbnail": "https://elementary.io/images/preview.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 25992,
@@ -1194,7 +1442,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://talos.dev/images/talos-dev-banner.png"
+            "thumbnail": "https://talos.dev/images/talos-dev-banner.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 5728,
@@ -1217,7 +1468,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ubuntu-mate.org/images/homepage/01_familiar.png"
+            "thumbnail": "https://ubuntu-mate.org/images/homepage/01_familiar.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 22924,
@@ -1240,7 +1495,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.zorincdn.com/zorin.com/images/icon.png"
+            "thumbnail": "https://assets.zorincdn.com/zorin.com/images/icon.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 95164,
@@ -1263,7 +1522,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://endeavouros.com/wp-content/uploads/2024/04/2024-04-23_20-28.png"
+            "thumbnail": "https://endeavouros.com/wp-content/uploads/2024/04/2024-04-23_20-28.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 105313,
@@ -1286,7 +1548,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gobolinux.org/images/gobolinux_frontpage.png"
+            "thumbnail": "https://gobolinux.org/images/gobolinux_frontpage.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 3116,
@@ -1309,7 +1574,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kubuntu.org/favicon.ico"
+            "thumbnail": "https://kubuntu.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 3367,
@@ -1332,7 +1601,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mxlinux.org/favicon.ico"
+            "thumbnail": "https://mxlinux.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 25288,
@@ -1355,7 +1628,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ponyos.org/favicon.ico"
+            "thumbnail": "https://ponyos.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 24808,
@@ -1378,7 +1654,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://linuxfromscratch.org/favicon.ico"
+            "thumbnail": "https://linuxfromscratch.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 26796,
@@ -1401,7 +1680,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.playtron.one/favicon.ico"
+            "thumbnail": "https://www.playtron.one/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 21676,
@@ -1424,7 +1706,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.os2museum.com/favicon.ico"
+            "thumbnail": "https://www.os2museum.com/favicon.ico",
+            "tags": [
+                "os/2",
+                "operating system"
+            ]
         },
         {
             "id": 11543,
@@ -1447,7 +1733,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://templeos.org/favicon.ico"
+            "thumbnail": "https://templeos.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 60531,
@@ -1470,7 +1759,39 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bazzite.gg/wp-content/uploads/2024/02/preview.png"
+            "thumbnail": "https://bazzite.gg/wp-content/uploads/2024/02/preview.png",
+            "tags": [
+                "video games",
+                "operating system",
+                "linux"
+            ]
+        },
+        {
+            "id": 463018,
+            "title": "GitHub - IceWhaleTech/ZimaOS",
+            "title_safe": "GitHub - IceWhaleTech/ZimaOS",
+            "description": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
+            "description_safe": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
+            "link": "https://github.com/IceWhaleTech/ZimaOS",
+            "link_absolute": "/apps/places/entry/463018/",
+            "is_valid": true,
+            "date_published": "2024-12-02T12:58:47Z",
+            "date_dead_since": null,
+            "date_update_last": "2024-12-02T11:58:50.242Z",
+            "bookmarked": true,
+            "permanent": false,
+            "author": null,
+            "album": null,
+            "page_rating_contents": 90,
+            "page_rating_votes": 9,
+            "age": 0,
+            "source__title": "",
+            "source__url": "",
+            "thumbnail": "https://opengraph.githubassets.com/ff63c6a33c5bfe3fa4b83d84e387ce3be907e2894dfb67ab9cfea2f17bd72ff3/IceWhaleTech/ZimaOS",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 11663,
@@ -1493,7 +1814,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://universal-blue.org/content/preview2.png"
+            "thumbnail": "https://universal-blue.org/content/preview2.png",
+            "tags": [
+                "universal blue linux",
+                "operating system"
+            ]
         },
         {
             "id": 8646,
@@ -1516,7 +1841,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.deepin.org/favicon.ico?20220802"
+            "thumbnail": "https://www.deepin.org/favicon.ico?20220802",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 114650,
@@ -1539,7 +1868,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.tildacdn.com/tild6330-6562-4265-b534-633630396430/1212121212121212.png"
+            "thumbnail": "https://static.tildacdn.com/tild6330-6562-4265-b534-633630396430/1212121212121212.png",
+            "tags": [
+                "mobile",
+                "aurora",
+                "operating system"
+            ]
         },
         {
             "id": 29311,
@@ -1562,7 +1896,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://archiveos.org/slider/archiveos-slide32.webp"
+            "thumbnail": "https://archiveos.org/slider/archiveos-slide32.webp",
+            "tags": [
+                "web preservation",
+                "operating systems",
+                "internet archive"
+            ]
         },
         {
             "id": 134152,
@@ -1585,7 +1924,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blissroms.org/favicon.ico"
+            "thumbnail": "https://blissroms.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "android"
+            ]
         },
         {
             "id": 29861,
@@ -1608,7 +1951,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://calyxos.org/assets/images/favicon/favicon-32x32.png"
+            "thumbnail": "https://calyxos.org/assets/images/favicon/favicon-32x32.png",
+            "tags": [
+                "operating system",
+                "privacy",
+                "surveillance",
+                "android"
+            ]
         },
         {
             "id": 15946,
@@ -1631,7 +1980,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.gstatic.com/devrel-devsite/prod/vafe2e13ca17bb026e70df42a2ead1c8192750e86a12923a88eda839025dabf95/fuchsia/images/favicon.png"
+            "thumbnail": "https://www.gstatic.com/devrel-devsite/prod/vafe2e13ca17bb026e70df42a2ead1c8192750e86a12923a88eda839025dabf95/fuchsia/images/favicon.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 18974,
@@ -1654,7 +2006,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ghs.com/favicon.ico"
+            "thumbnail": "https://ghs.com/favicon.ico",
+            "tags": [
+                "integrity operating system",
+                "do-178c",
+                "embedded",
+                "real time operating system",
+                "automotive",
+                "do-178b",
+                "linux"
+            ]
         },
         {
             "id": 2558,
@@ -1677,7 +2038,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.haiku-os.org/images/haiku_600x315.png"
+            "thumbnail": "https://www.haiku-os.org/images/haiku_600x315.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 29307,
@@ -1700,7 +2064,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://kolibrios.org/../favicon.ico"
+            "thumbnail": "https://kolibrios.org/../favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 29301,
@@ -1723,7 +2090,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.linuxfx.org/images/start-here-kde16.png"
+            "thumbnail": "https://www.linuxfx.org/images/start-here-kde16.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 11346,
@@ -1746,7 +2116,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rockylinux.org/favicon-32x32.png?v=3030c0d0309a4d837a0c8eac1432cd20"
+            "thumbnail": "https://rockylinux.org/favicon-32x32.png?v=3030c0d0309a4d837a0c8eac1432cd20",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 7767,
@@ -1769,7 +2142,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tails.net/favicon.ico"
+            "thumbnail": "https://tails.net/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 29313,
@@ -1792,7 +2169,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://uwuntuos.site/wp-content/uploads/2022/08/cropped-logo-32x32.webp"
+            "thumbnail": "https://uwuntuos.site/wp-content/uploads/2022/08/cropped-logo-32x32.webp",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 11757,
@@ -1815,7 +2196,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.whonix.org/w/images/3/36/Whonix-homepage-main-preview.jpg?version=2a51b146181c9dfce21162fa6bdeb03f"
+            "thumbnail": "https://www.whonix.org/w/images/3/36/Whonix-homepage-main-preview.jpg?version=2a51b146181c9dfce21162fa6bdeb03f",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 29309,
@@ -1838,7 +2223,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://nobaraproject.org/wp-content/uploads/2023/04/fedora-logo-sprite-icon-100x100.png"
+            "thumbnail": "https://nobaraproject.org/wp-content/uploads/2023/04/fedora-logo-sprite-icon-100x100.png",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 29312,
@@ -1861,7 +2250,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://system-rescue.org/favicon.ico"
+            "thumbnail": "https://system-rescue.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 29308,
@@ -1884,7 +2277,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://tinycorelinux.net/images/favicon.ico"
+            "thumbnail": "http://tinycorelinux.net/images/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 7731,
@@ -1907,7 +2303,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://aros.sourceforge.net/favicon.ico"
+            "thumbnail": "https://aros.sourceforge.net/favicon.ico",
+            "tags": [
+                "amiga",
+                "operating system"
+            ]
         },
         {
             "id": 84454,
@@ -1930,7 +2330,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/620126acdd13710f32a8b3df/62bedde5e0b75959bb5d4d24_3dprinteros.jpg"
+            "thumbnail": "https://cdn.prod.website-files.com/620126acdd13710f32a8b3df/62bedde5e0b75959bb5d4d24_3dprinteros.jpg",
+            "tags": [
+                "operating system",
+                "3d printing"
+            ]
         },
         {
             "id": 7732,
@@ -1953,7 +2357,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://biebian.sourceforge.net/favicon.ico"
+            "thumbnail": "https://biebian.sourceforge.net/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 29372,
@@ -1976,7 +2383,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stg.fedoraproject.org/assets/images/coreos-header.jpg"
+            "thumbnail": "https://stg.fedoraproject.org/assets/images/coreos-header.jpg",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 15746,
@@ -1999,7 +2409,10 @@
             "age": null,
             "source__title": "Hacker News: Front Page",
             "source__url": "https://hnrss.org/frontpage",
-            "thumbnail": "https://hnrss.org/favicon.ico"
+            "thumbnail": "https://hnrss.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 16637,
@@ -2022,7 +2435,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blendos.co/assets/images/social/index.png"
+            "thumbnail": "https://blendos.co/assets/images/social/index.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 2302,
@@ -2045,53 +2461,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://frameos.net/favicon.ico"
-        },
-        {
-            "id": 463014,
-            "title": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-            "title_safe": "GitHub - IceWhaleTech/CasaOS: CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-            "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
-            "description_safe": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. - IceWhaleTech/CasaOS",
-            "link": "https://github.com/IceWhaleTech/CasaOS",
-            "link_absolute": "/apps/places/entry/463014/",
-            "is_valid": true,
-            "date_published": "2024-12-02T12:58:21Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-02T11:58:23.254Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/410430370/abdd2e89-5639-4d68-b363-4a3d3b7b369d"
-        },
-        {
-            "id": 463018,
-            "title": "GitHub - IceWhaleTech/ZimaOS",
-            "title_safe": "GitHub - IceWhaleTech/ZimaOS",
-            "description": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
-            "description_safe": "Contribute to IceWhaleTech/ZimaOS development by creating an account on GitHub.",
-            "link": "https://github.com/IceWhaleTech/ZimaOS",
-            "link_absolute": "/apps/places/entry/463018/",
-            "is_valid": true,
-            "date_published": "2024-12-02T12:58:47Z",
-            "date_dead_since": null,
-            "date_update_last": "2024-12-02T11:58:50.242Z",
-            "bookmarked": true,
-            "permanent": false,
-            "author": null,
-            "album": null,
-            "page_rating_contents": 90,
-            "page_rating_votes": 0,
-            "age": 0,
-            "source__title": "",
-            "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/ff63c6a33c5bfe3fa4b83d84e387ce3be907e2894dfb67ab9cfea2f17bd72ff3/IceWhaleTech/ZimaOS"
+            "thumbnail": "https://frameos.net/favicon.ico",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 60434,
@@ -2114,7 +2488,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://u-bmc.org/images/meta/social-share-ubmc.png"
+            "thumbnail": "https://u-bmc.org/images/meta/social-share-ubmc.png",
+            "tags": [
+                "open source",
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 4361,
@@ -2137,7 +2516,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.qubes-os.org/attachment/icons/qubes-logo-icon-name-slogan-fb.png"
+            "thumbnail": "https://www.qubes-os.org/attachment/icons/qubes-logo-icon-name-slogan-fb.png",
+            "tags": [
+                "privacy",
+                "operating system"
+            ]
         },
         {
             "id": 27666,
@@ -2160,7 +2543,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://highintegritysystems.com/favicon.ico"
+            "thumbnail": "https://highintegritysystems.com/favicon.ico",
+            "tags": [
+                "rtos",
+                "real time operating system"
+            ]
         },
         {
             "id": 8319,
@@ -2183,7 +2570,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.arosworld.org:443/images/favicons/mstile-150x150.png"
+            "thumbnail": "https://www.arosworld.org:443/images/favicons/mstile-150x150.png",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 169368,
@@ -2206,7 +2596,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://devuan.org/ui/img/devuan-og-banner.jpg"
+            "thumbnail": "https://devuan.org/ui/img/devuan-og-banner.jpg",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 15869,
@@ -2229,7 +2622,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bottlerocket.dev/favicons/favicon.ico"
+            "thumbnail": "https://bottlerocket.dev/favicons/favicon.ico",
+            "tags": [
+                "operating system",
+                "open source"
+            ]
         },
         {
             "id": 60536,
@@ -2252,7 +2649,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://getaurora.dev/favicon.ico"
+            "thumbnail": "https://getaurora.dev/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 61592,
@@ -2275,7 +2676,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://netmarketshare.com/favicon.ico"
+            "thumbnail": "https://netmarketshare.com/favicon.ico",
+            "tags": [
+                "statistics",
+                "web browsers",
+                "operating systems"
+            ]
         },
         {
             "id": 11684,
@@ -2298,7 +2704,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vanillaos.org/./favicon.ico"
+            "thumbnail": "https://vanillaos.org/./favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 19634,
@@ -2321,7 +2730,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.linuxliteos.com/favicon.ico"
+            "thumbnail": "https://www.linuxliteos.com/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 25236,
@@ -2344,7 +2756,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://pdos.org/favicon.ico"
+            "thumbnail": "https://pdos.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 64593,
@@ -2367,7 +2782,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://aros.sourceforge.io/favicon.ico"
+            "thumbnail": "https://aros.sourceforge.io/favicon.ico",
+            "tags": [
+                "aros",
+                "operating system"
+            ]
         },
         {
             "id": 60648,
@@ -2390,7 +2809,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://fedora-asahi-remix.org/favicon.ico"
+            "thumbnail": "https://fedora-asahi-remix.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 95428,
@@ -2413,7 +2835,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ghostbsd.org/favicon.ico"
+            "thumbnail": "https://ghostbsd.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 105311,
@@ -2436,7 +2861,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://toaruos.org/favicon.ico"
+            "thumbnail": "https://toaruos.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 72246,
@@ -2459,7 +2887,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://venomlinux.org/favicon.ico"
+            "thumbnail": "https://venomlinux.org/favicon.ico",
+            "tags": [
+                "operating system",
+                "linux"
+            ]
         },
         {
             "id": 55896,
@@ -2482,7 +2914,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.capros.org/favicon.ico"
+            "thumbnail": "https://www.capros.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 25084,
@@ -2505,7 +2940,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://newos.org/favicon.ico"
+            "thumbnail": "https://newos.org/favicon.ico",
+            "tags": [
+                "operating system"
+            ]
         },
         {
             "id": 27668,
@@ -2528,7 +2966,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://phoenix-rtos.com/favicon.ico"
+            "thumbnail": "https://phoenix-rtos.com/favicon.ico",
+            "tags": [
+                "rtos",
+                "real time operating system"
+            ]
         }
     ]
 }

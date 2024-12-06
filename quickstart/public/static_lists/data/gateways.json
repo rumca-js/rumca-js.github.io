@@ -21,7 +21,15 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://m.media-amazon.com/images/I/31epF-8N9LL.png"
+            "thumbnail": "https://m.media-amazon.com/images/I/31epF-8N9LL.png",
+            "tags": [
+                "ebooks",
+                "audiobooks",
+                "gatekeeper",
+                "company",
+                "digital marketplace",
+                "gateway"
+            ]
         },
         {
             "id": 45477,
@@ -44,7 +52,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743"
+            "thumbnail": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743",
+            "tags": [
+                "gatekeeper",
+                "company",
+                "gateway"
+            ]
         },
         {
             "id": 29827,
@@ -67,7 +80,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.bing.com/th?id=OHR.SpottedOwlet_ROW7217108888_tmb.jpg&rf="
+            "thumbnail": "https://www.bing.com/th?id=OHR.SpottedOwlet_ROW7217108888_tmb.jpg&rf=",
+            "tags": [
+                "gatekeeper",
+                "search engine",
+                "artificial intelligence bot",
+                "gateway"
+            ]
         },
         {
             "id": 1931,
@@ -90,7 +109,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665643dd8c7ac752237b5cef_Discord-OG-1200x630.jpg"
+            "thumbnail": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665643dd8c7ac752237b5cef_Discord-OG-1200x630.jpg",
+            "tags": [
+                "gatekeeper",
+                "social communicator",
+                "video meetings",
+                "gateway"
+            ]
         },
         {
             "id": 116448,
@@ -113,7 +138,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static-assets.bamgrid.com/product/disneyplus/images/share-default.8bf3102623e935e7bc126df36b956b98.jpg"
+            "thumbnail": "https://static-assets.bamgrid.com/product/disneyplus/images/share-default.8bf3102623e935e7bc126df36b956b98.jpg",
+            "tags": [
+                "video streaming",
+                "gatekeeper",
+                "star wars",
+                "gateway"
+            ]
         },
         {
             "id": 399209,
@@ -136,7 +167,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://github.githubassets.com/assets/home24-5939032587c9.jpg"
+            "thumbnail": "https://github.githubassets.com/assets/home24-5939032587c9.jpg",
+            "tags": [
+                "software platform",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 112484,
@@ -159,7 +195,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gmail.com/favicon.ico"
+            "thumbnail": "https://gmail.com/favicon.ico",
+            "tags": [
+                "mail server",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 19069,
@@ -182,7 +223,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://google.com/favicon.ico"
+            "thumbnail": "https://google.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "search engine",
+                "gateway"
+            ]
         },
         {
             "id": 6929,
@@ -205,7 +251,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.icloud.com/../favicon-32x32.png"
+            "thumbnail": "https://www.icloud.com/../favicon-32x32.png",
+            "tags": [
+                "gatekeeper",
+                "cloud drive",
+                "gateway"
+            ]
         },
         {
             "id": 52254,
@@ -228,7 +279,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://messenger.com/favicon.ico"
+            "thumbnail": "https://messenger.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "social communicator",
+                "gateway"
+            ]
         },
         {
             "id": 76674,
@@ -251,7 +307,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://netflix.com/favicon.ico"
+            "thumbnail": "https://netflix.com/favicon.ico",
+            "tags": [
+                "video streaming",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 128080,
@@ -274,7 +335,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://office.com/favicon.ico"
+            "thumbnail": "https://office.com/favicon.ico",
+            "tags": [
+                "office suite",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 54470,
@@ -297,7 +363,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://open.spotifycdn.com/cdn/images/og-image.548bc4b7.png"
+            "thumbnail": "https://open.spotifycdn.com/cdn/images/og-image.548bc4b7.png",
+            "tags": [
+                "gatekeeper",
+                "audio streaming",
+                "gateway"
+            ]
         },
         {
             "id": 68952,
@@ -320,7 +391,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/2244px-Wikipedia-logo-v2.svg.png"
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/2244px-Wikipedia-logo-v2.svg.png",
+            "tags": [
+                "gatekeeper",
+                "encyclopedia",
+                "gateway"
+            ]
         },
         {
             "id": 399543,
@@ -343,7 +419,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/img/desktop/yt_1200.png"
+            "thumbnail": "https://www.youtube.com/img/desktop/yt_1200.png",
+            "tags": [
+                "video streaming",
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 9987,
@@ -366,7 +448,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.apple.com/v/app-store/b/images/meta/og__c59t0pflacq6.png?202404161246"
+            "thumbnail": "https://www.apple.com/v/app-store/b/images/meta/og__c59t0pflacq6.png?202404161246",
+            "tags": [
+                "app store",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 399232,
@@ -389,7 +476,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lh3.googleusercontent.com/E1YV72_w6kdWoONRGwMY_ELUXgGywNzYellKJkF2rv-ZBz_RPIYC6J2CbGLYI8IpczQiKa-EcIzv-lIbX9Rt6UsFEp9wyqfF8tGcpQ=w1600-rj-e365"
+            "thumbnail": "https://lh3.googleusercontent.com/E1YV72_w6kdWoONRGwMY_ELUXgGywNzYellKJkF2rv-ZBz_RPIYC6J2CbGLYI8IpczQiKa-EcIzv-lIbX9Rt6UsFEp9wyqfF8tGcpQ=w1600-rj-e365",
+            "tags": [
+                "file hosting",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 19072,
@@ -412,7 +504,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://maps.google.com/favicon.ico"
+            "thumbnail": "https://maps.google.com/favicon.ico",
+            "tags": [
+                "service maps",
+                "gatekeeper",
+                "map",
+                "gateway"
+            ]
         },
         {
             "id": 19076,
@@ -435,7 +533,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://play.google.com/favicon.ico"
+            "thumbnail": "https://play.google.com/favicon.ico",
+            "tags": [
+                "app store",
+                "gatekeeper",
+                "game store",
+                "gateway"
+            ]
         },
         {
             "id": 13630,
@@ -458,7 +562,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+            "thumbnail": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "tags": [
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 21978,
@@ -481,7 +589,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://store.playstation.com/favicon.ico"
+            "thumbnail": "https://store.playstation.com/favicon.ico",
+            "tags": [
+                "app store",
+                "gatekeeper",
+                "game store",
+                "gateway"
+            ]
         },
         {
             "id": 399314,
@@ -504,7 +618,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.fastly.steamstatic.com/store/home/store_home_share.jpg"
+            "thumbnail": "https://cdn.fastly.steamstatic.com/store/home/store_home_share.jpg",
+            "tags": [
+                "video games",
+                "app store",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 22504,
@@ -527,7 +647,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.whatsapp.net/rsrc.php/v3/yR/r/y8-PTBaP90a.png"
+            "thumbnail": "https://static.whatsapp.net/rsrc.php/v3/yR/r/y8-PTBaP90a.png",
+            "tags": [
+                "gatekeeper",
+                "social communicator",
+                "gateway"
+            ]
         },
         {
             "id": 18536,
@@ -550,7 +675,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://facebook.com/favicon.ico"
+            "thumbnail": "https://facebook.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 30307,
@@ -573,7 +703,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://tiktok.com/favicon.ico"
+            "thumbnail": "https://tiktok.com/favicon.ico",
+            "tags": [
+                "video streaming",
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 46133,
@@ -596,7 +732,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "diablo",
+                "starcraft",
+                "warcraft",
+                "game store",
+                "gatekeeper",
+                "overwatch",
+                "gateway"
+            ]
         },
         {
             "id": 71230,
@@ -619,7 +764,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1"
+            "thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Search-bar?scl=1",
+            "tags": [
+                "windows",
+                "gatekeeper",
+                "operating system",
+                "gateway"
+            ]
         },
         {
             "id": 21567,
@@ -642,7 +793,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://cdn.thumbs.odycdn.com/a0221766324b36b0835ad4f90e4d380c.webp"
+            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://cdn.thumbs.odycdn.com/a0221766324b36b0835ad4f90e4d380c.webp",
+            "tags": [
+                "video streaming",
+                "gateway"
+            ]
         },
         {
             "id": 399335,
@@ -665,7 +820,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.redditstatic.com/shreddit/assets/favicon/192x192.png"
+            "thumbnail": "https://www.redditstatic.com/shreddit/assets/favicon/192x192.png",
+            "tags": [
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 80745,
@@ -688,7 +847,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png"
+            "thumbnail": "https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png",
+            "tags": [
+                "digital marketplace",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 101878,
@@ -711,7 +875,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://intagram.com/favicon.ico"
+            "thumbnail": "https://intagram.com/favicon.ico",
+            "tags": [
+                "social network",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 116333,
@@ -734,7 +903,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.paypalobjects.com/webstatic/icon/pp258.png"
+            "thumbnail": "https://www.paypalobjects.com/webstatic/icon/pp258.png",
+            "tags": [
+                "banking",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 15128,
@@ -757,7 +931,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rumble.com/i/favicon-v4.png"
+            "thumbnail": "https://rumble.com/i/favicon-v4.png",
+            "tags": [
+                "video streaming",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 399463,
@@ -780,7 +959,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
+            "thumbnail": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico",
+            "tags": [
+                "social media",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 26913,
@@ -803,7 +987,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://ae01.alicdn.com/kf/Sa0202ec8a96a4085962acfc27e9ffd04F/1080x1080.jpg"
+            "thumbnail": "https://ae01.alicdn.com/kf/Sa0202ec8a96a4085962acfc27e9ffd04F/1080x1080.jpg",
+            "tags": [
+                "digital marketplace",
+                "gatekeeper",
+                "e-commerce",
+                "gateway"
+            ]
         },
         {
             "id": 84200,
@@ -826,7 +1016,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://st.deviantart.net/minish/main/logo/card_black_large.png"
+            "thumbnail": "https://st.deviantart.net/minish/main/logo/card_black_large.png",
+            "tags": [
+                "art community",
+                "art gallery",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 70135,
@@ -849,7 +1045,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wechat.com/favicon.ico"
+            "thumbnail": "https://wechat.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 104692,
@@ -872,7 +1073,16 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png"
+            "thumbnail": "https://eu.shop.battle.net/static/opengraph.png",
+            "tags": [
+                "starcraft",
+                "warcraft",
+                "video game developer",
+                "diablo",
+                "gateway",
+                "gatekeeper",
+                "overwatch"
+            ]
         },
         {
             "id": 4482,
@@ -895,7 +1105,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://sourceforge.net/favicon.ico"
+            "thumbnail": "https://sourceforge.net/favicon.ico",
+            "tags": [
+                "software platform",
+                "open source",
+                "gateway"
+            ]
         },
         {
             "id": 49251,
@@ -918,7 +1133,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.akamai.steamstatic.com/store/home/store_home_share.jpg"
+            "thumbnail": "https://cdn.akamai.steamstatic.com/store/home/store_home_share.jpg",
+            "tags": [
+                "video games",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 4466,
@@ -941,7 +1161,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://twitter.com/favicon.ico"
+            "thumbnail": "https://twitter.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 17931,
@@ -964,7 +1189,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg"
+            "thumbnail": "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
+            "tags": [
+                "video streaming",
+                "game streaming",
+                "gateway"
+            ]
         },
         {
             "id": 8110,
@@ -987,7 +1217,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://4chan.org/favicon.ico"
+            "thumbnail": "https://4chan.org/favicon.ico",
+            "tags": [
+                "internet forum",
+                "memes",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 7787,
@@ -1010,7 +1246,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.cdninstagram.com/rsrc.php/v3/ye/r/eJ0zF04lTq5.png"
+            "thumbnail": "https://static.cdninstagram.com/rsrc.php/v3/ye/r/eJ0zF04lTq5.png",
+            "tags": [
+                "social media",
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 324170,
@@ -1033,7 +1274,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://s.pinimg.com/images/facebook_share_image.png"
+            "thumbnail": "https://s.pinimg.com/images/facebook_share_image.png",
+            "tags": [
+                "handmade",
+                "gateway"
+            ]
         },
         {
             "id": 462042,
@@ -1056,7 +1301,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.facebook.com/favicon.ico"
+            "thumbnail": "https://www.facebook.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 10750,
@@ -1079,7 +1328,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bsky.app/static/social-card-default-gradient.png"
+            "thumbnail": "https://bsky.app/static/social-card-default-gradient.png",
+            "tags": [
+                "social platform",
+                "gateway"
+            ]
         },
         {
             "id": 7444,
@@ -1102,7 +1355,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.kagi.com/v2/kagi_assets/doggo/doggo_1.png"
+            "thumbnail": "https://assets.kagi.com/v2/kagi_assets/doggo/doggo_1.png",
+            "tags": [
+                "gateway",
+                "search engine"
+            ]
         },
         {
             "id": 462786,
@@ -1125,7 +1382,13 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://office365.com/favicon.ico"
+            "thumbnail": "https://office365.com/favicon.ico",
+            "tags": [
+                "office suite",
+                "office",
+                "gatekeeper",
+                "gateway"
+            ]
         },
         {
             "id": 263780,
@@ -1148,7 +1411,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vinted.com/favicon.ico"
+            "thumbnail": "https://www.vinted.com/favicon.ico",
+            "tags": [
+                "digital marketplace",
+                "clothes",
+                "gateway"
+            ]
         },
         {
             "id": 7029,
@@ -1171,7 +1439,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://instagram.com/favicon.ico"
+            "thumbnail": "https://instagram.com/favicon.ico",
+            "tags": [
+                "gatekeeper",
+                "social platform",
+                "gateway"
+            ]
         }
     ]
 }

@@ -21,7 +21,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://meta.com/favicon.ico"
+            "thumbnail": "https://meta.com/favicon.ico",
+            "tags": [
+                "facebook",
+                "meta",
+                "gatekeeper",
+                "company",
+                "virtual reality"
+            ]
         },
         {
             "id": 15409,
@@ -44,7 +51,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.sidequestvr.com/file/633406/generic-og.png"
+            "thumbnail": "https://cdn.sidequestvr.com/file/633406/generic-og.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 12363,
@@ -67,7 +77,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i0.wp.com/thrillseeker.media/wp-content/uploads/2021/06/cropped-card3.png?fit=512%2C512&ssl=1"
+            "thumbnail": "https://i0.wp.com/thrillseeker.media/wp-content/uploads/2021/06/cropped-card3.png?fit=512%2C512&ssl=1",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 22363,
@@ -90,7 +103,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5f0770791aaf57311515b23d/t/6508c787b8ced41ca3404f36/1718212268632/VRC_Logo.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5f0770791aaf57311515b23d/t/6508c787b8ced41ca3404f36/1718212268632/VRC_Logo.png?format=1500w",
+            "tags": [
+                "social platform",
+                "virtual reality"
+            ]
         },
         {
             "id": 229291,
@@ -113,7 +130,14 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.khronos.org/assets/images/Khronos-250px-with-tagline-New.png"
+            "thumbnail": "https://www.khronos.org/assets/images/Khronos-250px-with-tagline-New.png",
+            "tags": [
+                "open standards",
+                "neural networks",
+                "virtual reality",
+                "standards",
+                "augmented reality"
+            ]
         },
         {
             "id": 161184,
@@ -136,7 +160,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://htc.com/favicon.ico"
+            "thumbnail": "https://htc.com/favicon.ico",
+            "tags": [
+                "virtual reality",
+                "company"
+            ]
         },
         {
             "id": 22330,
@@ -159,7 +187,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://virtualrealityoasis.com/wp-content/uploads/2020/07/cropped-O-32x32.png"
+            "thumbnail": "https://virtualrealityoasis.com/wp-content/uploads/2020/07/cropped-O-32x32.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 159490,
@@ -182,7 +213,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vive.com/favicon.ico"
+            "thumbnail": "https://vive.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 251301,
@@ -205,7 +239,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://360cities.net/favicon.ico"
+            "thumbnail": "https://360cities.net/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 29903,
@@ -228,7 +265,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://z-p3-scontent.fwaw8-1.fna.fbcdn.net/v/t39.8562-6/366928727_255776860678401_5229874158022475096_n.jpg?stp=dst-webp&_nc_cat=111&ccb=1-7&_nc_sid=9a942e&_nc_ohc=hj-KzApnEzgQ7kNvgG02lV3&_nc_ht=z-p3-scontent.fwaw8-1.fna&oh=00_AYDTxLe_f3Sd-uewnlPBfsocRomi0IMd0xCHcEBTraszGQ&oe=669C7770"
+            "thumbnail": "https://z-p3-scontent.fwaw8-1.fna.fbcdn.net/v/t39.8562-6/366928727_255776860678401_5229874158022475096_n.jpg?stp=dst-webp&_nc_cat=111&ccb=1-7&_nc_sid=9a942e&_nc_ohc=hj-KzApnEzgQ7kNvgG02lV3&_nc_ht=z-p3-scontent.fwaw8-1.fna&oh=00_AYDTxLe_f3Sd-uewnlPBfsocRomi0IMd0xCHcEBTraszGQ&oe=669C7770",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 46117,
@@ -251,7 +291,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.uploadvr.com/content/images/size/w1200/2023/03/Upload-2-1-card-2.png"
+            "thumbnail": "https://www.uploadvr.com/content/images/size/w1200/2023/03/Upload-2-1-card-2.png",
+            "tags": [
+                "tech news",
+                "virtual reality"
+            ]
         },
         {
             "id": 29904,
@@ -274,7 +318,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5f0770791aaf57311515b23d/t/6508c787b8ced41ca3404f36/1718212268632/VRC_Logo.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5f0770791aaf57311515b23d/t/6508c787b8ced41ca3404f36/1718212268632/VRC_Logo.png?format=1500w",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 82773,
@@ -297,7 +344,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arvr.google.com/static/images/google-arvr-meta.jpg"
+            "thumbnail": "https://arvr.google.com/static/images/google-arvr-meta.jpg",
+            "tags": [
+                "virtual reality",
+                "augmented reality"
+            ]
         },
         {
             "id": 13728,
@@ -320,7 +371,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stresslevelzero.com/favicon.ico"
+            "thumbnail": "https://stresslevelzero.com/favicon.ico",
+            "tags": [
+                "game developer",
+                "virtual reality",
+                "boneworks",
+                "bonelab"
+            ]
         },
         {
             "id": 462879,
@@ -343,7 +400,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 251307,
@@ -366,7 +426,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bigscreenvr.com/favicon.ico"
+            "thumbnail": "https://bigscreenvr.com/favicon.ico",
+            "tags": [
+                "home theater",
+                "virtual reality"
+            ]
         },
         {
             "id": 462880,
@@ -389,7 +453,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://driver4vr.com/favicon.ico"
+            "thumbnail": "https://driver4vr.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 21927,
@@ -412,7 +479,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://lf16-statics.picovr.com/obj/pico-fe-us/pico/pico_website/public/favicon.ico?va"
+            "thumbnail": "https://lf16-statics.picovr.com/obj/pico-fe-us/pico/pico_website/public/favicon.ico?va",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 35059,
@@ -435,7 +505,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets-global.website-files.com/60a83025d932b623a6a61ff8/60f0ce6eee1ba3226da91535_sl_blue_favicon_32x32.png"
+            "thumbnail": "https://assets-global.website-files.com/60a83025d932b623a6a61ff8/60f0ce6eee1ba3226da91535_sl_blue_favicon_32x32.png",
+            "tags": [
+                "chat app",
+                "video game",
+                "virtual reality"
+            ]
         },
         {
             "id": 462882,
@@ -458,7 +533,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vr-compare.com/img/splashSquare.png"
+            "thumbnail": "https://vr-compare.com/img/splashSquare.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 462884,
@@ -481,7 +559,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/f14bdf497f89f0a054abf86f800423f263a95d3da864790b6527df6b253161cc/ValveSoftware/openvr"
+            "thumbnail": "https://opengraph.githubassets.com/f14bdf497f89f0a054abf86f800423f263a95d3da864790b6527df6b253161cc/ValveSoftware/openvr",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 251300,
@@ -504,7 +585,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2013/05/road-to-vr-logo.png"
+            "thumbnail": "https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2013/05/road-to-vr-logo.png",
+            "tags": [
+                "tech news",
+                "virtual reality"
+            ]
         },
         {
             "id": 462409,
@@ -527,7 +612,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 462870,
@@ -550,7 +638,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 462871,
@@ -573,7 +664,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 462872,
@@ -596,7 +690,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 10061,
@@ -619,7 +716,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arvrtips.com/wp-content/uploads/2020/03/arvrtips-banner.png"
+            "thumbnail": "https://arvrtips.com/wp-content/uploads/2020/03/arvrtips-banner.png",
+            "tags": [
+                "virtual reality",
+                "augmented reality"
+            ]
         },
         {
             "id": 10331,
@@ -642,7 +743,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://bhaptics.com/images/opengraph-image.png"
+            "thumbnail": "https://bhaptics.com/images/opengraph-image.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 19240,
@@ -665,7 +769,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://halflife2vr.com/assets/images/page_bg_raw.jpg"
+            "thumbnail": "https://halflife2vr.com/assets/images/page_bg_raw.jpg",
+            "tags": [
+                "half-life",
+                "video game mod"
+            ]
         },
         {
             "id": 2567,
@@ -688,7 +796,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://haptx.com/wp-content/uploads/Awards-1.svg"
+            "thumbnail": "https://haptx.com/wp-content/uploads/Awards-1.svg",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 3356,
@@ -711,7 +822,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mixed-news.com/en/wp-content/uploads/2021/11/MIXED_Titelbild_Allgemein.png"
+            "thumbnail": "https://mixed-news.com/en/wp-content/uploads/2021/11/MIXED_Titelbild_Allgemein.png",
+            "tags": [
+                "mixed reality",
+                "tech news",
+                "virtual reality"
+            ]
         },
         {
             "id": 106812,
@@ -734,7 +850,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://resonite.com/favicon.ico"
+            "thumbnail": "https://resonite.com/favicon.ico",
+            "tags": [
+                "application",
+                "virtual reality"
+            ]
         },
         {
             "id": 326164,
@@ -757,7 +877,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://second.life/favicon.ico"
+            "thumbnail": "https://second.life/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 16140,
@@ -780,7 +903,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.crowdsupply.com/img/4ebd/e6fe65f5-167b-47c1-a7b6-0c64f01c4ebd/slimevr-trackers-five-units_jpg_open-graph.jpg"
+            "thumbnail": "https://www.crowdsupply.com/img/4ebd/e6fe65f5-167b-47c1-a7b6-0c64f01c4ebd/slimevr-trackers-five-units_jpg_open-graph.jpg",
+            "tags": [
+                "vr",
+                "hardware",
+                "virtual reality"
+            ]
         },
         {
             "id": 463509,
@@ -803,7 +931,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality"
+            "thumbnail": "https://opengraph.githubassets.com/a473fc13731cbb9075fd0eb5ce5ad3a39252a0285cea0406471cbf1daec2ffa1/vmfunc/awesome-virtual-reality",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
         },
         {
             "id": 198088,
@@ -826,7 +958,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://beatsaber.com/images/fb_preview.jpg"
+            "thumbnail": "https://beatsaber.com/images/fb_preview.jpg",
+            "tags": [
+                "vr",
+                "video game",
+                "virtual reality"
+            ]
         },
         {
             "id": 251302,
@@ -849,7 +986,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.wixstatic.com/media/9c5f4c_15d13dfe576d4b6a84c1e6ecc4ff1732%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/9c5f4c_15d13dfe576d4b6a84c1e6ecc4ff1732%7Emv2.jpg"
+            "thumbnail": "https://static.wixstatic.com/media/9c5f4c_15d13dfe576d4b6a84c1e6ecc4ff1732%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/9c5f4c_15d13dfe576d4b6a84c1e6ecc4ff1732%7Emv2.jpg",
+            "tags": [
+                "pistol whip",
+                "virtual reality"
+            ]
         },
         {
             "id": 69824,
@@ -872,7 +1013,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.rec.net/static/logos/banner.png"
+            "thumbnail": "https://cdn.rec.net/static/logos/banner.png",
+            "tags": [
+                "social platform",
+                "virtual reality"
+            ]
         },
         {
             "id": 22281,
@@ -895,7 +1040,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/582e7271bebafbd72792bd97/t/5cfeaf9a904d11000101ece8/1560194976582/OC+LANDSCAPE.jpg?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/582e7271bebafbd72792bd97/t/5cfeaf9a904d11000101ece8/1560194976582/OC+LANDSCAPE.jpg?format=1500w",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 5823,
@@ -918,7 +1066,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://virtualuncle.com/favicon.ico"
+            "thumbnail": "https://virtualuncle.com/favicon.ico",
+            "tags": [
+                "tech news",
+                "virtual reality"
+            ]
         },
         {
             "id": 462886,
@@ -941,7 +1093,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.reddit.com/favicon.ico"
+            "thumbnail": "https://www.reddit.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 462429,
@@ -964,7 +1119,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.youtube.com/favicon.ico"
+            "thumbnail": "https://www.youtube.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 275739,
@@ -987,7 +1145,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.quakevr.com/q2img/logo_square.png"
+            "thumbnail": "https://www.quakevr.com/q2img/logo_square.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 108040,
@@ -1010,7 +1171,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dbbd.sg/favicon.ico"
+            "thumbnail": "https://dbbd.sg/favicon.ico",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 34745,
@@ -1033,7 +1197,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.virtuix.com/images/omni_one_vr_walk_og.jpg"
+            "thumbnail": "https://www.virtuix.com/images/omni_one_vr_walk_og.jpg",
+            "tags": [
+                "virtual reality tredmill",
+                "virtual reality"
+            ]
         },
         {
             "id": 45515,
@@ -1056,7 +1224,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arvr.google.com/static/images/google-arvr-meta.jpg"
+            "thumbnail": "https://arvr.google.com/static/images/google-arvr-meta.jpg",
+            "tags": [
+                "artificial intelligence",
+                "virtual reality"
+            ]
         },
         {
             "id": 251303,
@@ -1079,7 +1251,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.captoglove.com/wp-content/uploads/2017/02/social-2.jpg"
+            "thumbnail": "https://www.captoglove.com/wp-content/uploads/2017/02/social-2.jpg",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 251304,
@@ -1102,7 +1277,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vrealities.com/wp-content/uploads/2018/01/homepic2.jpg"
+            "thumbnail": "https://www.vrealities.com/wp-content/uploads/2018/01/homepic2.jpg",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 235717,
@@ -1125,7 +1303,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.legendary.com/wp-content/uploads/2015/06/home-social1.jpg"
+            "thumbnail": "https://www.legendary.com/wp-content/uploads/2015/06/home-social1.jpg",
+            "tags": [
+                "movie news",
+                "entertainment news"
+            ]
         },
         {
             "id": 274048,
@@ -1148,7 +1330,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://quake3quest.quakevr.com/img/logo_sqr.png"
+            "thumbnail": "https://quake3quest.quakevr.com/img/logo_sqr.png",
+            "tags": [
+                "quake",
+                "virtual reality"
+            ]
         },
         {
             "id": 159488,
@@ -1171,7 +1357,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://viveport.com/favicon.ico"
+            "thumbnail": "https://viveport.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 3019,
@@ -1194,7 +1383,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.parastorage.com/client/pfavico.ico"
+            "thumbnail": "https://static.parastorage.com/client/pfavico.ico",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 316124,
@@ -1217,7 +1409,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://voicesofvr.com/favicon.ico"
+            "thumbnail": "https://voicesofvr.com/favicon.ico",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 43476,
@@ -1240,7 +1435,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i0.wp.com/vrscout.com/wp-content/uploads/2015/03/vrscout-squarelogo.png?fit=180%2C180&ssl=1"
+            "thumbnail": "https://i0.wp.com/vrscout.com/wp-content/uploads/2015/03/vrscout-squarelogo.png?fit=180%2C180&ssl=1",
+            "tags": [
+                "news",
+                "virtual reality"
+            ]
         },
         {
             "id": 361686,
@@ -1263,7 +1462,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vrsource.com/wp-content/uploads/thumbs_dir/Valve-Index-Featured-Image-1xn9tvvyz66j1woabeg2alkzfwo9dvn521aiics6xays.jpg"
+            "thumbnail": "https://vrsource.com/wp-content/uploads/thumbs_dir/Valve-Index-Featured-Image-1xn9tvvyz66j1woabeg2alkzfwo9dvn521aiics6xays.jpg",
+            "tags": [
+                "news",
+                "virtual reality"
+            ]
         },
         {
             "id": 409390,
@@ -1286,7 +1489,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://winreality.com/wp-content/uploads/2023/10/share-1.jpg"
+            "thumbnail": "https://winreality.com/wp-content/uploads/2023/10/share-1.jpg",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 29901,
@@ -1309,7 +1515,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://applabgamelist.com/img/favicon.png"
+            "thumbnail": "https://applabgamelist.com/img/favicon.png",
+            "tags": [
+                "virtual reality",
+                "oculus"
+            ]
         },
         {
             "id": 7711,
@@ -1332,7 +1542,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/611b304e6e7390175aa2b6ac/615ff2425993536b6c2cdb31_ogp.png"
+            "thumbnail": "https://cdn.prod.website-files.com/611b304e6e7390175aa2b6ac/615ff2425993536b6c2cdb31_ogp.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 29737,
@@ -1355,7 +1568,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.littleworkshop.fr/og-image.jpg"
+            "thumbnail": "https://www.littleworkshop.fr/og-image.jpg",
+            "tags": [
+                "software studio",
+                "virtual reality"
+            ]
         },
         {
             "id": 38752,
@@ -1378,7 +1595,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://aframe.io/images/card.jpg?v2"
+            "thumbnail": "http://aframe.io/images/card.jpg?v2",
+            "tags": []
         },
         {
             "id": 29902,
@@ -1401,7 +1619,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://scontent-waw2-1.xx.fbcdn.net/v/t39.2365-6/18554265_129864567575457_5872180979031867392_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=90afe1&_nc_ohc=IolULGdaPWYQ7kNvgH6qMbR&_nc_ht=scontent-waw2-1.xx&oh=00_AYAwet4FTehRAYjgWlbj5h3WOO7dTkMWTVBNmpDNefuwUQ&oe=66A09118"
+            "thumbnail": "https://scontent-waw2-1.xx.fbcdn.net/v/t39.2365-6/18554265_129864567575457_5872180979031867392_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=90afe1&_nc_ohc=IolULGdaPWYQ7kNvgH6qMbR&_nc_ht=scontent-waw2-1.xx&oh=00_AYAwet4FTehRAYjgWlbj5h3WOO7dTkMWTVBNmpDNefuwUQ&oe=66A09118",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 338800,
@@ -1424,7 +1645,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://enscape3d.com/undefined"
+            "thumbnail": "https://enscape3d.com/undefined",
+            "tags": []
         },
         {
             "id": 463500,
@@ -1447,7 +1669,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://epicvr.pl/epicvr-source/uploads/2022/01/cropped-logo.png"
+            "thumbnail": "https://epicvr.pl/epicvr-source/uploads/2022/01/cropped-logo.png",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 111119,
@@ -1470,7 +1695,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://framerusercontent.com/assets/7IdW30bk42FWmpTT6QS3e6N8w.jpg"
+            "thumbnail": "https://framerusercontent.com/assets/7IdW30bk42FWmpTT6QS3e6N8w.jpg",
+            "tags": []
         },
         {
             "id": 404999,
@@ -1493,7 +1719,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://exitsuit.com/vr_suit/wp-content/uploads/2023/03/exitsuit_video_vimeo.jpg"
+            "thumbnail": "https://exitsuit.com/vr_suit/wp-content/uploads/2023/03/exitsuit_video_vimeo.jpg",
+            "tags": []
         },
         {
             "id": 365750,
@@ -1516,7 +1743,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://floreovr.com/hubfs/Floreo-Default-Featured-Image.jpg"
+            "thumbnail": "https://floreovr.com/hubfs/Floreo-Default-Featured-Image.jpg",
+            "tags": []
         },
         {
             "id": 272892,
@@ -1539,7 +1767,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gothru.co/node_assets/meta/gothru_afiliate_image.png"
+            "thumbnail": "https://gothru.co/node_assets/meta/gothru_afiliate_image.png",
+            "tags": []
         },
         {
             "id": 45553,
@@ -1562,7 +1791,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.hpcwire.com/wp-content/uploads/2018/02/HPCwire-logo-square.png"
+            "thumbnail": "https://www.hpcwire.com/wp-content/uploads/2018/02/HPCwire-logo-square.png",
+            "tags": []
         },
         {
             "id": 39336,
@@ -1585,7 +1815,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets-global.website-files.com/61e55a05ff9ce033ad45f7fa/624aef44b54beb6dd5db3ad6_favicon-32x32.png"
+            "thumbnail": "https://assets-global.website-files.com/61e55a05ff9ce033ad45f7fa/624aef44b54beb6dd5db3ad6_favicon-32x32.png",
+            "tags": []
         },
         {
             "id": 38761,
@@ -1608,7 +1839,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://p5xr.org/favicon.ico"
+            "thumbnail": "https://p5xr.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 462427,
@@ -1631,7 +1863,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://proximat.net/cdn/shop/files/Proximat_Web_Main_16d84089-2fc6-4d75-9443-8e6411b53d4c.png?v=1632399319"
+            "thumbnail": "http://proximat.net/cdn/shop/files/Proximat_Web_Main_16d84089-2fc6-4d75-9443-8e6411b53d4c.png?v=1632399319",
+            "tags": []
         },
         {
             "id": 388723,
@@ -1654,7 +1887,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://putterswild.com/favicon.ico"
+            "thumbnail": "https://putterswild.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 451100,
@@ -1677,7 +1911,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://roundme.com/favicon.ico"
+            "thumbnail": "https://roundme.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 328411,
@@ -1700,7 +1935,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://stewartsmith.io/StewartSmith.jpg"
+            "thumbnail": "https://stewartsmith.io/StewartSmith.jpg",
+            "tags": []
         },
         {
             "id": 357352,
@@ -1723,7 +1959,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://towermax.fitness/favicon.ico"
+            "thumbnail": "https://towermax.fitness/favicon.ico",
+            "tags": []
         },
         {
             "id": 107909,
@@ -1746,7 +1983,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://virtualdomes.com/favicon.ico"
+            "thumbnail": "https://virtualdomes.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 142447,
@@ -1769,7 +2007,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://georgealways.com/assets/og.png"
+            "thumbnail": "https://georgealways.com/assets/og.png",
+            "tags": []
         },
         {
             "id": 463499,
@@ -1792,7 +2031,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://ghostline.xyz/favicon.ico"
+            "thumbnail": "http://ghostline.xyz/favicon.ico",
+            "tags": []
         },
         {
             "id": 463531,
@@ -1815,7 +2055,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vrnews.io/wp-content/uploads/2020/08/VRNews.io_.512.png"
+            "thumbnail": "https://vrnews.io/wp-content/uploads/2020/08/VRNews.io_.512.png",
+            "tags": []
         },
         {
             "id": 438031,
@@ -1838,7 +2079,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://aaf.nyc/assets/art/facebook.png?1533048510208"
+            "thumbnail": "http://aaf.nyc/assets/art/facebook.png?1533048510208",
+            "tags": []
         },
         {
             "id": 446900,
@@ -1861,7 +2103,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://blog.yulio.com/favicon.ico"
+            "thumbnail": "https://blog.yulio.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 347846,
@@ -1884,7 +2127,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://en.nokov.com/favicon.ico"
+            "thumbnail": "https://en.nokov.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 111196,
@@ -1907,7 +2151,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://inuitive-tech.com/favicon.ico"
+            "thumbnail": "https://inuitive-tech.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 463514,
@@ -1930,7 +2175,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://skarredghost.com/favicon.ico"
+            "thumbnail": "http://skarredghost.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 251305,
@@ -1953,7 +2199,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://lowlypoly.com/cdn/shop/files/logo_minimal3_1200x1200.png?v=1652522569"
+            "thumbnail": "http://lowlypoly.com/cdn/shop/files/logo_minimal3_1200x1200.png?v=1652522569",
+            "tags": [
+                "shop",
+                "model assets",
+                "image assets"
+            ]
         },
         {
             "id": 251308,
@@ -1976,7 +2227,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.senseglove.com/wp-content/uploads/2022/05/SenseGlove-home-featured.jpg"
+            "thumbnail": "https://www.senseglove.com/wp-content/uploads/2022/05/SenseGlove-home-featured.jpg",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 463526,
@@ -1999,7 +2253,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*crc-OJeCCb2ZfKhPGnbEpg.png"
+            "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*crc-OJeCCb2ZfKhPGnbEpg.png",
+            "tags": []
         },
         {
             "id": 446898,
@@ -2022,7 +2277,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.yulio.com/prod/img/user_experiencing_vr.4c6bcf78fbc3.png"
+            "thumbnail": "https://static.yulio.com/prod/img/user_experiencing_vr.4c6bcf78fbc3.png",
+            "tags": []
         },
         {
             "id": 251306,
@@ -2045,7 +2301,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5c6d89fc5239588e87e0846b/t/5c803692e2c48377cdedae28/1551906453313/WR---Soldier-Face---Black-Layer-w-Green-and-Yellow-w-Black-Border-1x1.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5c6d89fc5239588e87e0846b/t/5c803692e2c48377cdedae28/1551906453313/WR---Soldier-Face---Black-Layer-w-Green-and-Yellow-w-Black-Border-1x1.png?format=1500w",
+            "tags": [
+                "virtual reality",
+                "history"
+            ]
         },
         {
             "id": 396654,
@@ -2068,7 +2328,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.auganix.org/wp-content/uploads/2022/06/Auganix-Meta-Logo.jpg"
+            "thumbnail": "https://www.auganix.org/wp-content/uploads/2022/06/Auganix-Meta-Logo.jpg",
+            "tags": [
+                "news",
+                "virtual reality"
+            ]
         },
         {
             "id": 128252,
@@ -2091,7 +2355,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5b7da0393e2d09da23e4f491/t/5b897fc6f950b7c599313df5/1616822078625/boostvc.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5b7da0393e2d09da23e4f491/t/5b897fc6f950b7c599313df5/1616822078625/boostvc.png?format=1500w",
+            "tags": []
         },
         {
             "id": 303466,
@@ -2114,7 +2379,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5b33e5a031d4dfaaf45c508d/t/645c0652348dd73e6892200b/1683752530084/fav.jpg?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5b33e5a031d4dfaaf45c508d/t/645c0652348dd73e6892200b/1683752530084/fav.jpg?format=1500w",
+            "tags": []
         },
         {
             "id": 401579,
@@ -2137,7 +2403,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/63472c166a259b5ffc67a744/639fb32f5158515de0e2c00e_Netvrk.co_Opengraph.jpg"
+            "thumbnail": "https://cdn.prod.website-files.com/63472c166a259b5ffc67a744/639fb32f5158515de0e2c00e_Netvrk.co_Opengraph.jpg",
+            "tags": []
         },
         {
             "id": 372690,
@@ -2160,7 +2427,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.sonicom.eu/favicon.ico"
+            "thumbnail": "https://www.sonicom.eu/favicon.ico",
+            "tags": []
         },
         {
             "id": 380381,
@@ -2183,7 +2451,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.xrtoday.com/wp-content/uploads/2022/02/XRToday_Featured_Brand_850x425.jpg"
+            "thumbnail": "https://www.xrtoday.com/wp-content/uploads/2022/02/XRToday_Featured_Brand_850x425.jpg",
+            "tags": []
         },
         {
             "id": 159412,
@@ -2206,7 +2475,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://davidnegrin.com/favicon.ico"
+            "thumbnail": "https://davidnegrin.com/favicon.ico",
+            "tags": [
+                "personal"
+            ]
         },
         {
             "id": 158639,
@@ -2229,7 +2501,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://farcryvr.de/assets/images/page_bg_raw.jpg"
+            "thumbnail": "https://farcryvr.de/assets/images/page_bg_raw.jpg",
+            "tags": [
+                "video game mod",
+                "virtual reality"
+            ]
         },
         {
             "id": 462883,
@@ -2252,7 +2528,10 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://repository-images.githubusercontent.com/255187869/b14f8f80-3b17-11eb-856f-fabbe3263d61"
+            "thumbnail": "https://repository-images.githubusercontent.com/255187869/b14f8f80-3b17-11eb-856f-fabbe3263d61",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 463498,
@@ -2275,7 +2554,11 @@
             "age": 0,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome"
+            "thumbnail": "https://opengraph.githubassets.com/538d35c910a3a87b51b7cfb68083c07438c7241b9eee6896050608129c98ad30/Vytek/VR-Awesome",
+            "tags": [
+                "virtual reality",
+                "awesome list"
+            ]
         },
         {
             "id": 143660,
@@ -2298,7 +2581,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://images.wikia.com/rec-room/images/b/bc/Wiki.png"
+            "thumbnail": "https://images.wikia.com/rec-room/images/b/bc/Wiki.png",
+            "tags": []
         },
         {
             "id": 21542,
@@ -2321,7 +2605,12 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vectary.com/website_assets/636cc984003871e3cda597bb/639749cde7938b805b601b13_vectary-3d-design-og.jpg"
+            "thumbnail": "https://vectary.com/website_assets/636cc984003871e3cda597bb/639749cde7938b805b601b13_vectary-3d-design-og.jpg",
+            "tags": [
+                "virtual reality",
+                "3d printing",
+                "augmented reality"
+            ]
         },
         {
             "id": 463551,
@@ -2344,7 +2633,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://virtualrealityreporter.com/favicon.ico"
+            "thumbnail": "https://virtualrealityreporter.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 299669,
@@ -2367,7 +2657,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.holonautic.com/favicon.ico"
+            "thumbnail": "https://www.holonautic.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 405031,
@@ -2390,7 +2681,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.prod.website-files.com/6287d20d6082810c8f65fe54/62d958aa9ed9fd0e78d3b551_featured_image-home.png"
+            "thumbnail": "https://cdn.prod.website-files.com/6287d20d6082810c8f65fe54/62d958aa9ed9fd0e78d3b551_featured_image-home.png",
+            "tags": []
         },
         {
             "id": 463549,
@@ -2413,7 +2705,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i0.wp.com/vrscout.com/wp-content/uploads/2015/03/vrscout-squarelogo.png?fit=180%2C180&ssl=1"
+            "thumbnail": "https://i0.wp.com/vrscout.com/wp-content/uploads/2015/03/vrscout-squarelogo.png?fit=180%2C180&ssl=1",
+            "tags": []
         },
         {
             "id": 399033,
@@ -2436,7 +2729,11 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.virtualreality-news.net/favicon.ico"
+            "thumbnail": "https://www.virtualreality-news.net/favicon.ico",
+            "tags": [
+                "news",
+                "virtual reality"
+            ]
         },
         {
             "id": 328334,
@@ -2459,7 +2756,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://vrdust.org.uk/vr_dust.jpg"
+            "thumbnail": "http://vrdust.org.uk/vr_dust.jpg",
+            "tags": []
         },
         {
             "id": 445719,
@@ -2482,7 +2780,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://deva90sapmc8w.cloudfront.net/primeX41-perspective-social.png"
+            "thumbnail": "https://deva90sapmc8w.cloudfront.net/primeX41-perspective-social.png",
+            "tags": []
         },
         {
             "id": 461825,
@@ -2505,7 +2804,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://wowcube.com/images/wowcube-preview.jpg"
+            "thumbnail": "https://wowcube.com/images/wowcube-preview.jpg",
+            "tags": []
         },
         {
             "id": 463527,
@@ -2528,7 +2828,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.thevrbook.net/favicon.ico"
+            "thumbnail": "http://www.thevrbook.net/favicon.ico",
+            "tags": []
         },
         {
             "id": 463543,
@@ -2551,7 +2852,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.uxofvr.com/themes/uxofvr/assets/uxvrlogo.png"
+            "thumbnail": "https://www.uxofvr.com/themes/uxofvr/assets/uxvrlogo.png",
+            "tags": []
         },
         {
             "id": 328459,
@@ -2574,7 +2876,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://i.ytimg.com/vi/a2wsolTDNdM/maxresdefault.jpg"
+            "thumbnail": "https://i.ytimg.com/vi/a2wsolTDNdM/maxresdefault.jpg",
+            "tags": []
         },
         {
             "id": 69026,
@@ -2597,7 +2900,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.brinkxr.com/website/images/backgrounds/splash.jpg"
+            "thumbnail": "https://www.brinkxr.com/website/images/backgrounds/splash.jpg",
+            "tags": []
         },
         {
             "id": 413012,
@@ -2620,7 +2924,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://developers.virtuix.com/favicon.ico"
+            "thumbnail": "https://developers.virtuix.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 35067,
@@ -2643,7 +2948,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://marketplace.secondlife.com/favicon.ico"
+            "thumbnail": "https://marketplace.secondlife.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 296189,
@@ -2666,7 +2972,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rippleplastic.com/images/social/rippleplastic.jpg"
+            "thumbnail": "https://rippleplastic.com/images/social/rippleplastic.jpg",
+            "tags": []
         },
         {
             "id": 33295,
@@ -2689,7 +2996,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2013/05/road-to-vr-logo.png"
+            "thumbnail": "https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2013/05/road-to-vr-logo.png",
+            "tags": []
         },
         {
             "id": 326422,
@@ -2712,7 +3020,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://cdn.evbuc.com/images/726958149/281256107/1/logo.20240324-141845"
+            "thumbnail": "https://cdn.evbuc.com/images/726958149/281256107/1/logo.20240324-141845",
+            "tags": []
         },
         {
             "id": 132766,
@@ -2735,7 +3044,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5c6d89fc5239588e87e0846b/t/5c803692e2c48377cdedae28/1551906453313/WR---Soldier-Face---Black-Layer-w-Green-and-Yellow-w-Black-Border-1x1.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5c6d89fc5239588e87e0846b/t/5c803692e2c48377cdedae28/1551906453313/WR---Soldier-Face---Black-Layer-w-Green-and-Yellow-w-Black-Border-1x1.png?format=1500w",
+            "tags": []
         },
         {
             "id": 399526,
@@ -2758,7 +3068,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.lucianoabriata.com/favicon.ico"
+            "thumbnail": "https://www.lucianoabriata.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 132925,
@@ -2781,7 +3092,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.openscenegraph.com/favicon.ico"
+            "thumbnail": "https://www.openscenegraph.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 325593,
@@ -2804,7 +3116,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.andrewmurphie.org/favicon.ico"
+            "thumbnail": "http://www.andrewmurphie.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 445722,
@@ -2827,7 +3140,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://static.wixstatic.com/media/93e6e0_02d12e65acdb4ba38f3eeca38ea29802%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/93e6e0_02d12e65acdb4ba38f3eeca38ea29802%7Emv2.jpg"
+            "thumbnail": "https://static.wixstatic.com/media/93e6e0_02d12e65acdb4ba38f3eeca38ea29802%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/93e6e0_02d12e65acdb4ba38f3eeca38ea29802%7Emv2.jpg",
+            "tags": []
         },
         {
             "id": 459747,
@@ -2850,7 +3164,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.openscenegraph.org/favicon.ico"
+            "thumbnail": "http://www.openscenegraph.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 435669,
@@ -2873,7 +3188,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.cyberpunks.com/wp-content/uploads/2020/03/Done-Cyberpunks-wide-2-scaled-e1585280135317.jpg"
+            "thumbnail": "https://www.cyberpunks.com/wp-content/uploads/2020/03/Done-Cyberpunks-wide-2-scaled-e1585280135317.jpg",
+            "tags": []
         },
         {
             "id": 463542,
@@ -2896,7 +3212,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://developers.immerseum.io/favicon.ico"
+            "thumbnail": "http://developers.immerseum.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 161192,
@@ -2919,7 +3236,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets-global.website-files.com/659ce75b36b43cda1c04376f/662f3f49f2f2ec313a38e061_HTC%20Careers.png"
+            "thumbnail": "https://assets-global.website-files.com/659ce75b36b43cda1c04376f/662f3f49f2f2ec313a38e061_HTC%20Careers.png",
+            "tags": []
         },
         {
             "id": 276657,
@@ -2942,7 +3260,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dubai.sae.edu/wp-content/uploads/sites/16/2021/10/1.-courses.jpg"
+            "thumbnail": "https://dubai.sae.edu/wp-content/uploads/sites/16/2021/10/1.-courses.jpg",
+            "tags": []
         },
         {
             "id": 177721,
@@ -2965,7 +3284,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://exyte.com/img/exyte-logo.jpg"
+            "thumbnail": "https://exyte.com/img/exyte-logo.jpg",
+            "tags": []
         },
         {
             "id": 268954,
@@ -2988,7 +3308,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://falahtech.co.id/wp-content/uploads/2021/02/FIT-WITH-BACKGROUND.png"
+            "thumbnail": "https://falahtech.co.id/wp-content/uploads/2021/02/FIT-WITH-BACKGROUND.png",
+            "tags": []
         },
         {
             "id": 219696,
@@ -3011,7 +3332,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/5779ddf6d1758e240176dffd/t/5e83e5bca40bd81b4234da8a/1585702337391/ImmerseMeWebsiteBanner.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/5779ddf6d1758e240176dffd/t/5e83e5bca40bd81b4234da8a/1585702337391/ImmerseMeWebsiteBanner.png?format=1500w",
+            "tags": []
         },
         {
             "id": 166770,
@@ -3034,7 +3356,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://phuang17.github.io/img/profile.png"
+            "thumbnail": "https://phuang17.github.io/img/profile.png",
+            "tags": []
         },
         {
             "id": 235115,
@@ -3057,7 +3380,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/61813b3361b99650be1a2c4c/t/61d462ebe93db37f5b76658c/1641308907326/our_games_2.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/61813b3361b99650be1a2c4c/t/61d462ebe93db37f5b76658c/1641308907326/our_games_2.png?format=1500w",
+            "tags": []
         },
         {
             "id": 66970,
@@ -3080,7 +3404,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://swave.io/wp-content/uploads/2023/10/swave_logo_featured_sp.jpg"
+            "thumbnail": "https://swave.io/wp-content/uploads/2023/10/swave_logo_featured_sp.jpg",
+            "tags": []
         },
         {
             "id": 160250,
@@ -3103,7 +3428,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://static1.squarespace.com/static/58791e90ebbd1ab23e240255/t/5e99f51ea1a07f50a35974bf/1587148063564/VIVE_IMPACT_Digital_Primary_Blue-Black-Blue_RGB_TM.png?format=1500w"
+            "thumbnail": "http://static1.squarespace.com/static/58791e90ebbd1ab23e240255/t/5e99f51ea1a07f50a35974bf/1587148063564/VIVE_IMPACT_Digital_Primary_Blue-Black-Blue_RGB_TM.png?format=1500w",
+            "tags": [
+                "virtual reality"
+            ]
         },
         {
             "id": 164696,
@@ -3126,7 +3454,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.makesea.com/wp-content/uploads/elementor/thumbs/buttonbasewtextbevel2-9-24v3-qjkfhla1270zz8fbl4mfnqmf45l1cujwlffa6m6apg.png"
+            "thumbnail": "https://www.makesea.com/wp-content/uploads/elementor/thumbs/buttonbasewtextbevel2-9-24v3-qjkfhla1270zz8fbl4mfnqmf45l1cujwlffa6m6apg.png",
+            "tags": []
         },
         {
             "id": 167634,
@@ -3149,7 +3478,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.vfxvoice.com/wp-content/uploads/2019/10/vfx-voice-logo.jpg"
+            "thumbnail": "https://www.vfxvoice.com/wp-content/uploads/2019/10/vfx-voice-logo.jpg",
+            "tags": []
         },
         {
             "id": 232314,
@@ -3172,7 +3502,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://labs4future.de/favicon.ico"
+            "thumbnail": "https://labs4future.de/favicon.ico",
+            "tags": []
         },
         {
             "id": 160257,
@@ -3195,7 +3526,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://myshop-apac.vive.com/favicon.ico"
+            "thumbnail": "https://myshop-apac.vive.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 160261,
@@ -3218,7 +3550,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://myshop-us.vive.com/favicon.ico"
+            "thumbnail": "https://myshop-us.vive.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 160255,
@@ -3241,7 +3574,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://myshop.vive.com/favicon.ico"
+            "thumbnail": "https://myshop.vive.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 159931,
@@ -3264,7 +3598,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://screenwriters-collective-wac8.squarespace.com/favicon.ico"
+            "thumbnail": "https://screenwriters-collective-wac8.squarespace.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 63700,
@@ -3287,7 +3622,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://develop.thechainsaw.com/wp-content/uploads/2022/08/Chainsaw-logo-black-whiteC.png"
+            "thumbnail": "https://develop.thechainsaw.com/wp-content/uploads/2022/08/Chainsaw-logo-black-whiteC.png",
+            "tags": []
         },
         {
             "id": 161190,
@@ -3310,7 +3646,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.htcvive.com/favicon.ico"
+            "thumbnail": "https://www.htcvive.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 89961,
@@ -3333,7 +3670,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://assets.website-files.com/5fb82fa39593553bbf5e6749/5fbd97274416ad607874caac_sketchbox-featured-image.png"
+            "thumbnail": "https://assets.website-files.com/5fb82fa39593553bbf5e6749/5fbd97274416ad607874caac_sketchbox-featured-image.png",
+            "tags": []
         },
         {
             "id": 251260,
@@ -3356,7 +3694,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://64.media.tumblr.com/ce879e5a16b21d116f0a33b30aa9a071/f5c1d0d16fe9e5de-62/s128x128u_c1/6582162d03033e0faaec899a6f3b525d839a3fb8.pnj"
+            "thumbnail": "https://64.media.tumblr.com/ce879e5a16b21d116f0a33b30aa9a071/f5c1d0d16fe9e5de-62/s128x128u_c1/6582162d03033e0faaec899a6f3b525d839a3fb8.pnj",
+            "tags": []
         },
         {
             "id": 261144,
@@ -3379,7 +3718,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://unison.co/og.jpg"
+            "thumbnail": "https://unison.co/og.jpg",
+            "tags": []
         },
         {
             "id": 194056,
@@ -3402,7 +3742,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://daggasoft.com/images/dagga_splashnew.png"
+            "thumbnail": "http://daggasoft.com/images/dagga_splashnew.png",
+            "tags": []
         },
         {
             "id": 181866,
@@ -3425,7 +3766,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://mixed.de/wp-content/uploads/2021/08/MIXED_Titelbild_Allgemein.png"
+            "thumbnail": "https://mixed.de/wp-content/uploads/2021/08/MIXED_Titelbild_Allgemein.png",
+            "tags": []
         },
         {
             "id": 222366,
@@ -3448,7 +3790,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vrst.acm.org/images/ogp_main.jpg"
+            "thumbnail": "https://vrst.acm.org/images/ogp_main.jpg",
+            "tags": []
         },
         {
             "id": 267525,
@@ -3471,7 +3814,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://l05.is/favicon.ico"
+            "thumbnail": "http://l05.is/favicon.ico",
+            "tags": []
         },
         {
             "id": 23349,
@@ -3494,7 +3838,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://dtc.wsu.edu/favicon.ico"
+            "thumbnail": "https://dtc.wsu.edu/favicon.ico",
+            "tags": []
         },
         {
             "id": 192705,
@@ -3517,7 +3862,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://gundamvr.com/wp-content/uploads/2024/02/ATLAS-V-BOLD-logotype-horizontal-WHITE-700x284.png"
+            "thumbnail": "https://gundamvr.com/wp-content/uploads/2024/02/ATLAS-V-BOLD-logotype-horizontal-WHITE-700x284.png",
+            "tags": []
         },
         {
             "id": 234230,
@@ -3540,7 +3886,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://hololux.de/favicon.ico"
+            "thumbnail": "http://hololux.de/favicon.ico",
+            "tags": []
         },
         {
             "id": 76112,
@@ -3563,7 +3910,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://rogel.io/favicon.ico"
+            "thumbnail": "https://rogel.io/favicon.ico",
+            "tags": []
         },
         {
             "id": 206259,
@@ -3586,7 +3934,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://oculus.reality.news/favicon.ico"
+            "thumbnail": "https://oculus.reality.news/favicon.ico",
+            "tags": []
         },
         {
             "id": 206213,
@@ -3609,7 +3958,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://virtual.reality.news/favicon.ico"
+            "thumbnail": "https://virtual.reality.news/favicon.ico",
+            "tags": []
         },
         {
             "id": 206194,
@@ -3632,7 +3982,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://vive.reality.news/favicon.ico"
+            "thumbnail": "https://vive.reality.news/favicon.ico",
+            "tags": []
         },
         {
             "id": 260583,
@@ -3655,7 +4006,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.3dnsa.org/favicon.ico"
+            "thumbnail": "http://www.3dnsa.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 290219,
@@ -3678,7 +4030,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://www.bettvrwithage.com/favicon.ico"
+            "thumbnail": "http://www.bettvrwithage.com/favicon.ico",
+            "tags": []
         },
         {
             "id": 173837,
@@ -3701,7 +4054,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://webvr.info/favicon.ico"
+            "thumbnail": "https://webvr.info/favicon.ico",
+            "tags": []
         },
         {
             "id": 178634,
@@ -3724,7 +4078,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://arrveetar.neocities.org/favicon.ico"
+            "thumbnail": "https://arrveetar.neocities.org/favicon.ico",
+            "tags": []
         },
         {
             "id": 80803,
@@ -3747,7 +4102,13 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/91/d6/3d91d65c-724a-d072-0cc5-d460f9822977/AppIcon.lsr/1200x630bb.png"
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/91/d6/3d91d65c-724a-d072-0cc5-d460f9822977/AppIcon.lsr/1200x630bb.png",
+            "tags": [
+                "apple",
+                "youtube",
+                "desktop program",
+                "virtual reality"
+            ]
         },
         {
             "id": 88324,
@@ -3770,7 +4131,10 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "http://nsfw.tools/cdn/shop/files/thumb.jpg?v=1707837092"
+            "thumbnail": "http://nsfw.tools/cdn/shop/files/thumb.jpg?v=1707837092",
+            "tags": [
+                "nsfw"
+            ]
         },
         {
             "id": 375253,
@@ -3793,7 +4157,8 @@
             "age": null,
             "source__title": "",
             "source__url": "",
-            "thumbnail": "https://www.getluckyvr.com/favicon.ico"
+            "thumbnail": "https://www.getluckyvr.com/favicon.ico",
+            "tags": []
         }
     ]
 }
