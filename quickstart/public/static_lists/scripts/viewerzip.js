@@ -492,9 +492,9 @@ async function unPack(file) {
 }
 
 
-let requestingData = 0;
+let preparingData = false;
 async function requestData(attempt = 1) {
-    requestingData = true;
+    preparingData = true;
 
     $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading data...`);
 
@@ -540,15 +540,16 @@ async function requestData(attempt = 1) {
 
         const blob = new Blob(chunks);
         unPack(blob);
-        requestingData = false;
+        preparingData = false;
     } catch (error) {
+        preparingData = false;
         console.error("Error in requestData:", error);
     }
 }
 
 
 function searchInputFunction() {
-    if (requestingData) {
+    if (preparingData) {
         $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
     }
@@ -618,4 +619,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     requestData();
+});
+
+window.addEventListener("beforeunload", (event) => {
+    if (preparingData) {
+        // Custom message shown in some browsers
+        event.preventDefault();
+        event.returnValue = ''; // This will trigger the default confirmation dialog
+    }
 });
