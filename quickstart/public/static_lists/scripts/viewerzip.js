@@ -581,10 +581,10 @@ $(document).on('keydown', "#searchInput", function(e) {
     }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    if (isMobile()) {
-        searchInput.style.width = '100%';
-    }
 
-    requestData();
+if (isMobile()) {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.style.width = '100%';
 }
+
+requestData();
