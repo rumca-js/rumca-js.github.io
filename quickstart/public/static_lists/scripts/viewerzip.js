@@ -619,10 +619,11 @@ $(document).on('keydown', "#searchInput", function(e) {
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    if (isMobile()) {
+        const searchInput = document.getElementById('searchInput');
+        searchInput.style.width = '100%';
+    }
 
-if (isMobile()) {
-    const searchInput = document.getElementById('searchInput');
-    searchInput.style.width = '100%';
+    requestData();
 }
-
-requestData();
