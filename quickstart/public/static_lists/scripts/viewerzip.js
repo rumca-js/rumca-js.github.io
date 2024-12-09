@@ -14,6 +14,10 @@ let object_list_data = null;
 
 let default_page_size = 200;
 
+function isMobile() {
+    return /Mobi|Android/i.test(navigator.userAgent);
+}
+
 
 function GetPaginationNav(currentPage, totalPages, count) {
     totalPages = Math.ceil(totalPages);
@@ -576,5 +580,9 @@ $(document).on('keydown', "#searchInput", function(e) {
         searchInputFunction();
     }
 });
+
+if (isMobile()) {
+    searchInput.style.width = '100%';
+}
 
 requestData();
