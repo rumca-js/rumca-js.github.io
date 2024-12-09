@@ -14,6 +14,10 @@ let object_list_data = null;
 
 let default_page_size = 200;
 
+function isMobile() {
+    return /Mobi|Android/i.test(navigator.userAgent);
+}
+
 
 function GetPaginationNav(currentPage, totalPages, count) {
     totalPages = Math.ceil(totalPages);
@@ -488,34 +492,65 @@ async function unPack(file) {
 }
 
 
-let requestingData = 0;
+let preparingData = false;
 async function requestData(attempt = 1) {
-    requestingData = true;
+    preparingData = true;
 
     $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading data...`);
 
     let file_name = getQueryParam('file') || "permanent";
-
     let url = "data/" + file_name + ".zip";
 
     try {
         const response = await fetch(url);
+
         if (!response.ok) {
             throw new Error(`Failed to fetch file: ${url}, status:${response.statusText}`);
         }
 
-        const fileBlob = await response.blob();
-        unPack(fileBlob);
-        requestingData = false;
+        const contentLength = response.headers.get("Content-Length");
+        const totalSize = contentLength ? parseInt(contentLength, 10) : 0;
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let receivedBytes = 0;
+
+        const chunks = [];
+        
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+                break;
+            }
+            if (value) {
+                receivedBytes += value.length;
+                const percentComplete = ((receivedBytes / totalSize) * 100).toFixed(2);
+
+                $("#listData").html(`
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: ${percentComplete}%" aria-valuenow="${percentComplete}" aria-valuemin="0" aria-valuemax="100">
+                      ${percentComplete}%
+                    </div>
+                  </div>
+                `);
+
+                chunks.push(value);
+            }
+        }
+
+        const blob = new Blob(chunks);
+        unPack(blob);
+        preparingData = false;
     } catch (error) {
+        preparingData = false;
         console.error("Error in requestData:", error);
     }
 }
 
 
 function searchInputFunction() {
-    if (requestingData) {
-        $("#listData").html("Requesting data");
+    if (preparingData) {
+        $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
     }
 
@@ -577,4 +612,19 @@ $(document).on('keydown', "#searchInput", function(e) {
     }
 });
 
-requestData();
+document.addEventListener('DOMContentLoaded', () => {
+    if (isMobile()) {
+        const searchInput = document.getElementById('searchInput');
+        searchInput.style.width = '100%';
+    }
+
+    requestData();
+});
+
+window.addEventListener("beforeunload", (event) => {
+    if (preparingData) {
+        // Custom message shown in some browsers
+        event.preventDefault();
+        event.returnValue = ''; // This will trigger the default confirmation dialog
+    }
+});
