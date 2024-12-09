@@ -515,7 +515,7 @@ async function requestData(attempt = 1) {
 
 function searchInputFunction() {
     if (requestingData) {
-        $("#listData").html("Requesting data");
+        $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
     }
 
