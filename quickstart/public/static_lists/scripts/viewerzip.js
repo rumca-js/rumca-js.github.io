@@ -508,20 +508,15 @@ async function requestData(attempt = 1) {
             throw new Error(`Failed to fetch file: ${url}, status:${response.statusText}`);
         }
 
-        // Extract the total size from the Content-Length header
         const contentLength = response.headers.get("Content-Length");
         const totalSize = contentLength ? parseInt(contentLength, 10) : 0;
 
-        console.log("Total size:", totalSize);
-
-        // Read response body as a stream
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
         let receivedBytes = 0;
 
         const chunks = [];
         
-        // Process incoming chunks
         while (true) {
             const { done, value } = await reader.read();
             if (done) {
@@ -531,9 +526,6 @@ async function requestData(attempt = 1) {
                 receivedBytes += value.length;
                 const percentComplete = ((receivedBytes / totalSize) * 100).toFixed(2);
 
-                console.log(`Downloaded ${percentComplete}%`);
-
-                // Update a visual progress bar
                 $("#listData").html(`
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: ${percentComplete}%" aria-valuenow="${percentComplete}" aria-valuemin="0" aria-valuemax="100">
@@ -626,4 +618,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     requestData();
-}
+});
