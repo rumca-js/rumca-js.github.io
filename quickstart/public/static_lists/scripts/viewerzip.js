@@ -669,8 +669,14 @@ async function requestFile(attempt = 1) {
 
 function fillListData() {
     const userInput = $("#searchInput").val();
+
     if (userInput.trim() != "") {
         document.title = userInput;
+
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('search', userInput);
+        window.history.pushState({}, '', currentUrl);
+
         fillSearchListData(userInput);
     }
     else
