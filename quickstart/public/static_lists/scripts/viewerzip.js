@@ -12,6 +12,8 @@ let show_pure_links = true;
 let highlight_bookmarks = false;
 let object_list_data = null;
 
+let sort_function = "page_rating_votes"; // date_published
+
 let default_page_size = 200;
 
 function isMobile() {
@@ -329,7 +331,101 @@ function fillOneEntry(entry) {
 }
 
 
-function fillEntryList(entries, startIndex = 0, endIndex = 1000) {
+function isEntrySearchHit(entry, searchText) {
+    // TODO maybe support link == something syntax
+    if (!entry)
+        return false;
+
+    if (searchText.includes("=")) {
+        return isEntrySearchHitAdvanced(entry, searchText);
+    }
+    else {
+        return isEntrySearchHitGeneric(entry, searchText);
+    }
+}
+
+
+function isEntrySearchHitGeneric(entry, searchText) {
+    if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.tags && Array.isArray(entry.tags)) {
+        const tagMatch = entry.tags.some(tag =>
+            tag.toLowerCase().includes(searchText.toLowerCase())
+        );
+        if (tagMatch) return true;
+    }
+
+    return false;
+}
+
+
+function isEntrySearchHitAdvanced(entry, searchText) {
+    let operator_0 = null;
+    let operator_1 = null;
+    let operator_2 = null;
+
+    if (searchText.includes("==")) {
+        const result = searchText.split("==");
+        operator_0 = result[0].trim();
+        operator_1 = "==";
+        operator_2 = result[1].trim();
+    }
+    else {
+        const result = searchText.split("=");
+        operator_0 = result[0].trim();
+        operator_1 = "=";
+        operator_2 = result[1].trim();
+    }
+
+    if (operator_0 == "title")
+    {
+        if (operator_1 == "=" && entry.title && entry.title.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.title && entry.title.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "link")
+    {
+        if (operator_1 == "=" && entry.link && entry.link.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.link && entry.link.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "description")
+    {
+        if (operator_1 == "=" && entry.description && entry.description.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.description && entry.description.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "tag")
+    {
+        if (entry.tags && Array.isArray(entry.tags)) {
+            if (operator_1 == "=") {
+                const tagMatch = entry.tags.some(tag =>
+                    tag.toLowerCase().includes(operator_2.toLowerCase())
+                );
+                if (tagMatch) return true;
+            }
+            if (operator_1 == "==") {
+                const tagMatch = entry.tags.some(tag =>
+                    tag.toLowerCase() == operator_2.toLowerCase()
+                );
+                if (tagMatch) return true;
+            }
+        }
+    }
+}
+
+
+function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
     let htmlOutput = '';
 
     if (view_display_type == "gallery") {
@@ -356,7 +452,63 @@ function fillEntryList(entries, startIndex = 0, endIndex = 1000) {
 }
 
 
-function fillListData() {
+function fillListDataInternal(entries) {
+    $('#statusLine').html("Sorting links");
+
+    if (sort_function == "page_rating_votes") {
+        entries = entries.sort((a, b) => {
+            return b.page_rating_votes - a.page_rating_votes;
+        });
+    }
+    else if (sort_function == "-page_rating_votes") {
+        entries = entries.sort((a, b) => {
+            return a.page_rating_votes - b.page_rating_votes;
+        });
+    }
+    else if (sort_function == "date_published") {
+        entries = entries.sort((a, b) => {
+            if (a.date_published === null && b.date_published === null) {
+                return 0;
+            }
+            if (a.date_published === null) {
+                return 1;
+            }
+            if (b.date_published === null) {
+                return -1;
+            }
+            return new Date(b.date_published) - new Date(a.date_published);
+        });
+    }
+    else if (sort_function == "-date_published") {
+        entries = entries.sort((a, b) => {
+            if (a.date_published === null && b.date_published === null) {
+                return 0;
+            }
+            if (a.date_published === null) {
+                return -1;
+            }
+            if (b.date_published === null) {
+                return 1;
+            }
+            return new Date(a.date_published) - new Date(b.date_published);
+        });
+    }
+
+    let page_num = parseInt(getQueryParam("page")) || 1;
+    let page_size = default_page_size;
+    let countElements = entries.length;
+
+    let start_index = (page_num-1) * page_size;
+    let end_index = page_num * page_size;
+
+    var finished_text = getEntryListText(entries, start_index, end_index);
+
+    $('#listData').html(finished_text);
+    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
+}
+
+
+function fillEntireListData() {
     let data = object_list_data;
 
     $('#listData').html("");
@@ -364,43 +516,14 @@ function fillListData() {
     let entries = data.entries;
 
     if (!entries || entries.length == 0) {
-        $('#listData').html("No entries found");
+        $('#statusLine').html("No entries found");
+        $('#listData').html("");
         $('#pagination').html("");
         return;
     }
 
-    let page_num = parseInt(getQueryParam("page")) || 1;
-    let page_size = default_page_size;
-    let countElements = data.entries.length;
-
-    let start_index = (page_num-1) * page_size;
-    let end_index = page_num * page_size;
-
-    var finished_text = fillEntryList(entries, start_index, end_index);
-    $('#listData').html(finished_text);
-    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
-}
-
-
-function isEntrySearchHit(entry, searchText) {
-   if (!entry)
-        return false;
-
-   if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-   if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-   if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-   if (entry.tags && Array.isArray(entry.tags)) {
-       const tagMatch = entry.tags.some(tag =>
-           tag.toLowerCase().includes(searchText.toLowerCase())
-       );
-       if (tagMatch) return true;
-   }
+    fillListDataInternal(entries);
+    $('#statusLine').html("")
 }
 
 
@@ -412,35 +535,26 @@ function fillSearchListData(searchText) {
     let entries = data.entries;
 
     if (!entries || entries.length == 0) {
-        $('#listData').html("No entries found");
+        $('#statusLine').html("No entries found");
+        $('#listData').html("");
         $('#pagination').html("");
         return;
     }
 
+    $('#statusLine').html("Filtering links");
     let filteredEntries = entries.filter(entry =>
         isEntrySearchHit(entry, searchText)
     );
 
     if (filteredEntries.length === 0) {
-        $('#listData').html("No matching entries found.");
+        $('#statusLine').html("No matching entries found.");
+        $('#listData').html("");
         $('#pagination').html("");
         return;
     }
 
-    filteredEntries = filteredEntries.sort((a, b) => {
-        return b.page_rating_votes - a.page_rating_votes; // Sort in descending order
-    });
-
-    let page_num = parseInt(getQueryParam("page")) || 1;
-    let page_size = default_page_size;
-    let countElements = filteredEntries.length;
-
-    let start_index = (page_num-1) * page_size;
-    let end_index = page_num * page_size;
-
-    var finished_text = fillEntryList(filteredEntries, start_index, end_index);
-    $('#listData').html(finished_text);
-    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
+    fillListDataInternal(filteredEntries);
+    $('#statusLine').html("")
 }
 
 
@@ -453,7 +567,6 @@ function updateListData(jsonData) {
     }
 
     if (jsonData && Array.isArray(jsonData.entries)) {
-        console.log("Entries to merge:", jsonData.entries);
         object_list_data.entries.push(...jsonData.entries);
     } else {
         if (jsonData && Array.isArray(jsonData))
@@ -467,14 +580,17 @@ function updateListData(jsonData) {
 }
 
 
-async function unPack(file) {
+async function unPackFile(file) {
+    // TODO maybe add progress bar?
+
     const output = document.getElementById('listData');
     try {
         const JSZip = window.JSZip;
+        $("#statusLine").html(`Loading blob file`);
         const zip = await JSZip.loadAsync(file);
 
         for (const fileName of Object.keys(zip.files)) {
-            $("#listData").html(`Reading:${fileName}`);
+            $("#statusLine").html(`Reading:${fileName}`);
 
             if (fileName.endsWith('.json')) {
                 const jsonFile = await zip.files[fileName].async('string');
@@ -493,7 +609,7 @@ async function unPack(file) {
 
 
 let preparingData = false;
-async function requestData(attempt = 1) {
+async function requestFile(attempt = 1) {
     preparingData = true;
 
     $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading data...`);
@@ -539,26 +655,18 @@ async function requestData(attempt = 1) {
         }
 
         const blob = new Blob(chunks);
-        unPack(blob);
+
+        unPackFile(blob);
+
         preparingData = false;
     } catch (error) {
         preparingData = false;
-        console.error("Error in requestData:", error);
+        console.error("Error in requestFile:", error);
     }
 }
 
 
-function searchInputFunction() {
-    if (preparingData) {
-        $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
-        return;
-    }
-
-
-    const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.set('page', 1);
-    window.history.pushState({}, '', currentUrl);
-
+function fillListData() {
     const userInput = $("#searchInput").val();
     if (userInput.trim() != "") {
         document.title = userInput;
@@ -567,8 +675,23 @@ function searchInputFunction() {
     else
     {
         document.title = "Link viewer";
-        fillListData();
+        fillEntireListData();
     }
+}
+
+
+function searchInputFunction() {
+    if (preparingData) {
+        $("#statusLine").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
+        return;
+    }
+
+
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('page', 1);
+    window.history.pushState({}, '', currentUrl);
+
+    fillListData();
 }
 
 
@@ -583,19 +706,15 @@ $(document).on('click', '.btnFilterTrigger', function(e) {
 
     window.history.pushState({}, '', currentUrl);
 
-    const userInput = $("#searchInput").val();
-    if (userInput.trim() != "") {
-        fillSearchListData(userInput);
-    }
-    else {
-        fillListData();
-    }
+    fillListData();
 });
+
 
 //-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
     searchInputFunction();
 });
+
 
 //-----------------------------------------------
 $(document).on('click', '#helpButton', function(e) {
@@ -612,13 +731,63 @@ $(document).on('keydown', "#searchInput", function(e) {
     }
 });
 
+
+//-----------------------------------------------
+$(document).on('click', '#orderByVotes', function(e) {
+    if (sort_function == "page_rating_votes")
+    {
+        sort_function = "-page_rating_votes";
+    }
+    else
+    {
+        sort_function = "page_rating_votes";
+    }
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#orderByDatePublished', function(e) {
+    if (sort_function == "date_published")
+    {
+        sort_function = "-date_published";
+    }
+    else
+    {
+        sort_function = "date_published";
+    }
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#viewStandard', function(e) {
+    view_display_type = "standard";
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#viewGallery', function(e) {
+    view_display_type = "gallery";
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#viewSearchEngine', function(e) {
+    view_display_type = "search-engine";
+    fillListData();
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
     if (isMobile()) {
         const searchInput = document.getElementById('searchInput');
         searchInput.style.width = '100%';
     }
 
-    requestData();
+    requestFile();
 });
 
 window.addEventListener("beforeunload", (event) => {
