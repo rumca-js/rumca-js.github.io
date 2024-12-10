@@ -600,6 +600,8 @@ async function unPackFile(file) {
             }
         }
 
+        preparingData = false;
+
         fillListData();
     } catch (error) {
         console.error("Error reading ZIP file:", error);
@@ -658,7 +660,6 @@ async function requestFile(attempt = 1) {
 
         unPackFile(blob);
 
-        preparingData = false;
     } catch (error) {
         preparingData = false;
         console.error("Error in requestFile:", error);
