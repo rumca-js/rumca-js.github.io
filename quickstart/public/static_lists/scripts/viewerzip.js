@@ -20,6 +20,20 @@ function isMobile() {
 }
 
 
+function escapeHtml(unsafe)
+{
+    if (unsafe == null)
+        return "";
+
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+}
+
+
 function GetPaginationNav(currentPage, totalPages, count) {
     totalPages = Math.ceil(totalPages);
 
