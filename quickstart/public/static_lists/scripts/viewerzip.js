@@ -373,6 +373,8 @@ function fillOneEntry(entry) {
     let entry_link = show_pure_links ? entry.link : entry.link_absolute;
 
     title = escapeHtml(entry.title)
+
+    let title_safe = null;
     if (entry.title_safe) {
        title_safe = escapeHtml(entry.title_safe)
     }
