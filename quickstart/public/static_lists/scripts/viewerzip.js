@@ -376,6 +376,10 @@ function fillOneEntry(entry) {
     if (entry.title_safe) {
        title_safe = escapeHtml(entry.title_safe)
     }
+    else
+    {
+       title_safe = escapeHtml(entry.title)
+    }
     if (entry.source__title) {
        source__title = escapeHtml(entry.source__title)
     }
