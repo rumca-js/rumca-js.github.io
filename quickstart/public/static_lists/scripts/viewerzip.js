@@ -382,6 +382,7 @@ function fillOneEntry(entry) {
     {
        title_safe = escapeHtml(entry.title)
     }
+    let source__title = null;
     if (entry.source__title) {
        source__title = escapeHtml(entry.source__title)
     }
