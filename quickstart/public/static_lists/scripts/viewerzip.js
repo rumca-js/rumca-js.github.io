@@ -152,7 +152,7 @@ function getEntryTags(entry) {
 
 
 function isEntryValid(entry) {
-    if (entry.is_valid || entry.date_dead_since) {
+    if (!entry.is_valid === false || entry.date_dead_since) {
         return false;
     }
     return true;
@@ -863,9 +863,17 @@ $(document).on('click', '#viewSearchEngine', function(e) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('searchInput');
+
     if (isMobile()) {
-        const searchInput = document.getElementById('searchInput');
         searchInput.style.width = '100%';
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+
+    if (searchParam) {
+        searchInput.value = searchParam;
     }
 
     requestFile();
