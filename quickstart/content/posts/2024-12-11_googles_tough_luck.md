@@ -4,8 +4,6 @@ date = 2024-12-11 16:43:32
 draft = false
 +++
 
-# Google's Tough Luck
-
 For years, Google stood at the pinnacle of the corporate world, recognized as one of the most valuable companies globally. Its dominance was built on the strength of its search engine, which became indispensable to anyone wanting to be seen or heard online. "Play nice with Google," they said, and you would thrive.
 
 In its early days, Google's business model relied heavily on user-generated web pages to build and refine its search algorithms. They crawled the internet, collecting links and organizing content into an accessible, searchable format. This gave rise to search engine optimization (SEO) strategies, and inevitably, SEO spam. Spammers created link farms designed to manipulate Google's algorithms and boost the visibility of specific products or services. Despite these challenges, Google remained the king of search.
