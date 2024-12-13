@@ -1,146 +1,3 @@
-// library code
-
-function getQueryParam(param) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(param);
-}
-
-let view_display_type = "search-engine";
-let view_show_icons = false;
-let view_small_icons = false;
-let show_pure_links = true;
-let highlight_bookmarks = false;
-let object_list_data = null;
-let sort_function = "page_rating_votes"; // date_published
-let default_page_size = 200;
-
-
-function isMobile() {
-    return /Mobi|Android/i.test(navigator.userAgent);
-}
-
-
-function escapeHtml(unsafe)
-{
-    if (unsafe == null)
-        return "";
-
-    return unsafe
-         .replace(/&/g, "&amp;")
-         .replace(/</g, "&lt;")
-         .replace(/>/g, "&gt;")
-         .replace(/"/g, "&quot;")
-         .replace(/'/g, "&#039;");
-}
-
-
-function GetPaginationNav(currentPage, totalPages, count) {
-    totalPages = Math.ceil(totalPages);
-
-    if (totalPages <= 1) {
-        return '';
-    }
-
-    let paginationText = `
-        <nav aria-label="Page navigation">
-            <ul class="pagination">
-    `;
-
-    const currentUrl = new URL(window.location);
-    currentUrl.searchParams.delete('page');
-    const paginationArgs = `${currentUrl.searchParams.toString()}`;
-
-    if (currentPage > 2) {
-        paginationText += `
-            <li class="page-item">
-                <a href="?page=1&${paginationArgs}" data-page="1" class="btnFilterTrigger page-link">|&lt;</a>
-            </li>
-        `;
-    }
-    if (currentPage > 2) {
-        paginationText += `
-            <li class="page-item">
-                <a href="?page=${currentPage - 1}&${paginationArgs}" data-page="${currentPage - 1}" class="btnFilterTrigger page-link">&lt;</a>
-            </li>
-        `;
-    }
-
-    let startPage = Math.max(1, currentPage - 1);
-    let endPage = Math.min(totalPages, currentPage + 1);
-
-    for (let i = startPage; i <= endPage; i++) {
-        paginationText += `
-            <li class="page-item ${i === currentPage ? 'active' : ''}">
-                <a href="?page=${i}&${paginationArgs}" data-page="${i}" class="btnFilterTrigger page-link">${i}</a>
-            </li>
-        `;
-    }
-
-    if (currentPage + 1 < totalPages) {
-        paginationText += `
-            <li class="page-item">
-                <a href="?page=${currentPage + 1}&${paginationArgs}" data-page="${currentPage + 1}" class="btnFilterTrigger page-link">&gt;</a>
-            </li>
-        `;
-    }
-    if (currentPage + 1 < totalPages) {
-        paginationText += `
-            <li class="page-item">
-                <a href="?page=${totalPages}&${paginationArgs}" data-page="${totalPages}" class="btnFilterTrigger page-link">&gt;|</a>
-            </li>
-        `;
-    }
-
-    paginationText += `
-            </ul>
-            ${currentPage} / ${totalPages} @ ${count} records.
-        </nav>
-    `;
-
-    return paginationText;
-}
-
-
-// entry code
-
-
-function getVotesBadge(page_rating_votes) {
-    let badge_text = page_rating_votes > 0 ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 5px; right: 30px; font-size: 0.8rem;">
-            ${page_rating_votes}
-        </span>` : '';
-
-    return badge_text;
-}
-
-
-function getBookmarkBadge(entry) {
-    let badge_star = entry.bookmarked ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 5px; right: 5px; font-size: 0.8rem;">
-            ★
-        </span>` : '';
-    return badge_star;
-}
-
-
-function getAgeBadge(entry) {
-    let badge_text = entry.age > 0 ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 30px; right: 5px; font-size: 0.8rem;">
-            A
-        </span>` : '';
-    return badge_text;
-}
-
-
-function getDeadBadge(entry) {
-    let badge_text = entry.date_dead_since ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 30px; right: 30px; font-size: 0.8rem;">
-            D
-        </span>` : '';
-    return badge_text;
-}
-
-
 function getEntryTags(entry) {
     let tags_text = "";
     if (entry.tags && entry.tags.length > 0) {
@@ -157,6 +14,9 @@ function isEntryValid(entry) {
     }
     return true;
 }
+
+
+/** templates **/
 
 
 function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
@@ -348,154 +208,15 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
 }
 
 
+/** fill functions **/
+
+
 function fillOneEntry(entry) {
-    let datePublished = new Date(entry.date_published);
-    if (isNaN(datePublished)) {
-        datePublished = new Date();
+    if (entry.link) {
+       return fillOneEntryLink(entry);
     }
-
-    const templateMap = {
-        "standard": entryStandardTemplate,
-        "gallery": entryGalleryTemplate,
-        "search-engine": entrySearchEngineTemplate
-    };
-
-    const templateFunc = templateMap[view_display_type];
-    if (!templateFunc) {
-        return;
-    }
-    var template_text = templateFunc(entry, view_show_icons, view_small_icons);
-
-    let thumbnail = entry.thumbnail;
-    let page_rating_votes = entry.page_rating_votes;
-    let page_rating_contents = entry.page_rating_contents;
-
-    let entry_link = show_pure_links ? entry.link : entry.link_absolute;
-
-    title = escapeHtml(entry.title)
-
-    let title_safe = null;
-    if (entry.title_safe) {
-       title_safe = escapeHtml(entry.title_safe)
-    }
-    else
-    {
-       title_safe = escapeHtml(entry.title)
-    }
-    let source__title = null;
-    if (entry.source__title) {
-       source__title = escapeHtml(entry.source__title)
-    }
-
-    // Replace all occurrences of the placeholders using a global regular expression
-    let listItem = template_text
-        .replace(/{link_absolute}/g, entry.link_absolute)
-        .replace(/{link}/g, entry.link)
-        .replace(/{entry_link}/g, entry_link)
-        .replace(/{title}/g, title)
-        .replace(/{thumbnail}/g, entry.thumbnail)
-        .replace(/{title_safe}/g, title_safe)
-        .replace(/{page_rating_votes}/g, entry.page_rating_votes)
-        .replace(/{page_rating_contents}/g, entry.page_rating_contents)
-        .replace(/{page_rating}/g, entry.page_rating)
-        .replace(/{source__title}/g, source__title)
-        .replace(/{age}/g, entry.age)
-        .replace(/{date_published}/g, datePublished.toLocaleString());
-
-    return listItem;
-}
-
-
-function isEntrySearchHit(entry, searchText) {
-    // TODO maybe support link == something syntax
-    if (!entry)
-        return false;
-
-    if (searchText.includes("=")) {
-        return isEntrySearchHitAdvanced(entry, searchText);
-    }
-    else {
-        return isEntrySearchHitGeneric(entry, searchText);
-    }
-}
-
-
-function isEntrySearchHitGeneric(entry, searchText) {
-    if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.tags && Array.isArray(entry.tags)) {
-        const tagMatch = entry.tags.some(tag =>
-            tag.toLowerCase().includes(searchText.toLowerCase())
-        );
-        if (tagMatch) return true;
-    }
-
-    return false;
-}
-
-
-function isEntrySearchHitAdvanced(entry, searchText) {
-    let operator_0 = null;
-    let operator_1 = null;
-    let operator_2 = null;
-
-    if (searchText.includes("==")) {
-        const result = searchText.split("==");
-        operator_0 = result[0].trim();
-        operator_1 = "==";
-        operator_2 = result[1].trim();
-    }
-    else {
-        const result = searchText.split("=");
-        operator_0 = result[0].trim();
-        operator_1 = "=";
-        operator_2 = result[1].trim();
-    }
-
-    if (operator_0 == "title")
-    {
-        if (operator_1 == "=" && entry.title && entry.title.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.title && entry.title.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "link")
-    {
-        if (operator_1 == "=" && entry.link && entry.link.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.link && entry.link.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "description")
-    {
-        if (operator_1 == "=" && entry.description && entry.description.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.description && entry.description.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "tag")
-    {
-        if (entry.tags && Array.isArray(entry.tags)) {
-            if (operator_1 == "=") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase().includes(operator_2.toLowerCase())
-                );
-                if (tagMatch) return true;
-            }
-            if (operator_1 == "==") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase() == operator_2.toLowerCase()
-                );
-                if (tagMatch) return true;
-            }
-        }
+    if (entry.url) {
+       return fillOneEntrySource(entry);
     }
 }
 
@@ -656,16 +377,44 @@ function updateListData(jsonData) {
 
 
 async function unPackFile(file) {
-    // TODO maybe add progress bar?
+    // Prepare progress bar and output
+    const listData = document.getElementById('listData');
 
-    const output = document.getElementById('listData');
+    listData.innerHTML = '';
+
+    // Add progress bar to the listData div
+    let percentComplete = 0;
+    const progressBarHTML = `
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: ${percentComplete}%" 
+                aria-valuenow="${percentComplete}" aria-valuemin="0" aria-valuemax="100">
+                ${percentComplete}%
+            </div>
+        </div>
+        <span class="status-text">Loading blob file...</span>
+    `;
+    listData.innerHTML = progressBarHTML;
+
+    const progressBar = listData.querySelector('.progress-bar');
+    const statusText = listData.querySelector('.status-text');
+
     try {
         const JSZip = window.JSZip;
-        $("#statusLine").html(`Loading blob file`);
+
         const zip = await JSZip.loadAsync(file);
 
-        for (const fileName of Object.keys(zip.files)) {
-            $("#statusLine").html(`Reading:${fileName}`);
+        const fileNames = Object.keys(zip.files);
+        const totalFiles = fileNames.length;
+        let processedFiles = 0;
+
+        for (const fileName of fileNames) {
+            statusText.innerText = `Reading: ${fileName}`;
+            processedFiles++;
+            percentComplete = Math.round((processedFiles / totalFiles) * 100);
+
+            progressBar.style.width = `${percentComplete}%`;
+            progressBar.setAttribute('aria-valuenow', `${percentComplete}`);
+            progressBar.innerText = `${percentComplete}%`;
 
             if (fileName.endsWith('.json')) {
                 const jsonFile = await zip.files[fileName].async('string');
@@ -676,9 +425,10 @@ async function unPackFile(file) {
         }
 
         fillListData();
+        statusText.innerText = "All files processed!";
     } catch (error) {
         console.error("Error reading ZIP file:", error);
-        output.textContent = "Error processing ZIP file. Check console for details.";
+        listData.textContent = "Error processing ZIP file. Check console for details.";
     }
 }
 
@@ -743,9 +493,10 @@ async function requestFile(attempt = 1) {
 
 function fillListData() {
     const userInput = $("#searchInput").val();
+    let file_name = getQueryParam('file') || "permanent";
 
     if (userInput.trim() != "") {
-        document.title = userInput;
+        document.title = file_name + " / " + userInput;
 
         const currentUrl = new URL(window.location.href);
         currentUrl.searchParams.set('search', userInput);
@@ -755,7 +506,7 @@ function fillListData() {
     }
     else
     {
-        document.title = "Link viewer";
+        document.title = file_name;
         fillEntireListData();
     }
 }
@@ -878,6 +629,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     requestFile();
 });
+
 
 window.addEventListener("beforeunload", (event) => {
     if (preparingData) {
