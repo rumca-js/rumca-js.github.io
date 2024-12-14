@@ -48,3 +48,18 @@
   background-color: #e0e0e0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.icon-small {
+    /* icon image of generic icons. related icons, etc */
+    height:3em;
+    width:3em;
+    object-fit:cover;
+    object-position:0 0;
+}
+.icon-normal {
+    /* icon image of generic icons. related icons, etc */
+    height:4em;
+    width:4em;
+    object-fit:cover;
+    object-position:0 0;
+}

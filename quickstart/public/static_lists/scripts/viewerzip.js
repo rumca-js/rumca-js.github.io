@@ -253,12 +253,12 @@ function fillListDataInternal(entries) {
 
     if (sort_function == "page_rating_votes") {
         entries = entries.sort((a, b) => {
-            return b.page_rating_votes - a.page_rating_votes;
+            return a.page_rating_votes - b.page_rating_votes;
         });
     }
     else if (sort_function == "-page_rating_votes") {
         entries = entries.sort((a, b) => {
-            return a.page_rating_votes - b.page_rating_votes;
+            return b.page_rating_votes - a.page_rating_votes;
         });
     }
     else if (sort_function == "date_published") {
@@ -518,7 +518,6 @@ function searchInputFunction() {
         return;
     }
 
-
     const currentUrl = new URL(window.location.href);
     currentUrl.searchParams.set('page', 1);
     window.history.pushState({}, '', currentUrl);
@@ -566,14 +565,26 @@ $(document).on('keydown', "#searchInput", function(e) {
 
 //-----------------------------------------------
 $(document).on('click', '#orderByVotes', function(e) {
-    if (sort_function == "page_rating_votes")
-    {
-        sort_function = "-page_rating_votes";
-    }
-    else
+    if (sort_function == "-page_rating_votes")
     {
         sort_function = "page_rating_votes";
     }
+    else
+    {
+        sort_function = "-page_rating_votes";
+    }
+
+    if (sort_function != "-page_rating_votes") {
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('order', sort_function);
+        window.history.pushState({}, '', currentUrl);
+    }
+    else {
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.delete('order'); // Remove the 'order' parameter
+        window.history.pushState({}, '', currentUrl);
+    }
+
     fillListData();
 });
 
@@ -588,6 +599,18 @@ $(document).on('click', '#orderByDatePublished', function(e) {
     {
         sort_function = "date_published";
     }
+
+    if (sort_function != "-page_rating_votes") {
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('order', sort_function);
+        window.history.pushState({}, '', currentUrl);
+    }
+    else {
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.delete('order'); // Remove the 'order' parameter
+        window.history.pushState({}, '', currentUrl);
+    }
+
     fillListData();
 });
 
@@ -622,12 +645,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const urlParams = new URLSearchParams(window.location.search);
     const searchParam = urlParams.get('search');
+    view_show_icons = urlParams.get("view_show_icons") || false;
+    view_display_type = urlParams.get("view_display_type") || "search-engine";
+    sort_function = urlParams.get('order') || "-page_rating_votes";
+    default_page_size = parseInt(urlParams.get('default_page_size'), 10) || 100;
 
     if (searchParam) {
         searchInput.value = searchParam;
     }
 
-    requestFile();
+    if (!object_list_data) {
+       requestFile();
+    }
 });
 
 
