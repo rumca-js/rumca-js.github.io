@@ -82,7 +82,7 @@ class Filter(object):
                 name = parent.parent.name
                 destination_dir = os.path.join(dir, name)
 
-                shutil.copy(afile, destination_dir)
+                shutil.copy(afile, destination_dir + ".json")
                 print(f"Copied: {afile} to {dir}")
             except Exception as e:
                 print(f"Error copying file {afile}: {e}")
