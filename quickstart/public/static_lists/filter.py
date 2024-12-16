@@ -1,27 +1,29 @@
+"""
+Prepares permanent repository for offline view
+"""
 import os
 import json
+import shutil
 from pathlib import Path
 
 
 class Filter(object):
     def __init__(self, dir):
         self.dir = dir
-        self.files = []  # Initialize files as an empty list
-        self.entries = []  # Initialize entries as an empty list
+        self.files = []
+        self.entries = []
 
         self.get_files()
-        self.get_entries()
-        self.filter_entries()
-        print(len(self.entries))
 
     def get_files(self):
-        """Get all file paths from the specified directory, including subdirectories."""
-        self.files = []  # Clear any existing file list
+        """Get all JSON file paths from the specified directory, including subdirectories."""
+        self.files = []
         for root, _, files in os.walk(self.dir):
             for file in files:
-                file_path = os.path.join(root, file)
-                if os.path.isfile(file_path):
-                    self.files.append(file_path)
+                if file.endswith('.json'):
+                    file_path = os.path.join(root, file)
+                    if os.path.isfile(file_path):
+                        self.files.append(file_path)
         return self.files
 
     def get_entries(self):
@@ -32,9 +34,9 @@ class Filter(object):
                     data = fh.read()
                     entries = json.loads(data)
                     if isinstance(entries, list):
-                        self.entries.extend(entries)  # Append entries if it's a list
+                        self.entries.extend(entries)
                     else:
-                        self.entries.append(entries)  # Otherwise, append the single entry
+                        self.entries.append(entries)
             except (json.JSONDecodeError, IOError) as e:
                 print(f"Error processing file {afile}: {e}")
 
@@ -46,10 +48,13 @@ class Filter(object):
                 filtered_entries.append(entry)
         self.entries = filtered_entries
 
-    def write(self, dir):
+    def write_entries(self, dir):
         """Write entries to the specified directory, 1000 per file."""
         if not os.path.exists(dir):
             os.makedirs(dir)
+
+        self.get_entries()
+        self.filter_entries()
 
         for i in range(0, len(self.entries), 1000):
             chunk = self.entries[i:i + 1000]
@@ -60,9 +65,46 @@ class Filter(object):
             except IOError as e:
                 print(f"Error writing file {file_path}: {e}")
 
+    def copy_jsons(self, dir):
+        """
+        Copy JSON files from self.files to the specified directory.
+        
+        Parameters:
+        dir (str): The destination directory where the files will be copied.
+        """
 
-path = Path("data") / "permanent"
-f = Filter(path)
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        
+        for afile in self.files:
+            try:
+                parent = Path(afile)
+                name = parent.parent.name
+                destination_dir = os.path.join(dir, name)
 
-new_path = Path("data") / "permanent_new"
-f.write(new_path)
+                shutil.copy(afile, destination_dir)
+                print(f"Copied: {afile} to {dir}")
+            except Exception as e:
+                print(f"Error copying file {afile}: {e}")
+
+
+def main():
+    path = Path("data") / "permanent"
+    if not path.exists():
+        print("Path {} does not exist".format(path))
+        return
+
+    f = Filter(path)
+
+    new_path = Path("data") / "permanent_new"
+    if new_path.exists():
+        shutil.rmtree(new_path)
+    f.copy_jsons(new_path)
+
+    new_path = Path("data") / "top"
+    if new_path.exists():
+        shutil.rmtree(new_path)
+    f.write_entries(new_path)
+
+
+main()

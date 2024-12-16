@@ -104,9 +104,14 @@ function GetPaginationNav(currentPage, totalPages, count) {
 /** functions **/
 
 
-function getVotesBadge(page_rating_votes) {
+function getVotesBadge(page_rating_votes, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 5px; right: 30px;" + style;
+    }
+
     let badge_text = page_rating_votes > 0 ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 5px; right: 30px; font-size: 0.8rem;">
+        <span class="badge text-bg-warning" style="${style}">
             ${page_rating_votes}
         </span>` : '';
 
@@ -114,29 +119,43 @@ function getVotesBadge(page_rating_votes) {
 }
 
 
-function getBookmarkBadge(entry) {
+function getBookmarkBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 5px; right: 5px;" + style;
+    }
+
     let badge_star = entry.bookmarked ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 5px; right: 5px; font-size: 0.8rem;">
+        <span class="badge text-bg-warning" style="${style}">
             ★
         </span>` : '';
     return badge_star;
 }
 
 
-function getAgeBadge(entry) {
+function getAgeBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 30px; right: 5px;" + style;
+    }
+
     let badge_text = entry.age > 0 ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 30px; right: 5px; font-size: 0.8rem;">
+        <span class="badge text-bg-warning" style="${style}">
             A
         </span>` : '';
     return badge_text;
 }
 
 
-function getDeadBadge(entry) {
+function getDeadBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 30px; right: 30px;" + style;
+    }
+
     let badge_text = entry.date_dead_since ? `
-        <span class="badge text-bg-warning" style="position: absolute; top: 30px; right: 30px; font-size: 0.8rem;">
+        <span class="badge text-bg-warning" style="${style}">
             D
         </span>` : '';
     return badge_text;
 }
-

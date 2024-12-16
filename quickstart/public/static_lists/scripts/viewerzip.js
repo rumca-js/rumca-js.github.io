@@ -61,11 +61,13 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
                     </div>
                     ${tags_text}
                 </div>
-            </div>
 
-            ${badge_text}
-            ${badge_star}
-            ${badge_age}
+                <div class="mx-2 ms-auto">
+                    ${badge_text}
+                    ${badge_star}
+                    ${badge_age}
+                </div>
+            </div>
         </a>
     `;
 }
@@ -105,9 +107,12 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                   <span style="font-weight:bold" class="text-reset">{title_safe}</span>
                   <div class="text-reset text-decoration-underline">@ {link}</div>
                   ${tags_text}
-                  ${badge_text}
-                  ${badge_star}
-                  ${badge_age}
+               </div>
+
+               <div class="mx-2 ms-auto">
+                   ${badge_text}
+                   ${badge_star}
+                   ${badge_age}
                </div>
             </div>
         </a>
@@ -128,9 +133,9 @@ function entryGalleryTemplate(entry, show_icons = true, small_icons = false) {
 function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = false) {
     let page_rating_votes = entry.page_rating_votes;
     
-    let badge_text = getVotesBadge(page_rating_votes);
-    let badge_star = getBookmarkBadge(entry);
-    let badge_age = getAgeBadge(entry);
+    let badge_text = getVotesBadge(page_rating_votes, true);
+    let badge_star = getBookmarkBadge(entry, true);
+    let badge_age = getAgeBadge(entry, true);
 
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
 
@@ -170,9 +175,9 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
 function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = false) {
     let page_rating_votes = entry.page_rating_votes;
     
-    let badge_text = getVotesBadge(page_rating_votes);
-    let badge_star = getBookmarkBadge(entry);
-    let badge_age = getAgeBadge(entry);
+    let badge_text = getVotesBadge(page_rating_votes, true);
+    let badge_star = getBookmarkBadge(entry, true);
+    let badge_age = getAgeBadge(entry, true);
 
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
 
