@@ -16,6 +16,21 @@ function isEntryValid(entry) {
 }
 
 
+function getEntryAuthorText(entry) {
+    if (entry.author && entry.album)
+    {
+        return entry.author + " / " + entry.album;
+    }
+    else if (entry.author) {
+        return entry.author;
+    }
+    else if (entry.album) {
+        return entry.album;
+    }
+    return "";
+}
+
+
 /** templates **/
 
 
@@ -28,6 +43,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
 
     let bookmark_class = entry.bookmarked ? `list-group-item-primary` : '';
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
+    let author_text = getEntryAuthorText(entry);
 
     let img_text = '';
     if (show_icons) {
@@ -57,7 +73,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
                 <div class="mx-2">
                     <span style="font-weight:bold" class="text-reset">{title_safe}</span>
                     <div class="text-reset">
-                        {source__title} {date_published}
+                        ${author_text} {date_published}
                     </div>
                     ${tags_text}
                 </div>
@@ -82,6 +98,7 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
    
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
+    let author_text = getEntryAuthorText(entry);
 
     let thumbnail_text = '';
     if (show_icons) {
@@ -137,7 +154,8 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
+    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5;`;
+    let author_text = getEntryAuthorText(entry);
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
@@ -153,8 +171,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
         <a 
             href="{entry_link}"
             title="{title}"
-            ${invalid_style}
-            style="max-width: 18%; min-width: 18%; width: auto; aspect-ratio:1/1;"
+            style="max-width: 18%; min-width: 18%; width: auto; aspect-ratio:1/1;${invalid_style}"
             class="list-group-item list-group-item-action m-1"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
@@ -163,7 +180,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
                 </div>
                 <div style="flex: 0 0 30%; flex-shrink: 0;flex-grow:0;max-height:30%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
                     <span style="font-weight: bold" class="text-primary">{title_safe}</span>
-                    <div class="link-list-item-description">{source__title}</div>
+                    <div class="link-list-item-description">${author_text}</div>
                     ${tags_text}
                 </div>
             </div>
@@ -179,7 +196,8 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
+    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5;`;
+    let author_text = getEntryAuthorText(entry);
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
@@ -195,7 +213,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
         <a 
             href="{entry_link}"
             title="{title}"
-            ${invalid_style}
+            style="${invalid_style}"
             class="list-group-item list-group-item-action"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
@@ -204,7 +222,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
                 </div>
                 <div style="flex: 0 0 30%; flex-shrink: 0;flex-grow:0;max-height:30%">
                     <span style="font-weight: bold" class="text-primary">{title_safe}</span>
-                    <div class="link-list-item-description">{source__title}</div>
+                    <div class="link-list-item-description">${author_text}</div>
                     ${tags_text}
                 </div>
             </div>
@@ -444,7 +462,7 @@ async function requestFile(attempt = 1) {
 
     $("#listData").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading data...`);
 
-    let file_name = getQueryParam('file') || "permanent";
+    let file_name = getQueryParam('file') || "top";
     let url = "data/" + file_name + ".zip";
 
     try {

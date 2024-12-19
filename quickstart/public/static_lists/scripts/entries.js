@@ -49,7 +49,6 @@ function fillOneEntryLink(entry) {
         .replace(/{page_rating_votes}/g, entry.page_rating_votes)
         .replace(/{page_rating_contents}/g, entry.page_rating_contents)
         .replace(/{page_rating}/g, entry.page_rating)
-        .replace(/{source__title}/g, source__title)
         .replace(/{age}/g, entry.age)
         .replace(/{date_published}/g, datePublished.toLocaleString());
 
