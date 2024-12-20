@@ -550,7 +550,7 @@ function searchInputFunction() {
 
 
 //-----------------------------------------------
-$(document).on('click', '.btnFilterTrigger', function(e) {
+$(document).on('click', '.btnNavigation', function(e) {
     e.preventDefault();
 
     const currentPage = $(this).data('page');
@@ -559,6 +559,8 @@ $(document).on('click', '.btnFilterTrigger', function(e) {
     currentUrl.searchParams.set('page', currentPage);
 
     window.history.pushState({}, '', currentUrl);
+
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
 
     fillListData();
 });

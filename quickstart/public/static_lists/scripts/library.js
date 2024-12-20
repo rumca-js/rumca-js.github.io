@@ -53,14 +53,14 @@ function GetPaginationNav(currentPage, totalPages, count) {
     if (currentPage > 2) {
         paginationText += `
             <li class="page-item">
-                <a href="?page=1&${paginationArgs}" data-page="1" class="btnFilterTrigger page-link">|&lt;</a>
+                <a href="?page=1&${paginationArgs}" data-page="1" class="btnNavigation page-link">|&lt;</a>
             </li>
         `;
     }
     if (currentPage > 2) {
         paginationText += `
             <li class="page-item">
-                <a href="?page=${currentPage - 1}&${paginationArgs}" data-page="${currentPage - 1}" class="btnFilterTrigger page-link">&lt;</a>
+                <a href="?page=${currentPage - 1}&${paginationArgs}" data-page="${currentPage - 1}" class="btnNavigation page-link">&lt;</a>
             </li>
         `;
     }
@@ -71,7 +71,7 @@ function GetPaginationNav(currentPage, totalPages, count) {
     for (let i = startPage; i <= endPage; i++) {
         paginationText += `
             <li class="page-item ${i === currentPage ? 'active' : ''}">
-                <a href="?page=${i}&${paginationArgs}" data-page="${i}" class="btnFilterTrigger page-link">${i}</a>
+                <a href="?page=${i}&${paginationArgs}" data-page="${i}" class="btnNavigation page-link">${i}</a>
             </li>
         `;
     }
@@ -79,14 +79,14 @@ function GetPaginationNav(currentPage, totalPages, count) {
     if (currentPage + 1 < totalPages) {
         paginationText += `
             <li class="page-item">
-                <a href="?page=${currentPage + 1}&${paginationArgs}" data-page="${currentPage + 1}" class="btnFilterTrigger page-link">&gt;</a>
+                <a href="?page=${currentPage + 1}&${paginationArgs}" data-page="${currentPage + 1}" class="btnNavigation page-link">&gt;</a>
             </li>
         `;
     }
     if (currentPage + 1 < totalPages) {
         paginationText += `
             <li class="page-item">
-                <a href="?page=${totalPages}&${paginationArgs}" data-page="${totalPages}" class="btnFilterTrigger page-link">&gt;|</a>
+                <a href="?page=${totalPages}&${paginationArgs}" data-page="${totalPages}" class="btnNavigation page-link">&gt;|</a>
             </li>
         `;
     }
