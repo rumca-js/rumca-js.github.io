@@ -2,14 +2,13 @@ function getEntryTags(entry) {
     let tags_text = "";
     if (entry.tags && entry.tags.length > 0) {
         tags_text = entry.tags.map(tag => `#${tag}`).join(",");
-        tags_text = `<div class="text-reset mx-2">` + tags_text + `</div>`;
     }
     return tags_text;
 }
 
 
 function isEntryValid(entry) {
-    if (!entry.is_valid === false || entry.date_dead_since) {
+    if (entry.is_valid === false || entry.date_dead_since) {
         return false;
     }
     return true;
@@ -43,7 +42,6 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
 
     let bookmark_class = entry.bookmarked ? `list-group-item-primary` : '';
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
-    let author_text = getEntryAuthorText(entry);
 
     let img_text = '';
     if (show_icons) {
@@ -58,30 +56,29 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
                 ${img_text}
             </div>`;
     }
-
-    let tags_text = getEntryTags(entry);
+    let tags = `<div class="text-reset mx-2">{tags_text}</div>`;
 
     return `
         <a 
             href="{entry_link}"
-            title="{title}"
+            title="{hover_title}"
             ${invalid_style}
-            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class}"
+            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded"
         >
             <div class="d-flex">
                 ${thumbnail_text}
                 <div class="mx-2">
                     <span style="font-weight:bold" class="text-reset">{title_safe}</span>
                     <div class="text-reset">
-                        ${author_text} {date_published}
+                        {source__title} {date_published}
                     </div>
-                    ${tags_text}
+                    ${tags}
                 </div>
 
                 <div class="mx-2 ms-auto">
-                    ${badge_text}
-                    ${badge_star}
-                    ${badge_age}
+                  ${badge_text}
+                  ${badge_star}
+                  ${badge_age}
                 </div>
             </div>
         </a>
@@ -98,7 +95,6 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
    
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
-    let author_text = getEntryAuthorText(entry);
 
     let thumbnail_text = '';
     if (show_icons) {
@@ -108,28 +104,27 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                 <img src="{thumbnail}" class="rounded ${iconClass}"/>
             </div>`;
     }
-
-    let tags_text = getEntryTags(entry);
+    let tags = `<div class="text-reset mx-2">{tags_text}</div>`;
 
     return `
         <a 
             href="{entry_link}"
-            title="{title}"
+            title="{hover_title}"
             ${invalid_style}
-            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class}"
+            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded"
         >
             <div class="d-flex">
                ${thumbnail_text}
                <div class="mx-2">
                   <span style="font-weight:bold" class="text-reset">{title_safe}</span>
                   <div class="text-reset text-decoration-underline">@ {link}</div>
-                  ${tags_text}
+                  ${tags}
                </div>
 
                <div class="mx-2 ms-auto">
-                   ${badge_text}
-                   ${badge_star}
-                   ${badge_age}
+                  ${badge_text}
+                  ${badge_star}
+                  ${badge_age}
                </div>
             </div>
         </a>
@@ -154,25 +149,27 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5;`;
-    let author_text = getEntryAuthorText(entry);
+    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
         <img src="${thumbnail}" style="width:100%;max-height:100%;aspect-ratio:3/4;object-fit:cover;"/>
-        ${badge_text}
-        ${badge_star}
-        ${badge_age}
+        <div class="ms-auto">
+            ${badge_text}
+            ${badge_star}
+            ${badge_age}
+        </div>
     `;
 
-    let tags_text = getEntryTags(entry);
+    let tags = `<div class="text-reset mx-2">{tags_text}</div>`;
 
     return `
         <a 
             href="{entry_link}"
-            title="{title}"
-            style="max-width: 18%; min-width: 18%; width: auto; aspect-ratio:1/1;${invalid_style}"
-            class="list-group-item list-group-item-action m-1"
+            title="{hover_title}"
+            ${invalid_style}
+            class="list-group-item list-group-item-action m-1 border rounded p-2"
+            style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column;"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
@@ -180,8 +177,8 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
                 </div>
                 <div style="flex: 0 0 30%; flex-shrink: 0;flex-grow:0;max-height:30%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
                     <span style="font-weight: bold" class="text-primary">{title_safe}</span>
-                    <div class="link-list-item-description">${author_text}</div>
-                    ${tags_text}
+                    <div class="link-list-item-description">{source__title}</div>
+                    ${tags}
                 </div>
             </div>
         </a>
@@ -196,8 +193,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5;`;
-    let author_text = getEntryAuthorText(entry);
+    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
@@ -207,14 +203,15 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
         ${badge_age}
     `;
 
-    let tags_text = getEntryTags(entry);
+    let tags = `<div class="text-reset mx-2">{tags_text}</div>`;
 
     return `
         <a 
             href="{entry_link}"
-            title="{title}"
-            style="${invalid_style}"
-            class="list-group-item list-group-item-action"
+            title="{hover_title}"
+            ${invalid_style}
+            class="list-group-item list-group-item-action border rounded p-2"
+            style="text-overflow: ellipsis; max-width: 100%; min-width: 100%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column;"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
@@ -222,8 +219,8 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
                 </div>
                 <div style="flex: 0 0 30%; flex-shrink: 0;flex-grow:0;max-height:30%">
                     <span style="font-weight: bold" class="text-primary">{title_safe}</span>
-                    <div class="link-list-item-description">${author_text}</div>
-                    ${tags_text}
+                    <div class="link-list-item-description">{source__title}</div>
+                    ${tags}
                 </div>
             </div>
         </a>
@@ -248,7 +245,8 @@ function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
     let htmlOutput = '';
 
     if (view_display_type == "gallery") {
-        htmlOutput = `<span class="d-flex flex-wrap">`;
+        htmlOutput = `<span class="container list-group">`;
+        htmlOutput += `<span class="d-flex flex-wrap">`;
     } else {
         htmlOutput = `<span class="container list-group">`;
     }
@@ -263,6 +261,10 @@ function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
         });
     } else {
         htmlOutput = '<li class="list-group-item">No entries found</li>';
+    }
+
+    if (view_display_type == "gallery") {
+       htmlOutput += `</span>`;
     }
 
     htmlOutput += `</span>`;
@@ -657,6 +659,20 @@ $(document).on('click', '#viewGallery', function(e) {
 //-----------------------------------------------
 $(document).on('click', '#viewSearchEngine', function(e) {
     view_display_type = "search-engine";
+    fillListData();
+});
+
+
+$(document).on("click", '#displayLight', function(e) {
+    setLightMode();
+
+    fillListData();
+});
+
+
+$(document).on("click", '#displayDark', function(e) {
+    setDarkMode();
+
     fillListData();
 });
 

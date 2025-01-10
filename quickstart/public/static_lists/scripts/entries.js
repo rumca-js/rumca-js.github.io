@@ -25,7 +25,7 @@ function fillOneEntryLink(entry) {
 
     title = escapeHtml(entry.title)
 
-    let title_safe = null;
+    let title_safe = "";
     if (entry.title_safe) {
        title_safe = escapeHtml(entry.title_safe)
     }
@@ -33,7 +33,10 @@ function fillOneEntryLink(entry) {
     {
        title_safe = escapeHtml(entry.title)
     }
-    let source__title = null;
+    let tags_text = getEntryTags(entry);
+    let hover_title = title_safe + " " + tags_text;
+
+    let source__title = "";
     if (entry.source__title) {
        source__title = escapeHtml(entry.source__title)
     }
@@ -43,12 +46,14 @@ function fillOneEntryLink(entry) {
         .replace(/{link_absolute}/g, entry.link_absolute)
         .replace(/{link}/g, entry.link)
         .replace(/{entry_link}/g, entry_link)
-        .replace(/{title}/g, title)
+        .replace(/{hover_title}/g, hover_title)
         .replace(/{thumbnail}/g, entry.thumbnail)
         .replace(/{title_safe}/g, title_safe)
+        .replace(/{tags_text}/g, tags_text)
         .replace(/{page_rating_votes}/g, entry.page_rating_votes)
         .replace(/{page_rating_contents}/g, entry.page_rating_contents)
         .replace(/{page_rating}/g, entry.page_rating)
+        .replace(/{source__title}/g, source__title)
         .replace(/{age}/g, entry.age)
         .replace(/{date_published}/g, datePublished.toLocaleString());
 
