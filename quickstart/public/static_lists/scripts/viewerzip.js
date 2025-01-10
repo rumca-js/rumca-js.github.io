@@ -149,7 +149,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
+    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5`;
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
@@ -169,7 +169,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
             title="{hover_title}"
             ${invalid_style}
             class="list-group-item list-group-item-action m-1 border rounded p-2"
-            style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column;"
+            style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
@@ -193,7 +193,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
     let badge_star = getBookmarkBadge(entry, true);
     let badge_age = getAgeBadge(entry, true);
 
-    let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
+    let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5`;
 
     let thumbnail = entry.thumbnail;
     let thumbnail_text = `
@@ -209,9 +209,8 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
         <a 
             href="{entry_link}"
             title="{hover_title}"
-            ${invalid_style}
             class="list-group-item list-group-item-action border rounded p-2"
-            style="text-overflow: ellipsis; max-width: 100%; min-width: 100%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column;"
+            style="text-overflow: ellipsis; max-width: 100%; min-width: 100%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
