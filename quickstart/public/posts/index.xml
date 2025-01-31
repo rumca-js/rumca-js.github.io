@@ -6,7 +6,32 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self Hosting hurdles</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/</link>
+      <pubDate>Thu, 30 Jan 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/</guid>
+      <description>I recently came across a Reddit comment about RSS clients that caught my attention.
+Sadly the easy solutions aren&amp;#39;t open source and the self hosted ones don&amp;#39;t seem to be worth the hassle to set up At first, I was surprised—self-hosting has always felt trivial to me.
+But is it really?
+I am a programmer, I am comfortable with tech. What about people who have only smartphones and do not know what is a script?</description>
+    </item>
+    
+    <item>
+      <title>Another bug bites the dust</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-01-29_another_bug_bites_the_dust/</link>
+      <pubDate>Wed, 29 Jan 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-01-29_another_bug_bites_the_dust/</guid>
+      <description>It always starts with a bug.
+Recently I had several problems:
+my RSS feed server, that I wrote, started freezing my web crawler, lead to OS freeze This happened after major code refactor. I split my RSS feed reader into two projects, so naturally things blew up.
+I have unit tests mind you, but unit tests do not cover 100% of code.
+My functional manual testing also did not show anything outstanding.</description>
+    </item>
+    
     <item>
       <title>Share your links</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-01-09_share_your_links/</link>

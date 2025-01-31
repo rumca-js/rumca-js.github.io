@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Posts &ndash; rumca-js</title>
+    <head><title>Another bug bites the dust &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://rumca-js.github.io/quickstart/public/posts/index.xml" title="rumca-js">
 
 </head>
 
@@ -49,53 +48,31 @@
 </header>
 
             <section class="page__body">
-    <h1 id="posts">Posts</h1>
+    <header class="content__header">
+        <h1>Another bug bites the dust</h1>
+    </header>
+    <div class="content__body">
+        <p>It always starts with a bug.</p>
+<p>Recently I had several problems:</p>
+<ul>
+<li>my RSS feed server, that I wrote, started freezing</li>
+<li>my web crawler, lead to OS freeze</li>
+</ul>
+<p>This happened after major code refactor. I split my RSS feed reader into two projects, so naturally things blew up.</p>
+<p>I have unit tests mind you, but unit tests do not cover 100% of code.</p>
+<p>My functional manual testing also did not show anything outstanding.</p>
+<p>Turns out my celery tasks had an unkown bug in which it would spin forever that did not happen because:</p>
+<ul>
+<li>my RSS feed had been eating memory for a long period of time</li>
+<li>celery had defined memory limit for workers</li>
+<li>workers ate too much memory, which lead to worker restart and everything was all rosy</li>
+</ul>
+<p>When I fixed memory bug it showed that behind that bug there was lurking a more nasty one.</p>
+<p>After some time I have been able to track it down and kill.</p>
+<p>What are my closing thoughts? It was all worth it. Now my application runs better than ever!</p>
 
-    
-
-    <ul>
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/">Self Hosting hurdles</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-29_another_bug_bites_the_dust/">Another bug bites the dust</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-09_share_your_links/">Share your links</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-11_googles_tough_luck/">Google&rsquo;s tough luck</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-08_will_the_internet_exist/">Will the Internet exist in 20 years?</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-05_boomer_internet_is_dead/">Boomer Internet is dead</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-01-infantocracy/">Infantocracy</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-28-secular-religion/">Secular religion</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-26-web-sins/">Internet sins</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/">Awesome lists</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/">Bug problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/">Table problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/">My first post</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -135,7 +112,15 @@
 </div>
                 <hr>
                 <div class="aside__content">
-    <p>Example posts demonstrating hugo&#39;s markup features</p>
+    
+    
+        <p>
+            
+            2025-01-29
+        </p>
+    
+
+    
 
                 </div>
             </section>
