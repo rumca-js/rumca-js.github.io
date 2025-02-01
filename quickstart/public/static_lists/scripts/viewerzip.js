@@ -578,6 +578,22 @@ $(document).on('click', '#helpButton', function(e) {
     $("#helpPlace").toggle();
 });
 
+$(document).on('click', '#homeButton', function(e) {
+    let file_name = getQueryParam('file') || "permanent";
+
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = "";
+    searchInput.focus();
+
+    $('#listData').html("");
+    $('#pagination').html("");
+
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.delete('page')
+    currentUrl.searchParams.delete('search')
+    window.history.pushState({}, '', currentUrl);
+});
+
 
 //-----------------------------------------------
 $(document).on('keydown', "#searchInput", function(e) {
