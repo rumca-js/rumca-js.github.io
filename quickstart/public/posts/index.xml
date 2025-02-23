@@ -6,7 +6,19 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jan 2025 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Feb 2025 16:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search engines are obsolete</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-02-19-search-engines-are-obsolete/</link>
+      <pubDate>Wed, 19 Feb 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-02-19-search-engines-are-obsolete/</guid>
+      <description>Let’s run an experiment.
+Start tracking the sites you visit manually. Where have you been today? This month?
+Most likely, your browsing habits follow a predictable pattern:
+You watch a YouTube video, maybe checking your favorite channels. Or perhaps you don’t even have subscriptions—you just watch whatever &amp;ldquo;the algorithm&amp;rdquo; serves up. You check what&amp;rsquo;s new on Reddit or Rumble to stay updated. Occasionally, you visit mainstream news sites like BBC, CNN, or a tech blog.</description>
+    </item>
+    
     <item>
       <title>Self Hosting hurdles</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/</link>
