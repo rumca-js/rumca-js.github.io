@@ -194,3 +194,143 @@ function setDarkMode() {
     // navbar.classList.remove('navbar-light', 'bg-light');
     // navbar.classList.add('navbar-dark', 'bg-dark');
 }
+
+
+function updateListData(jsonData) {
+    if (!object_list_data) {
+        object_list_data = { entries: [] };
+    }
+    if (!object_list_data.entries) {
+        object_list_data.entries = [];
+    }
+
+    if (jsonData && Array.isArray(jsonData.entries)) {
+        object_list_data.entries.push(...jsonData.entries);
+    } else {
+        if (jsonData && Array.isArray(jsonData))
+        {
+            object_list_data.entries.push(...jsonData);
+        }
+        else {
+            console.error("jsonData.entries is either not defined or not an array.");
+        }
+    }
+}
+
+
+async function unPackFile(file) {
+   // Prepare progress bar and output
+   const progressBarElement = document.getElementById('progressBarElement');
+   progressBarElement.innerHTML = '';
+
+    // Add progress bar to the progressBarElement div
+    let percentComplete = 0;
+    const progressBarHTML = `
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: ${percentComplete}%" 
+                aria-valuenow="${percentComplete}" aria-valuemin="0" aria-valuemax="100">
+                ${percentComplete}%
+            </div>
+        </div>
+        <span class="status-text">Loading blob file...</span>
+    `;
+    progressBarElement.innerHTML = progressBarHTML;
+
+    const progressBar = progressBarElement.querySelector('.progress-bar');
+    const statusText = progressBarElement.querySelector('.status-text');
+
+    try {
+        const JSZip = window.JSZip;
+
+        const zip = await JSZip.loadAsync(file);
+
+        const fileNames = Object.keys(zip.files);
+        const totalFiles = fileNames.length;
+        let processedFiles = 0;
+
+        for (const fileName of fileNames) {
+            statusText.innerText = `Reading: ${fileName}`;
+            processedFiles++;
+            percentComplete = Math.round((processedFiles / totalFiles) * 100);
+
+            progressBar.style.width = `${percentComplete}%`;
+            progressBar.setAttribute('aria-valuenow', `${percentComplete}`);
+            progressBar.innerText = `${percentComplete}%`;
+
+            if (fileName.endsWith('.json')) {
+                const jsonFile = await zip.files[fileName].async('string');
+                const jsonData = JSON.parse(jsonFile);
+
+                updateListData(jsonData);
+            }
+        }
+
+        fillListData();
+        statusText.innerText = "All files processed!";
+    } catch (error) {
+        console.error("Error reading ZIP file:", error);
+        progressBarElement.textContent = "Error processing ZIP file. Check console for details.";
+    }
+}
+
+
+let preparingData = false;
+async function requestFile(attempt = 1) {
+    preparingData = true;
+
+    $("#progressBarElement").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading data...`);
+
+    let file_name = getQueryParam('file') || "top";
+    let url = "data/" + file_name + ".zip";
+
+    try {
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch file: ${url}, status:${response.statusText}`);
+        }
+
+        const contentLength = response.headers.get("Content-Length");
+        const totalSize = contentLength ? parseInt(contentLength, 10) : 0;
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let receivedBytes = 0;
+
+        const chunks = [];
+        
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+                break;
+            }
+            if (value) {
+                receivedBytes += value.length;
+                const percentComplete = ((receivedBytes / totalSize) * 100).toFixed(2);
+
+                $("#progressBarElement").html(`
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: ${percentComplete}%" aria-valuenow="${percentComplete}" aria-valuemin="0" aria-valuemax="100">
+                      ${percentComplete}%
+                    </div>
+                  </div>
+                `);
+
+                chunks.push(value);
+            }
+        }
+
+        const blob = new Blob(chunks);
+
+        unPackFile(blob);
+
+        // Prepare progress bar and output
+        const progressBarElement = document.getElementById('progressBarElement');
+        progressBarElement.innerHTML = '';
+
+        preparingData = false;
+    } catch (error) {
+        preparingData = false;
+        console.error("Error in requestFile:", error);
+    }
+}
