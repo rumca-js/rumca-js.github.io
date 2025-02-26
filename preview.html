@@ -71,7 +71,7 @@ function getEntryText(entry) {
 
 function fillListDataInternalStandard(entry) {
     let text = `
-    <div><img src="${entry.thumbnail}"/></div>
+    <div><img src="${entry.thumbnail}" style="max-width:100%;"/></div>
     `;
 
     text += getEntryText(entry);
