@@ -21,7 +21,9 @@ function fillOneEntryLink(entry) {
     let page_rating_votes = entry.page_rating_votes;
     let page_rating_contents = entry.page_rating_contents;
 
-    let entry_link = show_pure_links ? entry.link : entry.link_absolute;
+    let entry_link = `/preview.html?entry_id=${entry.id}`;
+    file = getQueryParam("file") || "top";
+    entry_link += `&file=${file}`;
 
     title = escapeHtml(entry.title)
 
