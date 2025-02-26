@@ -44,7 +44,7 @@ function getEntryText(entry) {
     `;
 
     text += `
-    <div>${entry.description}</div>
+    <div>${entry.description.replace(/\n/g, '<br>')}</div>
     `;
 
     text += `
