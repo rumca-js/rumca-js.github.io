@@ -94,8 +94,10 @@ function fillListDataInternalYouTube(entry) {
     // Add the embedded YouTube player if a valid video ID exists
     if (videoId) {
         text += `
+        <div>
         <div class="youtube_player_container">
             <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         </div>
         `;
     }
