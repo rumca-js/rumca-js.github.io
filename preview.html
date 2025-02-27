@@ -137,6 +137,8 @@ function fillListDataInternalOdysee(entry) {
 
 
 function fillListDataInternal(entry) {
+    document.title = entry.title;
+
     if (entry.link.startsWith("https://www.youtube.com/watch?v="))
         return fillListDataInternalYouTube(entry);
     else if (entry.link.startsWith("https://odysee.com/"))
