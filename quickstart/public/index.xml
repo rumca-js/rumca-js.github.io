@@ -31,6 +31,18 @@ It&amp;rsquo;s False. Lets reverse the logic. What happens if you are interested
     </item>
     
     <item>
+      <title>Why I Switched to Waterfox and What I’ve Learned</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-03-01-waterfox-vs-firefox/</link>
+      <pubDate>Sat, 01 Mar 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-03-01-waterfox-vs-firefox/</guid>
+      <description>Recently, due to changes in Mozilla’s Terms of Service (TOS), I decided to switch browsers.
+I thought that the transition would be simple and uneventful. I was wrong.
+I switched to Waterfox, and here are some of the differences I noticed:
+Custom Search Engines: Waterfox allows me to add a custom search engine. This was a huge win for me because Mozilla has blocked this option. Why, Mozilla? Did Google pay you enough to make this feature inaccessible?</description>
+    </item>
+    
+    <item>
       <title>Search engines are obsolete</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-02-19-search-engines-are-obsolete/</link>
       <pubDate>Wed, 19 Feb 2025 16:43:32 +0000</pubDate>
