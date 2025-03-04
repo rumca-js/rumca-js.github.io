@@ -9,28 +9,29 @@ For a long period of time I have been working on an RSS client. This was a diffi
 Recently I have started making public some data. I wanted users to be able to see the output of my data.
 
 There were problems:
- - my server was freezing from time to time
+ - My server would freeze intermittently.
  - I could not serve many people since my server is running on a raspberry pi
- - I do not want to maintain any VPS, configure it, etc. etc.
+ - I didn’t want to deal with maintaining a VPS, configuring it, and handling all the associated overhead.
 
-So I implemented static solution, a web page. It works like this:
- - user enters web page
- - javascript loads zip file
- - javascript unpacks zip file
- - javascript reads SQLite database file
- - javascript loads the view for the user using the database
+So I implemented static solution - a static web page. Here’s how it works:
+ - The user visits the webpage
+ - JavaScript loads a zip file
+ - Javascript unpacks the zip file
+ - Javascript reads an SQLite database file
+ - The data is displayed to the user using the information from the database.
 
-My summary:
- - I really dig the idea that I do not have to host 'the database' anywhere
- - there are no costs for hosting
- - there are not problems with application being stuck on my server. I do not have to maintain any server 
- - it is really scalable. The data can be used by 1 and billions of user, since processing is done on client side
+Why I Love This Static Approach:
+ - No Need for Database Hosting: I really enjoy the fact that I don’t have to host the database on a server. There are no hosting costs, no need to worry about server maintenance, and no issues with my server getting stuck.
+ - Scalability: This setup is incredibly scalable. Whether one user or a billion users access the data, the processing is all done client-side, so there are no bottlenecks on my server.
+ - Simplicity: I don’t have to worry about managing a server, VPS, or handling database configuration. Everything works seamlessly on the user’s end.
 
-Previously I have been operating using JSONs, static data. This is also not trivial, requires reading and processing many JSONs.
+Before this, I had been using static JSON files. While this approach worked, it came with its own challenges, especially when it came to reading and processing multiple JSON files.
 
-My conclusions after switching from using JSONs to SQLite:
- - the data are stored in one place, so it is easier to manage than 'x' files, with thousands of records
- - SQLite database allows me to define many tables, with relations between them
- - table allows me to store many, many rows
- - it is really easy to obtain the data from the database. You have SQL statements at your disposal. You can really really easy filter the data
- - SQLite has implemented algorithms for accessing the data, and those are well implemented. I could implement filtering for JSON data, but it most certainly would be slower if I did that manually
+## The Benefits of SQLite over JSON
+
+Switching from using JSON files to SQLite has been a game-changer for me. Here’s why:
+
+ - Centralized Data Storage: With SQLite, all the data is stored in one place, making it much easier to manage than dealing with thousands of individual JSON files.
+ - Structured Data with Relationships: SQLite allows me to define multiple tables with relationships between them. This organization makes it much more efficient to work with data compared to a collection of flat JSON files.
+ - Efficient Data Handling: A single SQLite database can handle many rows of data with ease. It’s also incredibly simple to query and filter the data using SQL, which is much faster than manually filtering JSON data.
+ - Built-in Performance Optimizations: SQLite has well-implemented algorithms for data access. While I could manually implement similar functionality for JSON data, SQLite’s solution is more efficient and faster.
