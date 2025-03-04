@@ -16,7 +16,7 @@
       <description>For a long period of time I have been working on an RSS client. This was a difficult task, and requiring a lot of effort in a long period of time.
 Recently I have started making public some data. I wanted users to be able to see the output of my data.
 There were problems:
-my server was freezing from time to time I could not serve many people since my server is running on a raspberry pi I do not want to maintain any VPS, configure it, etc.</description>
+My server would freeze intermittently. I could not serve many people since my server is running on a raspberry pi I didn’t want to deal with maintaining a VPS, configuring it, and handling all the associated overhead.</description>
     </item>
     
     <item>
@@ -25,22 +25,9 @@ my server was freezing from time to time I could not serve many people since my 
       <pubDate>Mon, 03 Mar 2025 16:43:32 +0000</pubDate>
       
       <guid>https://rumca-js.github.io/quickstart/public/posts/2025-03-02-politics-will-think-about-you/</guid>
-      <description>I do not like this saying.
-mostly because it is false. Politics will do you whatever you do. Whether you are interested in it, or not, the politics will do you being interested in politics is false. Not everybody has to be interested in medicine, yet everybody is ill from time to time. There are many fields which are really useful in life. Politics is just one of them, and not everybody is suited to be expert in that field.</description>
-    </item>
-    
-    <item>
-      <title>Death to firefo</title>
-      <link>https://rumca-js.github.io/quickstart/public/posts/2025-03-01-death-to-firefox/</link>
-      <pubDate>Sat, 01 Mar 2025 16:43:32 +0000</pubDate>
-      
-      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-03-01-death-to-firefox/</guid>
-      <description>Recently because of changes to Mozilla TOS I decided to switch browsers.
-I thought that nothing will change.
-I was wrong.
-Granted I switched to &amp;ldquo;waterfox&amp;rdquo;.
-Differences below
-it allows me to add a custom search engine. Fuck. Why Mozilla. Why did you block adding custom search engines? Has Google paid enough for you to block it? no pocket nagging. I do not use pocket for bookmarks. I use my own bookmarks.</description>
+      <description>Why I Disagree with the Saying: &amp;ldquo;If You&amp;rsquo;re Not Interested in Politics, Politics Will Still Affect You&amp;rdquo;
+I don’t like this saying, and here’s why:
+It&amp;rsquo;s False. Lets reverse the logic. What happens if you are interested in Politics. It affects you. What happens if you are not interested in Politics? It affects you. So no matter what you do the Politics affects you. The statements create illusion that your interest makes a difference Interest in Politics is Not a Necessity.</description>
     </item>
     
     <item>
