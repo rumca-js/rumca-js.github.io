@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Posts &ndash; rumca-js</title>
+    <head><title>Client based web application &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://rumca-js.github.io/quickstart/public/posts/index.xml" title="rumca-js">
 
 </head>
 
@@ -49,65 +48,45 @@
 </header>
 
             <section class="page__body">
-    <h1 id="posts">Posts</h1>
+    <header class="content__header">
+        <h1>Client based web application</h1>
+    </header>
+    <div class="content__body">
+        <p>For a long period of time I have been working on an RSS client. This was a difficult task, and requiring a lot of effort in a long period of time.</p>
+<p>Recently I have started making public some data. I wanted users to be able to see the output of my data.</p>
+<p>There were problems:</p>
+<ul>
+<li>my server was freezing from time to time</li>
+<li>I could not serve many people since my server is running on a raspberry pi</li>
+<li>I do not want to maintain any VPS, configure it, etc. etc.</li>
+</ul>
+<p>So I implemented static solution, a web page. It works like this:</p>
+<ul>
+<li>user enters web page</li>
+<li>javascript loads zip file</li>
+<li>javascript unpacks zip file</li>
+<li>javascript reads SQLite database file</li>
+<li>javascript loads the view for the user using the database</li>
+</ul>
+<p>My summary:</p>
+<ul>
+<li>I really dig the idea that I do not have to host &rsquo;the database&rsquo; anywhere</li>
+<li>there are no costs for hosting</li>
+<li>there are not problems with application being stuck on my server. I do not have to maintain any server</li>
+<li>it is really scalable. The data can be used by 1 and billions of user, since processing is done on client side</li>
+</ul>
+<p>Previously I have been operating using JSONs, static data. This is also not trivial, requires reading and processing many JSONs.</p>
+<p>My conclusions after switching from using JSONs to SQLite:</p>
+<ul>
+<li>the data are stored in one place, so it is easier to manage than &lsquo;x&rsquo; files, with thousands of records</li>
+<li>SQLite database allows me to define many tables, with relations between them</li>
+<li>table allows me to store many, many rows</li>
+<li>it is really easy to obtain the data from the database. You have SQL statements at your disposal. You can really really easy filter the data</li>
+<li>SQLite has implemented algorithms for accessing the data, and those are well implemented. I could implement filtering for JSON data, but it most certainly would be slower if I did that manually</li>
+</ul>
 
-    
-
-    <ul>
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-03-03-client-based-application/">Client based web application</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-03-02-politics-will-think-about-you/">If you don&rsquo;t do politics, politics will do you</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-03-01-death-to-firefox/">Death to firefo</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-02-19-search-engines-are-obsolete/">Search engines are obsolete</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/">Self Hosting hurdles</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-29_another_bug_bites_the_dust/">Another bug bites the dust</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2025-01-09_share_your_links/">Share your links</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-11_googles_tough_luck/">Google&rsquo;s tough luck</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-08_will_the_internet_exist/">Will the Internet exist in 20 years?</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-05_boomer_internet_is_dead/">Boomer Internet is dead</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-12-01-infantocracy/">Infantocracy</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-28-secular-religion/">Secular religion</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-26-web-sins/">Internet sins</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/">Awesome lists</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/">Bug problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/">Table problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/">My first post</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -147,7 +126,15 @@
 </div>
                 <hr>
                 <div class="aside__content">
-    <p>Example posts demonstrating hugo&#39;s markup features</p>
+    
+    
+        <p>
+            
+            2025-03-03
+        </p>
+    
+
+    
 
                 </div>
             </section>
