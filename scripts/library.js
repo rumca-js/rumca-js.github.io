@@ -166,6 +166,24 @@ function getDeadBadge(entry, overflow=false) {
 }
 
 
+function getEntryTags(entry) {
+    let tags_text = "";
+    if (entry.tags && entry.tags.length > 0) {
+        tags_text = entry.tags.map(tag => `#${tag}`).join(",");
+    }
+    return tags_text;
+}
+
+
+function isEntryValid(entry) {
+    if (entry.is_valid === false || entry.date_dead_since) {
+        return false;
+    }
+    return true;
+}
+
+
+
 function setLightMode() {
     view_display_style = "style-light";
 

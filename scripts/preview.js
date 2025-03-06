@@ -6,6 +6,12 @@ function getEntryText(entry) {
     <div><b>Publish date:</b>${entry.date_published}</div>
     `;
 
+    let tagString = getEntryTags(entry);
+    
+    text += `
+        <div>Tags: ${tagString}</div>
+    `;
+
     text += `
     <div>${entry.description.replace(/\n/g, '<br>')}</div>
     `;
