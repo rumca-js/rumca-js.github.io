@@ -20,6 +20,11 @@ function isMobile() {
 }
 
 
+function getFileVersion() {
+    return "0";
+}
+
+
 function escapeHtml(unsafe)
 {
     if (unsafe == null)
@@ -282,6 +287,7 @@ async function requestFile(attempt = 1) {
 
     let file_name = getQueryParam('file') || "top";
     let url = "data/" + file_name + ".zip";
+    url = url + "?i="+getFileVersion();
 
     try {
         const response = await fetch(url);
