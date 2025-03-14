@@ -42,9 +42,6 @@ class Filter(object):
 
     def write(self, entry, tags):
         """Write entries to the specified directory, 1000 per file."""
-        if not os.path.exists(self.dir):
-            os.makedirs(self.dir)
-
         if self.handle == None:
             file_path = self.get_file_path()
             self.handle = open(file_path, 'w')
