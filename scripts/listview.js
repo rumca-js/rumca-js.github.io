@@ -61,6 +61,7 @@ function fillListDataInternal(entries) {
     var finished_text = getEntriesList(filtered_entries);
 
     $('#listData').html(finished_text);
+    console.log("Setting up pagination");
     $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
 }
 
