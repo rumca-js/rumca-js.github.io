@@ -100,12 +100,10 @@ function getEntryBodyText(entry) {
     <div><b>Publish date:</b>${entry.date_published}</div>
     `;
 
-    //let tags = selectEntryTags(entry.id);
-    //let tagString = Array.from(tags).map(tag => `#${tag}`).join(", ");
-    let tagString = "";
+    let tags_text = getEntryTags(entry);
     
     text += `
-        <div>Tags: ${tagString}</div>
+        <div>Tags: ${tags_text}</div>
     `;
 
     text += `
