@@ -2,6 +2,7 @@ let worker = null;
 let db = null;
 let object_list_data = null;
 let db_ready = false;
+let preparingData = false;
 
 let view_display_type = "search-engine";
 let view_show_icons = false;
@@ -140,6 +141,7 @@ function searchInputFunction() {
 
 
 async function Initialize() {
+    preparingData = true;
     let spinner_text_1 = getSpinnerText("Initializing - reading file");
     $("#statusLine").html(spinner_text_1);
     let fileBlob = requestFileChunks(getFileName());
@@ -150,6 +152,7 @@ async function Initialize() {
     $("#statusLine").html(spinner_text_3);
     await unPackFileJSONS(zip);
     $("#statusLine").html("");
+    preparingData = false;
 
     fillListData();
 }
@@ -322,13 +325,5 @@ document.addEventListener('DOMContentLoaded', () => {
         catch {
             $("#statusLine").html("error");
         }
-    }
-});
-
-
-window.addEventListener("beforeunload", (event) => {
-    if (preparingData) {
-        event.preventDefault();
-        event.returnValue = ''; // This will trigger the default confirmation dialog
     }
 });
