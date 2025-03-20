@@ -1,172 +1,18 @@
-
-function fillOneEntryLink(entry) {
-    let datePublished = new Date(entry.date_published);
-    if (isNaN(datePublished)) {
-        datePublished = new Date();
+function getEntryTags(entry) {
+    let tags_text = "";
+    if (entry.tags && entry.tags.length > 0) {
+        tags_text = entry.tags.map(tag => `#${tag}`).join(",");
     }
-
-    const templateMap = {
-        "standard": entryStandardTemplate,
-        "gallery": entryGalleryTemplate,
-        "search-engine": entrySearchEngineTemplate
-    };
-
-    const templateFunc = templateMap[view_display_type];
-    if (!templateFunc) {
-        return;
-    }
-    var template_text = templateFunc(entry, view_show_icons, view_small_icons);
-
-    let thumbnail = entry.thumbnail;
-    let page_rating_votes = entry.page_rating_votes;
-    let page_rating_contents = entry.page_rating_contents;
-
-    let entry_link = `/preview.html?entry_id=${entry.id}`;
-    file = getQueryParam("file") || "top";
-    entry_link += `&file=${file}`;
-
-    title = escapeHtml(entry.title)
-
-    let title_safe = "";
-    if (entry.title_safe) {
-       title_safe = escapeHtml(entry.title_safe)
-    }
-    else
-    {
-       title_safe = escapeHtml(entry.title)
-    }
-    let tags_text = getEntryTags(entry);
-    let hover_title = title_safe + " " + tags_text;
-
-    let source__title = "";
-    if (entry.source__title) {
-       source__title = escapeHtml(entry.source__title)
-    }
-
-    // Replace all occurrences of the placeholders using a global regular expression
-    let listItem = template_text
-        .replace(/{link_absolute}/g, entry.link_absolute)
-        .replace(/{link}/g, entry.link)
-        .replace(/{entry_link}/g, entry_link)
-        .replace(/{hover_title}/g, hover_title)
-        .replace(/{thumbnail}/g, entry.thumbnail)
-        .replace(/{title_safe}/g, title_safe)
-        .replace(/{tags_text}/g, tags_text)
-        .replace(/{page_rating_votes}/g, entry.page_rating_votes)
-        .replace(/{page_rating_contents}/g, entry.page_rating_contents)
-        .replace(/{page_rating}/g, entry.page_rating)
-        .replace(/{source__title}/g, source__title)
-        .replace(/{age}/g, entry.age)
-        .replace(/{date_published}/g, datePublished.toLocaleString());
-
-    return listItem;
+    return tags_text;
 }
 
 
-
-
-function isEntrySearchHit(entry, searchText) {
-    if (entry.link) {
-        return isEntrySearchHitEntry(entry, searchText);
-    }
-    if (entry.url) {
-        return isEntrySearchHitSource(entry, searchText);
-    }
-}
-
-
-function isEntrySearchHitEntry(entry, searchText) {
-    if (!entry)
+function isEntryValid(entry) {
+    if (entry.is_valid === false || entry.date_dead_since) {
         return false;
-
-    if (searchText.includes("=")) {
-        return isEntrySearchHitAdvanced(entry, searchText);
     }
-    else {
-        return isEntrySearchHitGeneric(entry, searchText);
-    }
+    return true;
 }
-
-
-function isEntrySearchHitGeneric(entry, searchText) {
-    if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.tags && Array.isArray(entry.tags)) {
-        const tagMatch = entry.tags.some(tag =>
-            tag.toLowerCase().includes(searchText.toLowerCase())
-        );
-        if (tagMatch) return true;
-    }
-
-    return false;
-}
-
-
-function isEntrySearchHitAdvanced(entry, searchText) {
-    let operator_0 = null;
-    let operator_1 = null;
-    let operator_2 = null;
-
-    if (searchText.includes("==")) {
-        const result = searchText.split("==");
-        operator_0 = result[0].trim();
-        operator_1 = "==";
-        operator_2 = result[1].trim();
-    }
-    else {
-        const result = searchText.split("=");
-        operator_0 = result[0].trim();
-        operator_1 = "=";
-        operator_2 = result[1].trim();
-    }
-
-    if (operator_0 == "title")
-    {
-        if (operator_1 == "=" && entry.title && entry.title.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.title && entry.title.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "link")
-    {
-        if (operator_1 == "=" && entry.link && entry.link.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.link && entry.link.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "description")
-    {
-        if (operator_1 == "=" && entry.description && entry.description.toLowerCase().includes(operator_2.toLowerCase()))
-            return true;
-        if (operator_1 == "==" && entry.description && entry.description.toLowerCase() == operator_2.toLowerCase())
-            return true;
-    }
-    if (operator_0 == "tag")
-    {
-        if (entry.tags && Array.isArray(entry.tags)) {
-            if (operator_1 == "=") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase().includes(operator_2.toLowerCase())
-                );
-                if (tagMatch) return true;
-            }
-            if (operator_1 == "==") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase() == operator_2.toLowerCase()
-                );
-                if (tagMatch) return true;
-            }
-        }
-    }
-}
-
 
 
 function getEntryAuthorText(entry) {
@@ -184,7 +30,187 @@ function getEntryAuthorText(entry) {
 }
 
 
-/** templates **/
+function getVotesBadge(page_rating_votes, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 5px; right: 30px;" + style;
+    }
+
+    let badge_text = page_rating_votes > 0 ? `
+        <span class="badge text-bg-warning" style="${style}">
+            ${page_rating_votes}
+        </span>` : '';
+
+    return badge_text;
+}
+
+
+function getBookmarkBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 5px; right: 5px;" + style;
+    }
+
+    let badge_star = entry.bookmarked ? `
+        <span class="badge text-bg-warning" style="${style}">
+            ★
+        </span>` : '';
+    return badge_star;
+}
+
+
+function getAgeBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 30px; right: 5px;" + style;
+    }
+
+    let badge_text = entry.age > 0 ? `
+        <span class="badge text-bg-warning" style="${style}">
+            A
+        </span>` : '';
+    return badge_text;
+}
+
+
+function getDeadBadge(entry, overflow=false) {
+    let style = "font-size: 0.8rem;"
+    if (overflow) {
+        style = "position: absolute; top: 30px; right: 30px;" + style;
+    }
+
+    let badge_text = entry.date_dead_since ? `
+        <span class="badge text-bg-warning" style="${style}">
+            D
+        </span>` : '';
+    return badge_text;
+}
+
+/**
+ * Detail view
+ *
+ *
+ */
+
+
+function getEntryBodyText(entry) {
+    let text = `
+    <a href="${entry.link}"><h1>${entry.title}</h1></a>
+    <div><a href="${entry.link}">${entry.link}</a></div>
+    <div><b>Publish date:</b>${entry.date_published}</div>
+    `;
+
+    //let tags = selectEntryTags(entry.id);
+    //let tagString = Array.from(tags).map(tag => `#${tag}`).join(", ");
+    let tagString = "";
+    
+    text += `
+        <div>Tags: ${tagString}</div>
+    `;
+
+    text += `
+    <div>${entry.description.replace(/\n/g, '<br>')}</div>
+    `;
+
+    text += `
+    <h3>Parameters</h3>
+    <div>Language: ${entry.language}</div>
+    <div>Points: ${entry.page_rating}|${entry.page_rating_votes}|${entry.page_rating_contents}</div>
+    `;
+
+    if (entry.date_dead_since)
+        text += `<div>Dead since:${entry.date_dead_since}</div>`;
+
+    text += `
+    <div>Author: ${entry.author}</div>
+    <div>Album: ${entry.album}</div>
+    <div>Status code: ${entry.status_code}</div>
+    <div>Manual status code: ${entry.manual_status_code}</div>
+    <div>Permanent: ${entry.permanent}</div>
+    <div>Age: ${entry.age}</div>
+    `;
+
+    return text;
+}
+
+
+function getEntryFullTextStandard(entry) {
+    let text = `
+    <div><img src="${entry.thumbnail}" style="max-width:100%;"/></div>
+    `;
+
+    text += getEntryBodyText(entry);
+
+    return text;
+}
+
+
+function getEntryFullTextYouTube(entry) {
+    const urlParams = new URL(entry.link).searchParams;
+    const videoId = urlParams.get("v");
+
+    const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : "";
+
+    let text = "";
+
+    if (videoId) {
+        text += `
+        <div>
+        <div class="youtube_player_container">
+            <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+        `;
+    }
+
+    text += getEntryBodyText(entry);
+
+    return text;
+}
+
+
+function getEntryFullTextOdysee(entry) {
+    const url = new URL(entry.link);
+    const videoId = url.pathname.split('/').pop();
+
+    const embedUrl = videoId ? `https://odysee.com/$/embed/${videoId}` : "";
+
+    let text = "";
+
+    if (videoId) {
+        text += `
+        <div>
+        <div class="youtube_player_container">
+            <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" width="100%" height="100%" src="${embedUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+        </div>
+        </div>
+        `;
+    }
+
+    text += getEntryBodyText(entry);
+
+    return text;
+}
+
+
+function getEntryDetailText(entry) {
+    let text = "";
+
+    if (entry.link.startsWith("https://www.youtube.com/watch?v="))
+        text = getEntryFullTextYouTube(entry);
+    else if (entry.link.startsWith("https://odysee.com/"))
+        text = getEntryFullTextOdysee(entry);
+    else
+        text = getEntryFullTextStandard(entry);
+
+    return text;
+}
+
+
+/**
+ * LIST VIEWS
+ *
+ */
 
 
 function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
@@ -380,32 +406,28 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
 }
 
 
-/** fill functions **/
-
-
-function fillOneEntry(entry) {
+function getOneEntryText(entry) {
     if (entry.link) {
-       return fillOneEntryLink(entry);
+       return getOneEntryEntryText(entry);
     }
     if (entry.url) {
-       return fillOneEntrySource(entry);
+       return getOneEntrySourceText(entry);
     }
 }
 
 
-function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
+function getEntriesList(entries) {
     let htmlOutput = '';
 
     htmlOutput = `  <span class="container list-group">`;
 
-    if (view_display_type == "gallery")
-    {
+    if (view_display_type == "gallery") {
         htmlOutput += `  <span class="d-flex flex-wrap">`;
     }
 
     if (entries && entries.length > 0) {
-        entries.slice(startIndex, endIndex).forEach((entry, i) => {
-            const listItem = fillOneEntry(entry);
+        entries.forEach((entry) => {
+            const listItem = getOneEntryText(entry);
 
             if (listItem) {
                 htmlOutput += listItem;
@@ -415,8 +437,7 @@ function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
         htmlOutput = '<li class="list-group-item">No entries found</li>';
     }
 
-    if (view_display_type == "gallery")
-    {
+    if (view_display_type == "gallery") {
         htmlOutput += `</span>`;
     }
 
@@ -426,9 +447,175 @@ function getEntryListText(entries, startIndex = 0, endIndex = 1000) {
 }
 
 
-function fillListDataInternal(entries) {
-    $('#statusLine').html("Sorting links");
+function getOneEntryEntryText(entry) {
+    let datePublished = new Date(entry.date_published);
+    if (isNaN(datePublished)) {
+        datePublished = new Date();
+    }
 
+    const templateMap = {
+        "standard": entryStandardTemplate,
+        "gallery": entryGalleryTemplate,
+        "search-engine": entrySearchEngineTemplate
+    };
+
+    const templateFunc = templateMap[view_display_type];
+    if (!templateFunc) {
+        return;
+    }
+    var template_text = templateFunc(entry, view_show_icons, view_small_icons);
+
+    let thumbnail = entry.thumbnail;
+    let page_rating_votes = entry.page_rating_votes;
+    let page_rating_contents = entry.page_rating_contents;
+
+    let entry_link = `/preview.html?entry_id=${entry.id}`;
+    let file = getQueryParam('file') || getDefaultFileName();
+    entry_link += `&file=${file}`;
+
+    title = escapeHtml(entry.title)
+
+    let title_safe = "";
+    if (entry.title_safe) {
+       title_safe = escapeHtml(entry.title_safe)
+    }
+    else
+    {
+       title_safe = escapeHtml(entry.title)
+    }
+    let tags_text = getEntryTags(entry);
+
+    let hover_title = title_safe + " " + tags_text;
+
+    let source__title = "";
+    if (entry.source__title) {
+       source__title = escapeHtml(entry.source__title)
+    }
+
+    // Replace all occurrences of the placeholders using a global regular expression
+    let listItem = template_text
+        .replace(/{link_absolute}/g, entry.link_absolute)
+        .replace(/{link}/g, entry.link)
+        .replace(/{entry_link}/g, entry_link)
+        .replace(/{hover_title}/g, hover_title)
+        .replace(/{thumbnail}/g, entry.thumbnail)
+        .replace(/{title_safe}/g, title_safe)
+        .replace(/{tags_text}/g, tags_text)
+        .replace(/{page_rating_votes}/g, entry.page_rating_votes)
+        .replace(/{page_rating_contents}/g, entry.page_rating_contents)
+        .replace(/{page_rating}/g, entry.page_rating)
+        .replace(/{source__title}/g, source__title)
+        .replace(/{age}/g, entry.age)
+        .replace(/{date_published}/g, datePublished.toLocaleString());
+
+    return listItem;
+}
+
+
+/** 
+ * JSON files
+ */
+
+function isEntrySearchHit(entry, searchText) {
+    if (entry.link) {
+        return isEntrySearchHitEntry(entry, searchText);
+    }
+}
+
+
+function isEntrySearchHitEntry(entry, searchText) {
+    if (!entry)
+        return false;
+
+    if (searchText.includes("=")) {
+        return isEntrySearchHitAdvanced(entry, searchText);
+    }
+    else {
+        return isEntrySearchHitGeneric(entry, searchText);
+    }
+}
+
+
+function isEntrySearchHitGeneric(entry, searchText) {
+    if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
+        return true;
+
+    if (entry.tags && Array.isArray(entry.tags)) {
+        const tagMatch = entry.tags.some(tag =>
+            tag.toLowerCase().includes(searchText.toLowerCase())
+        );
+        if (tagMatch) return true;
+    }
+
+    return false;
+}
+
+
+function isEntrySearchHitAdvanced(entry, searchText) {
+    let operator_0 = null;
+    let operator_1 = null;
+    let operator_2 = null;
+
+    if (searchText.includes("==")) {
+        const result = searchText.split("==");
+        operator_0 = result[0].trim();
+        operator_1 = "==";
+        operator_2 = result[1].trim();
+    }
+    else {
+        const result = searchText.split("=");
+        operator_0 = result[0].trim();
+        operator_1 = "=";
+        operator_2 = result[1].trim();
+    }
+
+    if (operator_0 == "title")
+    {
+        if (operator_1 == "=" && entry.title && entry.title.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.title && entry.title.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "link")
+    {
+        if (operator_1 == "=" && entry.link && entry.link.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.link && entry.link.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "description")
+    {
+        if (operator_1 == "=" && entry.description && entry.description.toLowerCase().includes(operator_2.toLowerCase()))
+            return true;
+        if (operator_1 == "==" && entry.description && entry.description.toLowerCase() == operator_2.toLowerCase())
+            return true;
+    }
+    if (operator_0 == "tag")
+    {
+        if (entry.tags && Array.isArray(entry.tags)) {
+            if (operator_1 == "=") {
+                const tagMatch = entry.tags.some(tag =>
+                    tag.toLowerCase().includes(operator_2.toLowerCase())
+                );
+                if (tagMatch) return true;
+            }
+            if (operator_1 == "==") {
+                const tagMatch = entry.tags.some(tag =>
+                    tag.toLowerCase() == operator_2.toLowerCase()
+                );
+                if (tagMatch) return true;
+            }
+        }
+    }
+} 
+
+function sortEntries(entries) {
     if (sort_function == "page_rating_votes") {
         entries = entries.sort((a, b) => {
             return a.page_rating_votes - b.page_rating_votes;
@@ -468,15 +655,5 @@ function fillListDataInternal(entries) {
         });
     }
 
-    let page_num = parseInt(getQueryParam("page")) || 1;
-    let page_size = default_page_size;
-    let countElements = entries.length;
-
-    let start_index = (page_num-1) * page_size;
-    let end_index = page_num * page_size;
-
-    var finished_text = getEntryListText(entries, start_index, end_index);
-
-    $('#listData').html(finished_text);
-    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
+    return entries;
 }

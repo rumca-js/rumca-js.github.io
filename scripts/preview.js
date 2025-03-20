@@ -1,129 +1,44 @@
+let worker = null;
+let db = null;
+let object_list_data = null;
+let db_ready = false;
 
-function getEntryText(entry) {
-    let text = `
-    <a href="${entry.link}"><h1>${entry.title}</h1></a>
-    <div><a href="${entry.link}">${entry.link}</a></div>
-    <div><b>Publish date:</b>${entry.date_published}</div>
-    `;
+let view_display_type = "search-engine";
+let view_show_icons = false;
+let view_small_icons = false;
+let show_pure_links = true;
+let highlight_bookmarks = false;
+let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
+let default_page_size = 200;
 
-    let tagString = getEntryTags(entry);
-    
-    text += `
-        <div>Tags: ${tagString}</div>
-    `;
 
-    text += `
-    <div>${entry.description.replace(/\n/g, '<br>')}</div>
-    `;
+function getFileName() {
+    let file_name = getQueryParam('file') || getDefaultFileName();
 
-    text += `
-    <h3>Parameters</h3>
-    <div>Language: ${entry.language}</div>
-    <div>Points: ${entry.page_rating}|${entry.page_rating_votes}|${entry.page_rating_contents}</div>
-    `;
+    let adir = getDefaultFileLocation();
 
-    if (entry.date_dead_since)
-        text += `<div>Dead since:${entry.date_dead_since}</div>`;
+    if (file_name.indexOf(".zip") === -1 && file_name.indexOf(".db") === -1)
+        file_name = file_name + ".zip";
 
-    text += `
-    <div>Author: ${entry.author}</div>
-    <div>Album: ${entry.album}</div>
-    <div>Status code: ${entry.status_code}</div>
-    <div>Manual status code: ${entry.manual_status_code}</div>
-    <div>Permanent: ${entry.permanent}</div>
-    <div>Age: ${entry.age}</div>
-    `;
+    if (file_name.indexOf(adir) === -1)
+        file_name = adir + file_name
 
-    return text;
+    return file_name;
 }
 
 
-function fillListDataInternalStandard(entry) {
-    let text = `
-    <div><img src="${entry.thumbnail}" style="max-width:100%;"/></div>
-    `;
-
-    text += getEntryText(entry);
-
-    $('#detailData').html(text);
-}
-
-
-function fillListDataInternalYouTube(entry) {
-    // Extract the video ID from the YouTube link
-    const urlParams = new URL(entry.link).searchParams;
-    const videoId = urlParams.get("v");
-
-    // Construct the embed URL
-    const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : "";
-
-    // Build the HTML content
-    let text = "";
-
-    // Add the embedded YouTube player if a valid video ID exists
-    if (videoId) {
-        text += `
-        <div>
-        <div class="youtube_player_container">
-            <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        </div>
-        `;
-    }
-
-    text += getEntryText(entry);
-
-    $('#detailData').html(text);
-}
-
-
-function fillListDataInternalOdysee(entry) {
-    // Extract the video ID from the YouTube link
-    const url = new URL(entry.link);
-    const videoId = url.pathname.split('/').pop();
-
-    // Construct the embed URL
-    const embedUrl = videoId ? `https://odysee.com/$/embed/${videoId}` : "";
-
-    // Build the HTML content
-    let text = "";
-
-    // Add the embedded YouTube player if a valid video ID exists
-    if (videoId) {
-        text += `
-        <div>
-        <div class="youtube_player_container">
-            <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" width="100%" height="100%" src="${embedUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-        </div>
-        </div>
-        `;
-    }
-
-    text += getEntryText(entry);
-
-    $('#detailData').html(text);
-}
-
-
-function fillListDataInternal(entry) {
+function fillDataInternal(entry) {
     document.title = entry.title;
 
-    let text = "";
+    let text = getEntryDetailText(entry);
 
-    if (entry.link.startsWith("https://www.youtube.com/watch?v="))
-        text += fillListDataInternalYouTube(entry);
-    else if (entry.link.startsWith("https://odysee.com/"))
-        text += fillListDataInternalOdysee(entry);
-    else
-        text += fillListDataInternalStandard(entry);
-
-    return text;
+    $('#detailData').html(text);
 }
 
 
 function fillListDataInternalMultiple(entries) {
     if (entries.length > 0)
-        return fillListDataInternal(entries[0]);
+        return fillDataInternal(entries[0]);
     else
     {
         $('#detailData').html("Could not find such entry");
@@ -174,8 +89,24 @@ function fillListData() {
 }
 
 
+async function Initialize() {
+    let spinner_text_1 = getSpinnerText("Initializing - reading file");
+    $("#statusLine").html(spinner_text_1);
+    let fileBlob = requestFileChunks(getFileName());
+    let spinner_text_2 = getSpinnerText("Loading zip");
+    $("#statusLine").html(spinner_text_2);
+    const zip = await JSZip.loadAsync(fileBlob);
+    let spinner_text_3 = getSpinnerText("Unpacking zip");
+    $("#statusLine").html(spinner_text_3);
+    await unPackFileJSONS(zip);
+    $("#statusLine").html("Initialized successfully");
+
+    fillListData();
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     if (!object_list_data) {
-       requestFile();
+        Initialize();
     }
 });

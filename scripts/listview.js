@@ -1,3 +1,30 @@
+let worker = null;
+let db = null;
+let object_list_data = null;
+let db_ready = false;
+
+let view_display_type = "search-engine";
+let view_show_icons = false;
+let view_small_icons = false;
+let show_pure_links = true;
+let highlight_bookmarks = false;
+let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
+let default_page_size = 200;
+
+
+function getFileName() {
+    let file_name = getQueryParam('file') || getDefaultFileName();
+
+    let adir = getDefaultFileLocation();
+
+    if (file_name.indexOf(".zip") === -1 && file_name.indexOf(".db") === -1)
+        file_name = file_name + ".zip";
+
+    if (file_name.indexOf(adir) === -1)
+        file_name = adir + file_name
+
+    return file_name;
+}
 
 
 function fillEntireListData() {
@@ -19,6 +46,34 @@ function fillEntireListData() {
 }
 
 
+function fillListDataInternal(entries) {
+    entries = sortEntries(entries);
+
+    let page_num = parseInt(getQueryParam("page")) || 1;
+    let page_size = default_page_size;
+    let countElements = entries.length;
+
+    let start_index = (page_num-1) * page_size;
+    let end_index = page_num * page_size;
+
+    let filtered_entries = entries.slice(start_index, end_index);
+
+    var finished_text = getEntriesList(filtered_entries);
+
+    $('#listData').html(finished_text);
+    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
+}
+
+
+function filterEntries(entries, searchText) {
+    let filteredEntries = entries.filter(entry =>
+        isEntrySearchHit(entry, searchText)
+    );
+
+    return filteredEntries;
+}
+
+
 function fillSearchListData(searchText) {
     let data = object_list_data;
 
@@ -34,9 +89,7 @@ function fillSearchListData(searchText) {
     }
 
     $('#statusLine').html("Filtering links");
-    let filteredEntries = entries.filter(entry =>
-        isEntrySearchHit(entry, searchText)
-    );
+    let filteredEntries = filterEntries(entries, searchText);
 
     if (filteredEntries.length === 0) {
         $('#statusLine').html("No matching entries found.");
@@ -82,6 +135,20 @@ function searchInputFunction() {
     window.history.pushState({}, '', currentUrl);
 
     fillListData();
+}
+
+
+async function Initialize() {
+    let spinner_text_1 = getSpinnerText("Initializing - reading file");
+    $("#statusLine").html(spinner_text_1);
+    let fileBlob = requestFileChunks(getFileName());
+    let spinner_text_2 = getSpinnerText("Loading zip");
+    $("#statusLine").html(spinner_text_2);
+    const zip = await JSZip.loadAsync(fileBlob);
+    let spinner_text_3 = getSpinnerText("Unpacking zip");
+    $("#statusLine").html(spinner_text_3);
+    await unPackFileJSONS(zip);
+    $("#statusLine").html("Initialized successfully");
 }
 
 
@@ -246,14 +313,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (!object_list_data) {
-       requestFile();
+        try {
+            Initialize();
+        }
+        catch {
+            $("#statusLine").html("error");
+        }
     }
 });
 
 
 window.addEventListener("beforeunload", (event) => {
     if (preparingData) {
-        // Custom message shown in some browsers
         event.preventDefault();
         event.returnValue = ''; // This will trigger the default confirmation dialog
     }
