@@ -148,7 +148,9 @@ async function Initialize() {
     let spinner_text_3 = getSpinnerText("Unpacking zip");
     $("#statusLine").html(spinner_text_3);
     await unPackFileJSONS(zip);
-    $("#statusLine").html("Initialized successfully");
+    $("#statusLine").html("");
+
+    fillListData();
 }
 
 
