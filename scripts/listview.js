@@ -102,7 +102,12 @@ function fillListData() {
     let file_name = getQueryParam('file') || "";
 
     if (userInput.trim() != "") {
-        document.title = file_name + " / " + userInput;
+        if (file_name) {
+           document.title = file_name + " / " + userInput;
+	}
+        else {
+           document.title = " / " + userInput;
+        }
 
         const currentUrl = new URL(window.location.href);
         currentUrl.searchParams.set('search', userInput);
@@ -112,7 +117,9 @@ function fillListData() {
     }
     else
     {
-        document.title = file_name;
+        if (file_name) {
+           document.title = file_name;
+	}
         fillEntireListData();
     }
 }
