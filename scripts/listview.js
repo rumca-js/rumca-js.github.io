@@ -28,6 +28,11 @@ function getFileName() {
 }
 
 
+function animateToTop() {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+}
+
+
 function fillEntireListData() {
     let data = object_list_data;
 
@@ -169,7 +174,7 @@ $(document).on('click', '.btnNavigation', function(e) {
 
     window.history.pushState({}, '', currentUrl);
 
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
+    animateToTop();
 
     fillListData();
 });
@@ -192,6 +197,8 @@ $(document).on('click', '.entry-list', function(e) {
        $('#pagination').html("");
 
        document.title = entry.title;
+
+       animateToTop();
     }
     else {
        $("#statusLine").html("Invalid entry");
