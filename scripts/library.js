@@ -25,6 +25,22 @@ function escapeHtml(unsafe)
 }
 
 
+function createLinks(inputText) {
+    const urlRegex = /(?<!<a[^>]*>)(https:\/\/[a-zA-Z0-9-\.\/]+)(?!<\/a>)/g;
+    const urlRegex2 = /(?<!<a[^>]*>)(http:\/\/[a-zA-Z0-9-\.\/]+)(?!<\/a>)/g;
+
+    inputText = inputText.replace(urlRegex, (match, url) => {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+
+    inputText = inputText.replace(urlRegex2, (match, url) => {
+        return `<a href="${url}" target="_blank">${url}</a>`;
+    });
+
+    return inputText;
+}
+
+
 function getSpinnerText(text = 'Loading...') {
    return `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> ${text}`;
 }

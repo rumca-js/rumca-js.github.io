@@ -1,8 +1,8 @@
 let worker = null;
 let db = null;
-let object_list_data = null;
-let db_ready = false;
-let preparingData = false;
+let object_list_data = null;   // all objects lists
+let system_initialized = false;
+let user_age = 1;
 
 let view_display_type = "search-engine";
 let view_show_icons = false;
@@ -127,7 +127,7 @@ function fillListData() {
 
 
 function searchInputFunction() {
-    if (preparingData) {
+    if (system_initialized) {
         $("#statusLine").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
     }
@@ -141,7 +141,7 @@ function searchInputFunction() {
 
 
 async function Initialize() {
-    preparingData = true;
+    system_initialized = false;
     let spinner_text_1 = getSpinnerText("Initializing - reading file");
     $("#statusLine").html(spinner_text_1);
     let fileBlob = requestFileChunks(getFileName());
@@ -152,7 +152,7 @@ async function Initialize() {
     $("#statusLine").html(spinner_text_3);
     await unPackFileJSONS(zip);
     $("#statusLine").html("");
-    preparingData = false;
+    system_initialized = false;
 
     fillListData();
 }
@@ -172,6 +172,61 @@ $(document).on('click', '.btnNavigation', function(e) {
     $('html, body').animate({ scrollTop: 0 }, 'slow');
 
     fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '.entry-list', function(e) {
+    e.preventDefault();
+
+    let entryNumber = $(this).attr('entry');
+    console.log("Entry list:" + entryNumber);
+
+    let entry = getEntry(entryNumber);
+    if (entry) {
+       let entry_detail_text = getEntryDetailText(entry);
+       let data = `<a href="" class="btn btn-primary go-back-button m-1">Go back</a>`;
+       data += `<a href="" class="btn btn-primary copy-link m-1">Copy Link</a>`;
+       data += entry_detail_text;
+       $("#listData").html(data);
+       $('#pagination').html("");
+
+       document.title = entry.title;
+    }
+    else {
+       $("#statusLine").html("Invalid entry");
+    }
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '.go-back-button', function(e) {
+    e.preventDefault();
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '.copy-link', function(e) {
+    // TODO
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '.entry-detail', function(e) {
+    e.preventDefault();
+
+    let entryNumber = $(this).attr('entry');
+    console.log("Entry detail:" + entryNumber);
+
+    let entry = getEntry(entryNumber);
+    if (entry) {
+       let entry_detail_text = getEntryListText(entry);
+       $(this).html(entry_detail_text);
+    }
+    else {
+       $("#statusLine").html("Invalid entry");
+    }
 });
 
 

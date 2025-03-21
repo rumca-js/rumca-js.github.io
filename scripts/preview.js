@@ -1,8 +1,8 @@
 let worker = null;
 let db = null;
 let object_list_data = null;
-let db_ready = false;
-let preparingData = false;
+let system_initialized = false;
+let user_age = 1;
 
 let view_display_type = "search-engine";
 let view_show_icons = false;
@@ -91,7 +91,7 @@ function fillListData() {
 
 
 async function Initialize() {
-    preparingData = true;
+    system_initialized = false;
     let spinner_text_1 = getSpinnerText("Initializing - reading file");
     $("#statusLine").html(spinner_text_1);
     let fileBlob = requestFileChunks(getFileName());
@@ -102,7 +102,7 @@ async function Initialize() {
     $("#statusLine").html(spinner_text_3);
     await unPackFileJSONS(zip);
     $("#statusLine").html("Initialized successfully");
-    preparingData = false;
+    system_initialized = true;
 
     fillListData();
 }
