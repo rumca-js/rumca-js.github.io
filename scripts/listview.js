@@ -202,6 +202,8 @@ $(document).on('click', '.entry-list', function(e) {
     window.history.pushState({}, '', currentUrl);
 
     setEntryAsListData(entryNumber);
+
+    animateToTop();
 });
 
 
