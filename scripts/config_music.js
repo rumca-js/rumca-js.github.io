@@ -4,7 +4,7 @@ let object_list_data = null;   // all objects lists
 let system_initialized = false;
 let user_age = 1;
 
-let view_display_type = "search-engine";
+let view_display_type = "gallery";
 let view_show_icons = false;
 let view_small_icons = false;
 let show_pure_links = true;
