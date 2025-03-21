@@ -14,7 +14,7 @@ let default_page_size = 200;
 
 
 function getDefaultFileName() {
-    return "top.zip";
+    return "music.zip";
 }
 
 function getDefaultFileLocation() {
