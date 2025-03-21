@@ -99,7 +99,7 @@ function fillSearchListData(searchText) {
 
 function fillListData() {
     const userInput = $("#searchInput").val();
-    let file_name = getQueryParam('file') || "permanent";
+    let file_name = getQueryParam('file') || "";
 
     if (userInput.trim() != "") {
         document.title = file_name + " / " + userInput;
