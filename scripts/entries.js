@@ -503,7 +503,7 @@ function getOneEntryEntryText(entry) {
     let page_rating_votes = entry.page_rating_votes;
     let page_rating_contents = entry.page_rating_contents;
 
-    let entry_link = `/preview.html?entry_id=${entry.id}`;
+    let entry_link = `?entry_id=${entry.id}`;
     let file = getQueryParam('file') || getDefaultFileName();
     entry_link += `&file=${file}`;
 

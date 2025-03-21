@@ -145,6 +145,24 @@ function searchInputFunction() {
 }
 
 
+function setEntryAsListData(entry_id) {
+    let entry = getEntry(entry_id);
+    if (entry) {
+       let entry_detail_text = getEntryDetailText(entry);
+       let data = `<a href="" class="btn btn-primary go-back-button m-1">Go back</a>`;
+       data += `<a href="" class="btn btn-primary copy-link m-1">Copy Link</a>`;
+       data += entry_detail_text;
+       $("#listData").html(data);
+       $('#pagination').html("");
+
+       document.title = entry.title;
+    }
+    else {
+       $("#statusLine").html("Invalid entry");
+    }
+}
+
+
 async function Initialize() {
     system_initialized = false;
     let spinner_text_1 = getSpinnerText("Initializing - reading file");
@@ -159,7 +177,13 @@ async function Initialize() {
     $("#statusLine").html("");
     system_initialized = false;
 
-    fillListData();
+    let entry_id = getQueryParam("entry_id");
+    if (entry_id) {
+       setEntryAsListData(entry_id);
+    }
+    else {
+       fillListData();
+    }
 }
 
 
@@ -168,10 +192,9 @@ $(document).on('click', '.btnNavigation', function(e) {
     e.preventDefault();
 
     const currentPage = $(this).data('page');
+
     const currentUrl = new URL(window.location.href);
-
     currentUrl.searchParams.set('page', currentPage);
-
     window.history.pushState({}, '', currentUrl);
 
     animateToTop();
@@ -187,35 +210,36 @@ $(document).on('click', '.entry-list', function(e) {
     let entryNumber = $(this).attr('entry');
     console.log("Entry list:" + entryNumber);
 
-    let entry = getEntry(entryNumber);
-    if (entry) {
-       let entry_detail_text = getEntryDetailText(entry);
-       let data = `<a href="" class="btn btn-primary go-back-button m-1">Go back</a>`;
-       data += `<a href="" class="btn btn-primary copy-link m-1">Copy Link</a>`;
-       data += entry_detail_text;
-       $("#listData").html(data);
-       $('#pagination').html("");
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('entry_id', entryNumber);
+    window.history.pushState({}, '', currentUrl);
 
-       document.title = entry.title;
-
-       animateToTop();
-    }
-    else {
-       $("#statusLine").html("Invalid entry");
-    }
+    setEntryAsListData(entryNumber);
 });
 
 
 //-----------------------------------------------
 $(document).on('click', '.go-back-button', function(e) {
     e.preventDefault();
+
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.delete('entry_id')
+    window.history.pushState({}, '', currentUrl);
+
     fillListData();
 });
 
 
 //-----------------------------------------------
 $(document).on('click', '.copy-link', function(e) {
-    // TODO
+    e.preventDefault();
+    const url = window.location.href;
+
+    navigator.clipboard.writeText(url).then(() => {
+       $(this).html("Copied");
+    }).catch((err) => {
+       console.error("Error copying URL: ", err);
+    });
 });
 
 
