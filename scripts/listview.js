@@ -1,16 +1,3 @@
-let worker = null;
-let db = null;
-let object_list_data = null;   // all objects lists
-let system_initialized = false;
-let user_age = 1;
-
-let view_display_type = "search-engine";
-let view_show_icons = false;
-let view_small_icons = false;
-let show_pure_links = true;
-let highlight_bookmarks = false;
-let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
-let default_page_size = 200;
 
 
 function getFileName() {
@@ -395,10 +382,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const urlParams = new URLSearchParams(window.location.search);
     const searchParam = urlParams.get('search');
-    view_show_icons = urlParams.get("view_show_icons") || false;
-    view_display_type = urlParams.get("view_display_type") || "search-engine";
-    sort_function = urlParams.get('order') || "-page_rating_votes";
-    default_page_size = parseInt(urlParams.get('default_page_size'), 10) || 100;
+
+    if (urlParams.has("view_show_icons")) {
+        view_show_icons = urlParams.get("view_show_icons");
+    }
+    if (urlParams.has("view_display_type")) {
+        view_display_type = urlParams.get("view_display_type");
+    }
+    if (urlParams.has("order")) {
+        sort_function = urlParams.get('order');
+    }
+
+    if (urlParams.has("default_page_size")) {
+        default_page_size = parseInt(urlParams.get('default_page_size'), 10);
+    }
 
     if (searchParam) {
         searchInput.value = searchParam;
