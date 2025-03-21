@@ -666,7 +666,7 @@ function sortEntries(entries) {
             return b.page_rating_votes - a.page_rating_votes;
         });
     }
-    else if (sort_function == "date_published") {
+    else if (sort_function == "-date_published") {
         entries = entries.sort((a, b) => {
             if (a.date_published === null && b.date_published === null) {
                 return 0;
@@ -680,7 +680,7 @@ function sortEntries(entries) {
             return new Date(b.date_published) - new Date(a.date_published);
         });
     }
-    else if (sort_function == "-date_published") {
+    else if (sort_function == "date_published") {
         entries = entries.sort((a, b) => {
             if (a.date_published === null && b.date_published === null) {
                 return 0;
