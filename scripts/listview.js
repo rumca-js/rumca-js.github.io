@@ -323,13 +323,13 @@ $(document).on('click', '#orderByVotes', function(e) {
 
 //-----------------------------------------------
 $(document).on('click', '#orderByDatePublished', function(e) {
-    if (sort_function == "date_published")
+    if (sort_function == "-date_published")
     {
-        sort_function = "-date_published";
+        sort_function = "date_published";
     }
     else
     {
-        sort_function = "date_published";
+        sort_function = "-date_published";
     }
 
     if (sort_function != "-page_rating_votes") {
