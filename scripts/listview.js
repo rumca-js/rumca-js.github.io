@@ -240,24 +240,6 @@ $(document).on('click', '.copy-link', function(e) {
 
 
 //-----------------------------------------------
-$(document).on('click', '.entry-detail', function(e) {
-    e.preventDefault();
-
-    let entryNumber = $(this).attr('entry');
-    console.log("Entry detail:" + entryNumber);
-
-    let entry = getEntry(entryNumber);
-    if (entry) {
-       let entry_detail_text = getEntryListText(entry);
-       $(this).html(entry_detail_text);
-    }
-    else {
-       $("#statusLine").html("Invalid entry");
-    }
-});
-
-
-//-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
     searchInputFunction();
 });
