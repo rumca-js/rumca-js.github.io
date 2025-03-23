@@ -125,7 +125,7 @@ function fillListData() {
 }
 
 
-function searchInputFunction() {
+function searchInputFunctionJSON() {
     if (system_initialized) {
         $("#statusLine").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
@@ -136,6 +136,35 @@ function searchInputFunction() {
     window.history.pushState({}, '', currentUrl);
 
     fillListData();
+}
+
+
+function searchInputFunctionDb() {
+    if (!worker) {
+        $('#statusLine').html("Worker problem");
+        return;
+    }
+    if (!system_initialized) {
+        $('#statusLine').html("Cannot make query - database is not ready");
+    }
+
+    let spinner_text = getSpinnerText("Searching");
+    $('#statusLine').html(spinner_text);
+
+    let query = getQueryText();
+    worker.postMessage({ query });
+    console.log("Sent message: " + query);
+}
+
+
+function searchInputFunction() {
+    let file_name = getFileName();
+    if (file_name.indexOf("db") || file_name.indexOf("zip")) {
+       return searchInputFunctionDb();
+    }
+    else {
+       return searchInputFunctionJSON();
+    }
 }
 
 
@@ -157,26 +186,97 @@ function setEntryAsListData(entry_id) {
 }
 
 
-async function Initialize() {
-    system_initialized = false;
-    let spinner_text_1 = getSpinnerText("Initializing - reading file");
-    $("#statusLine").html(spinner_text_1);
-    let fileBlob = requestFileChunks(getFileName());
-    let spinner_text_2 = getSpinnerText("Loading zip");
-    $("#statusLine").html(spinner_text_2);
-    const zip = await JSZip.loadAsync(fileBlob);
-    let spinner_text_3 = getSpinnerText("Unpacking zip");
-    $("#statusLine").html(spinner_text_3);
-    await unPackFileJSONS(zip);
-    $("#statusLine").html("");
-    system_initialized = false;
+async function InitializeForDb() {
+  if (!object_list_data) {
+    if (!worker) {
+       initWorker();
+    }
+  }
+}
 
-    let entry_id = getQueryParam("entry_id");
-    if (entry_id) {
-       setEntryAsListData(entry_id);
+
+async function InitializeForJSON() {
+   let file_name = getFileName();
+   system_initialized = false;
+   let spinner_text_1 = getSpinnerText("Initializing - reading file");
+   $("#statusLine").html(spinner_text_1);
+   let fileBlob = requestFileChunks(file_name);
+   let spinner_text_2 = getSpinnerText("Loading zip");
+   $("#statusLine").html(spinner_text_2);
+   const zip = await JSZip.loadAsync(fileBlob);
+   let spinner_text_3 = getSpinnerText("Unpacking zip");
+   $("#statusLine").html(spinner_text_3);
+   await unPackFileJSONS(zip);
+   $("#statusLine").html("");
+   system_initialized = false;
+
+   let entry_id = getQueryParam("entry_id");
+   if (entry_id) {
+      setEntryAsListData(entry_id);
+   }
+   else {
+      fillListData();
+   }
+}
+
+
+async function initWorker() {
+    console.log("Init worker");
+    let spinner_text = getSpinnerText("Initializing worker");
+    $('#statusLine').html(spinner_text);
+
+    worker = new Worker('scripts/dbworker.js?i=' + getQueryParam("i"));
+
+    let file_name = getFileName();
+
+    worker.postMessage({ fileName:  file_name});
+
+    worker.onmessage = function (e) {
+        const { success, message_type, result, error } = e.data;
+        if (success) {
+            if (message_type == "entries") {
+                 object_list_data = result;
+                 fillListData();
+            }
+            else if (message_type == "pagination") {
+                 let total_rows = result;
+                 let page_num = parseInt(getQueryParam("page")) || 1;
+                 let nav_text = GetPaginationNav(page_num, total_rows/PAGE_SIZE, total_rows)
+                 console.log("total rows: " + total_rows);
+                 console.log("page num: " + page_num);
+                 console.log("page size: " + PAGE_SIZE);
+
+                 $('#pagination').html(nav_text);
+                 $('#statusLine').html("");
+            }
+            else if (message_type == "message") {
+                 if (result == "Creating database DONE") {
+                    system_initialized = true;
+                    $('#statusLine').html("");
+                 }
+                 else {
+                    let new_spinner_text = getSpinnerText(result);
+                    $('#statusLine').html(new_spinner_text);
+                 }
+            }
+        } else {
+            $('#statusLine').html('Worker error: '+ error);
+            console.error('Worker error:', error);
+        }
+    };
+    console.log("Init worker done");
+    $('#statusLine').html("");
+}
+
+
+async function Initialize() {
+    let file_name = getFileName();
+
+    if (file_name.indexOf("db.zip") == -1) {
+       return await InitializeForJSON();
     }
     else {
-       fillListData();
+       return await InitializeForDb();
     }
 }
 

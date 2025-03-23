@@ -1,26 +1,15 @@
 importScripts('https://unpkg.com/sql.js@1.6.0/dist/sql-wasm.js')
 importScripts('https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js')
-importScripts('./config.js?i=48');
+importScripts('./config_internet.js?i=49');
 importScripts('./library.js?i=' + getFileVersion());
 importScripts('./database.js?i=' + getFileVersion());
 
 
-let db = null;
 let file_name = null;
 
 
 async function createDatabase(worker, dbFileName) {
-    if (dbFileName.indexOf(".db") !== -1) {
-       console.log("createDatabase - db");
-       let data = await requestFileChunksUintArray(dbFileName);
-       if (!data) {
-           console.log("Not file data");
-           return false;
-       }
-
-       return await createDatabaseData(data);
-    }
-    else if (dbFileName.indexOf(".zip") !== -1) {
+    if (dbFileName.indexOf(".zip") !== -1) {
        console.log("createDatabase - zip");
        let blob = requestFileChunksMultipart(dbFileName);
        if (!blob)
@@ -29,10 +18,20 @@ async function createDatabase(worker, dbFileName) {
            return false;
        }
 
-       const zip = await JSZip.loadAsync(fileBlob);
+       const zip = await JSZip.loadAsync(blob);
 
        let data = await unPackFile(zip, blob);
        if (!data) {
+           return false;
+       }
+
+       return await createDatabaseData(data);
+    }
+    else if (dbFileName.indexOf(".db") !== -1) {
+       console.log("createDatabase - db");
+       let data = await requestFileChunksUintArray(dbFileName);
+       if (!data) {
+           console.log("Not file data");
            return false;
        }
 
