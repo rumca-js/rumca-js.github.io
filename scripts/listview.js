@@ -211,7 +211,7 @@ async function InitializeForJSON() {
 function onSystemReady() {
     system_initialized = true;
     $('#searchInput').prop('disabled', false);
-    $('#statusLine').html("System ready!");
+    $('#statusLine').html("System is ready! You can perform search now");
 }
 
 
