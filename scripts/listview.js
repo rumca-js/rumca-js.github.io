@@ -1,5 +1,6 @@
 
 let all_entries = null;
+let entries_length = 0;
 
 
 function getFileName() {
@@ -64,11 +65,9 @@ function fillListData() {
 
 
 function getPaginationText() {
-    let entries = object_list_data.entries;
-
     let page_num = parseInt(getQueryParam("page")) || 1;
     let page_size = default_page_size;
-    let countElements = entries.length;
+    let countElements = entries_length;
 
     return GetPaginationNav(page_num, countElements/page_size, countElements);
 }
@@ -84,6 +83,8 @@ function sortAndFilter() {
     if (search_text != "") {
        entries = filterEntries(entries, search_text);
     }
+
+    entries_length = entries.length;
 
     let page_num = parseInt(getQueryParam("page")) || 1;
     let page_size = default_page_size;
@@ -211,6 +212,7 @@ async function InitializeForJSON() {
       sortAndFilter();
 
       fillListData();
+
       $('#pagination').html(getPaginationText());
    }
 }
@@ -243,11 +245,10 @@ async function initWorker() {
             }
             else if (message_type == "pagination") {
                  let total_rows = result;
-                 let page_num = parseInt(getQueryParam("page")) || 1;
-                 let nav_text = GetPaginationNav(page_num, total_rows/PAGE_SIZE, total_rows)
-                 console.log("total rows: " + total_rows);
-                 console.log("page num: " + page_num);
-                 console.log("page size: " + PAGE_SIZE);
+
+                 entries_length = total_rows;
+
+                 let nav_text = getPaginationText();
 
                  $('#pagination').html(nav_text);
                  $('#statusLine').html("");
