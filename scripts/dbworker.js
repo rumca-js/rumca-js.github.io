@@ -11,6 +11,9 @@ let file_name = null;
 async function createDatabase(worker, dbFileName) {
     if (dbFileName.indexOf(".zip") !== -1) {
        console.log("createDatabase - zip");
+
+       worker.postMessage({ success: true, message_type: "message", result: "fetching files"});
+
        let blob = requestFileChunksMultipart(dbFileName);
        if (!blob)
        {
@@ -18,12 +21,18 @@ async function createDatabase(worker, dbFileName) {
            return false;
        }
 
+       worker.postMessage({ success: true, message_type: "message", result: "unpacking files"});
+
        const zip = await JSZip.loadAsync(blob);
+
+       worker.postMessage({ success: true, message_type: "message", result: "reading links from files"});
 
        let data = await unPackFile(zip, blob);
        if (!data) {
            return false;
        }
+
+       worker.postMessage({ success: true, message_type: "message", result: "creating database structure"});
 
        return await createDatabaseData(data);
     }

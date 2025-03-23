@@ -1,4 +1,6 @@
 
+let all_entries = null;
+
 
 function getFileName() {
     let file_name = getQueryParam('file') || getDefaultFileName();
@@ -40,22 +42,9 @@ function fillEntireListData() {
 
 
 function fillListDataInternal(entries) {
-    entries = sortEntries(entries);
-
-    let page_num = parseInt(getQueryParam("page")) || 1;
-    let page_size = default_page_size;
-    let countElements = entries.length;
-
-    let start_index = (page_num-1) * page_size;
-    let end_index = page_num * page_size;
-
-    let filtered_entries = entries.slice(start_index, end_index);
-
-    var finished_text = getEntriesList(filtered_entries);
+    var finished_text = getEntriesList(entries);
 
     $('#listData').html(finished_text);
-    console.log("Setting up pagination");
-    $('#pagination').html(GetPaginationNav(page_num, countElements/page_size, countElements));
 }
 
 
@@ -68,74 +57,55 @@ function filterEntries(entries, searchText) {
 }
 
 
-function fillSearchListData(searchText) {
-    let data = object_list_data;
-
-    $('#listData').html("");
-
-    let entries = data.entries;
-
-    if (!entries || entries.length == 0) {
-        $('#statusLine').html("No entries found");
-        $('#listData').html("");
-        $('#pagination').html("");
-        return;
-    }
-
-    $('#statusLine').html("Filtering links");
-    let filteredEntries = filterEntries(entries, searchText);
-
-    if (filteredEntries.length === 0) {
-        $('#statusLine').html("No matching entries found.");
-        $('#listData').html("");
-        $('#pagination').html("");
-        return;
-    }
-
-    fillListDataInternal(filteredEntries);
-    $('#statusLine').html("")
+function fillListData() {
+   fillEntireListData();
 }
 
 
-function fillListData() {
-    const userInput = $("#searchInput").val();
-    let file_name = getQueryParam('file') || "";
 
-    if (userInput.trim() != "") {
-        if (file_name) {
-           document.title = file_name + " / " + userInput;
-	}
-        else {
-           document.title = " / " + userInput;
-        }
+function getPaginationText() {
+    let entries = object_list_data.entries;
 
-        const currentUrl = new URL(window.location.href);
-        currentUrl.searchParams.set('search', userInput);
-        window.history.pushState({}, '', currentUrl);
+    let page_num = parseInt(getQueryParam("page")) || 1;
+    let page_size = default_page_size;
+    let countElements = entries.length;
 
-        fillSearchListData(userInput);
+    return GetPaginationNav(page_num, countElements/page_size, countElements);
+}
+
+
+function sortAndFilter() {
+    const search_text = $("#searchInput").val();
+
+    let entries = all_entries.entries;
+
+    entries = sortEntries(entries);
+
+    if (search_text != "") {
+       entries = filterEntries(entries, search_text);
     }
-    else
-    {
-        if (file_name) {
-           document.title = file_name;
-	}
-        fillEntireListData();
-    }
+
+    let page_num = parseInt(getQueryParam("page")) || 1;
+    let page_size = default_page_size;
+
+    let start_index = (page_num-1) * page_size;
+    let end_index = page_num * page_size;
+
+    object_list_data.entries = entries.slice(start_index, end_index);
 }
 
 
 function searchInputFunctionJSON() {
-    if (system_initialized) {
+    if (!system_initialized) {
         $("#statusLine").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
         return;
     }
 
-    const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.set('page', 1);
-    window.history.pushState({}, '', currentUrl);
+    sortAndFilter();
 
     fillListData();
+
+    $('#pagination').html(getPaginationText());
 }
 
 
@@ -158,8 +128,28 @@ function searchInputFunctionDb() {
 
 
 function searchInputFunction() {
+    const userInput = $("#searchInput").val();
     let file_name = getFileName();
-    if (file_name.indexOf("db") || file_name.indexOf("zip")) {
+
+    if (userInput.trim() != "") {
+        if (file_name) {
+           document.title = file_name + " / " + userInput;
+	}
+        else {
+           document.title = " / " + userInput;
+        }
+    } else 
+    {
+        if (file_name) {
+           document.title = file_name;
+	}
+    }
+
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('search', userInput);
+    window.history.pushState({}, '', currentUrl);
+
+    if (file_name.indexOf("db") != -1 || file_name.indexOf("db.zip") != -1) {
        return searchInputFunctionDb();
     }
     else {
@@ -208,15 +198,28 @@ async function InitializeForJSON() {
    $("#statusLine").html(spinner_text_3);
    await unPackFileJSONS(zip);
    $("#statusLine").html("");
-   system_initialized = false;
+
+   all_entries = { ...object_list_data };
+
+   onSystemReady();
 
    let entry_id = getQueryParam("entry_id");
    if (entry_id) {
       setEntryAsListData(entry_id);
    }
    else {
+      sortAndFilter();
+
       fillListData();
+      $('#pagination').html(getPaginationText());
    }
+}
+
+
+function onSystemReady() {
+    system_initialized = true;
+    $('#searchInput').prop('disabled', false);
+    $('#statusLine').html("System ready!");
 }
 
 
@@ -251,8 +254,7 @@ async function initWorker() {
             }
             else if (message_type == "message") {
                  if (result == "Creating database DONE") {
-                    system_initialized = true;
-                    $('#statusLine').html("");
+                    onSystemReady();
                  }
                  else {
                     let new_spinner_text = getSpinnerText(result);
@@ -271,6 +273,8 @@ async function initWorker() {
 
 async function Initialize() {
     let file_name = getFileName();
+
+    $('#searchInput').prop('disabled', true);
 
     if (file_name.indexOf("db.zip") == -1) {
        return await InitializeForJSON();
@@ -293,7 +297,7 @@ $(document).on('click', '.btnNavigation', function(e) {
 
     animateToTop();
 
-    fillListData();
+    searchInputFunction();
 });
 
 
@@ -341,6 +345,11 @@ $(document).on('click', '.copy-link', function(e) {
 
 //-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.delete('page')
+    currentUrl.searchParams.delete('search')
+    window.history.pushState({}, '', currentUrl);
+
     searchInputFunction();
 });
 
@@ -372,6 +381,11 @@ $(document).on('keydown', "#searchInput", function(e) {
     if (e.key === "Enter") {
         e.preventDefault();
 
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.delete('page')
+        currentUrl.searchParams.delete('search')
+        window.history.pushState({}, '', currentUrl);
+
         searchInputFunction();
     }
 });
@@ -399,7 +413,7 @@ $(document).on('click', '#orderByVotes', function(e) {
         window.history.pushState({}, '', currentUrl);
     }
 
-    fillListData();
+    searchInputFunction();
 });
 
 
@@ -425,7 +439,7 @@ $(document).on('click', '#orderByDatePublished', function(e) {
         window.history.pushState({}, '', currentUrl);
     }
 
-    fillListData();
+    searchInputFunction();
 });
 
 
