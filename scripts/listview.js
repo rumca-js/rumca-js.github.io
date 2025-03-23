@@ -133,17 +133,7 @@ function searchInputFunction() {
     let file_name = getFileName();
 
     if (userInput.trim() != "") {
-        if (file_name) {
-           document.title = file_name + " / " + userInput;
-	}
-        else {
-           document.title = " / " + userInput;
-        }
-    } else 
-    {
-        if (file_name) {
-           document.title = file_name;
-	}
+        document.title = userInput;
     }
 
     const currentUrl = new URL(window.location.href);
@@ -328,6 +318,7 @@ $(document).on('click', '.go-back-button', function(e) {
     window.history.pushState({}, '', currentUrl);
 
     fillListData();
+    $('#pagination').html(getPaginationText());
 });
 
 
