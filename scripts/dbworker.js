@@ -21,7 +21,7 @@ async function createDatabase(worker, dbFileName) {
            return false;
        }
 
-       worker.postMessage({ success: true, message_type: "message", result: "unpacking files"});
+       worker.postMessage({ success: true, message_type: "message", result: "unpacking files... might take a while"});
 
        const zip = await JSZip.loadAsync(blob);
 
