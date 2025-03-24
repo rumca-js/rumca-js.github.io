@@ -14,7 +14,7 @@ async function createDatabase(worker, dbFileName) {
 
        worker.postMessage({ success: true, message_type: "message", result: "fetching files"});
 
-       let blob = requestFileChunksMultipart(dbFileName);
+       let blob = await requestFileChunksMultipart(dbFileName);
        if (!blob)
        {
            console.log("Not file blog");
