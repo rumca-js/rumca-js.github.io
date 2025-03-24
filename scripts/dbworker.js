@@ -38,9 +38,11 @@ async function createDatabase(worker, dbFileName) {
     }
     else if (dbFileName.indexOf(".db") !== -1) {
        console.log("createDatabase - db");
+
        let data = await requestFileChunksUintArray(dbFileName);
        if (!data) {
-           console.log("Not file data");
+           console.log("Cannot obtain file data: " + dbFileName);
+           worker.postMessage({ success: true, message_type: "message", result: "File does not exist: " + dbFileName });
            return false;
        }
 
@@ -61,10 +63,11 @@ self.onmessage = async function (e) {
            postMessage({ success: true, message_type: "message", result: "Creating database"});
 
            console.log("Worker - creating DB: " + file_name);
-           await createDatabase(self, file_name);
-           console.log("Worker - creating DB DONE");
+           if (await createDatabase(self, file_name)) {
+              console.log("Worker - creating DB DONE");
 
-           postMessage({ success: true, message_type: "message", result: "Creating database DONE"});
+              postMessage({ success: true, message_type: "message", result: "Creating database DONE"});
+	   }
         }
     }
     else if (query)

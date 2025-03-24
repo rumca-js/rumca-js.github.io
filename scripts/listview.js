@@ -23,6 +23,14 @@ function animateToTop() {
 }
 
 
+function isWorkerNeeded(fileName) {
+    if (fileName.indexOf("db") != -1 || fileName.indexOf("db.zip") != -1) {
+        return true;
+    }
+    return false;
+}
+
+
 function fillEntireListData() {
     let data = object_list_data;
 
@@ -140,7 +148,7 @@ function searchInputFunction() {
     currentUrl.searchParams.set('search', userInput);
     window.history.pushState({}, '', currentUrl);
 
-    if (file_name.indexOf("db") != -1 || file_name.indexOf("db.zip") != -1) {
+    if (isWorkerNeeded(file_name)) {
        return searchInputFunctionDb();
     }
     else {
@@ -267,11 +275,11 @@ async function Initialize() {
 
     $('#searchInput').prop('disabled', true);
 
-    if (file_name.indexOf("db.zip") == -1) {
-       return await InitializeForJSON();
+    if (isWorkerNeeded(file_name)) {
+       return await InitializeForDb();
     }
     else {
-       return await InitializeForDb();
+       return await InitializeForJSON();
     }
 }
 
