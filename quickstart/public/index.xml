@@ -6,7 +6,20 @@
     <description>Recent content on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Mar 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Mar 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan for the future</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-03-24-plan-for-future/</link>
+      <pubDate>Mon, 24 Mar 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-03-24-plan-for-future/</guid>
+      <description>My plan is to provide RSS reader / Internet command center.
+My plan is to keep providing bookmarks:
+music I like bookmarks books I like movies I like all domains database, with votes, and tags I shall continue creating lists &amp;ldquo;awesome lists&amp;rdquo;. There should be something like awesome list editor, that is capable of checking link consistency.
+Problems:
+I do not have yet books / movies database I am not sure towards which things I should point in books, or movies (imdb?</description>
+    </item>
+    
     <item>
       <title>Full internet search</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-03-23-full-internet-search/</link>
