@@ -202,13 +202,13 @@ async function InitializeForJSON() {
 
    onSystemReady();
 
+   sortAndFilter();
+
    let entry_id = getQueryParam("entry_id");
    if (entry_id) {
       setEntryAsListData(entry_id);
    }
    else {
-      sortAndFilter();
-
       fillListData();
 
       $('#pagination').html(getPaginationText());
