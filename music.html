@@ -50,24 +50,43 @@
       The idea behind the Offline Search Initiative is to create similar curated lists, but tailored for domains and channels. This approach could simplify access to focused content without relying on intensive, online search infrastructure. It does, surely has it's downsides.
       </p>
 
-      <p>
-      Order by
-      <button id="orderByVotes" class="btn btn-secondary">votes</button>
-      <button id="orderByDatePublished" class="btn btn-secondary">date published</button>
-      </p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Buttons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Order by</strong></td>
+            <td>
+              <button id="orderByVotes" class="btn btn-secondary">Votes</button>
+              <button id="orderByDatePublished" class="btn btn-secondary">Date Published</button>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>View</strong></td>
+            <td>
+              <button id="viewStandard" class="btn btn-secondary">Standard</button>
+              <button id="viewGallery" class="btn btn-secondary">Gallery</button>
+              <button id="viewSearchEngine" class="btn btn-secondary">Search Engine</button>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Mode</strong></td>
+            <td>
+              <button id="displayLight" class="btn btn-secondary">Light</button>
+              <button id="displayDark" class="btn btn-secondary">Dark</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-      <p>
-      View
-      <button id="viewStandard" class="btn btn-secondary">Standard</button>
-      <button id="viewGallery" class="btn btn-secondary">Gallery</button>
-      <button id="viewSearchEngine" class="btn btn-secondary">Search engine</button>
-      </p>
-
-      <p>
-      Mode
-      <button id="displayLight" class="btn btn-secondary">Light</button>
-      <button id="displayDark" class="btn btn-secondary">Dark</button>
-      </p>
+        <h3>Projects</h3>
+        <a class="btn btn-secondary" href="rumca-js.github.io/bookmarks">Bookmarks</a>
+        <a class="btn btn-secondary" href="rumca-js.github.io/music">Music I like</a>
+        <a class="btn btn-secondary" href="rumca-js.github.io/top">Top Internet</a>
   </div>
 
   <span id="progressBarElement">
