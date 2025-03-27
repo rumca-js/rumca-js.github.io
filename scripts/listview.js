@@ -312,6 +312,15 @@ async function Initialize() {
 }
 
 
+function resetParams() {
+   const currentUrl = new URL(window.location.href);
+   currentUrl.searchParams.delete('page')
+   currentUrl.searchParams.delete('search')
+   currentUrl.searchParams.delete('entry_id')
+   window.history.pushState({}, '', currentUrl);
+}
+
+
 //-----------------------------------------------
 $(document).on('click', '.btnNavigation', function(e) {
     e.preventDefault();
@@ -377,10 +386,7 @@ $(document).on('click', '.copy-link', function(e) {
 
 //-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
-    const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.delete('page')
-    currentUrl.searchParams.delete('search')
-    window.history.pushState({}, '', currentUrl);
+    resetParams();
 
     searchInputFunction();
 });
@@ -402,10 +408,7 @@ $(document).on('click', '#homeButton', function(e) {
     $('#listData').html("");
     $('#pagination').html("");
 
-    const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.delete('page')
-    currentUrl.searchParams.delete('search')
-    window.history.pushState({}, '', currentUrl);
+    resetParams();
 });
 
 
@@ -414,10 +417,7 @@ $(document).on('keydown', "#searchInput", function(e) {
     if (e.key === "Enter") {
         e.preventDefault();
 
-        const currentUrl = new URL(window.location.href);
-        currentUrl.searchParams.delete('page')
-        currentUrl.searchParams.delete('search')
-        window.history.pushState({}, '', currentUrl);
+        resetParams();
 
         searchInputFunction();
     }
