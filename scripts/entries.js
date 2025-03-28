@@ -654,6 +654,10 @@ function getOneEntryEntryText(entry) {
     else {
        title_safe = "----Age limited----"
     }
+    if (title_safe.length > 200) {
+        title_safe = title_safe.substring(0, 200);
+        title_safe = title_safe + "...";
+    }
 
     let tags_text = getEntryTags(entry);
 
