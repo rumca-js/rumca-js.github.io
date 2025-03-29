@@ -17,14 +17,26 @@ function getDefaultFileName() {
     return "internet.db.zip";
 }
 
+
+function getFileList() {
+    return ["top.zip",
+	    "bookmarks.zip",
+	    "music.zip",
+	    "internet.db.zip",
+    ];
+}
+
+
 function getDefaultFileLocation() {
     return "/data/";
 }
+
 
 function getFileVersion() {
     /* Forces refresh of the file */
     return "71";
 }
+
 
 function getSystemVersion() {
     return "0.8";

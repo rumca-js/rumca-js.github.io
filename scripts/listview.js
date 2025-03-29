@@ -170,6 +170,26 @@ function setEntryIdAsListData(entry_id) {
 }
 
 
+function getProjectListText() {
+    let files = getFileList();
+    
+    let html = `
+        <div id="projectList">
+            <h3>Projects</h3>
+    `;
+    
+    files.forEach(file => {
+        //let projectName = file.replace(".zip", "");
+        let projectName = file;
+        html += `<a class="btn btn-secondary projectButton" href="/${projectName}">${projectName}</a>`;
+    });
+    
+    html += `</div>`;
+    
+    return html;
+}
+
+
 function setEntryAsListData(entry) {
     if (entry) {
        let entry_detail_text = getEntryDetailText(entry);
@@ -404,6 +424,23 @@ $(document).on('click', '.copy-link', function(e) {
 
 
 //-----------------------------------------------
+$(document).on('click', '.projectButton', function(e) {
+    e.preventDefault();
+
+    let fileName = $(this).text();
+
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('file', fileName);
+    window.history.pushState({}, '', currentUrl);
+
+    object_list_data = null;
+    $('#listData').html("");
+
+    Initialize();
+});
+
+
+//-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
     resetParams();
 
@@ -566,4 +603,6 @@ document.addEventListener('DOMContentLoaded', () => {
             $("#statusLine").html("error");
         }
     }
+
+    $("#projectList").html(getProjectListText());
 });
