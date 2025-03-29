@@ -200,19 +200,38 @@ async function InitializeForJSON() {
    let file_name = getFileName();
    system_initialized = false;
    let spinner_text_1 = getSpinnerText("Initializing - reading file");
+   console.log("Initializing - reading file");
    $("#statusLine").html(spinner_text_1);
-   let fileBlob = requestFileChunks(file_name);
+   let chunks = await getFilePartsList(file_name);
+   if (!chunks || chunks.length == 0)
+   {
+       $("#statusLine").html("Cannot find files...");
+       return false;
+   }
+
+   console.log("Requesting file list");
+   let fileBlob = await requestFileChunksFromList(chunks);
+   if (!fileBlob)
+   {
+       $("#statusLine").html("Cannot find file contents...");
+       return false;
+   }
    let spinner_text_2 = getSpinnerText("Loading zip");
+   console.log("Loading zip");
    $("#statusLine").html(spinner_text_2);
    const zip = await JSZip.loadAsync(fileBlob);
    let spinner_text_3 = getSpinnerText("Unpacking zip");
+   console.log("Unpacking zip");
    $("#statusLine").html(spinner_text_3);
    await unPackFileJSONS(zip);
    $("#statusLine").html("");
 
+   console.log("Sorting links");
+
    all_entries = { ...object_list_data };
    sortAndFilter();
 
+   console.log("On system ready");
    onSystemReady();
 
    let entry_id = getQueryParam("entry_id");
