@@ -71,13 +71,97 @@ function fillListData() {
 }
 
 
-
 function getPaginationText() {
     let page_num = parseInt(getQueryParam("page")) || 1;
     let page_size = default_page_size;
     let countElements = entries_length;
 
     return GetPaginationNav(page_num, countElements/page_size, countElements);
+}
+
+
+function getProjectListText() {
+    let files = getFileList();
+    
+    let html = `
+        <div id="projectList">
+            <h3>Projects</h3>
+    `;
+    
+    files.forEach(file => {
+        //let projectName = file.replace(".zip", "");
+        let projectName = file;
+        html += `<a class="btn btn-secondary projectButton" href="/${projectName}">${projectName}</a>`;
+    });
+    
+    html += `</div>`;
+    
+    return html;
+}
+
+
+function getProjectListTextNav() {
+    let files = getFileList();
+    
+    let html = ``;
+    
+    files.forEach(file => {
+        //let projectName = file.replace(".zip", "");
+        let projectName = file;
+        html += `<li><a class="dropdown-item projectButton" href="/${projectName}">${projectName}</a></li>`;
+    });
+    
+    return html;
+}
+
+
+function getNavBar() {
+    let project_text = getProjectListTextNav();
+
+    let nav_text = `
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a id="homeButton" class="nav-link" href="#">🏠</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Files
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                ${project_text}
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarViewDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              View
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarViewDropdown">
+                <li><a id="viewStandard" class="dropdown-item" href="#">Standard</a></li>
+                <li><a id="viewGallery" class="dropdown-item" href="#">Gallery</a></li>
+                <li><a id="viewSearchEngine" class="dropdown-item" href="#">Search engine</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a id="helpButton" class="nav-link" href="#">?</a>
+          </li>
+        </ul>
+        <form class="d-flex" style="width:50%">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
+        </form>
+      </div>
+    </nav>
+`
+    return nav_text;
 }
 
 
@@ -167,26 +251,6 @@ function searchInputFunction() {
 function setEntryIdAsListData(entry_id) {
     let entry = getEntry(entry_id);
     setEntryAsListData(entry);
-}
-
-
-function getProjectListText() {
-    let files = getFileList();
-    
-    let html = `
-        <div id="projectList">
-            <h3>Projects</h3>
-    `;
-    
-    files.forEach(file => {
-        //let projectName = file.replace(".zip", "");
-        let projectName = file;
-        html += `<a class="btn btn-secondary projectButton" href="/${projectName}">${projectName}</a>`;
-    });
-    
-    html += `</div>`;
-    
-    return html;
 }
 
 
@@ -568,6 +632,9 @@ $(document).on("click", '#displayDark', function(e) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    $("#projectNavbar").html(getNavBar());
+    $("#projectList").html(getProjectListText());
+
     const searchInput = document.getElementById('searchInput');
 
     if (isMobile()) {
@@ -603,6 +670,4 @@ document.addEventListener('DOMContentLoaded', () => {
             $("#statusLine").html("error");
         }
     }
-
-    $("#projectList").html(getProjectListText());
 });

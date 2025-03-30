@@ -12,28 +12,19 @@
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
 
-        <link href="styles/viewerzip.css?i=1" rel="stylesheet" crossorigin="anonymous">
-        <script src="scripts/config_search.js?i=61"></script>
-        <script  src="scripts/library.js?i=61"></script>
-        <script  src="scripts/entries.js?i=61"></script>
-        <script src="scripts/listview.js?i=61"></script>
+        <link href="styles/viewerzip.css?i=6" rel="stylesheet" crossorigin="anonymous">
+        <script src="scripts/config_search.js?i=67"></script>
+        <script  src="scripts/library.js?i=67"></script>
+        <script  src="scripts/entries.js?i=67"></script>
+        <script src="scripts/listview.js?i=67"></script>
 
     </head>
 <body style="padding-bottom: 6em;">
 
+<div id="projectNavbar">
+</div>
+
 <div class="container">
-  <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Enter search term..." autofocus>
-    <button id="searchButton" class="searchButton">
-      🔍
-    </button>
-    <button id="helpButton" class="searchButton">
-      ?
-    </button>
-    <button href="index.html" id="homeButton" class="searchButton text-reset">
-      🏠
-    </button>
-  </div>
 
   <div id="statusLine">
   </div>
@@ -66,14 +57,6 @@
             </td>
           </tr>
           <tr>
-            <td><strong>View</strong></td>
-            <td>
-              <button id="viewStandard" class="btn btn-secondary">Standard</button>
-              <button id="viewGallery" class="btn btn-secondary">Gallery</button>
-              <button id="viewSearchEngine" class="btn btn-secondary">Search Engine</button>
-            </td>
-          </tr>
-          <tr>
             <td><strong>Mode</strong></td>
             <td>
               <button id="displayLight" class="btn btn-secondary">Light</button>
@@ -82,9 +65,6 @@
           </tr>
         </tbody>
       </table>
-
-      <div id="projectList">
-      </div>
   </div>
 
   <span id="progressBarElement">
