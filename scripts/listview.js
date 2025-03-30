@@ -154,11 +154,12 @@ function getNavBar() {
             <a id="helpButton" class="nav-link" href="#">?</a>
           </li>
         </ul>
-        <form class="d-flex" style="width:50%">
-          <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
-        </form>
       </div>
+
+      <form class="d-flex" id="searchContainer">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
+      </form>
     </nav>
 `
     return nav_text;
@@ -635,10 +636,13 @@ document.addEventListener('DOMContentLoaded', () => {
     $("#projectNavbar").html(getNavBar());
     $("#projectList").html(getProjectListText());
 
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = document.getElementById('searchContainer');
 
     if (isMobile()) {
         searchInput.style.width = '100%';
+    }
+    else {
+        searchInput.style.width = '60%';
     }
 
     const urlParams = new URLSearchParams(window.location.search);
