@@ -119,7 +119,7 @@ function getNavBar() {
     let project_text = getProjectListTextNav();
 
     let nav_text = `
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -147,6 +147,16 @@ function getNavBar() {
                 <li><a id="viewStandard" class="dropdown-item" href="#">Standard</a></li>
                 <li><a id="viewGallery" class="dropdown-item" href="#">Gallery</a></li>
                 <li><a id="viewSearchEngine" class="dropdown-item" href="#">Search engine</a></li>
+
+		<li><hr class="dropdown-divider"></li>
+
+                <li><a id="displayLight" class="dropdown-item" href="#">Light</a></li>
+                <li><a id="displayDark" class="dropdown-item" href="#">Dark</a></li>
+
+		<li><hr class="dropdown-divider"></li>
+
+                <li><a id="orderByVotes" class="dropdown-item" href="#">Order by Votes</a></li>
+                <li><a id="orderByDatePublished" class="dropdown-item" href="#">Order by Date published</a></li>
             </ul>
           </li>
 
