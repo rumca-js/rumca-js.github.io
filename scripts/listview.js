@@ -507,6 +507,8 @@ $(document).on('click', '.projectButton', function(e) {
 
 //-----------------------------------------------
 $(document).on('click', '#searchButton', function(e) {
+    e.preventDefault();
+
     resetParams();
 
     searchInputFunction();
