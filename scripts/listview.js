@@ -120,11 +120,20 @@ function getNavBar() {
 
     let nav_text = `
     <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="d-flex w-100">
+        <!-- Form with search input -->
+        <form class="d-flex w-100 ms-3" id="searchContainer">
+          <input id="searchInput" class="form-control me-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search">
+          <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
+        </form>
+
+        <!-- Navbar toggler button, aligned to the right -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a id="homeButton" class="nav-link" href="#">🏠</a>
@@ -165,13 +174,8 @@ function getNavBar() {
           </li>
         </ul>
       </div>
-
-      <form class="d-flex" id="searchContainer">
-        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
-      </form>
     </nav>
-`
+    `;
     return nav_text;
 }
 
