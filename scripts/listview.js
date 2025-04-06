@@ -157,12 +157,12 @@ function getNavBar() {
                 <li><a id="viewGallery" class="dropdown-item" href="#">Gallery</a></li>
                 <li><a id="viewSearchEngine" class="dropdown-item" href="#">Search engine</a></li>
 
-		<li><hr class="dropdown-divider"></li>
+                <li><hr class="dropdown-divider"></li>
 
                 <li><a id="displayLight" class="dropdown-item" href="#">Light</a></li>
                 <li><a id="displayDark" class="dropdown-item" href="#">Dark</a></li>
 
-		<li><hr class="dropdown-divider"></li>
+                <li><hr class="dropdown-divider"></li>
 
                 <li><a id="orderByVotes" class="dropdown-item" href="#">Order by Votes</a></li>
                 <li><a id="orderByDatePublished" class="dropdown-item" href="#">Order by Date published</a></li>
