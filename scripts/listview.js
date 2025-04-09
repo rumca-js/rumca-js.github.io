@@ -243,9 +243,9 @@ function searchInputFunctionDb() {
 
 
 function searchInputFunction() {
-    const userInput = $("#searchInput").val();
     let file_name = getFileName();
 
+    const userInput = $("#searchInput").val();
     if (userInput.trim() != "") {
         document.title = userInput;
     }
@@ -486,6 +486,11 @@ $(document).on('click', '.go-back-button', function(e) {
 
     fillListData();
     $('#pagination').html(getPaginationText());
+
+    const userInput = $("#searchInput").val();
+    if (userInput.trim() != "") {
+        document.title = userInput;
+    }
 });
 
 
