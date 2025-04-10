@@ -3,7 +3,7 @@ ARCHIVE_NAME = internet.zip
 SOURCE_FILE = internet.db
 
 # Declare phony targets
-.PHONY: pack unpack clean server pack-split unpack-split
+.PHONY: pack unpack clean server pack-split unpack-split test
 
 pack:
 	zip $(ARCHIVE_NAME) $(SOURCE_FILE)
@@ -26,3 +26,6 @@ server:
 
 summary:
 	poetry run python dataanalyzer.py --summary --db $(SOURCE_FILE)
+
+test:
+	cd test; ./test.sh

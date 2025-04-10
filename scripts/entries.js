@@ -839,3 +839,8 @@ function sortEntries(entries) {
 
     return entries;
 }
+
+module.exports = {
+    getEntryTags,
+    getEntryListText
+};
