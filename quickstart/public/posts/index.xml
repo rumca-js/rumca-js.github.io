@@ -6,7 +6,30 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Mar 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I hate Google</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-05-11-i-hate-google/</link>
+      <pubDate>Sun, 11 May 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-05-11-i-hate-google/</guid>
+      <description>I didn&amp;rsquo;t hate Google. I disliked it for its Monopolistic behavior, for disdain for users.
+Now I hate it.
+I tried to read IMAP messages from Gmail to my own project. I had some problems in doing so.
+I also found Gmail to SQLite program, which was doing mostly what I wanted, but also provided a clear instructions for Installation. It said that I need Gmail OAuth credentials, and provided description how to set them up.</description>
+    </item>
+    
+    <item>
+      <title>Reddit treats me bad</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-05-10-reddit-treats-me-bad/</link>
+      <pubDate>Sat, 10 May 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-05-10-reddit-treats-me-bad/</guid>
+      <description>I already wrote that I hate &amp;ldquo;The algorithm&amp;rdquo;, which big tech is using to spoon feed you informarmation.
+The most, I hate that they treat you like a baby, make you passive, where you should &amp;lsquo;hunt for information&amp;rsquo;.
+Recently I had to stop using reddit, because they started serving me girls. They showed me more and more pictures of women. Yes, they were pretty, but I am not using reddit to watch content like that.</description>
+    </item>
+    
     <item>
       <title>Plan for the future</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-03-24-plan-for-future/</link>

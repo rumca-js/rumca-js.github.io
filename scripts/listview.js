@@ -328,13 +328,13 @@ async function InitializeForJSON() {
    console.log("Sorting links");
 
    all_entries = { ...object_list_data };
-   sortAndFilter();
 
    console.log("On system ready");
    onSystemReady();
 
    let entry_id = getQueryParam("entry_id");
    if (!entry_id) {
+      sortAndFilter();
       fillListData();
 
       $('#pagination').html(getPaginationText());
@@ -343,6 +343,8 @@ async function InitializeForJSON() {
 
 
 function onSystemReady() {
+    /* shared between JSON and DB */
+
     system_initialized = true;
     $('#searchInput').prop('disabled', false);
 
