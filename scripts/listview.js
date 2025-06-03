@@ -123,7 +123,7 @@ function getNavBar() {
       <div class="d-flex w-100">
         <!-- Form with search input -->
         <form class="d-flex w-100 ms-3" id="searchContainer">
-          <input id="searchInput" class="form-control me-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search">
+          <input id="searchInput" class="form-control me-2 flex-grow-1" type="search" placeholder="Search" autofocus aria-label="Search">
           <button id="searchButton" class="btn btn-outline-success" type="submit">🔍</button>
         </form>
 
