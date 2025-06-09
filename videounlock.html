@@ -14,6 +14,7 @@
         <script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
 
         <link href="styles/viewerzip.css?i=2" rel="stylesheet" crossorigin="anonymous">
+        <script  src="scripts/library.js?i=66"></script>
     </head>
 <body>
 
@@ -35,24 +36,10 @@ function getYouTubeVideoId(url) {
 }
 
 function embedYouTubeVideoFromUrl(youtubeUrl) {
-    const videoFrame = document.getElementById("videoFrame");
-    const videoId = getYouTubeVideoId(youtubeUrl);
+    let embed_div = getYouTubeEmbedDiv(youtubeUrl);
 
-    if (videoId) {
-        const embedUrl = `https://www.youtube.com/embed/${videoId}`;
-        const frameHtml = `
-            <div class="youtube_player_container mb-4">
-                <iframe 
-                    src="${embedUrl}" 
-                    frameborder="0" 
-                    allowfullscreen 
-                    class="youtube_player_frame w-100" 
-                    style="aspect-ratio: 16 / 9;"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        `;
-        videoFrame.innerHTML = frameHtml;
+    if (embed_div) {
+        videoFrame.innerHTML = embed_div;
     } else {
         videoFrame.innerHTML = `<div class="alert alert-danger">Video cannot be found.</div>`;
     }
@@ -72,7 +59,7 @@ function createUrlInputForm() {
 
     document.getElementById("youtubeForm").addEventListener("submit", function (e) {
         e.preventDefault();
-        const inputUrl = document.getElementById("youtubeUrlInput").value.trim();
+        let inputUrl = document.getElementById("youtubeUrlInput").value.trim();
         embedYouTubeVideoFromUrl(inputUrl);
     });
 }
@@ -90,6 +77,17 @@ function handleYouTubeEmbed() {
 
 // Run on page load
 handleYouTubeEmbed();
+
+
+$(document).ready(function () {
+    $('#youtubeUrlInput').on('input', function () {
+        let search_term = $(this).val();
+
+        search_term = fixStupidGoogleRedirects(search_term);
+
+        $(this).val(search_term);
+    });
+});
 </script>
 
 </body>
