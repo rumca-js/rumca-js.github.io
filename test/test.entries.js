@@ -1,5 +1,5 @@
 const assert = require('assert');
-const entries = require('../scripts/entries.js');
+const entries = require('../scripts/entries_library.js');
 
 
 console.log('---------Entries test---------');

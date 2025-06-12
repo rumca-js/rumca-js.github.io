@@ -1,10 +1,8 @@
-function getEntryTags(entry) {
-    let tags_text = "";
-    if (entry.tags && entry.tags.length > 0) {
-        tags_text = entry.tags.map(tag => `#${tag}`).join(",");
-    }
-    return tags_text;
-}
+/*
+ * requires
+ *  - show_pure_link
+ *  - highlight_bookmarks
+ */
 
 
 function isEntryValid(entry) {
@@ -123,6 +121,12 @@ function getEntryThumbnail(entry) {
 }
 
 
+function getEntryLinkText(entry) {
+    let link = entry.link;
+    return `<div class="text-reset text-decoration-underline">@ ${link}</div>`;
+}
+
+
 function getEntrySourceTitle(entry) {
     let source__title = "";
     if (entry.source__title) {
@@ -170,14 +174,37 @@ function getEntryTitleSafe(entry) {
 }
 
 
+function getEntryParameters(entry) {
+   html_out = "";
+
+   let date_published = getEntryDatePublished(entry);
+
+   html_out += `<div class="text-nowrap"><strong>Publish date:</strong> ${date_published}</div>`;
+
+   html_out += getEntryBookmarkBadge(entry);
+   html_out += getEntryVotesBadge(entry);
+   html_out += getEntryAgeBadge(entry);
+   html_out += getEntryDeadBadge(entry);
+
+   return html_out;
+}
+
+
+function getEntryDescription(entry) {
+  const content = new InputContent(entry.description);
+  let content_text = content.htmlify();
+
+  content_text = content_text.replace(/(\r\n|\r|\n)/g, "<br>");
+  return content_text;
+}
+
+
 /**
  * Detail view
  */
 
 
-function EntryToArchiveOrg(entry) {
-    let link = entry.link;
-
+function getArchiveOrgLink(link) {
     let currentDate = new Date();
     let formattedDate = currentDate.toISOString().split('T')[0].replace(/-/g, ''); // Format: YYYYMMDD
 
@@ -185,30 +212,31 @@ function EntryToArchiveOrg(entry) {
 }
 
 
-function EntryToW3CValidator(entry) {
-    let link = entry.link;
-
+function getW3CValidatorLink(link) {
     return `https://validator.w3.org/nu/?doc=${encodeURIComponent(link)}`;
 }
 
 
-function EntryToSchemaValidator(entry) {
-    let link = entry.link;
-
+function getSchemaValidatorLink(link) {
     return `https://validator.schema.org/#url=${encodeURIComponent(link)}`;
 }
 
 
-function EntryToWhoIs(entry) {
-    let link = entry.link;
+function getWhoIsLink(link) {
     let domain = link.replace(/^https?:\/\//, ''); // Remove 'http://' or 'https://'
 
     return `https://who.is/whois/${domain}`;
 }
 
 
-function EntryToTranslate(entry) {
-    let link = entry.link;
+function getBuiltWithLink(link) {
+    let domain = link.replace(/^https?:\/\//, ''); // Remove 'http://' or 'https://'
+
+    return `https://builtwith.com/${domain}`;
+}
+
+
+function getGoogleTranslateLink(link) {
 
     let reminder = '?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp';
     if (link.indexOf("http://") != -1) {
@@ -233,11 +261,12 @@ function EntryToTranslate(entry) {
 function GetEditMenu(entry) {
     let link = entry.link;
 
-    let translate_link = EntryToTranslate(entry);
-    let archive_link = EntryToArchiveOrg(entry);
-    let w3c_link = EntryToW3CValidator(entry);
-    let schema_link = EntryToSchemaValidator(entry);
-    let who_is_link = EntryToWhoIs(entry);
+    let translate_link = getGoogleTranslateLink(link);
+    let archive_link = getArchiveOrgLink(link);
+    let w3c_link = getW3CValidatorLink(link);
+    let schema_link = getSchemaValidatorLink(link);
+    let who_is_link = getWhoIsLink(link);
+    let builtwith_link = getBuiltWithLink(link);
 
     let text = 
     `<div class="dropdown mx-1">
@@ -285,6 +314,13 @@ function GetEditMenu(entry) {
           </a>
         </li>
     `;
+    text += `
+        <li>
+          <a href="${builtwith_link}" id="Bulit with" class="dropdown-item" title="Edit entry">
+             Built with
+          </a>
+        </li>
+    `;
 
     text += `</div>`;
 
@@ -292,29 +328,8 @@ function GetEditMenu(entry) {
 }
 
 
-function getEntryBodyText(entry) {
-    date_published = parseDate(entry.date_published);
-
-    let text = `
-    <a href="${entry.link}"><h1>${entry.title}</h1></a>
-    <div><a href="${entry.link}">${entry.link}</a></div>
-    <div><b>Publish date:</b>${date_published}</div>
-    `;
-
-    let tags_text = getEntryTags(entry);
-    
-    text += `
-        <div>Tags: ${tags_text}</div>
-    `;
-
-    text += GetEditMenu(entry);
-
-    let description = entry.description.replace(/\n/g, '<br>');
-    description = createLinks(description);
-
-    text += `
-    <div>${description}</div>
-    `;
+function getEntryOpParameters(entry) {
+    text = "";
 
     text += `
     <h3>Parameters</h3>
@@ -355,6 +370,38 @@ function getEntryBodyText(entry) {
        <div>Age: ${entry.age}</div>
        `;
     }
+
+    return text;
+}
+
+
+function getEntryBodyText(entry) {
+    let date_published = parseDate(entry.date_published);
+    let parameters = getEntryParameters(entry);
+
+    let text = `
+    <a href="${entry.link}"><h1>${entry.title}</h1></a>
+    <div><a href="${entry.link}">${entry.link}</a></div>
+    ${parameters}
+    `;
+
+    let tags_text = getEntryTags(entry);
+    
+    if (tags_text) {
+       text += `
+           <div>Tags: ${tags_text}</div>
+       `;
+    }
+
+    text += GetEditMenu(entry);
+
+    let description = getEntryDescription(entry);
+
+    text += `
+    <div>${description}</div>
+    `;
+
+    text += getEntryOpParameters(entry);
 
     return text;
 }
@@ -456,6 +503,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let badge_text = getEntryVotesBadge(entry);
     let badge_star = getEntryBookmarkBadge(entry);
     let badge_age = getEntryAgeBadge(entry);
+    let badge_dead = getEntryDeadBadge(entry);
 
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
     let bookmark_class = entry.bookmarked ? `list-group-item-primary` : '';
@@ -482,20 +530,30 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let hover_title = title_safe + " " + tags_text;
     let entry_link = getEntryLink(entry);
 
+    let author = entry.author;
+    if (author && author != source__title)
+    {
+       "by " + escapeHtml(entry.author);
+    }
+    else
+    {
+       author = "";
+    }
+
     return `
         <a 
             href="${entry_link}"
             entry="${entry.id}"
             title="${hover_title}"
             ${invalid_style}
-            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded entry-list"
+            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded"
         >
             <div class="d-flex">
                 ${thumbnail_text}
                 <div class="mx-2">
                     <span style="font-weight:bold" class="text-reset">${title_safe}</span>
                     <div class="text-reset">
-                        ${source__title} ${date_published}
+                        ${source__title} ${date_published} ${author}
                     </div>
                     ${tags}
                 </div>
@@ -504,6 +562,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
                   ${badge_text}
                   ${badge_star}
                   ${badge_age}
+                  ${badge_dead}
                 </div>
             </div>
         </a>
@@ -517,6 +576,7 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
     let badge_text = getEntryVotesBadge(entry);
     let badge_star = highlight_bookmarks ? getEntryBookmarkBadge(entry) : "";
     let badge_age = getEntryAgeBadge(entry);
+    let badge_dead = getEntryDeadBadge(entry);
    
     let invalid_style = isEntryValid(entry) ? `` : `style="opacity: 0.5"`;
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
@@ -538,19 +598,21 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
     let hover_title = title_safe + " " + tags_text;
     let link = entry.link;
 
+    let link_text = getEntryLinkText(entry);
+
     return `
         <a 
             href="${entry_link}"
             entry="${entry.id}"
             title="${hover_title}"
             ${invalid_style}
-            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded entry-list"
+            class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded"
         >
             <div class="d-flex">
                ${thumbnail_text}
                <div class="mx-2">
                   <span style="font-weight:bold" class="text-reset">${title_safe}</span>
-                  <div class="text-reset text-decoration-underline">@ ${link}</div>
+                  ${link_text}
                   ${tags}
                </div>
 
@@ -558,6 +620,7 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                   ${badge_text}
                   ${badge_star}
                   ${badge_age}
+                  ${badge_dead}
                </div>
             </div>
         </a>
@@ -581,6 +644,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
     let badge_text = getEntryVotesBadge(entry, true);
     let badge_star = getEntryBookmarkBadge(entry, true);
     let badge_age = getEntryAgeBadge(entry, true);
+    let badge_dead = getEntryDeadBadge(entry);
 
     let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5`;
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
@@ -592,6 +656,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
             ${badge_text}
             ${badge_star}
             ${badge_age}
+            ${badge_dead}
         </div>
     `;
 
@@ -608,7 +673,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
             href="${entry_link}"
             entry="${entry.id}"
             title="${hover_title}"
-            class="list-group-item list-group-item-action m-1 border rounded p-2 entry-list"
+            class="list-group-item list-group-item-action m-1 border rounded p-2"
             style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
@@ -632,6 +697,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
     let badge_text = getEntryVotesBadge(entry, true);
     let badge_star = getEntryBookmarkBadge(entry, true);
     let badge_age = getEntryAgeBadge(entry, true);
+    let badge_dead = getEntryDeadBadge(entry);
 
     let invalid_style = isEntryValid(entry) ? `` : `opacity: 0.5`;
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
@@ -642,6 +708,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
         ${badge_text}
         ${badge_star}
         ${badge_age}
+        ${badge_dead}
     `;
 
     let tags_text = getEntryTags(entry);
@@ -658,8 +725,8 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
             href="${entry_link}"
             entry="${entry.id}"
             title="${hover_title}"
-            class="list-group-item list-group-item-action border rounded p-2 entry-list"
-            style="text-overflow: ellipsis; max-width: 100%; min-width: 100%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
+            class="list-group-item list-group-item-action border rounded p-2"
+            style="text-overflow: ellipsis; max-width: 100%; min-width: 100%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style} ${bookmark_class}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
