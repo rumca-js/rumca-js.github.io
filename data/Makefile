@@ -3,7 +3,7 @@ clear-zips:
 	rm top.zip
 	rm bookmarks.zip
 
-clear-json:
+clear-jsons:
 	rm catalog*.json
 	rm bookmark*.json
 	rm places*.json
