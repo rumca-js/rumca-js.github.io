@@ -67,6 +67,7 @@ function filterEntries(entries, searchText) {
 
 
 function fillListData() {
+   console.log("fillListData");
    fillEntireListData();
 }
 
@@ -181,6 +182,8 @@ function getNavBar() {
 
 
 function sortAndFilter() {
+    console.log("sortAndFilter");
+
     const search_text = $("#searchInput").val();
 
     let entries = all_entries.entries;
@@ -491,6 +494,7 @@ $(document).on('click', '.go-back-button', function(e) {
     currentUrl.searchParams.delete('entry_id')
     window.history.pushState({}, '', currentUrl);
 
+    sortAndFilter();
     fillListData();
     $('#pagination').html(getPaginationText());
 
