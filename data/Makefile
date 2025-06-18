@@ -8,6 +8,13 @@ clear-jsons:
 	rm bookmark*.json
 	rm places*.json
 
+clear-dbs:
+	rm catalog*.db
+	rm rsshistory*.db
+	rm places*.db
+
+zips: filter pack clear-dbs
+
 pack:
 	zip music.zip catalog*.json
 	zip bookmarks.zip bookmark*.json
