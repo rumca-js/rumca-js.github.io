@@ -350,6 +350,7 @@ function onSystemReady() {
 
     system_initialized = true;
     $('#searchInput').prop('disabled', false);
+    $('#searchInput').focus();
 
    let entry_id = getQueryParam("entry_id");
    if (entry_id) {
