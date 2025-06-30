@@ -1,3 +1,9 @@
++++
+title = "We fly a lot"
+date = 2025-06-28 08:43:32
+draft = false
++++
+
 We fly a lot
 To snowy peaks where we can plan and plot
 (We fly a lot)
