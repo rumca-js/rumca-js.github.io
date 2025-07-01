@@ -1,3 +1,9 @@
++++
+title = "Where's my science, bitch"
+date = 2025-06-29 08:43:32
+draft = false
++++
+
 [Intro: Spoken, over beat]
 Yeah.
 This for the ones caught scrollin’ through the noise.
