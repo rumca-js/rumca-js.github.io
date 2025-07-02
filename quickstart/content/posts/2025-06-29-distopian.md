@@ -4,30 +4,24 @@ date = 2025-06-29 08:43:32
 draft = false
 +++
 
-Mp3
+Distopian:
+[\[hip-hop\] silicon-soul-1.mp3](%5Bhip-hop%5D%20silicon-soul-1.mp3)  
+[\[hip-hop\] silicon-soul-2.mp3](%5Bhip-hop%5D%20silicon-soul-2.mp3)  
+[\[pop\] human-no.3125.mp3](%5Bpop%5D%20human-no.3125.mp3)  
+[\[industrial metal\] I-didn’t-write-this.-1.mp3](%5Bindustrial%20metal%5D%20I-didn%E2%80%99t-write-this.-1.mp3)  
+[\[nu metal\] praise-the-algorithm-2.mp3](%5Bnu%20metal%5D%20praise-the-algorithm-2.mp3)  
+[\[hard rock\] hatebook-2.mp3](%5Bhard%20rock%5D%20hatebook-2.mp3)  
+[\[power metal\] digital-kingdom-1.mp3](%5Bpower%20metal%5D%20digital-kingdom-1.mp3)  
+[\[power metal\] digital-kingdom-2.mp3](%5Bpower%20metal%5D%20digital-kingdom-2.mp3)
+[\[hard rock\] hatebook-1.mp3](%5Bhard%20rock%5D%20hatebook-1.mp3)  
+[\[nu metal\] praise-the-algorithm-1.mp3](%5Bnu%20metal%5D%20praise-the-algorithm-1.mp3)  
 
- - [Pop - Human no.3125](/data/music/human-no.3125.mp3)
- - [Nu Metal - Praise the algorithm](/data/music/praise-the-algorithm-1.mp3)
- - [Nu Metal - Praise the algorithm](/data/music/praise-the-algorithm-2.mp3)
- - [Hip-Hop - Wrap it up](/data/music/wrap-it-up-1.mp3)
- - [Hip-Hop - Wrap it up](/data/music/wrap-it-up-2.mp3)
- - [Hip-Hop - Where's my science, bitch](/data/music/wheres-my-science-bitch.mp3)
- - [Power Metal - Digital Kingdom](/data/music/digital-kingdom-1.mp3)
- - [Power Metal - Digital Kinddom](/data/music/digital-kingdom-2.mp3)
- - [Hard Rock - Hatebook](/data/music/hatebook-1.mp3)
- - [Hard Rock - Hatebook](/data/music/hatebook-2.mp3)
- - [Funk - We Fly A Lot](/data/music/we-fly-a-lot.mp3)
+Con-spiracy
+[\[hip-hop\] eyes-wide-shut.mp3](%5Bhip-hop%5D%20eyes-wide-shut.mp3)  
+[\[hip-hop\] wrap-it-up-1.mp3](%5Bhip-hop%5D%20wrap-it-up-1.mp3)  
+[\[hip-hop\] wrap-it-up-2.mp3](%5Bhip-hop%5D%20wrap-it-up-2.mp3)  
+[\[funk\] we-fly-a-lot.mp3](%5Bfunk%5D%20we-fly-a-lot.mp3)  
+[\[hip-hop\] wheres-my-science-bitch.mp3](%5Bhip-hop%5D%20wheres-my-science-bitch.mp3)  
 
-Mp4
-
- - [Power Metal - Digital Kingdom](/data/music/digital-kingdom-1.mp4)
- - [Power Metal - Digital Kingdom](/data/music/digital-kingdom-2.mp4)
- - [Hard Rock - Hatebook](/data/music/hatebook-1.mp4)
- - [Hard Rock - Hatebook](/data/music/hatebook-2.mp4)
- - [Pop - Human no.3125](/data/music/human-no.3125.mp4)
- - [Hip-Hop - Where's my science, bitch](/data/music/wheres-my-science-bitch.mp4)
- - [Nu Metal - Praise the algorithm](/data/music/praise-the-algorithm-1.mp4)
- - [Nu Metal - Praise the algorithm](/data/music/praise-the-algorithm-2.mp4)
- - [Funk - We Fly A Lot](/data/music/we-fly-a-lot.mp4)
- - [Hip-Hop - Wrap it up](/data/music/wrap-it-up-1.mp4)
- - [Hip-Hop - Wrap it up](/data/music/wrap-it-up-2.mp4)
+Other
+[\[pop\] rainbow-cult.mp3](%5Bpop%5D%20rainbow-cult.mp3)  

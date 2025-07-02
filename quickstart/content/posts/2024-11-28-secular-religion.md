@@ -23,5 +23,6 @@ Similarities between cults and today's 'secular religion':
  - Evangelical zeal to impose morality - Similar to devout religious individuals who often steer conversations toward imposing their moral framework, many social movements exhibit a need to "spread the message." Discussions often pivot to teaching others the "correct" way to think or act, frequently accompanied by a sense of moral superiority. This is particularly evident in movements like DEI (Diversity, Equity, and Inclusion), which sometimes resemble a form of modern church—a space where adherents can gather, communicate, and reaffirm shared values and beliefs.
  - Rituals - once a year you can celebrate leftism, like in pride month, where you are expected to attend, and hereby feel good about yourself
  - Witchhunts, inquisition - There is a lot of searching for "inequalities" in our society. Some try to find the source of evil. Potentially everybody is a suspect. If religious zealot claim you are a 'witch', you are being persecuted, and burned (cancel culture)
+ - Hipocrysy - often found in christianity
 
 This is mostly about the 'left', but may also be applied to 'right' spectrum of policitcal power.
