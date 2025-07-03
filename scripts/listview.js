@@ -666,16 +666,17 @@ $(document).on("click", '#displayDark', function(e) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("Initializing")
     $("#projectNavbar").html(getNavBar());
     $("#projectList").html(getProjectListText());
 
-    const searchInput = document.getElementById('searchContainer');
+    const searchContainer = document.getElementById('searchContainer');
 
     if (isMobile()) {
-        searchInput.style.width = '100%';
+        searchContainer.style.width = '100%';
     }
     else {
-        searchInput.style.width = '60%';
+        searchContainer.style.width = '60%';
     }
 
     const urlParams = new URLSearchParams(window.location.search);
@@ -696,7 +697,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (searchParam) {
-        searchInput.value = searchParam;
+        $("#searchInput").val(searchParam);
     }
 
     if (!object_list_data) {

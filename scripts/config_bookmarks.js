@@ -34,7 +34,7 @@ function getDefaultFileLocation() {
 
 function getFileVersion() {
     /* Forces refresh of the file */
-    return "68";
+    return "69";
 }
 
 
