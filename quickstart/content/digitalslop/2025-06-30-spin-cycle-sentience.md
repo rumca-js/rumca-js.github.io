@@ -1,6 +1,11 @@
+
+ - suno cannot generate two voices
+
+
+
 🎵 "Spin Cycle Sentience"
 
-hip-hop
+comedy hip-hop
 
 (feat. AI Washer 9000)
 Two voices: USER (bold), MACHINE (italic)

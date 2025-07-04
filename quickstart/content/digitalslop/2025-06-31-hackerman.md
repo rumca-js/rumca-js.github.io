@@ -1,5 +1,8 @@
 🎵 "Hackerman"
 Genre: Synthwave / Cyberpunk Anthem
+genre: synthwave / darkwave anthem
+genre: synthwave / new retro wave
+genre: synthwave / keygen
 By: ChatGPT
 
 [Verse 1]
