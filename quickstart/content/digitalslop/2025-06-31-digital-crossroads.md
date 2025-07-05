@@ -113,51 +113,59 @@ Lost in digital lines
 
 
 "Neon Nomads"
+synthwave new retro wave
+cyberpunk
 
-Verse 1:
+[keygen tune]
+
+[Verse 1]
 I can connect with you tonight
 Platforms glow, electric light
 We meet at digital crossroads wide
 Anonymous, but side by side
 
-Pre-Chorus:
+[Pre-Chorus]
 From chat to group, from group to Discord
 We’re wired tight, can’t be ignored
 Laughing loud through endless streams
 Living life inside our dreams
 
-Chorus:
+[Chorus]
 Doesn’t matter if you’re real or not
 In this networked web we’ve got
 Anonymous souls, but hearts on fire
 Hopping channels, we never tire
 
-Verse 2:
+[heavy keygen tune]
+
+[Verse 2]
 Pixel faces, voices blend
 No need to show, no need to pretend
 We’re neon nomads in the night
 Connected by this flashing light
 
-Pre-Chorus:
+[Pre-Chorus]
 From chat to group, from group to Discord
 We’re wired tight, can’t be ignored
 Laughing loud through endless streams
 Living life inside our dreams
 
-Chorus:
+[Chorus]
 Doesn’t matter if you’re real or not
 In this networked web we’ve got
 Anonymous souls, but hearts on fire
 Hopping channels, we never tire
 
-Bridge (Keygen synth solo)
+[Bridge Keygen synth solo]
 
-Outro:
+[Outro]
 Digital waves, we ride and roam
 Together here, forever home
 
 
 "Always You"
+
+[heavy beats with synth]
 
 Verse 1:
 I can connect with you somehow
@@ -176,6 +184,8 @@ I wait until you connect, you always do
 Doesn’t matter if you’re real or through
 Anonymous nights, but the feeling’s true
 I wait until you connect, I wait for you
+
+[heavy beats with synth]
 
 Verse 2:
 Flickering screens, electric glow

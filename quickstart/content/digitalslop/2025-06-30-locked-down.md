@@ -1,6 +1,6 @@
 “Too Locked Down”
 
-(Mid-tempo, moody beat)
+[male voice hip-hop rap]
 
 [Verse 1]
 I’m callin’ out for order, need more moderation,
