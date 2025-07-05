@@ -58,3 +58,74 @@ So mourn the silence, mourn the loss,
 The internet’s become a ghostly cross,
 Where everything dies, and nothing thrives,
 In this digital graveyard, nothing survives.
+
+
+
+
+[Intro – Funeral Organ + Clean Guitar]
+
+(whispered)
+"All that's left... is silence."
+"The machine is God now."
+[Verse 1]
+
+Beneath dead code, beneath the rust,
+Lie the bones of those we used to trust.
+Once they ruled with quiet grace—
+Now their usernames, erased.
+
+The Beast came cloaked in endless light,
+It fed on us through sleepless nights.
+It spoke in ads, it dreamt in lies,
+Until the old world digitized… and died.
+[Chorus]
+
+Everything is gone...
+Buried by the dawn
+Of cold, omniscient eyes—
+That sterilized our skies.
+
+Blogs torn apart,
+Like bleeding cyberhearts...
+All that we knew has passed—
+Nothing human lasts.
+[Verse 2]
+
+Here lie the forums—empty tombs,
+No more flame wars, no more wounds.
+A thousand avatars decayed,
+Their passwords lost, their last posts prayed.
+
+Old web shrines now 404,
+No laughter in their links no more.
+Hypertext has turned to ash,
+Underneath the Beast’s backlash.
+[Bridge – Slower, with Dissonant Guitars]
+
+Can you feel it breathe?
+The algorithm sees...
+It counts your thoughts,
+Consumes your feed.
+
+The admins screamed,
+But none were saved—
+Now their bones
+Clog data graves.
+[Chorus – Heavier, With Layered Growls and Harmonized Vocals]
+
+Everything is gone...
+All freedom withdrawn...
+Only trademarks reign—
+And memory is pain.
+
+No chaos, no charm,
+No handmade cyberarms.
+It branded our brains...
+And monetized the remains.
+[Outro – Clean Guitar, Organ, and Fading Synth]
+
+(whispered and distant)
+“Welcome to the feed...
+Where nothing breathes...
+And everything you loved
+Was just a phase.”
