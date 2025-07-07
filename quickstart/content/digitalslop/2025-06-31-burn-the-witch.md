@@ -379,3 +379,96 @@ It only needs a match and time
 
 And when they come, don't ask them why —
 They’ll just say: “Witches always lie.”
+
+
+
+write me a gothic metal song:
+from perspecitve of mob leader why they burn the witch.
+ - it is metaphor of being canceled on internet
+
+ - first witch, blaimed by being immoral. leading people into abyss. she disagreed, mob decided to burn
+ - second witch, blamed for siding with false prophet. No proof, but someone accused her. she agreed, was banished, set free
+ - the third witch was not liked. she was real witch. died in silence at first, then burst into laugh
+ - digital personas can be cancelled, when somebody is accused
+ - judgment, without trial
+ - include medieval imaginary: mob, pitchforks
+ - there are three witches. One agrees to be freed, one fights with false accuses, one does nothing, just burns
+ one used facebook, one reddit, one youtube
+
+
+🎵 Three Witches Burn
+(Gothic Metal — Mid-tempo, Dark, Heavy with Choral Backing)
+
+[Verse I – The First Witch: The Heretic of the Feed]
+
+They found her dancing by the black-glass flame,
+With words too sharp, and thoughts unchained.
+They said she lured the youth to fall,
+Beyond the gate, beyond the wall.
+
+She spoke of truth in ancient tongues,
+We heard her posts, they bit like bats.
+She claimed the mob was drunk with fear —
+So we made the judgment loud and clear.
+[Chorus]
+
+🔥 Three witches burn beneath the moon,
+The pitchforks rise, they chant in tune.
+No trial, no proof, no sacred bell,
+We are the judges, we cast the spell.
+Ash to ash, screen to screen —
+We purge the ones who dare be seen.
+[Verse II – The Second Witch: The Prophet’s Friend]
+
+A whisper came, she stood too near
+The one they call the seer of fear.
+No post remained, just echoes red —
+But someone said what someone said.
+
+She didn’t fight, she bowed her head,
+And so we spared her from the dead.
+Let her drift in exile’s breeze,
+Unfollowed, blocked, her sentence: peace.
+
+[Bridge: Digital Torches]
+
+Raise your phones like blades of fire,
+Scroll the gallows, feed the pyre.
+In the square where justice dies,
+The mob decides what truth implies.
+
+Facebook fed the first one's flame,
+Reddit cast the second's shame.
+YouTube watched the third one die —
+But none recall her final cry.
+
+[Verse III – The Third Witch: The Silent Flame]
+
+She never spoke, she never ran,
+She watched the torches, then began
+To burn in silence, wrapped in smoke —
+Her lips were closed until she broke.
+
+Then from the ash, a laugh did rise —
+Not tears, but thunder from the skies.
+She knew the game, she played no part,
+And died with iron in her heart.
+
+[Chorus – Reprise]
+
+🔥 Three witches burn beneath the moon,
+The pitchforks rise, they chant in tune.
+No trial, no proof, no sacred bell,
+We are the judges, we cast the spell.
+Ash to ash, name to name —
+A thousand voices, one to blame.
+
+[Outro – Mob Leader’s Reflection]
+
+Now I lead, the flames obey,
+But in the mirror, I decay.
+I lit the fire, I fed the spark —
+But every witch leaves her mark.
+
+We scroll, we burn, we never learn —
+And still... the witches burn.

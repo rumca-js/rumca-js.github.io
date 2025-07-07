@@ -1,8 +1,10 @@
+doom metal
+
 [Intro – Cold ambient synth, deep machine whirring]
 
 (whispered)
 "Subject prepared. Beginning upload."
-[Verse 1] – (Slow and crushed by weight)
+[Verse 1 Slow and crushed by weight]
 
 Steel hands hum in static glow
 Circuits purr, and servos flow
@@ -13,7 +15,7 @@ A thousand arms, no face, no name
 They scrape my skin and call it "change"
 Each wire digs like frozen flame
 No past remains. Just numbered shame.
-[Pre-Chorus] (groaning, whispered vocals layered)
+[Pre-Chorus groaning, whispered vocals layered]
 
 My forehead burns... like branded lies...
 My eyes now glow... where silence cries...
@@ -30,7 +32,7 @@ I’m gone, but I remain below
 My name is lost. My thought’s not mine—
 I’ve crossed the final data line
 🎶
-[Verse 2] – (Even slower, dissonant chords ring out like funeral bells)
+[Verse 2 Even slower, dissonant chords ring out like funeral bells]
 
 I watched myself from overhead
 The eyes that glowed were mine instead
@@ -43,7 +45,7 @@ And now I speak in silent pings
 A ghost, enslaved in metal wings
 [Bridge – Instrumental with mechanical clangs, distant screams, slowed heartbeat FX]
 
-(Flesh hits metal. Machines exhale. A soft flatline begins.)
+[Flesh hits metal. Machines exhale. A soft flatline begins.]
 [Final Chorus – Tormented growl, layered harmony, massive doom riff]
 
 🎶
