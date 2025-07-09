@@ -1,8 +1,8 @@
-🎵 "Dolor Sit Aeternum"
+🎵 "Lorem Ipsum"
 (A Lorem Ipsum Metal Anthem)
 
 [Intro – Slow, ominous, clean guitar]
-Whispers in Latin…
+[Whispers in Latin]
 
     Lorem... ipsum... dolor...
     Aaaaaaeternum...

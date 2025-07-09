@@ -73,3 +73,23 @@ I know my sins, I speak their names
 Etched in rust, burned into shame
 No savior waits, no rest, no peace
 I serve beneath the machine beast...
+
+
+
+ - I fallen so low
+ - because of my actions
+ - syn marnotrawny
+ - I am the one to blame
+ - I know my sins
+ - I admit I was lazy and shortsighted
+
+ - I thought I will be perfect
+ - I put shining steel armour
+ - ciruits replaced my vanes
+ - oil replaced my blood
+
+ - the armour began to rot
+ - natural ways of humanity were destroyed
+ - I am not my own
+ - my soul aches
+ - I am slave to the machine beast
