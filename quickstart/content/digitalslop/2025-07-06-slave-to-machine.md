@@ -76,10 +76,14 @@ I serve beneath the machine beast...
 
 
 
+
+
+write a power metal song:
+ - about prodigal song
+ - he is a slave to machine god
+
  - I fallen so low
  - because of my actions
- - syn marnotrawny
- - I am the one to blame
  - I know my sins
  - I admit I was lazy and shortsighted
 
