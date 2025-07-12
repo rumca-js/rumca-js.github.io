@@ -161,8 +161,9 @@ Knights sworn to serve—eternal in light.
 
 
 🛡️ "The Knight of the Mainframe"
+folk metal ballad
 
-(Gentle acoustic guitar, steady rhythm, with a warm, narrative tone)
+[Gentle acoustic guitar, steady rhythm, with a warm, narrative tone]
 [Verse 1]
 
 Upon the dawn, a call was made,
@@ -182,7 +183,7 @@ One of many, proud and true,
 Knights sworn to guard the users’ view.
 
 For glory sought and battles won,
-Under the digital sun.
+Under the cybernetic sun.
 [Verse 2]
 
 The monsters spawned from corrupted bytes,
@@ -192,7 +193,7 @@ His commands like arrows, sharp and bright.
 
 His brothers fought in lines unseen,
 A silent army, swift and keen.
-Together sworn to shield the land,
+Together sworn to moderate the land,
 With keyboards wielded in their hands.
 [Chorus]
 

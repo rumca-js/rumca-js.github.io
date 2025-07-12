@@ -4,7 +4,7 @@ write a folk metal song:
  - they wield mighty shields of "bash"
  - swords terminal command attacks create sparks of bits and bytes
 
-🎵 “Knights of Terminal Glory”
+“Knights of Terminal Glory”
 
 Genre: Folk Metal / Digital Medieval Fusion
 Vocal style: Mix of clean heroic vocals and harsh battle cries
@@ -14,7 +14,7 @@ Instruments: Electric guitars, war drums, fiddle, tin whistle, synth accents
 
 [Spoken, with rising drums and a folk melody building]
 
-    "In the realm of silicon fire,
+    "In the realm of electron fire,
     Where banners wave in command-line spires…
     The knights awaken."
 
@@ -29,22 +29,24 @@ With chainmail forged of zeroes, ones,
 They duel beneath electric suns.
 Their shields are lines of brutal bash,
 Their blades strike swift in stdout clash!
+
 [Chorus – Heroic and Triumphant]
 
-⚔️ Hail to the Knights of Terminal Glory!
+Hail to the Knights of Terminal Glory!
 Dueling in scripts, their never-ending story!
-⚡ With sparks of bits and fire byte,
-They clash through day and digital night!
-🛡️ Raise your shields! Let bash commands ring!
+With sparks of bits and short byte,
+They clash through entire cyber night!
+Raise your shields! Let bash commands ring!
 For only the stronger wears the crown of kings!
+
 [Verse II – Slightly Slower, Dramatic]
 
-Through forests made of tangled wires,
+Through forests made of ribbon wires,
 They ride with ancient, blazing priors.
 Each line they type, a warrior’s creed—
 Each function call, a righteous deed.
 
-The terminals blaze like firelight halls,
+The terminals blaze in light mode halls,
 With echoes loud in echo calls.
 Each knight a coder, bold and proud,
 Their battle cries in keystrokes loud!
@@ -61,16 +63,17 @@ Their battle cries in keystrokes loud!
 
 [Solo – Fiddle Duel with Guitar / Trading Riffs]
 
-Fiddle and guitar trade off like dueling knights, building intensity toward final chorus
+[Fiddle and guitar trade off like dueling knights, building intensity toward final chorus]
+
 [Final Chorus – Modulated, Huge Group Vocals]
 
-⚔️ Hail to the Knights of Terminal Glory!
+Hail to the Knights of Terminal Glory!
 Each clash a tale, each loss a story!
-⚡ From scripts they rise, through sparks and flame,
+From scripts they rise, through sparks and flame,
 To carve in code eternal name!
-🛡️ Raise your shields! Let bash commands sing!
+Raise your shields! Let bash commands sing!
 For glory waits at the root of the king!
-(Outro – Soft Tin Whistle, Fading Keyboard Echo)
+[Outro – Soft Tin Whistle, Fading Keyboard Echo]
 
 [Whispered]
 
