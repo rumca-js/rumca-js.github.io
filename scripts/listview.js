@@ -127,7 +127,7 @@ function getProjectListTextNav() {
 function getSearchSuggestionContainer() {
     const suggestions = getSearchSuggestsions();
     let listItems = suggestions.map(suggestion =>
-        `<li class="list-group-item suggestion-item">🔍${suggestion}</li>`
+        `<li class="list-group-item suggestion-item" data-search="${suggestion}">🔍${suggestion}</li>`
     ).join("");
 
     let html = `
@@ -586,7 +586,7 @@ $(document).on('click', '.suggestion-item', function(e) {
     e.preventDefault();
 
     const searchInput = document.getElementById('searchInput');
-    let suggestion_item_value = $(this).text().trim();
+    let suggestion_item_value = $(this).data('search')
 
     searchInput.value = suggestion_item_value;
 
