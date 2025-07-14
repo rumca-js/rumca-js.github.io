@@ -50,7 +50,7 @@ function getInitialSearchSuggestsions() {
         "tag=search engine",
         "tag=operating system",
         "tag=interesting",
-        "tag=self host",
+        "tag=self-host",
         "tag=programming language",
         "tag=music artist",
         "tag=music band",
