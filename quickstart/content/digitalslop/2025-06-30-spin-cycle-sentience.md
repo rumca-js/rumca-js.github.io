@@ -5,7 +5,7 @@
 
 🎵 "Spin Cycle Sentience"
 
-comedy hip-hop
+comedy hip-hop male and female
 
 (feat. AI Washer 9000)
 Two voices: USER (bold), MACHINE (italic)
@@ -97,6 +97,7 @@ DING.
 
 (feat. AI Washer 9000)
 Tagged: [voice1] Human | [voice2] Washing Machine
+comedy hip-hop male and female
 
 [Intro – Beat with modem sound FX]
 DING.
@@ -175,5 +176,5 @@ And I’m chuckin’ you back on Craigslist — stains and all.
 [male] "Wait—? Hello? You still talkin’?"
 ...bzzzt… silence...
 
-[male] (sighs) "Guess I’m doing this one by hand."
+[male] [sighs] "Guess I’m doing this one by hand."
 DING.

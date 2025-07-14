@@ -1,14 +1,16 @@
+write a hip-hop song about manufacturing of consent
+
 Manufacturing Consent
 
 Hip-hop
 
-(Chorus)
+[Chorus]
 They shape what you think, yeah, they mold your mind,
 Manufacturin’ consent, keep you blind all the time.
 Control the news, control the views, they align,
 Behind the scenes, they design, so you buy the line.
 
-(Verse 1)
+[Verse 1]
 Yo, it starts with the media, gatekeepers on the beat,
 Decide what’s newsworthy, what you don’t gotta meet.
 Filter the info, spin it how they want,
@@ -19,13 +21,13 @@ Stories that don’t threaten their bottom line get dropped away.
 Propaganda on the airwaves, subtle like a knife,
 Shape your worldviews, sneak into your life.
 
-(Chorus)
+[Chorus]
 They shape what you think, yeah, they mold your mind,
 Manufacturin’ consent, keep you blind all the time.
 Control the news, control the views, they align,
 Behind the scenes, they design, so you buy the line.
 
-(Verse 2)
+[Verse 2]
 News flows in frames, pre-set by elite teams,
 Margins for debate, but the limits stay unseen.
 Voices get silenced if they challenge the script,
@@ -36,19 +38,19 @@ Distractions on the TV, keep you outta the grind.
 Disinfo and noise, keep you from the truth,
 Manufacturin’ consent, since back in the booth.
 
-(Bridge)
+[Bridge]
 It ain’t conspiracy if it’s clear as day,
 Herman and Chomsky laid it out in the play.
 Filters and bias, media’s design,
 Wake up, break free, don’t let ‘em confine.
 
-(Chorus)
+[Chorus]
 They shape what you think, yeah, they mold your mind,
 Manufacturin’ consent, keep you blind all the time.
 Control the news, control the views, they align,
 Behind the scenes, they design, so you buy the line.
 
-(Outro)
+[Outro]
 So question what you see, question what you hear,
 The truth’s out there, just gotta steer clear.
 Don’t let the system be your mental cage,

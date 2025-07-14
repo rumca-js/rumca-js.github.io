@@ -41,3 +41,23 @@ function getFileVersion() {
 function getSystemVersion() {
     return "0.9";
 }
+
+
+function getInitialSearchSuggestsions() {
+    return [
+        "tag = full album",
+        "tag = youtube mix",
+        "tag = hip-hop",
+        "tag = metal",
+        "tag = reggae",
+        "tag = big beat",
+        "tag = trance",
+        "tag = foreign",
+        "tag = chiptune",
+        "tag = keygen",
+        "language = fr",
+        "language = mn",
+        "language = pl",
+        "link = youtube.com",
+    ];
+}

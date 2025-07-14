@@ -41,3 +41,19 @@ function getFileVersion() {
 function getSystemVersion() {
     return "0.9";
 }
+
+
+function getInitialSearchSuggestsions() {
+    return [
+        "jeffrey epstein",
+        "privacy",
+        "survaillance",
+        "censorship",
+        "technofeudalism",
+        "climate change",
+        "covid",
+        "facebook",
+        "google",
+        "inequality",
+    ];
+}
