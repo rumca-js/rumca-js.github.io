@@ -15,7 +15,7 @@ you can mix more dracula vibes, terminology, into the song
 
 [Goth metal, goth rock, female sopran voice, high]
 
-(Verse 1)
+[Verse 1]
 His profile’s flawless — LinkedIn king,
 Endless posts, success they sing.
 Sleepless demon in my feed,
@@ -26,11 +26,11 @@ Performance metrics, coldest walls.
 He watches through the webcam’s glow,
 A vampire in my status quo.
 
-(Pre-Chorus)
+[Pre-Chorus]
 His emails drip like venom’s art,
 A poison piercing through my heart.
 
-(Chorus)
+[Chorus]
 Midnight’s veil, I’m trapped in scrolls,
 Endless meetings, broken goals.
 I hate his grip, but crave his bite,
@@ -38,7 +38,7 @@ Slave to spreadsheets in the night.
 He steals my breath with every ping,
 A cursed dance beneath his wing.
 
-(Verse 2)
+[Verse 2]
 Dashboard lights my fading spark,
 KPIs that tear apart.
 No rest when the workday ends,
@@ -49,11 +49,11 @@ Tied to contracts, endless trials.
 I rage inside, I want to flee,
 But his pull won’t set me free.
 
-(Pre-Chorus)
+[Pre-Chorus]
 His LinkedIn boasts, a mask so thin,
 Behind it hides the thirst within.
 
-(Chorus)
+[Chorus]
 Midnight’s veil, I’m trapped in scrolls,
 Endless meetings, broken goals.
 I hate his grip, but crave his bite,
@@ -61,19 +61,19 @@ Slave to spreadsheets in the night.
 He steals my breath with every ping,
 A cursed dance beneath his wing.
 
-(Bridge)
+[Bridge]
 Weekly reports, my blood runs cold,
 His power grows, my soul is sold.
 No daylight breaks this iron screen,
 I’m lost inside the corporate machine.
 
-(Breakdown - growled)
+[Breakdown]
 Boss of shadows, king of lies,
 Feeds on fear and silent cries.
 Signed my life to his regime —
 Caught forever in this dream.
 
-(Final Chorus)
+[Final Chorus]
 Midnight’s veil, I’m trapped in scrolls,
 Endless meetings, broken goals.
 I hate his grip, but crave his bite,
@@ -81,6 +81,6 @@ Slave to spreadsheets in the night.
 He steals my breath with every ping,
 A cursed dance beneath his wing.
 
-(Outro)
+[Outro]
 LinkedIn king with endless might —
 I’m his captive, lost in night.
