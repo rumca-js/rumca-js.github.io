@@ -13,7 +13,9 @@ clear-dbs:
 	rm rsshistory*.db
 	rm places*.db
 
-zips: filter pack clear-dbs
+clear: clear-zips
+
+zips: filter pack clear-dbs clear-jsons
 
 pack:
 	zip music.zip catalog*.json
