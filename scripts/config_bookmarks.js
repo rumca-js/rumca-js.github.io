@@ -45,15 +45,15 @@ function getSystemVersion() {
 
 function getInitialSearchSuggestsions() {
     return [
-        "jeffrey epstein",
-        "privacy",
-        "survaillance",
-        "censorship",
-        "technofeudalism",
-        "climate change",
-        "covid",
-        "facebook",
-        "google",
-        "inequality",
+        "tag=jeffrey epstein",
+        "tag=privacy",
+        "tag=survaillance",
+        "tag=censorship",
+        "tag=technofeudalism",
+        "tag=climate change",
+        "tag=covid",
+        "tag=facebook",
+        "tag=google",
+        "tag=inequality",
     ];
 }

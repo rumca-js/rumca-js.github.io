@@ -123,7 +123,7 @@ Silent and mighty, heads in the cloud.
 
 
 
-🎶 Title: “Sacred Society Groove”
+Title: “Sacred Society Groove”
 Genre: Satire Funk
 Vibe: Funky, playful, cheeky
 
@@ -144,7 +144,7 @@ No critique, no error, that’s the sacred rule,
 Say the wrong thing here, man, you look like a fool.
 
 [Chorus — big brass + chorus vocals]
-🎵 Sacred Society, groove so fine,
+Sacred Society, groove so fine,
 No complaints allowed, toe the line.
 Say a word too loud, they’ll shut the door,
 Outta the club, you’re welcome no more! 🎵
@@ -161,7 +161,7 @@ Step outta rhythm, better think twice,
 Cause this funky club don’t play nice.
 
 [Chorus — brass & wah guitar]
-🎵 Sacred Society, groove so fine,
+Sacred Society, groove so fine,
 No complaints allowed, toe the line.
 Say a word too loud, they’ll shut the door,
 Outta the club, you’re welcome no more! 🎵

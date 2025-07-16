@@ -209,7 +209,7 @@ I’d rather bleed in the world I knew
 Than live in a lie that feels like truth
 
 [Bridge – Epic Slow Section]
-⚔️ (Spoken or sung over slow chords with heavy reverb)
+[Spoken or sung over slow chords with heavy reverb]
 "In the mirror, I saw myself...
 But it was not me.
 A reflection drawn by hands unknown.
