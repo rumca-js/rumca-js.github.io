@@ -8,13 +8,14 @@
 
 🎮 "Everyday Respawn"
 
-(Mid-tempo beat, synths with arcade blips and 8-bit samples)
+[Mid-tempo beat, synths with arcade blips and 8-bit samples]
 [Intro – Game voice clips layered with synth]
 
-📢 “Battlecruiser operational.”
-🎤 “Lock and load.”
+“Battlecruiser operational.”
+“Lock and load.”
 “Press start to continue.”
 “You have died of dysentery.”
+
 [Verse 1]
 
 Wake up, “New Game Started,” sun on my face
@@ -31,9 +32,9 @@ Text scrolls — “Mission briefing: survive the day”
 Walk through NPCs like I’m in GTA
 “Press F to pay respects” to my morning grind
 Protected like Jim Raynor, shields up, aligned
+
 [Chorus]
 
-🎶
 I strike like Doomguy, ripping through the gray
 Battlecruiser ready, I’m built for this fray
 Protected like Raynor, no damage, no fall
@@ -43,7 +44,7 @@ Just a simple day but I’m leveling all
 “Checkpoint reached” — sky still blue
 From dawn to dusk, this is my play
 Respawn every morning, press start to slay
-🎶
+
 [Verse 2]
 
 Email pop — “Objective updated,” keep it clean
@@ -60,9 +61,9 @@ Protected like Raynor — no reason to hide
 Simple life but I’m the king of this town
 “Press X to interact” with my vibe
 I’m the player one in my own archive
+
 [Chorus]
 
-🎶
 I strike like Doomguy, ripping through the gray
 Battlecruiser ready, I’m built for this fray
 Protected like Raynor, no damage, no fall
@@ -72,7 +73,7 @@ Just a simple day but I’m leveling all
 “Checkpoint reached” — sky still blue
 From dawn to dusk, this is my play
 Respawn every morning, press start to slay
-🎶
+
 [Bridge – Spoken with glitchy effects]
 
 “The cake is a lie.”
