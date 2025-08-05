@@ -27,6 +27,21 @@ function escapeHtml(unsafe)
 }
 
 
+class UrlLocation {
+  constructor(urlString) {
+    try {
+      this.url = new URL(urlString);
+    } catch (e) {
+      throw new Error("Invalid URL");
+    }
+  }
+
+  getProtocolless() {
+    return sanitizeLink(this.url.href.replace(`${this.url.protocol}//`, ''));
+  }
+}
+
+
 function createLinks(inputText) {
     const urlRegex = /(?<!<a[^>]*>)(https:\/\/[a-zA-Z0-9-_\.\/]+)(?!<\/a>)/g;
     const urlRegex2 = /(?<!<a[^>]*>)(http:\/\/[a-zA-Z0-9-_\.\/]+)(?!<\/a>)/g;
@@ -261,6 +276,29 @@ function fixStupidGoogleRedirects(input_url) {
 }
 
 
+function sanitizeLinkGeneral(link) {
+   link = link.trimStart();
+
+   if (link.endsWith("/")) {
+      link = link.slice(0, -1);
+   }
+   if (link.endsWith(" ")) {
+      link = link.slice(0, -1);
+   }
+
+   return link;
+}
+
+
+function sanitizeLink(link) {
+   link = sanitizeLinkGeneral(link);
+   link = fixStupidGoogleRedirects(link);
+   link = sanitizeLinkGeneral(link);
+
+   return link;
+}
+
+
 function getYouTubeVideoId(url) {
     try {
         const urlObj = new URL(url);
@@ -339,6 +377,13 @@ function getChannelUrl(url) {
     channelid = getYouTubeChannelUrl(url);
     if (channelid)
         return channelid;
+}
+
+
+function getOdyseeVideoId(url) {
+    const url_object = new URL(url);
+    const videoId = url_object.pathname.split('/').pop();
+    return videoId;
 }
 
 
@@ -630,3 +675,16 @@ async function requestFileChunksMultipart(file_name) {
 
     return await requestFileChunksFromList(chunks);
 }
+
+
+/*
+module.exports = {
+    UrlLocation,
+    sanitizeLink,
+    fixStupidGoogleRedirects,
+    getYouTubeVideoId,
+    getYouTubeChannelId,
+    getChannelUrl,
+    getOdyseeVideoId,
+};
+*/

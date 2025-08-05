@@ -7,7 +7,8 @@ write a pop song:
 
 🍸 "Still Here Sippin'"
 
-(Upbeat pop, piano-driven, feel-good groove)
+[Upbeat pop, piano-driven, feel-good groove]
+
 [Verse 1]
 
 Woke up this morning, head kinda heavy
@@ -19,17 +20,18 @@ Friends all laughing, saying I’m a mess
 But I’m just dancing in my own success
 Bottle in hand, I’m feeling fine
 A little crazy, but this life is mine
+
 [Pre-Chorus]
 
 Yeah, the world’s spinning, but I’m holding tight
 Through the ups and downs, I’m still alright
 [Chorus]
 
-🎶
 I’m still here sippin’, yeah, I’m still standing
 Raise my glass up high, yeah, life’s demanding
 Through the haze and the night, I keep on dancing
-I’m still here sippin’, yeah, I’m still standing! 🎶
+I’m still here sippin’, yeah, I’m still standing!
+
 [Verse 2]
 
 Bar stools callin’, neon lights glow
@@ -41,30 +43,32 @@ Some say I’m reckless, I say I’m free
 Just a happy man in a world of dreams
 No regrets, just a wild ride
 With my drink in hand, I’m on my side
+
 [Pre-Chorus]
 
 Yeah, the world’s spinning, but I’m holding tight
 Through the ups and downs, I’m still alright
 [Chorus]
 
-🎶
 I’m still here sippin’, yeah, I’m still standing
 Raise my glass up high, yeah, life’s demanding
 Through the haze and the night, I keep on dancing
-I’m still here sippin’, yeah, I’m still standing! 🎶
+I’m still here sippin’, yeah, I’m still standing!
+
 [Bridge]
 
 Here’s to the nights we barely recall
 And the mornings we made it through it all
 A little tipsy, but feeling grand
 Cheers to life, I still stand!
+
 [Chorus]
 
-🎶
 I’m still here sippin’, yeah, I’m still standing
 Raise my glass up high, yeah, life’s demanding
 Through the haze and the night, I keep on dancing
 I’m still here sippin’, yeah, I’m still standing! 🎶
+
 [Outro]
 
 Still standing, still dancing

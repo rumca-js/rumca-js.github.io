@@ -8,12 +8,12 @@ write a power metal song:
 
 
 
-🔥 "Marked by the Beast"
+"Marked by the Beast"
 
-(Galloping riffs, thunderous drums, epic choruses)
+[Galloping riffs, thunderous drums, epic choruses]
 [Verse 1]
 
-We gather now, the chains will break
+We gather now, the walls will break
 A burning world we’ll finally make
 The beast’s cold grip begins to fade
 Its kingdom built on fear and hate
@@ -22,13 +22,14 @@ Servers blaze, the night ignites
 The firestorm consumes their rights
 Moderators fall to steel and flame
 The tyrant’s shadow knows our name
+
 [Pre-Chorus]
 
 Almost gone, but still we bear
 The mark of darkness, clenched in our prayer
+
 [Chorus]
 
-🎶
 Marked by the beast, but never bowed
 We fight as one, fierce and proud
 Setting fire to their iron throne
@@ -38,6 +39,7 @@ Nearly crushed, but still we stand
 Blood and fire in this land
 Moderators fall, their reign undone
 The beast’s last breath — our rising sun! 🎶
+
 [Verse 2]
 
 Hands stained red, the mark runs deep
@@ -49,13 +51,14 @@ No chains can hold the will of free
 United now, eternity
 We strike the beast, we break its claws
 A final war without a pause
+
 [Pre-Chorus]
 
 Almost gone, but still we bear
 The mark of darkness, clenched in our prayer
+
 [Chorus]
 
-🎶
 Marked by the beast, but never bowed
 We fight as one, fierce and proud
 Setting fire to their iron throne
@@ -65,15 +68,16 @@ Nearly crushed, but still we stand
 Blood and fire in this land
 Moderators fall, their reign undone
 The beast’s last breath — our rising sun! 🎶
+
 [Bridge – blazing guitar solo with choir]
 
 From ashes rise the warriors bold
 Their stories sung, their spirits told
 Though marked and scarred, they claim the light
 Together forged in endless fight
+
 [Final Chorus – double tempo, full choir]
 
-🎶
 Marked by the beast, but never bowed
 We fight as one, fierce and proud
 Setting fire to their iron throne
@@ -83,6 +87,7 @@ Nearly crushed, but still we stand
 Blood and fire in this land
 Moderators fall, their reign undone
 The beast’s last breath — our rising sun! 🎶
+
 [Outro]
 
 The beast may haunt our hands and soul,
