@@ -91,8 +91,18 @@ class Filter(object):
                "title" : entry.title,
                "age" : entry.age,
                "id" : entry.id,
-               "tags" : tags,
                 }
+
+        social_table = ReflectedSocialData(self.engine)
+        social_data = social_table.get(entry.id)
+        if social_data:
+            for key, value in dict(social_data).items():
+                row.setdefault(key, value)
+
+        tags_table = ReflectedUserTags(engine)
+        tags = tags_table.get_tags(entry.id)
+        row["tags"] = tags
+
         return row
 
     def get_file_path(self):
@@ -149,7 +159,6 @@ def main():
         if not f.is_valid(entry):
             continue
 
-        tags = table.get_tags(entry.id)
         #print(entry)
         f.write(entry, tags)
 
