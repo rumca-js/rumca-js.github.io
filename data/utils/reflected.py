@@ -103,9 +103,7 @@ class ReflectedSourceTable(ReflectedTable):
 
         with self.engine.connect() as connection:
             result = connection.execute(stmt)
-            rows = result.fetchall()
-            for row in rows:
-                return row
+            return result.first()
 
 
 class ReflectedSocialData(ReflectedTable):
@@ -116,6 +114,4 @@ class ReflectedSocialData(ReflectedTable):
 
         with self.engine.connect() as connection:
             result = connection.execute(stmt)
-            rows = result.first()
-            for row in rows:
-                return row
+            return result.first()

@@ -14,7 +14,8 @@ from utils.reflected import *
 
 class Filter(object):
 
-    def __init__(self, dir, args):
+    def __init__(self, dir, args, engine):
+        self.engine = engine
         self.dir = dir
         self.args = args
 
@@ -40,13 +41,13 @@ class Filter(object):
 
         return True
 
-    def write(self, entry, tags):
+    def write(self, entry):
         """Write entries to the specified directory, 1000 per file."""
         if self.handle == None:
             file_path = self.get_file_path()
             self.handle = open(file_path, 'w')
 
-        row = self.get_entry_json_data(entry, tags)
+        row = self.get_entry_json_data(entry)
 
         self.rows.append(row)
 
@@ -62,7 +63,7 @@ class Filter(object):
             file_path = self.get_file_path()
             self.handle = open(file_path, 'w')
 
-    def get_entry_json_data(self, entry, tags):
+    def get_entry_json_data(self, entry):
         date_published = entry.date_published
         if date_published:
             date_published = date_published.isoformat()
@@ -96,10 +97,17 @@ class Filter(object):
         social_table = ReflectedSocialData(self.engine)
         social_data = social_table.get(entry.id)
         if social_data:
-            for key, value in dict(social_data).items():
-                row.setdefault(key, value)
+            row.setdefault("thumbs_up", social_data.thumbs_up)
+            row.setdefault("thumbs_down", social_data.thumbs_down)
+            row.setdefault("view_count", social_data.view_count)
+            row.setdefault("rating", social_data.rating)
+            row.setdefault("upvote_ratio", social_data.upvote_ratio)
+            row.setdefault("upvote_diff", social_data.upvote_diff)
+            row.setdefault("upvote_view_ratio", social_data.upvote_view_ratio)
+            row.setdefault("stars", social_data.stars)
+            row.setdefault("followers_count", social_data.followers_count)
 
-        tags_table = ReflectedUserTags(engine)
+        tags_table = ReflectedUserTags(self.engine)
         tags = tags_table.get_tags(entry.id)
         row["tags"] = tags
 
@@ -154,13 +162,13 @@ def main():
     if new_path.exists():
         shutil.rmtree(new_path)
 
-    f = Filter(new_path, args)
+    f = Filter(new_path, args, engine)
     for entry in table.get_entries():
         if not f.is_valid(entry):
             continue
 
         #print(entry)
-        f.write(entry, tags)
+        f.write(entry)
 
     f.close()
 
