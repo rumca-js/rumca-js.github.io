@@ -110,7 +110,7 @@ class ReflectedSocialData(ReflectedTable):
     def get(self, entry_id):
         destination_table = self.get_table("socialdata")
 
-        stmt = select(destination_table).where(destination_table.c.id == entry_id)
+        stmt = select(destination_table).where(destination_table.c.entry_id == entry_id)
 
         with self.engine.connect() as connection:
             result = connection.execute(stmt)
