@@ -335,6 +335,15 @@ function fixStupidGoogleRedirects(input_url) {
         return input_url;
     }
 
+    return input_url;
+}
+
+
+function fixStupidYoutubeRedirects(input_url) {
+    if (!input_url) {
+        return null;
+    }
+
     if (input_url.includes("www.youtube.com/redirect")) {
         const url = new URL(input_url);
         let redirectURL = url.searchParams.get('q');
@@ -345,6 +354,28 @@ function fixStupidGoogleRedirects(input_url) {
         else {
             return input_url;
         }
+    }
+
+    return input_url;
+}
+
+function fixStupidMicrosoftSafeLinks(input_url) {
+    if (!input_url) {
+        return null;
+    }
+
+    try {
+        const parsedUrl = new URL(input_url);
+
+        if (parsedUrl.hostname.endsWith("safelinks.protection.outlook.com")) {
+            const originalUrl = parsedUrl.searchParams.get("url");
+
+            if (originalUrl) {
+                return decodeURIComponent(originalUrl);
+            }
+        }
+    } catch (e) {
+        console.error("Error parsing URL:", e);
     }
 
     return input_url;
@@ -369,6 +400,8 @@ function sanitizeLinkGeneral(link) {
 function sanitizeLink(link) {
    link = sanitizeLinkGeneral(link);
    link = fixStupidGoogleRedirects(link);
+   link = fixStupidYoutubeRedirects(link);
+   link = fixStupidMicrosoftSafeLinks(link);
    link = sanitizeLinkGeneral(link);
 
    return link;
@@ -855,6 +888,8 @@ module.exports = {
     UrlLocation,
     sanitizeLink,
     fixStupidGoogleRedirects,
+    fixStupidYoutubeRedirects,
+    fixStupidMicrosoftSafeLinks,
     getYouTubeVideoId,
     getYouTubeChannelId,
     getChannelUrl,
