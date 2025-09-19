@@ -271,8 +271,11 @@ function performSearchDb() {
     $('#statusLine').html(spinner_text);
 
     let query = getQueryText();
-    worker.postMessage({ query });
-    console.log("Sent message: " + query);
+    console.log("Sent entries message: " + query);
+    worker.postMessage({ type:"entries", query:query });
+
+    console.log("Sent pagination message: " + query);
+    worker.postMessage({ type:"pagination", query:query });
 }
 
 
@@ -402,13 +405,20 @@ function workerFunction(e) {
              if (!entry_id) {
                 object_list_data = result;
                 fillListData();
-	     }
+
+                object_list_data.entries.forEach(entry => {
+                   if (isSocialMediaSupported(entry)) {
+                      let query = selectEntrySocialStmt(entry.id);
+                      worker.postMessage({ type:"socialdata", query:query });
+                   }
+                });
+             }
              else {
                 object_list_data = result;
-		if (object_list_data.entries.length > 0) {
+                if (object_list_data.entries.length > 0) {
                      setEntryAsListData(object_list_data.entries[0]);
-		}
-	     }
+                }
+             }
         }
         else if (message_type == "pagination") {
              let total_rows = result;
@@ -420,9 +430,16 @@ function workerFunction(e) {
              $('#pagination').html(nav_text);
              $('#statusLine').html("");
         }
+        else if (message_type == "socialdata") {
+            console.log(`Received data ${result}`);
+            FillSocialData(result.entry_id, result);
+        }
         else if (message_type == "message") {
              if (result == "Creating database DONE") {
                 onSystemReady();
+             }
+             else if (result == "Worker - DONE") {
+                $('#statusLine').html("");
              }
              else {
                 let new_spinner_text = getSpinnerText(result);
@@ -445,7 +462,7 @@ async function initWorker() {
 
     let file_name = getFileName();
 
-    worker.postMessage({ fileName:  file_name});
+    worker.postMessage({ type: "filename", fileName:  file_name});
 
     worker.onmessage = workerFunction;
     console.log("Init worker done");
