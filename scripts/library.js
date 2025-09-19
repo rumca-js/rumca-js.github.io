@@ -375,7 +375,6 @@ function fixStupidMicrosoftSafeLinks(input_url) {
             }
         }
     } catch (e) {
-        console.error("Error parsing URL:", e);
     }
 
     return input_url;

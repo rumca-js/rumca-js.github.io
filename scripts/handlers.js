@@ -60,6 +60,12 @@ class YouTubeVideoHandler {
             </div>
         `;
     }
+
+    getEmbedUrl() {
+        if (!this.videoId) return null;
+    
+        return `https://www.youtube.com/embed/${this.videoId}`;
+    }
 }
 
 

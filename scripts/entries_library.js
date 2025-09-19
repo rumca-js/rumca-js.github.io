@@ -622,19 +622,21 @@ function getEntryFullTextStandard(entry) {
 
 
 function getEntryFullTextYouTube(entry) {
-    const videoId = getYouTubeVideoId(entry.link);
+    embedUrl = entry.link;
 
-    const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : "";
+    let handler = new YouTubeVideoHandler(entry.link);
+    if (handler.isHandledBy())
+    {
+        embedUrl = handler.getEmbedUrl();
+    }
 
     let text = `<div entry="${entry.id}" class="entry-detail">`;
 
-    if (videoId) {
-        text += `
-          <div class="youtube_player_container">
-              <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        `;
-    }
+    text += `
+      <div class="youtube_player_container">
+          <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    `;
 
     text += getEntryBodyText(entry);
 
