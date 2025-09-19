@@ -139,6 +139,10 @@ class RedditHandler {
         if (!this.subreddit) return [];
         return [`https://www.reddit.com/r/${this.subreddit}/.rss`];
     }
+
+    getPreviewHtml() {
+        return null;
+    }
 }
 
 
@@ -159,9 +163,5 @@ function getUrlHandler(link) {
     if (handler.isHandledBy())
     {
         return handler;
-    }
-
-    getPreviewHtml() {
-        return null;
     }
 }
