@@ -408,37 +408,6 @@ function sanitizeLink(link) {
 }
 
 
-function getYouTubeVideoId(url) {
-    try {
-        const urlObj = new URL(url);
-        const hostname = urlObj.hostname;
-
-        if (hostname.includes("youtu.be")) {
-            return urlObj.pathname.slice(1);
-        }
-
-        if (urlObj.searchParams.has("v")) {
-            return urlObj.searchParams.get("v");
-        }
-
-        const paths = urlObj.pathname.split("/");
-        const validPrefixes = ["embed", "shorts", "v"];
-        if (validPrefixes.includes(paths[1]) && paths[2]) {
-            return paths[2];
-        }
-
-        return null;
-    } catch (e) {
-        return null;
-    }
-}
-
-
-function isYouTubeVideo(url) {
-    return (getYouTubeVideoId(url) != null);
-}
-
-
 function getYouTubeChannelId(url) {
     try {
         const urlObj = new URL(url);
@@ -461,26 +430,6 @@ function getYouTubeChannelUrl(url) {
         return `https://www.youtube.com/channel/${id}`;
 }
 
-
-function getYouTubeEmbedDiv(youtubeUrl) {
-    const videoId = getYouTubeVideoId(youtubeUrl);
-    if (videoId) {
-        const embedUrl = `https://www.youtube.com/embed/${videoId}`;
-        const frameHtml = `
-            <div class="youtube_player_container mb-4">
-                <iframe 
-                    src="${embedUrl}" 
-                    frameborder="0" 
-                    allowfullscreen 
-                    class="youtube_player_frame w-100" 
-                    style="aspect-ratio: 16 / 9;"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        `;
-        return frameHtml;
-    }
-}
 
 
 function getChannelUrl(url) {
