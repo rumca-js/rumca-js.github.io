@@ -398,70 +398,27 @@ function getGoogleTranslateLink(link) {
 function GetEditMenu(entry) {
     let link = entry.link;
 
-    let translate_link = getGoogleTranslateLink(link);
-    let archive_link = getArchiveOrgLink(link);
-    let w3c_link = getW3CValidatorLink(link);
-    let schema_link = getSchemaValidatorLink(link);
-    let who_is_link = getWhoIsLink(link);
-    let builtwith_link = getBuiltWithLink(link);
+    links = GetServiceLinks(link);
 
-    let text = 
+    let html = 
     `<div class="dropdown mx-1">
         <button class="btn btn-primary" type="button" id="#entryViewDrop" data-bs-toggle="dropdown" aria-expanded="false">
           View
         </button>
         <ul class="dropdown-menu">`;
 
-    text += `
-        <li>
-          <a href="${translate_link}" id="Edit" class="dropdown-item" title="Edit entry">
-             View translate
+    links.forEach(function(item) {
+       html += ` <li>
+          <a href="${item.link}" id="Edit" class="dropdown-item" title="${item.name}">
+             ${item.name}
           </a>
         </li>
-    `;
+	    `;
+    });
 
-    text += `
-        <li>
-          <a href="${archive_link}" id="Archive-org" class="dropdown-item" title="View archived version on archive.org">
-             View archive.org
-          </a>
-        </li>
-    `;
+    html += `</ul></div>`;
 
-    text += `
-        <li>
-          <a href="${w3c_link}" id="w3c-validator" class="dropdown-item" title="Edit entry">
-             W3C validator
-          </a>
-        </li>
-    `;
-
-    text += `
-        <li>
-          <a href="${schema_link}" id="Schama-Validator" class="dropdown-item" title="Edit entry">
-             Schema validator
-          </a>
-        </li>
-    `;
-
-    text += `
-        <li>
-          <a href="${who_is_link}" id="Who-Is" class="dropdown-item" title="Edit entry">
-             Who Is validator
-          </a>
-        </li>
-    `;
-    text += `
-        <li>
-          <a href="${builtwith_link}" id="Bulit with" class="dropdown-item" title="Edit entry">
-             Built with
-          </a>
-        </li>
-    `;
-
-    text += `</div>`;
-
-    return text;
+    return html;
 }
 
 
