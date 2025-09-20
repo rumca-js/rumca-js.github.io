@@ -20,8 +20,8 @@
 
 <div class="container">
     <div id="urlFrame"></div>
+    <div id="previewFrame"></div>
     <div id="validatorLinks" class="mt-3"></div>
-    <div id="videoFrame"></div>
 </div>
 
 <script>
@@ -117,8 +117,8 @@ function getPreviewHtml(link) {
 function FillHandlerPreview() {
     let link = $('#urlInput').val().trim();
     let html = getPreviewHtml(link);
-    const videoFrame = document.getElementById("videoFrame");
-    videoFrame.innerHTML = html;
+    const previewFrame = document.getElementById("previewFrame");
+    previewFrame.innerHTML = html;
 }
 
 
