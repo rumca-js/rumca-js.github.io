@@ -161,15 +161,15 @@ function unpackSocialData(res) {
        rows.forEach(row => {
          const data = {
            id: row[0],
-           entry_id: row[0],
-           thumbs_up: row[1],
-           thumbs_down: row[2],
-           view_count: row[3],
-           followers_count: row[4],
-           stars: row[5],
-           upvote_ratio: row[6],
-           upvote_diff: row[7],
-           upvote_view_ratio: row[8],
+           entry_id: row[1],
+           thumbs_up: row[2],
+           thumbs_down: row[3],
+           view_count: row[4],
+           followers_count: row[5],
+           stars: row[6],
+           upvote_ratio: row[7],
+           upvote_diff: row[8],
+           upvote_view_ratio: row[9],
          };
 
          results.push(data);
@@ -338,8 +338,6 @@ async function createDatabaseData(dataArray) {
      return false;
   }
 
-  console.log("createDatabaseData");
-
   try {
     const config = {
       locateFile: filename => `https://cdn.jsdelivr.net/npm/sql.js@1.6.0/dist/${filename}`
@@ -350,7 +348,6 @@ async function createDatabaseData(dataArray) {
 
     // Load the database
     db = new SQL.Database(dataArray);
-    console.log("createDatabaseData DONE");
 
     return true;
 

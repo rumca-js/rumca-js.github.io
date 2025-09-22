@@ -1,8 +1,8 @@
 importScripts('https://unpkg.com/sql.js@1.6.0/dist/sql-wasm.js')
 importScripts('https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js')
-importScripts('./config_internet.js?i=50');
-importScripts('./library.js?i=' + getFileVersion());
-importScripts('./database.js?i=' + getFileVersion());
+importScripts('./config.js?i=53');
+importScripts('./library.js?i=' + getSystemVersion());
+importScripts('./database.js?i=' + getSystemVersion());
 
 
 let file_name = null;
@@ -23,7 +23,7 @@ async function requestFileChunksFromListLog(worker, parts) {
 
 async function createDatabase(worker, dbFileName) {
     if (dbFileName.indexOf(".zip") !== -1) {
-       console.log("createDatabase - zip");
+       debug("createDatabase - zip");
 
        worker.postMessage({ success: true, message_type: "message", result: "fetching file list..."});
 
@@ -57,7 +57,7 @@ async function createDatabase(worker, dbFileName) {
        return await createDatabaseData(data);
     }
     else if (dbFileName.indexOf(".db") !== -1) {
-       console.log("createDatabase - db");
+       debug("createDatabase - db");
 
        let data = await requestFileChunksUintArray(dbFileName);
        if (!data) {
@@ -74,7 +74,7 @@ async function createDatabase(worker, dbFileName) {
 self.onmessage = async function (e) {
     const {type, fileName, query } = e.data;
 
-    console.log(`Worker - ${type}`);
+    debug(`Worker - ${type}`);
 
     if (type == "filename" && fileName)
     {
@@ -107,7 +107,7 @@ self.onmessage = async function (e) {
                 return;
             }
 
-            console.log(`Worker - ${query}`);
+            debug(`Worker - ${query}`);
 
             postMessage({ success: true, message_type: "message", result: "Executing query"});
 
@@ -116,12 +116,12 @@ self.onmessage = async function (e) {
 
             if (type == "entries" ) {
                 postMessage({ success: true, message_type: "message", result: "Unpacking results"});
-                console.log("Worker - Unpacking");
+                debug("Worker - Unpacking");
 
                 let object_list_data = { entries: [] };
                 object_list_data.entries = unpackEntries(result);
 
-                console.log("Worker - Sending entries respone");
+                debug("Worker - Sending entries respone");
 
                 // Send the result back to the main thread
                 postMessage({ success: true, message_type: "entries", result: object_list_data});
@@ -131,25 +131,24 @@ self.onmessage = async function (e) {
             else if (type == "pagination" )
             {
                 let total_rows = await getQueryTotalRows(query);
-                console.log("Worker - query total rows " + total_rows);
+                debug("Worker - query total rows " + total_rows);
                 postMessage({ success: true, message_type: "pagination", result: total_rows});
             }
             else if (type == "socialdata" )
             {
-                // TODO
-                console.log("Worker - Sending social data respone");
+                debug("Worker - Sending social data respone");
                 postMessage({ success: true, message_type: "message", result: "Sending social data respone"});
 
-                let social_data = unpackSocialData(result);
+                let social_data_vec = unpackSocialData(result);
 
-                postMessage({ success: true, message_type: "socialdata", result: social_data});
+                postMessage({ success: true, message_type: "socialdata", result: social_data_vec});
             }
         } catch (error) {
             postMessage({ success: false, error: error.message });
         }
     }
 
-    console.log("Worker - DONE");
+    debug("Worker - DONE");
     postMessage({ success: true, message_type: "message", result: "Worker - DONE"});
 };
 

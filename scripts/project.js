@@ -54,7 +54,19 @@ function fillEntireListData() {
     }
 
     fillListDataInternal(entries);
+
+    fillAllEntriesSocialData(entries);
+
     $('#statusLine').html("")
+}
+
+
+function fillAllEntriesSocialData(entries) {
+    entries.forEach(entry => {
+        if (entry.followers_count != null) {
+           FillSocialData(entry.id, entry);
+        }
+    });
 }
 
 
@@ -400,6 +412,8 @@ function workerFunction(e) {
     const { success, message_type, result, error } = e.data;
     if (success) {
         if (message_type == "entries") {
+             debug(`Received entries len:${result.length}`);
+
              let entry_id = getQueryParam("entry_id");
 
              if (!entry_id) {
@@ -431,8 +445,13 @@ function workerFunction(e) {
              $('#statusLine').html("");
         }
         else if (message_type == "socialdata") {
-            console.log(`Received data ${result}`);
-            FillSocialData(result.entry_id, result);
+            debug(`Received social data len:${result.length}`);
+
+            if (result.length > 0) {
+               result.forEach( social_data => {
+                   FillSocialData(social_data.entry_id, social_data);
+               });
+            }
         }
         else if (message_type == "message") {
              if (result == "Creating database DONE") {
