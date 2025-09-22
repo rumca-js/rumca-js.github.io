@@ -29,7 +29,7 @@
 <script>
 
 function getServiceLinksText(link) {
-    const links = GetServiceLinks(link);
+    const links = GetAllServicableLinks(link);
 
     html = `<div class="card p-3">
             <h6>Service Links:</h6>
@@ -43,17 +43,6 @@ function getServiceLinksText(link) {
 
     let sanitized = sanitizeLink(link);
     html += ` <li><a href="${sanitized}" target="_blank">Sanitized ${sanitized}</a></li>`;
-
-    const handler = getUrlHandler(link);
-    if (handler)
-    {
-       const feeds = handler.getFeeds();
-
-       for (const feed of feeds) {
-           const safeFeed = sanitizeLink(feed);
-           html += `<li><a href="${safeFeed}" target="_blank">RSS: ${safeFeed}</a></li>`;
-       }
-    }
 
     html += `
       </ul>

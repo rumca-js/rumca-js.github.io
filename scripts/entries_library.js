@@ -398,7 +398,7 @@ function getGoogleTranslateLink(link) {
 function GetEditMenu(entry) {
     let link = entry.link;
 
-    links = GetServiceLinks(link);
+    links = GetAllServicableLinks(link);
 
     let html = 
     `<div class="dropdown mx-1">

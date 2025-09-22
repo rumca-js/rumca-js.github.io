@@ -828,6 +828,27 @@ function GetServiceLinks(link) {
     ];
 }
 
+
+function GetAllServicableLinks(link) {
+    let service_links = GetServiceLinks(link);
+
+    const handler = getUrlHandler(link);
+    if (handler)
+    {
+       const feeds = handler.getFeeds();
+
+       for (const feed of feeds) {
+           const safeFeed = sanitizeLink(feed);
+           service_links.push({
+               name: "RSS",
+               link: safeFeed
+           });
+       }
+    }
+
+    return service_links;
+}
+
 /*------- SERVICES --------------- */
 
 
