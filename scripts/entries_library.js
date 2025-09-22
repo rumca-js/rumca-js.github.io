@@ -144,7 +144,7 @@ function getEntryVisitedBadge(entry, overflow=false) {
 }
 
 
-function getEntryDislikeDataText(data) {
+function getEntrySocialDataText(data) {
    let html_out = "";
 
    let { thumbs_up, thumbs_down, view_count, upvote_ratio, upvote_diff, upvote_view_ratio, stars, followers_count } = data;
@@ -171,7 +171,7 @@ function getEntryDislikeDataText(data) {
 
 
 function FillSocialData(entry_id, social_data) {
-    let entry_parameters = getEntryDislikeDataText(social_data);
+    let entry_parameters = getEntrySocialDataText(social_data);
 
     // entry_list_social.set(entry.id, entry_parameters);
 
@@ -195,7 +195,10 @@ function getEntryParameters(entry, entry_dislike_data=null) {
    html_out += getEntryReadLaterBadge(entry);
 
    if (entry_dislike_data) {
-      html_out += getEntryDislikeDataText(entry_dislike_data);
+      html_out += getEntrySocialDataText(entry_dislike_data);
+   }
+   else {
+      html_out += getEntrySocialDataText(entry);
    }
 
    return html_out;
@@ -630,12 +633,11 @@ function getEntryDetailText(entry) {
 
     const protocol_less = new UrlLocation(entry.link).getProtocolless();
 
-    if (protocol_less.startsWith("www.youtube.com/watch"))
+    let handler = new YouTubeVideoHandler(entry.link);
+    if (handler.isHandledBy())
+    {
         text = getEntryFullTextYouTube(entry);
-    else if (protocol_less.startsWith("youtube.com/watch"))
-        text = getEntryFullTextYouTube(entry);
-    else if (protocol_less.startsWith("m.youtube.com/watch"))
-        text = getEntryFullTextYouTube(entry);
+    }
     else if (protocol_less.startsWith("odysee.com/"))
         text = getEntryFullTextOdysee(entry);
     else
@@ -918,10 +920,19 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
             style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
-                <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%">
+                <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%" id="entryTumbnail">
                     ${thumbnail_text}
                 </div>
-                <div style="flex: 0 0 30%; flex-shrink: 0;flex-grow:0;max-height:30%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                <div
+		   style="
+                      flex: 0 0 auto;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      white-space: normal;
+                      line-height: 1.2em;
+                      max-height: 4.8em;
+			  "
+	           id="entryDetails">
                     <span style="font-weight: bold" class="text-primary" entryTitle="true">${title_safe}</span>
                     <div class="link-list-item-description" entryDetails="true">${source__title}</div>
                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>

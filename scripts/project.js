@@ -63,9 +63,7 @@ function fillEntireListData() {
 
 function fillAllEntriesSocialData(entries) {
     entries.forEach(entry => {
-        if (entry.followers_count != null) {
-           FillSocialData(entry.id, entry);
-        }
+       FillSocialData(entry.id, entry);
     });
 }
 
