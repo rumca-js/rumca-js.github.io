@@ -50,6 +50,7 @@ function getInitialSearchSuggestsions() {
     return ["link = youtube.com/channel",
         "link=github.com/",
         "link=reddit.com/",
+        "link=x.com/",
         "tag=search engine",
         "tag=operating system",
         "tag=interesting",
