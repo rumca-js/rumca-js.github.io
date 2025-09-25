@@ -41,9 +41,6 @@ function getServiceLinksText(link) {
     `;
     });
 
-    let sanitized = sanitizeLink(link);
-    html += ` <li><a href="${sanitized}" target="_blank">Sanitized ${sanitized}</a></li>`;
-
     html += `
       </ul>
       </div>`;
@@ -140,6 +137,12 @@ function FillHandlerPreview() {
 }
 
 
+function SetTitle() {
+    let link = $('#searchInput').val().trim();
+    document.title = link;
+}
+
+
 // Run on page load
 
 $(document).ready(function () {
@@ -152,10 +155,12 @@ $(document).ready(function () {
 
         $(this).val(search_term);
     });
+
     $("#searchContainer").on("submit", function (e) {
         e.preventDefault();
         FillLinks();
         FillHandlerPreview();
+        SetTitle();
     });
 });
 
