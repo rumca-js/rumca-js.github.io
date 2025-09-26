@@ -14,8 +14,9 @@ from utils.reflected import *
 
 class Filter(object):
 
-    def __init__(self, dir, args, engine):
+    def __init__(self, dir, args, engine, connection=None):
         self.engine = engine
+        self.connection = connection
         self.dir = dir
         self.args = args
 
@@ -53,9 +54,9 @@ class Filter(object):
 
         self.entry_index += 1
 
-        sys.stdout.write("{}\r".format(self.entry_index))
+        sys.stdout.write(f"{self.file_index}/{self.entry_index:04d}\r")
 
-        if self.entry_index == 1000:
+        if self.entry_index == self.args.rows:
             self.file_index += 1
             self.entry_index = 0
             self.finish_stream()
@@ -94,7 +95,7 @@ class Filter(object):
                "id" : entry.id,
                 }
 
-        social_table = ReflectedSocialData(self.engine)
+        social_table = ReflectedSocialData(self.engine, self.connection)
         social_data = social_table.get(entry.id)
         if social_data:
             row.setdefault("thumbs_up", social_data.thumbs_up)
@@ -107,7 +108,7 @@ class Filter(object):
             row.setdefault("stars", social_data.stars)
             row.setdefault("followers_count", social_data.followers_count)
 
-        tags_table = ReflectedUserTags(self.engine)
+        tags_table = ReflectedUserTags(self.engine, self.connection)
         tags = tags_table.get_tags(entry.id)
         row["tags"] = tags
 
@@ -139,6 +140,7 @@ def parse():
     parser.add_argument("--db", default="places.db", help="DB to be scanned")
     parser.add_argument("--bookmarked", action="store_true", help="export bookmarks")
     parser.add_argument("--votes", action="store_true", help="export if votes is > 0")
+    parser.add_argument("--rows", default=1000, type=int, action="store_true", help="Number of rows per file")
     parser.add_argument("-f","--format", default="entries", help="file name format")
     parser.add_argument("-v", "--verbosity", help="Verbosity level")
     
@@ -156,20 +158,21 @@ def main():
         return
 
     engine = create_engine(f"sqlite:///{args.db}")
-    table = ReflectedEntryTable(engine)
+    with engine.connect() as connection:
+        table = ReflectedEntryTable(engine, connection)
 
-    new_path = Path("data") / "top"
-    if new_path.exists():
-        shutil.rmtree(new_path)
+        new_path = Path("data") / "top"
+        if new_path.exists():
+            shutil.rmtree(new_path)
 
-    f = Filter(new_path, args, engine)
-    for entry in table.get_entries():
-        if not f.is_valid(entry):
-            continue
+        f = Filter(new_path, args, engine, connection)
+        for entry in table.get_entries():
+            if not f.is_valid(entry):
+                continue
 
-        #print(entry)
-        f.write(entry)
+            #print(entry)
+            f.write(entry)
 
-    f.close()
+        f.close()
 
 main()

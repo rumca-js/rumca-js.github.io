@@ -3,8 +3,9 @@ from sqlalchemy import Index
 
 
 class ReflectedTable(object):
-    def __init__(self, engine):
+    def __init__(self, engine, connection):
         self.engine = engine
+        self.connection = connection
 
     def get_table(self, table_name):
         destination_metadata = MetaData()
@@ -14,10 +15,9 @@ class ReflectedTable(object):
         return destination_table
 
     def truncate_table(self, table_name):
-        with self.engine.connect() as connection:
-            sql_text = f"DELETE FROM {table_name};"
-            connection.execute(text(sql_text))
-            connection.commit()
+        sql_text = f"DELETE FROM {table_name};"
+        self.connection.execute(text(sql_text))
+        self.connection.commit()
 
     def create_index(self, table, column_name):
         index_name = f"idx_{table.name}_{column_name}"
@@ -25,25 +25,26 @@ class ReflectedTable(object):
 
         index.create(bind=self.engine)
 
+    def vacuum(self):
+        self.connection.execute(text("VACUUM"))
+
     def close(self):
-        with self.engine.connect() as connection:
-            connection.execute(text("VACUUM"))
+        pass
 
     def print_summary(self, print_columns=False):
         inspector = inspect(self.engine)
         tables = inspector.get_table_names()
 
-        with self.engine.connect() as connection:
-            for table in tables:
-                row_count = connection.execute(
-                    text(f"SELECT COUNT(*) FROM {table}")
-                ).scalar()
-                print(f"Table: {table}, Row count: {row_count}")
+        for table in tables:
+            row_count = self.connection.execute(
+                text(f"SELECT COUNT(*) FROM {table}")
+            ).scalar()
+            print(f"Table: {table}, Row count: {row_count}")
 
-                if print_columns:
-                    columns = inspector.get_columns(table)
-                    column_names = [column["name"] for column in columns]
-                    print(f"Columns in {table}: {', '.join(column_names)}")
+            if print_columns:
+                columns = inspector.get_columns(table)
+                column_names = [column["name"] for column in columns]
+                print(f"Columns in {table}: {', '.join(column_names)}")
 
 
 class ReflectedEntryTable(ReflectedTable):
@@ -52,12 +53,11 @@ class ReflectedEntryTable(ReflectedTable):
 
         entries_select = select(destination_table)
 
-        with self.engine.connect() as connection:
-            result = connection.execute(entries_select)
-            entries = result.fetchall()
+        result = self.connection.execute(entries_select)
+        entries = result.fetchall()
 
-            for entry in entries:
-                yield entry
+        for entry in entries:
+            yield entry
 
 
 class ReflectedUserTags(ReflectedTable):
@@ -68,14 +68,13 @@ class ReflectedUserTags(ReflectedTable):
 
         tags = ""
 
-        with self.engine.connect() as connection:
-            result = connection.execute(stmt)
-            rows = result.fetchall()
-            for row in rows:
-                if tags:
-                    tags += ", "
+        result = self.connection.execute(stmt)
+        rows = result.fetchall()
+        for row in rows:
+            if tags:
+                tags += ", "
 
-                tags += "#" + row.tag
+            tags += "#" + row.tag
 
         return tags
 
@@ -86,11 +85,10 @@ class ReflectedUserTags(ReflectedTable):
 
         tags = []
 
-        with self.engine.connect() as connection:
-            result = connection.execute(stmt)
-            rows = result.fetchall()
-            for row in rows:
-                tags.append(row.tag)
+        result = self.connection.execute(stmt)
+        rows = result.fetchall()
+        for row in rows:
+            tags.append(row.tag)
 
         return tags
 
@@ -101,9 +99,8 @@ class ReflectedSourceTable(ReflectedTable):
 
         stmt = select(destination_table).where(destination_table.c.id == source_id)
 
-        with self.engine.connect() as connection:
-            result = connection.execute(stmt)
-            return result.first()
+        result = self.connection.execute(stmt)
+        return result.first()
 
 
 class ReflectedSocialData(ReflectedTable):
@@ -112,6 +109,5 @@ class ReflectedSocialData(ReflectedTable):
 
         stmt = select(destination_table).where(destination_table.c.entry_id == entry_id)
 
-        with self.engine.connect() as connection:
-            result = connection.execute(stmt)
-            return result.first()
+        result = self.connection.execute(stmt)
+        return result.first()
