@@ -1,6 +1,5 @@
 importScripts('https://unpkg.com/sql.js@1.6.0/dist/sql-wasm.js')
 importScripts('https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js')
-importScripts('./config.js?i=53');
 importScripts('./library.js?i=' + getSystemVersion());
 importScripts('./database.js?i=' + getSystemVersion());
 
