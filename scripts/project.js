@@ -205,6 +205,11 @@ function getNavBar() {
 
                 <li><a id="orderByVotes" class="dropdown-item" href="#">Order by Votes</a></li>
                 <li><a id="orderByDatePublished" class="dropdown-item" href="#">Order by Date published</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li><a id="showIcons" class="dropdown-item" href="#">Show icons</a></li>
+                <li><a id="hideIcons" class="dropdown-item" href="#">Hide icons</a></li>
             </ul>
           </li>
 
@@ -619,6 +624,10 @@ $(document).on('click', '.projectButton', function(e) {
 $(document).on('click', '.suggestion-item', function(e) {
     e.preventDefault();
 
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.delete('page')
+    window.history.pushState({}, '', currentUrl);
+
     const searchInput = document.getElementById('searchInput');
     let suggestion_item_value = $(this).data('search')
 
@@ -738,6 +747,22 @@ $(document).on('click', '#orderByDatePublished', function(e) {
     }
 
     performSearch();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#showIcons', function(e) {
+    view_show_icons = true;
+
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#hideIcons', function(e) {
+    view_show_icons = false;
+
+    fillListData();
 });
 
 
