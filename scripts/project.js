@@ -210,6 +210,11 @@ function getNavBar() {
 
                 <li><a id="showIcons" class="dropdown-item" href="#">Show icons</a></li>
                 <li><a id="hideIcons" class="dropdown-item" href="#">Hide icons</a></li>
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li><a id="directLinks" class="dropdown-item" href="#" title="Links lead directly to URL">Direct links</a></li>
+                <li><a id="localPreview" class="dropdown-item" href="#" title="Links lead to local preview">Local preview</a></li>
             </ul>
           </li>
 
@@ -761,6 +766,22 @@ $(document).on('click', '#showIcons', function(e) {
 //-----------------------------------------------
 $(document).on('click', '#hideIcons', function(e) {
     view_show_icons = false;
+
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#directLinks', function(e) {
+    show_pure_links = true;
+
+    fillListData();
+});
+
+
+//-----------------------------------------------
+$(document).on('click', '#localPreview', function(e) {
+    show_pure_links = false;
 
     fillListData();
 });
