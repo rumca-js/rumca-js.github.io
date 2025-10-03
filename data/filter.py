@@ -140,7 +140,7 @@ def parse():
     parser.add_argument("--db", default="places.db", help="DB to be scanned")
     parser.add_argument("--bookmarked", action="store_true", help="export bookmarks")
     parser.add_argument("--votes", action="store_true", help="export if votes is > 0")
-    parser.add_argument("--rows", default=1000, type=int, action="store_true", help="Number of rows per file")
+    parser.add_argument("--rows", default=1000, action="store_true", help="Number of rows per file")
     parser.add_argument("-f","--format", default="entries", help="file name format")
     parser.add_argument("-v", "--verbosity", help="Verbosity level")
     
