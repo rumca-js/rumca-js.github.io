@@ -2,55 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
+    <lastmod>2025-10-05T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/</loc>
+    <lastmod>2025-10-05T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-10-05-windows-mess/</loc>
+    <lastmod>2025-10-05T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-21-business-oriented-focus/</loc>
+    <lastmod>2025-09-21T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-14-youtube-best/</loc>
+    <lastmod>2025-09-14T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-11-hatespeech/</loc>
+    <lastmod>2025-09-11T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-04-dem-bugs/</loc>
+    <lastmod>2025-09-04T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/selfhost/2025-08-26-smart-home/</loc>
+    <lastmod>2025-08-26T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/selfhost/</loc>
+    <lastmod>2025-08-26T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-29-distopian/</loc>
     <lastmod>2025-06-29T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-hatebook-2/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-hatebook/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-i-didnt-write-this/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-wheres-my-science/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-who-am-i/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-wrap-it-up/</loc>
-    <lastmod>2025-06-29T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-28-we-fly-a-lot/</loc>
-    <lastmod>2025-06-28T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-27-digital-kingdom-2/</loc>
-    <lastmod>2025-06-27T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-27-digital-kingdom/</loc>
-    <lastmod>2025-06-27T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-27-digital-kingdom-3/</loc>
-    <lastmod>2025-06-27T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-26-praise-the-algorithm/</loc>
-    <lastmod>2025-06-26T08:43:32+00:00</lastmod>
-  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-15-seo/</loc>
-    <lastmod>2025-06-15T08:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-29-ai-slop/</loc>
     <lastmod>2025-06-15T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-14-banned-on-reddit/</loc>
@@ -133,42 +115,6 @@
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/</loc>
     <lastmod>2024-11-06T16:43:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-behind-the-curtain/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-goodless-reign-2/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-goodless-reign-3/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-goodless-reign/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-google-is-evil/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-i-am-the-mark/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-join-the-rainbow-cult/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-junk-food-love/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-locked-down/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-manufacturing-consent/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-mark-of-the-machine/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-midnight-veil/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-philosopher-showdown/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-secular-reign/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-signal-flag/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-sillicon-soul/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-spin-cycle-sentience/</loc>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/digitalslop/2025-06-30-youtuber-love/</loc>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/categories/</loc>
   </url><url>

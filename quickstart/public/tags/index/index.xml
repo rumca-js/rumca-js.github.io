@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on rumca-js</title>
+    <link>https://rumca-js.github.io/quickstart/public/tags/index/</link>
+    <description>Recent content in index on rumca-js</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://rumca-js.github.io/quickstart/public/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/</link>
+      <pubDate>Sun, 05 Oct 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Host</title>
+      <link>https://rumca-js.github.io/quickstart/public/selfhost/</link>
+      <pubDate>Tue, 26 Aug 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/selfhost/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

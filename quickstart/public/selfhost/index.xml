@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-Host on rumca-js</title>
+    <link>https://rumca-js.github.io/quickstart/public/selfhost/</link>
+    <description>Recent content in Self-Host on rumca-js</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Aug 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/selfhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Host</title>
+      <link>https://rumca-js.github.io/quickstart/public/selfhost/2025-08-26-smart-home/</link>
+      <pubDate>Tue, 26 Aug 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/selfhost/2025-08-26-smart-home/</guid>
+      <description>Smart-Home:
+Cloud documents - Next cloud
+Pictures - Immich
+Bookmarks, RSS reader - Karakeep
+PiHole - network blocking
+NetBox - management of the network clients (if you have 2 places you visit)
+Jellyfin - movies, shows, streaming
+Paperless - ??
+Samba - dockur samba https://github.com/dockur/samba
+Vaultwarden
+Nginx Proxy manager or Traefik
+Setup
+You can have them as different docker images YOu can have different computers with them Install docker NAS with samba (open media vault?</description>
+    </item>
+    
+  </channel>
+</rss>

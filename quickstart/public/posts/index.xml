@@ -6,7 +6,61 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Oct 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows mess</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-10-05-windows-mess/</link>
+      <pubDate>Sun, 05 Oct 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-10-05-windows-mess/</guid>
+      <description>For years, Windows was the go-to &amp;ldquo;just works&amp;rdquo; operating system. Plug something in, run an installer, play your game—simple. Meanwhile, Linux was for the patient and tech-savvy, often requiring manual configs and command-line tinkering.
+But somewhere along the way, things changed.
+Windows: Familiar, But Fragmented After a fresh Windows install, I tried launching an old game. It failed—missing Visual C++ Redistributable 2010. Finding the right version meant digging through sketchy download sites and dodging ad-ridden content farms.</description>
+    </item>
+    
+    <item>
+      <title>Business oriented focus</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-09-21-business-oriented-focus/</link>
+      <pubDate>Sun, 21 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-09-21-business-oriented-focus/</guid>
+      <description>Business oriented thinking It&amp;rsquo;s common to think about the outcome before starting a project. For example: Should I build a program if a similar one already exists? This mindset has benefits. Knowing your end goal helps define the path to reach it. It also allows you to find niches and differentiate your product from existing ones. This is often how business units operate - focused on ROI, market fit, and uniqueness.</description>
+    </item>
+    
+    <item>
+      <title>YouTube&#39;s best</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-09-14-youtube-best/</link>
+      <pubDate>Sun, 14 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-09-14-youtube-best/</guid>
+      <description>I have been updating database of links Until now the most viewed channel could have around 20M of followers in my database. I had maybe 200 channels I found wikipedia page with the most subscribed to channels, Mr. Beast at the time of writing has 430M of followers Most of these &amp;lsquo;most subscribed to channels&amp;rsquo; are either aimed toward children, or mindless entertainment, waste of time. Something analogic to &amp;lsquo;fast food&amp;rsquo; Many originate from India, maybe not something particularly surprising since India demographic structure could indicate that Many of channels are for kids.</description>
+    </item>
+    
+    <item>
+      <title>Hatespeech</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-09-11-hatespeech/</link>
+      <pubDate>Thu, 11 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-09-11-hatespeech/</guid>
+      <description>I have learned something today.
+There are so many efforts to ban hate speech. It was all due to hate towards LGTB communities, and minorities.
+I see currently how on Reddit everybody hates on dead republican Charlie Kirk.
+So much for hatespeech online. Only certain &amp;lsquo;casts&amp;rsquo; of people are protected. The desired outcome by ruling class is protected.</description>
+    </item>
+    
+    <item>
+      <title>Dem bugs</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2025-09-04-dem-bugs/</link>
+      <pubDate>Thu, 04 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2025-09-04-dem-bugs/</guid>
+      <description>Today I have fixed a quite nasty bug in my hobby project.
+Maybe it was easy to spot. Request from python requests was not closed after being made.
+This lead to memory leak, which fortunately was detected by own &amp;ldquo;memory traps&amp;rdquo;.
+It&amp;rsquo;s hard to develop project without some &amp;ldquo;contraints&amp;rdquo;, &amp;ldquo;limits&amp;rdquo;, that will be triggered and notify the mastah.
+This also makes me more careful about python. It is full of traps.</description>
+    </item>
+    
     <item>
       <title>Distopian - slop album</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2025-06-29-distopian/</link>
@@ -14,9 +68,9 @@
       
       <guid>https://rumca-js.github.io/quickstart/public/posts/2025-06-29-distopian/</guid>
       <description>Distopian:
-[hip-hop] silicon-soul-1.mp3 [hip-hop] silicon-soul-2.mp3 [pop] human-no.3125.mp3 [industrial metal] I-didn’t-write-this.-1.mp3 [nu metal] praise-the-algorithm-2.mp3 [hard rock] hatebook-2.mp3 [power metal] digital-kingdom-1.mp3 [power metal] digital-kingdom-2.mp3 [hard rock] hatebook-1.mp3 [nu metal] praise-the-algorithm-1.mp3 Con-spiracy
-[hip-hop] eyes-wide-shut.mp3 [hip-hop] wrap-it-up-1.mp3 [hip-hop] wrap-it-up-2.mp3 [funk] we-fly-a-lot.mp3 [hip-hop] wheres-my-science-bitch.mp3 Other
-[pop] rainbow-cult.mp3 </description>
+[hip-hop] silicon-soul-1.mp3 [pop] human-no.3125.mp3 [nu metal] praise-the-algorithm-2.mp3 [industrial metal] I-didn’t-write-this.-1.mp3 [doom metal] I-am-the-mark.mp3 [doom metal] mark-of-the-machine.mp3 [hard rock] hatebook-2.mp3 [pop] junk-food-love.mp3 [power metal] digital-kingdom-1.mp3 [hard rock] hatebook-1.mp3 [nu metal] praise-the-algorithm-1.mp3 [hip-hop] silicon-soul-2.mp3 [power metal] digital-kingdom-2.mp3 Con-spiracy
+[hip-hop] eyes-wide-shut.mp3 [hip-hop] wrap-it-up-1.mp3 [hip-hop] wrap-it-up-2.mp3 [hip-hop] wheres-my-science-bitch.mp3 [funk] we-fly-a-lot.mp3 Other
+[pop] rainbow-cult.mp3 [metal ballad] echoes-in-the-rainbow.mp3 </description>
     </item>
     
     <item>
