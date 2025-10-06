@@ -4,7 +4,7 @@ date = 2025-08-26 08:43:32
 draft = false
 +++
 
-Smart-Home:
+# Smart-Home elements
 
  - Cloud documents - Next cloud
  - Pictures - Immich
@@ -14,16 +14,25 @@ Smart-Home:
  - Jellyfin - movies, shows, streaming
  - Paperless - ??
  - Samba - dockur samba  https://github.com/dockur/samba
-
- - Vaultwarden
+ - NoIp
+ - No ip for domain - https://www.noip.com/support/knowledgebase/ip-linux-duc-docker
+ - docker-mailserver - E-Mail server
+ - rainloop, roundcube, nextcloud mail - E-mail client
+ - Vaultwarden - passwords
  - Nginx Proxy manager or Traefik
 
-Setup
- - You can have them as different docker images
- - YOu can have different computers with them
+# Server
 
-Install docker
-NAS with samba (open media vault?) should be separate because of network and setup shananingans?
+ - use samba to provide network access to your files. You can use open media vault then.
+ - install docker, install smart home elements
+
+# One big image, or separate images
+
+You can consider using one uber image, but it may lead to some problems with some images.
+More versatile approach is to use docker images for each functionality.
+
+# Examples
+One big image
 
 ```
 version: "3.9"
