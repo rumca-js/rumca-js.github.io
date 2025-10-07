@@ -137,7 +137,7 @@ function getProjectListTextNav() {
 function getSearchSuggestionContainer() {
     const suggestions = getSearchSuggestsions();
     let listItems = suggestions.map(suggestion =>
-        `<li class="list-group-item suggestion-item" data-search="${suggestion}">🔍${suggestion}</li>`
+        `<li class="list-group-item suggestion-item" style="cursor:pointer" data-search="${suggestion}">🔍${suggestion}</li>`
     ).join("");
 
     let html = `
@@ -620,6 +620,7 @@ $(document).on('click', '.copy-link', function(e) {
 
     navigator.clipboard.writeText(url).then(() => {
        $(this).html("Copied");
+       $(this).removeClass("btn-primary").addClass("btn-success");
     }).catch((err) => {
        console.error("Error copying URL: ", err);
     });
