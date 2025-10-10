@@ -138,6 +138,8 @@ function getNavBar() {
           <span class="navbar-toggler-icon"></span>
         </button>
 
+    </nav>
+
         <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
              ${navbar_files_menu}
@@ -150,8 +152,6 @@ function getNavBar() {
           </ul>
         </div>
       </div>
-    
-    </nav>
 
     ${suggestions}
     `;
