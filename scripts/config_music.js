@@ -45,7 +45,7 @@ function getFileVersion() {
 
 
 function getSystemVersion() {
-    return "1.2";
+    return "1.0.2";
 }
 
 

@@ -298,26 +298,14 @@ function getNavBarViewMenu() {
                 </li>
                 <li>
                     <div class="dropdown-item form-check">
-                        <input class="form-check-input me-2" type="radio" name="order" id="orderByMostFollowedASC" value="views">
-                        <label class="form-check-label" for="orderByMostFollowedASC">Order by most followed ASC</label>
+                        <input class="form-check-input me-2" type="radio" name="order" id="viewsASC" value="view_count">
+                        <label class="form-check-label" for="viewsASC">Order by views ASC</label>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown-item form-check">
-                        <input class="form-check-input me-2" type="radio" name="order" id="viewsDesc" value="-views">
-                        <label class="form-check-label" for="orderByMostFollowedDESC">Order by views DESC</label>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown-item form-check">
-                        <input class="form-check-input me-2" type="radio" name="order" id="viewsASC" value="views">
-                        <label class="form-check-label" for="viewsASC">Order by most views ASC</label>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown-item form-check">
-                        <input class="form-check-input me-2" type="radio" name="order" id="viewsDESC" value="-views">
-                        <label class="form-check-label" for="viewsDESC">Order by most views DESC</label>
+                        <input class="form-check-input me-2" type="radio" name="order" id="viewsDESC" value="-view_count">
+                        <label class="form-check-label" for="viewsDESC">Order by views DESC</label>
                     </div>
                 </li>
                 <li>
