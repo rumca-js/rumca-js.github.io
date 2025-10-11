@@ -137,7 +137,7 @@ function getNavBar() {
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+      </div>
     </nav>
 
         <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
@@ -151,7 +151,6 @@ function getNavBar() {
              </li>
           </ul>
         </div>
-      </div>
 
     ${suggestions}
     `;
