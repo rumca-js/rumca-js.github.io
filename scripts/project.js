@@ -127,8 +127,8 @@ function getNavBar() {
     let suggestions = getSearchSuggestionContainer();
 
     let nav_text = `
-    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <div class="d-flex w-100">
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light container-fluid">
+      <div class="container-fluid">
         ${home_text}
 
         ${navbar_search_form}
@@ -138,9 +138,8 @@ function getNavBar() {
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-    </nav>
 
-        <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
              ${navbar_files_menu}
 
@@ -150,7 +149,8 @@ function getNavBar() {
                <a id="helpButton" class="nav-link" href="#">?</a>
              </li>
           </ul>
-        </div>
+      </div>
+    </nav>
 
     ${suggestions}
     `;
@@ -162,7 +162,7 @@ function getNavBar() {
 
 function getNavSearchForm() {
     return `
-        <form class="d-flex w-80 ms-3" id="searchContainer">
+        <form class="d-flex w-100 ms-3" id="searchContainer">
           <div class="input-group">
             <input id="searchInput" class="form-control me-1 flex-grow-1" type="search" placeholder="Search" autofocus aria-label="Search">
             <button id="dropdownButton" class="btn btn-outline-secondary" type="button">⌄</button>
@@ -171,7 +171,6 @@ function getNavSearchForm() {
         </form>
         `;
 }
-
 
 
 function getNavHomeButton() {
@@ -231,7 +230,7 @@ function getNavBarViewMenu() {
             <a class="nav-link dropdown-toggle" href="#" id="navbarViewDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               View
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarViewDropdown">
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarViewDropdown">
                 <!-- View Type Radio Group -->
                 <li>
                     <div class="dropdown-item form-check">
@@ -878,19 +877,6 @@ $(document).on('click', '#homeButton', function(e) {
 
 
 //-----------------------------------------------
-$(document).on('keydown', "#searchInput", function(e) {
-    if (e.key === "Enter") {
-        e.preventDefault();
-
-        hideSearchSuggestions();
-        resetParams();
-
-        performSearch();
-    }
-});
-
-
-//-----------------------------------------------
 $(document).on('click', '#showIcons', function(e) {
     view_show_icons = $(this).is(':checked');
 
@@ -939,6 +925,30 @@ $(document).on('change', 'input[name="order"]', function () {
 });
 
 
+//-----------------------------------------------
+$(document).on('keydown', "#searchInput", function(e) {
+  if (e.key === "Enter") {
+      e.preventDefault();
+
+      hideSearchSuggestions();
+      resetParams();
+
+      performSearch();
+  }
+
+  // Check if "/" is pressed and the target isn't an input/textarea already
+  if (e.key === '/' && !e.target.closest('input, textarea')) {
+    e.preventDefault(); // Prevent browser's default quick find (especially in Firefox)
+    
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+  }
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Initializing")
 
@@ -948,10 +958,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchContainer = document.getElementById('searchContainer');
 
     if (isMobile()) {
-        searchContainer.style.width = '100%';
+        //searchContainer.style.width = '100%';
     }
     else {
-        searchContainer.style.width = '60%';
+        //searchContainer.style.width = '95%';
+        //searchContainer.style.width = '60%';
     }
 
     readConfig();
