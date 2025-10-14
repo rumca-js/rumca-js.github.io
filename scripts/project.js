@@ -250,6 +250,12 @@ function getNavBarViewMenu() {
                         <label class="form-check-label" for="viewSearchEngine">Search engine</label>
                     </div>
                 </li>
+                <li>
+                    <div class="dropdown-item form-check">
+                        <input class="form-check-input me-2" type="radio" name="viewMode" id="viewContentCentric" value="content-centric">
+                        <label class="form-check-label" for="viewContentCentric">Content centric</label>
+                    </div>
+                </li>
 
                 <li><hr class="dropdown-divider"></li>
 
@@ -956,14 +962,6 @@ document.addEventListener('DOMContentLoaded', () => {
     $("#projectList").html(getProjectListText());
 
     const searchContainer = document.getElementById('searchContainer');
-
-    if (isMobile()) {
-        //searchContainer.style.width = '100%';
-    }
-    else {
-        //searchContainer.style.width = '95%';
-        //searchContainer.style.width = '60%';
-    }
 
     readConfig();
 
