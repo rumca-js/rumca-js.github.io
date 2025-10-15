@@ -338,6 +338,11 @@ function getEntryDescriptionSafe(entry) {
   content = new InputContent(content_text);
   content_text = content.linkify();
 
+  if (entry.thumbnail != null) {
+    content = new InputContent(content_text);
+    content_text = content.removeImgs(entry.thumbnail);
+  }
+
   content_text = content_text.replace(/(\r\n|\r|\n)/g, "<br>");
   return content_text;
 }
@@ -395,7 +400,7 @@ function getEntryBodyText(entry) {
 
     text += getViewMenu(entry);
 
-    let description = getEntryDescription(entry);
+    let description = getEntryDescriptionSafe(entry);
 
     text += `
     <div>${description}</div>
@@ -896,7 +901,6 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
             class="my-1 p-1 list-group-item list-group-item-action ${bookmark_class} border rounded"
         >
             <a class="d-flex mx-2" href="${entry_link}">
-               ${thumbnail_text}
 
                <div class="mx-2">
                   <span style="font-weight:bold" class="text-primary" entryTitle="true">${title_safe}</span>
@@ -913,10 +917,12 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
             </a>
 
             <div class="mx-2">
-              ${view_menu}
+               ${thumbnail_text}
             </div>
 
-            <hr/>
+            <!--div class="mx-2">
+              ${view_menu}
+            </div-->
 
             <div class="mx-2" entryDetails="true">
             </div>
@@ -925,7 +931,7 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
                ${tags_text} ${language_text}
             </div>
 
-            <div class="mx-2">
+            <div class="mx-2 link-detail-description">
               ${description}
             </div>
         </div>
