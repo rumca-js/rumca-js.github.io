@@ -786,7 +786,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
                         ${source__title} ${date_published} ${author}
                     </div>
                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>
-		    <div class="entry-social">${social}</div>
+                    <div class="entry-social">${social}</div>
                 </div>
 
                 <div class="mx-2 ms-auto" entryBadges="true">
@@ -850,7 +850,7 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                   <span style="font-weight:bold" class="text-reset" entryTitle="true">${title_safe}</span>
                   <div class="text-reset text-decoration-underline" entryDetails="true">@ ${entry.link}</div>
                   <div class="text-reset mx-2">${tags_text} ${language_text}</div>
-		  <div class="entry-social">${social}</div>
+                  <div class="entry-social">${social}</div>
                </div>
 
                <div class="mx-2 ms-auto">
@@ -1033,7 +1033,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
                     <span style="font-weight: bold" class="text-primary" entryTitle="true">${title_safe}</span>
                     <div class="link-list-item-description" entryDetails="true">${source__title}</div>
                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>
-		    <div class="entry-social">${social}</div>
+                    <div class="entry-social">${social}</div>
                 </div>
             </div>
         </a>
@@ -1097,7 +1097,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
                     <span style="font-weight: bold" class="text-primary" entryTitle="true">${title_safe}</span>
                     <div class="link-list-item-description" entryDetails="true">${source__title}</div>
                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>
-		    <div class="entry-social">${social}</div>
+                    <div class="entry-social">${social}</div>
                 </div>
             </div>
         </a>
