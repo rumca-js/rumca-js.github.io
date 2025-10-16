@@ -924,15 +924,12 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
                   <div class="text-body text-decoration-underline">@ ${entry.link}</div>
                </div>
 
-            </a>
-
-            <div class="mx-2 ms-auto">
                ${badge_text}
                ${badge_star}
                ${badge_age}
                ${badge_dead}
                ${badge_read_later}
-            </div>
+            </a>
 
             <div class="mx-2">
                ${thumbnail_text}
