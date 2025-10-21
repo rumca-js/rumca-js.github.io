@@ -17,7 +17,6 @@ I have unit tests mind you, but unit tests do not cover 100% of code.
 
 My functional manual testing also did not show anything outstanding.
 
-
 Turns out my celery tasks had an unkown bug in which it would spin forever that did not happen because:
  - my RSS feed had been eating memory for a long period of time
  - celery had defined memory limit for workers

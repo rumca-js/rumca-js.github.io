@@ -20,6 +20,8 @@ Unfortunately, dmesg revealed issues with the drive, which made me a bit uneasy.
 
 Next, I investigated my software dependencies. I’d recently upgraded several third-party packages, opting for newer versions. I wondered if that introduced a bug. However, this led to another roadblock: downgrading wasn’t straightforward since my requirements.txt file does not fully track all packages. I didn't know which packages to downgrade. Frustrating.
 
+# Reason
+
 I then checked the app’s stability at a previous commit. I identified a version where everything was working smoothly, pulled the code, and ran it. Success! The app was stable. What now?
 
 From there, I began the painstaking process of copy-pasting changes, line by line, to isolate the issue. Initially, I copied significant chunks of code, but the app froze again. This required many back-and forth copy and restart operations. Frustration mounted. Sigh. Coffee. Sigh. Repeat.
@@ -27,6 +29,8 @@ From there, I began the painstaking process of copy-pasting changes, line by lin
 Finally, after considerable effort, I pinpointed the culprit. Ironically, it was a bug I had recently fixed. It was a simple typo in variable name. Fixing that bug caused the freeze—a bizarre and unexpected outcome. Why? The subsequent lines of code checked whether a grammar library (Spacy) was loaded. Since the earlier bug was resolved, these lines executed for the first time and caused the app to freeze.
 
 So fixing a simple bug created a very nasty behavior. Sigh.
+
+# Solution
 
 The solution was simple - ensure the library was loaded only once, and not call it from apache. After making that change, everything worked perfectly.
 

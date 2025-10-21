@@ -18,7 +18,7 @@ Sharing and organizing links is more important than you might think. Here's why:
 
 # Examples
 
- - Link Viewer (ZIP File Format): https://rumca-js.github.io/quickstart/public/static_lists/viewerzip.html?file=top
+ - Search: https://rumca-js.github.io/search
  - Domains Repository: https://github.com/rumca-js/Internet-Places-Database
  - Bookmarks Repository: https://github.com/rumca-js/RSS-Link-Database
  - 2025 Links Repository: https://github.com/rumca-js/RSS-Link-Database-2025

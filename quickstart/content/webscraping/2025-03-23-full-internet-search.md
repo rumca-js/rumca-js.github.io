@@ -13,7 +13,7 @@ So what it is?
  - it uses JavaScript heresy
  - It utilizes SQLite to fetch data.
 
-Link: [Internet search](https://rumca-js.github.io/internet)
+Link: [Internet search](https://rumca-js.github.io/search)
 
 There are other side projects, mind you:
  - [Music I Like](https://rumca-js.github.io/music)
