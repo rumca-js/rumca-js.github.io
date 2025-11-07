@@ -50,19 +50,23 @@ function getSystemVersion() {
 
 
 function getInitialSearchSuggestsions() {
-    return ["link = youtube.com/channel",
+    return [
+        "tag=artificial intelligence bot",
+        "tag==search engine",
+        "link=youtube.com/channel",
         "link=github.com/",
         "link=reddit.com/",
         "link=x.com/",
-        "tag=search engine",
         "tag=operating system",
+        "tag==web browser",
+        "tag=music artist",
+        "tag=music band",
         "tag=interesting",
         "tag=self-host",
         "tag=programming language",
-        "tag=music artist",
-        "tag=music band",
+        "tag==artificial intelligence",
         "tag=video games",
-        "tag=video game",
+        "tag==video game",
         "tag=wtf",
         "tag=funny",
     ];
