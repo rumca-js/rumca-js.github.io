@@ -15,15 +15,15 @@ clear-dbs:
 
 clear: clear-zips
 
-zips: filter pack clear-dbs clear-jsons
+zips: jsons pack clear-dbs clear-jsons
 
 pack:
 	zip music.zip catalog*.json
 	zip bookmarks.zip bookmark*.json
 	zip top.zip places*.json
 
-filter:
+jsons:
 	# from smaller to bigger
-	poetry run python filter.py --db catalog.db --bookmarked -f catalog
-	poetry run python filter.py --db rsshistory.db --bookmarked -f bookmarks
-	poetry run python filter.py --db places.db --votes -f places
+	poetry run python filter.py --db catalog.db --file-names catalog
+	poetry run python filter.py --db rsshistory.db --file-names bookmark
+	poetry run python filter.py --db places.db --file-names places

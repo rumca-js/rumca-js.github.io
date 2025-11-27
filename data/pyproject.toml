@@ -7,8 +7,9 @@ readme = "README.md"
 packages = [{include = "static_lists"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 sqlalchemy = "*"
+linkarchivetools="0.0.12"
 
 [build-system]
 requires = ["poetry-core"]
