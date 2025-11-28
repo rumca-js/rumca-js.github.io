@@ -24,6 +24,6 @@ pack:
 
 jsons:
 	# from smaller to bigger
-	poetry run python filter.py --db catalog.db --file-names catalog
-	poetry run python filter.py --db rsshistory.db --file-names bookmark
-	poetry run python filter.py --db places.db --file-names places
+	poetry run python filter.py --db catalog.db --file-names catalog --redundant
+	poetry run python filter.py --db rsshistory.db --file-names bookmark --redundant
+	poetry run python filter.py --db places.db --file-names places --votes
