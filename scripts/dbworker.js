@@ -1,7 +1,11 @@
-importScripts('https://unpkg.com/sql.js@1.6.0/dist/sql-wasm.js')
-importScripts('https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js')
-importScripts('./library.js?i=1.0.4');
-importScripts('./database.js?i=1.0.4');
+let db = null;
+let file_name = null;
+
+
+function getFileVersion() {
+    /* Forces refresh of the file */
+    return "71";
+}
 
 
 function debug(text) {
@@ -11,7 +15,10 @@ function debug(text) {
 }
 
 
-let file_name = null;
+importScripts('https://unpkg.com/sql.js@1.6.0/dist/sql-wasm.js')
+importScripts('https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js')
+importScripts('./library.js?i=1.0.4');
+importScripts('./database.js?i=1.0.4');
 
 
 async function requestFileChunksFromListLog(worker, parts) {
