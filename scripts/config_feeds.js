@@ -3,7 +3,7 @@ let db = null;
 let object_list_data = null;   // all objects lists
 let system_initialized = false;
 
-let view_display_type = "gallery";
+let view_display_type = "search-engine";
 let view_display_style = "style-light";
 let view_show_icons = true;
 let view_small_icons = false;
@@ -66,4 +66,10 @@ function getInitialSearchSuggestsions() {
         "language = pl",
         "link = youtube.com",
     ];
+}
+
+function debug(text) {
+    if (true) {
+      console.log(text);
+    }
 }
