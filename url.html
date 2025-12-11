@@ -143,24 +143,41 @@ function SetTitle() {
 }
 
 
+function ProcessInput() {
+    let search_term = $("#searchInput").val();
+
+    search_term = fixStupidGoogleRedirects(search_term);
+
+    $("#searchInput").val(search_term);
+}
+
+
+function SubmitInput() {
+    FillLinks();
+    FillHandlerPreview();
+    SetTitle();
+}
+
+
 // Run on page load
 
 $(document).ready(function () {
     $("#projectNavbar").html(getNavBar());
 
+    url = getQueryParam("url");
+    if (url != null) {
+       $('#searchInput').val(url);
+       ProcessInput();
+       SubmitInput();
+    }
+
     $('#searchContainer').on('input', function () {
-        let search_term = $(this).val();
-
-        search_term = fixStupidGoogleRedirects(search_term);
-
-        $(this).val(search_term);
+        ProcessInput();
     });
 
     $("#searchContainer").on("submit", function (e) {
         e.preventDefault();
-        FillLinks();
-        FillHandlerPreview();
-        SetTitle();
+        SubmitInput();
     });
 });
 
