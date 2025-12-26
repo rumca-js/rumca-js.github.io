@@ -38,7 +38,7 @@ function getEntryLink(entry) {
     }
     else {
         return `?entry_id=${entry.id}`;
-	}
+    }
 }
 
 
