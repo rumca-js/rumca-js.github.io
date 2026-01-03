@@ -45,29 +45,40 @@ function getFileVersion() {
 
 
 function getSystemVersion() {
-    return "1.0.3";
+    return "1.0.4";
 }
 
 
 function getInitialSearchSuggestsions() {
     return [
+        "tag=artificial intelligence",
         "tag=artificial intelligence bot",
-        "tag==search engine",
+        "tag=search engine",
+        "tag=operating system",
+        "tag=technology",
+        "tag=science",
+        "tag=news",
+        "tag=music artist",
+        "tag=music band",
+        "tag==web browser",
+        "tag=video games",
+        "tag==video game",
+        "tag=personal",
+        "tag=personal sites source",
+        "tag=interesting",
+        "tag=interesting page design",
+        "tag=interesting page contents",
+        "tag=anime",
+        "tag=self-host",
+        "tag=programming",
+        "tag=programming language",
+        "tag=open source",
+        "tag=wtf",
+        "tag=funny",
+        "language=pl",
         "link=youtube.com/channel",
         "link=github.com/",
         "link=reddit.com/",
         "link=x.com/",
-        "tag=operating system",
-        "tag==web browser",
-        "tag=music artist",
-        "tag=music band",
-        "tag=interesting",
-        "tag=self-host",
-        "tag=programming language",
-        "tag==artificial intelligence",
-        "tag=video games",
-        "tag==video game",
-        "tag=wtf",
-        "tag=funny",
     ];
 }
