@@ -4,11 +4,6 @@ let entries_length = 0;
 let search_suggestions = [];
 
 
-function getVersionInformation() {
-   return "File version:" + getFileVersion() + " System version:" + getSystemVersion();
-}
-
-
 function getFileName() {
     let file_name = getQueryParam('file') || getDefaultFileName();
 

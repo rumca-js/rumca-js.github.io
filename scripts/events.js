@@ -73,6 +73,17 @@ function workerFunction(e) {
 }
 
 
+function clearInput(focus=true) {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.value = "";
+      if (focus) {
+         searchInput.focus();
+      }
+    }
+}
+
+
 function registerEventsListeners() {
 //-----------------------------------------------
 $(document).on('click', '.btnNavigation', function(e) {
@@ -281,16 +292,24 @@ $(document).on('keydown', "#searchInput", function(e) {
 
       performSearch();
   }
-
+  if (e.key === "Escape") {
+    e.preventDefault(); // Prevent browser's default quick find (especially in Firefox)
+    clearInput();
+  }
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+    e.preventDefault(); // Prevent browser's default quick find (especially in Firefox)
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      if (focus) {
+         searchInput.focus();
+      }
+    }
+  }
   // Check if "/" is pressed and the target isn't an input/textarea already
   if (e.key === '/' && !e.target.closest('input, textarea')) {
     e.preventDefault(); // Prevent browser's default quick find (especially in Firefox)
     
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-      searchInput.value = "";
-      searchInput.focus();
-    }
+    clearInput();
   }
 });
 }
@@ -324,5 +343,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    $("#version").html(getVersionInformation());
+    $("#system-information").html(getSystemInformationHtml());
 });

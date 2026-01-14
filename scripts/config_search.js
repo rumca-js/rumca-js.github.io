@@ -82,3 +82,28 @@ function getInitialSearchSuggestsions() {
         "link=x.com/",
     ];
 }
+function getViewStyles() {
+    return [
+        "standard",
+        "gallery",
+        "search-engine",
+        "content-centric",
+        "links-only",
+    ];
+}
+
+
+function getOrderPossibilities() {
+    return [
+        ['page_rating_votes', "Votes ASC"],
+        ['-page_rating_votes', "Votes DESC"],
+        ['page_rating_views', "Views ASC"],
+        ['-page_rating_views', "Views DESC"],
+        ['date_published', "Date published ASC"],
+        ['-date_published', "Date published DESC"],
+        ['followers_count', "Followers ASC"],
+        ['-followers_count', "Followers DESC"],
+        ['stars', "Stars ASC"],
+        ['-stars', "Stars DESC"],
+    ];
+}
