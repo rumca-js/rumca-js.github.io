@@ -20,13 +20,16 @@ class UrlLocation {
   constructor(urlString) {
     try {
       this.url = new URL(urlString);
+      this.raw = urlString;
     } catch (e) {
       throw new Error("Invalid URL");
     }
   }
 
   isWebLink() {
-        const url = this.url;
+        const url = this.raw;
+        if (url == null)
+           return false;
 
         if (
             url.startsWith("http://") ||
