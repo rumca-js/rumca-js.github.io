@@ -716,6 +716,7 @@ function getOneEntryEntryText(entry) {
         "realated": getEntryRelatedBar,
         "visits": getEntryVisitsBar,
         "text": getEntryTextBar,
+        "links-only": getEntryLinkTemplate,
     };
 
     const templateFunc = templateMap[view_display_type];
@@ -924,6 +925,23 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                </div>
             </div>
         </a>
+    `;
+}
+
+
+function getEntryLinkTemplate(entry, show_icons = true, small_icons = false) {
+    let tags_text = getEntryTagStrings(entry);
+    let title_safe = getEntryTitleSafe(entry);
+    let hover_title = title_safe + " " + tags_text;
+
+    return `
+        <div
+            href="${entry.link}"
+            entry="${entry.id}"
+            title="${hover_title}"
+         >
+            ${entry.link}
+        </div>
     `;
 }
 
