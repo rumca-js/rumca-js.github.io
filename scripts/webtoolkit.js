@@ -18,18 +18,21 @@ function escapeHtml(unsafe)
 
 class UrlLocation {
   constructor(urlString) {
+    this.raw = urlString;
     try {
       this.url = new URL(urlString);
-      this.raw = urlString;
     } catch (e) {
-      throw new Error("Invalid URL");
+        console.log(e);
+      this.url = null;
     }
   }
 
   isWebLink() {
         const url = this.raw;
         if (url == null)
-           return false;
+        {
+            return false;
+        }
 
         if (
             url.startsWith("http://") ||
@@ -45,7 +48,7 @@ class UrlLocation {
             }
 
             // no funny chars
-            const domainOnly = this.getDomainOnly();
+            const domainOnly = this.getDomain();
             if (!domainOnly) {
                 return false;
             }
@@ -68,11 +71,17 @@ class UrlLocation {
   }
 
   getProtocolless() {
-    return sanitizeLink(this.url.href.replace(`${this.url.protocol}//`, ''));
+    if (this.url != null) {
+       return sanitizeLink(this.url.href.replace(`${this.url.protocol}//`, ''));
+    }
   }
 
   getDomain() {
     const protocolless = this.getProtocolless();
+    if (protocolless == null) {
+      return;
+    }
+
     const firstSlashIndex = protocolless.indexOf('/');
     if (firstSlashIndex === -1) {
       return protocolless;
@@ -232,6 +241,9 @@ class ContentLinkParser {
         this.getLinksHttpsEncoded("http").forEach(l => links.add(l));
         this.getLinksHref().forEach(l => links.add(l));
 
+        //console.log("Obtained");
+        //this.debugLinks(links);
+
         // Cleanup similar to Python code
         let cleaned = new Set();
 
@@ -252,6 +264,9 @@ class ContentLinkParser {
             }
         }
 
+        //console.log("Cleaned");
+        //this.debugLinks(cleaned);
+
         // Remove junk values
         const blacklist = new Set([
             null, "", "http", "https", "http://", "https://"
@@ -259,14 +274,21 @@ class ContentLinkParser {
 
         let result = new Set();
         for (let link of cleaned) {
-	    let link_location = new UrlLocation(link);
-	    let is_web_link = link_location.isWebLink();
+            let link_location = new UrlLocation(link);
+            let is_web_link = link_location.isWebLink();
+
             if (!blacklist.has(link) && is_web_link) {
                 result.add(link);
             }
         }
 
         return result;
+    }
+
+    debugLinks(links) {
+        for (let item of links) {
+            console.log(item);
+        }
     }
 
     getLinksHttps(protocol = "https") {
