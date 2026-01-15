@@ -294,7 +294,7 @@ class ContentLinkParser {
     getLinksHttps(protocol = "https") {
         const cont = String(this.getContents());
         const pattern = new RegExp(
-            `(${protocol}:\\/\\/[a-zA-Z0-9./\\-_?&=#;:]+)`,
+            `(${protocol}:\\/\\/[a-zA-Z0-9./\\-_?&=#;:@]+)`,
             "g"
         );
 
@@ -305,7 +305,7 @@ class ContentLinkParser {
     getLinksHttpsEncoded(protocol = "https") {
         const cont = String(this.getContents());
         const pattern = new RegExp(
-            `(${protocol}:&#x2F;&#x2F;[a-zA-Z0-9./\\-_?&=#;:]+)`,
+            `(${protocol}:&#x2F;&#x2F;[a-zA-Z0-9./\\-_?&=#;:@]+)`,
             "g"
         );
 
