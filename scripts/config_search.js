@@ -82,6 +82,8 @@ function getInitialSearchSuggestsions() {
         "link=x.com/",
     ];
 }
+
+
 function getViewStyles() {
     return [
         "standard",
