@@ -9,10 +9,6 @@ function isStatusCodeValid(entry) {
     if (entry.status_code >= 200 && entry.status_code < 400)
         return true;
 
-    // unknown status is valid (undetermined, not invalid)
-    if (entry.status_code == 0)
-        return true;
-
     // user agent, means that something is valid, but behind paywall
     if (entry.status_code == 403)
         return true;
@@ -21,10 +17,40 @@ function isStatusCodeValid(entry) {
 }
 
 
+function isStatusCodeInValid(entry) {
+    // user agent, means that something is valid, but behind paywall
+    if (entry.status_code == 403)
+        return false;
+
+    if (entry.status_code < 200 && entry.status_code >= 400)
+        return true;
+
+    return false;
+}
+
+
 function isEntryValid(entry) {
-    return entry.is_valid === false || 
-        (isStatusCodeValid(entry)) ||
-        entry.manual_status_code == 200;
+    if (entry.is_valid == null) {
+        if (isStatusCodeValid(entry) || entry.manual_status_code == 200) {
+           return true;
+        }
+        return false;
+    }
+    return entry.is_valid;
+}
+
+
+function isEntryInValid(entry) {
+    if (entry.is_valid == null) {
+        if (entry.manual_status_code == 200) {
+            return false;
+        }
+        if (isStatusCodeInValid(entry)) {
+           return true;
+        }
+        return false;
+    }
+    return !entry.is_valid;
 }
 
 
@@ -221,6 +247,33 @@ function getEntryThumbnail(entry) {
     }
 
     let thumbnail = entry.thumbnail;
+
+    return thumbnail;
+}
+
+
+function getEntryFavicon(entry) {
+    if (!canUserView(entry))
+    {
+        return;
+    }
+
+    let thumbnail = entry.favicon;
+
+    return thumbnail;
+}
+
+
+function getEntryThumbnailOrFavicon(entry) {
+    if (!canUserView(entry))
+    {
+        return;
+    }
+
+    let thumbnail = entry.thumbnail;
+    if (thumbnail == null) {
+        thumbnail = entry.favicon;
+    }
 
     return thumbnail;
 }
@@ -608,7 +661,6 @@ function getEntryOpParameters(entry) {
        <div>Visits: ${entry.visits}</div>
        `;
     }
-
     if (entry.last_browser) {
        text += `
        <div>Last browser: ${entry.last_browser}</div>
@@ -619,22 +671,27 @@ function getEntryOpParameters(entry) {
        <div>Contents hash: ${entry.contents_hash}</div>
        `;
     }
+    if (entry.meta_hash) {
+       text += `
+       <div>Meta hash: ${entry.meta_hash}</div>
+       `;
+    }
     if (entry.body_hash) {
        text += `
        <div>Body hash: ${entry.body_hash}</div>
        `;
     }
-
     if (entry.permanent != null) {
        text += `<div>Permanent: ${entry.permanent}</div>`;
     }
-
     if (entry.user_bookmarked != null) {
        text += `<div>User Bookmarked: ${entry.user_bookmarked}</div>`;
     }
-
     if (entry.user_visits != null) {
        text += `<div>User Visits: ${entry.user_visits}</div>`;
+    }
+    if (entry.thumbnail != null) {
+       text += `<div><a href="${entry.thumbnail}>Thumbnail</a></div>`;
     }
 
     return text;
@@ -759,9 +816,9 @@ function getEntryDisplayStyle(entry, mark_visited=true) {
         opacity = entries_visit_alpha;
     }
 
-    if (!isEntryValid(entry))
+    if (isEntryInValid(entry))
     {
-	opacity = entries_dead_alpha;
+        opacity = entries_dead_alpha;
     }
 
     // apply
@@ -781,6 +838,23 @@ function getEntryDisplayStyle(entry, mark_visited=true) {
 }
 
 
+function getEntryThumbnailBadge(entry, img_location, small_icons=false) {
+    if (view_show_icons == null) {
+        return "";
+    }
+
+    let thumbnail = img_location;
+
+    const iconClass = small_icons ? 'icon-small' : 'icon-normal';
+    let img_text = `<img src="${thumbnail}" class="rounded ${iconClass}" />`;
+    
+    thumbnail_text = `
+            <div style="position: relative; display: inline-block;">
+                ${img_text}
+            </div>`;
+}
+
+
 function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let page_rating_votes = entry.page_rating_votes;
 
@@ -793,7 +867,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
 
     let invalid_style = getEntryDisplayStyle(entry);
     let bookmark_class = entry.bookmarked ? `list-group-item-primary` : '';
-    let thumbnail = getEntryThumbnail(entry);
+    let thumbnail = getEntryThumbnailOrFavicon(entry);
 
     let img_text = '';
     if (show_icons) {
@@ -878,7 +952,7 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
     let invalid_style = getEntryDisplayStyle(entry);
     let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
 
-    let thumbnail = getEntryThumbnail(entry);
+    let thumbnail = getEntryThumbnailOrFavicon(entry);
 
     let thumbnail_text = '';
     if (show_icons) {
@@ -961,20 +1035,24 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
     let source_info = getEntrySourceInfo(entry);
 
     let thumbnail = getEntryThumbnail(entry);
+    let img_badge = "";
+    if (!thumbnail) {
+       img_badge = getEntryThumbnailBadge()
+    }
 
     let thumbnail_text = '';
-    if (show_icons) {
+    if (show_icons && thumbnail) {
         const iconClass = small_icons ? 'icon-normal' : 'icon-big';
         if (isMobile()) {
            thumbnail_text = `
-               <div style="position: relative; display: inline-block;">
-                   <img src="${thumbnail}" style="width:100%; max-height:100%; object-fit:cover"/>
+               <div style="position: relative; display: inline-block; width:100%;">
+                   <img src="${thumbnail}" style="width:100%; max-height:100%; min-width:20%; object-fit:cover"/>
                </div>`;
 	}
         else {
            thumbnail_text = `
-               <div style="position: relative; display: inline-block;">
-                   <img src="${thumbnail}" style="width:50%; max-height:100%; object-fit:cover"/>
+               <div style="position: relative; display: inline-block; width:100%;">
+                   <img src="${thumbnail}" style="width:40%; max-height:100%; min-width:20%; object-fit:cover"/>
                </div>`;
 	}
     }
@@ -1007,7 +1085,7 @@ function entryContentCentricTemplate(entry, show_icons = true, small_icons = fal
                </div>
             </a>
 
-            <div class="mx-2">
+            <div class="mx-2" style="text-align:center;">
                <a href="${entry_link}" title="${hover_title}">
                ${thumbnail_text}
                </a>
@@ -1065,7 +1143,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
     let thumbnail = "";
     if (show_icons)
     {
-       thumbnail = getEntryThumbnail(entry);
+       thumbnail = getEntryThumbnailOrFavicon(entry);
     }
 
     let thumbnail_text = `
@@ -1140,7 +1218,7 @@ function entryGalleryTemplateMobile(entry, show_icons = true, small_icons = fals
     let thumbnail = "";
     if (show_icons)
     {
-       thumbnail = getEntryThumbnail(entry);
+       thumbnail = getEntryThumbnailOrFavicon(entry);
     }
     let thumbnail_text = `
         <img src="${thumbnail}" style="width:100%; max-height:100%; object-fit:cover"/>
@@ -1212,10 +1290,11 @@ function getEntryVisitsBar(entry, show_icons=true, small_icons=true) {
         img_text = `<img src="${thumbnail}" class="rounded ${iconClass}" />`;
     }
     let link_text = getEntryLinkText(entry);
+    let tags_text = getEntryTagStrings(entry);
 
     let text = `
          <a
-         class="list-group-item list-group-item-action"
+         class="my-1 p-1 list-group-item list-group-item-action border rounded"
          href="${link_absolute}" title="${title}">
              ${badge_text}
              ${badge_star}
@@ -1227,10 +1306,17 @@ function getEntryVisitsBar(entry, show_icons=true, small_icons=true) {
                ${img_text}
 
                <div class="mx-2">
-                  ${title_safe}
-                  Visits:${number_of_visits}
-                  Date of the last visit:${date_last_visit}
-		  ${link_text}
+                  <span style="font-weight:bold" class="text-reset" entryTitle="true">${title_safe}</span>
+		  <div>
+		    ${link_text}
+		  </div>
+		  <div>
+		     ${tags_text}
+		  </div>
+		  <div>
+                    Visits:${number_of_visits},
+                    Date of the last visit:${date_last_visit}
+		  </div>
                </div>
              </div>
          </a>
@@ -1419,112 +1505,6 @@ function getEntriesList(entries) {
 /** 
  * JSON files
  */
-
-function isEntrySearchHit(entry, searchText) {
-    if (entry.link) {
-        return isEntrySearchHitEntry(entry, searchText);
-    }
-}
-
-
-function isEntrySearchHitEntry(entry, searchText) {
-    if (!entry)
-        return false;
-
-    if (searchText.includes("=")) {
-        return isEntrySearchHitAdvanced(entry, searchText);
-    }
-    else {
-        return isEntrySearchHitGeneric(entry, searchText);
-    }
-}
-
-
-function isEntrySearchHitGeneric(entry, searchText) {
-    if (entry.link && entry.link.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.title && entry.title.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.description && entry.description.toLowerCase().includes(searchText.toLowerCase()))
-        return true;
-
-    if (entry.tags && Array.isArray(entry.tags)) {
-        const tagMatch = entry.tags.some(tag =>
-            tag.toLowerCase().includes(searchText.toLowerCase())
-        );
-        if (tagMatch) return true;
-    }
-
-    return false;
-}
-
-
-function isEntrySearchHitAdvanced(entry, searchText) {
-    let operator_0 = null;
-    let operator_1 = null;
-    let operator_2 = null;
-
-    if (searchText.includes("==")) {
-        const result = searchText.split("==");
-        operator_0 = result[0].trim();
-        operator_1 = "==";
-        operator_2 = result[1].trim();
-    }
-    else {
-        const result = searchText.split("=");
-        operator_0 = result[0].trim();
-        operator_1 = "=";
-        operator_2 = result[1].trim();
-    }
-
-    let ignore_case = true;
-    let thing_to_check = "";
-
-    if (operator_0 == "tag")
-    {
-        if (entry.tags && Array.isArray(entry.tags)) {
-            if (operator_1 == "=") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase().includes(operator_2.toLowerCase())
-                );
-                if (tagMatch) return true;
-            }
-            if (operator_1 == "==") {
-                const tagMatch = entry.tags.some(tag =>
-                    tag.toLowerCase() == operator_2.toLowerCase()
-                );
-                if (tagMatch) return true;
-            }
-        }
-    }
-
-    if (operator_0 == "title")
-    {
-        thing_to_check = entry.title;
-    }
-    if (operator_0 == "link")
-    {
-        thing_to_check = entry.link;
-    }
-    if (operator_0 == "description")
-    {
-        thing_to_check = entry.description;
-    }
-    if (operator_0 == "language")
-    {
-        thing_to_check = entry.language;
-    }
-
-    if (operator_1 == "=" && thing_to_check && thing_to_check.toLowerCase().includes(operator_2.toLowerCase()))
-        return true;
-    if (operator_1 == "==" && thing_to_check && thing_to_check.toLowerCase() == operator_2.toLowerCase())
-        return true;
-
-    return false;
-} 
-
 
 function sortEntries(entries) {
     console.log(`Sorting using ${sort_function}`);

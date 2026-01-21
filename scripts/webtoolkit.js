@@ -22,7 +22,7 @@ class UrlLocation {
     try {
       this.url = new URL(urlString);
     } catch (e) {
-        console.log(e);
+      console.log(e);
       this.url = null;
     }
   }
