@@ -82,10 +82,10 @@ function canUserView(entry) {
 function getEntryAuthorText(entry) {
     if (entry.author && entry.album)
     {
-        return escapeHtml(entry.author) + " / " + entry.album;
+        return getEntryAuthorSafe(entry.author) + " / " + entry.album;
     }
     else if (entry.author) {
-        return escapeHtml(entry.author);
+        return getEntryAuthorSafe(entry.author);
     }
     else if (entry.album) {
         return entry.album;
@@ -381,6 +381,12 @@ function getEntryTitleSafe(entry) {
 }
 
 
+function getEntryAuthorSafe(entry) {
+    let author = entry.author;
+    return escapeHtml(entry.author);
+}
+
+
 function getEntryDescription(entry) {
   if (!entry.description)
     return "";
@@ -626,7 +632,7 @@ function getEntryOpParameters(entry) {
     }
 
     if (entry.author) {
-        let author = getEntryAuthorText(entry);
+        let author = getEntryAuthorSafe(entry);
         text += `<div>Author: ${author}</div>`;
     }
     if (entry.album) {
@@ -903,7 +909,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let author = entry.author;
     if (author && author != source__title)
     {
-       "by " + getEntryAuthorText(author);
+       author = "by " + getEntryAuthorText(entry);
     }
     else
     {
