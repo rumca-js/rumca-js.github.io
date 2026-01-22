@@ -82,10 +82,10 @@ function canUserView(entry) {
 function getEntryAuthorText(entry) {
     if (entry.author && entry.album)
     {
-        return entry.author + " / " + entry.album;
+        return escapeHtml(entry.author) + " / " + entry.album;
     }
     else if (entry.author) {
-        return entry.author;
+        return escapeHtml(entry.author);
     }
     else if (entry.album) {
         return entry.album;
@@ -426,8 +426,6 @@ function getEntryDetailText(entry) {
 
     text += getEntryBodyText(entry);
 
-    text += "</div>";
-
     return text;
 }
 
@@ -628,7 +626,8 @@ function getEntryOpParameters(entry) {
     }
 
     if (entry.author) {
-        text += `<div>Author: ${entry.author}</div>`;
+        let author = getEntryAuthorText(entry);
+        text += `<div>Author: ${author}</div>`;
     }
     if (entry.album) {
         text += `<div>Album: ${entry.album}</div>`;
@@ -667,18 +666,21 @@ function getEntryOpParameters(entry) {
        `;
     }
     if (entry.contents_hash) {
+       let hash = escapeHtml(entry.contents_hash);
        text += `
-       <div>Contents hash: ${entry.contents_hash}</div>
+       <div>Contents hash: ${hash}</div>
        `;
     }
     if (entry.meta_hash) {
+       let hash = escapeHtml(entry.meta_hash);
        text += `
-       <div>Meta hash: ${entry.meta_hash}</div>
+       <div>Meta hash: ${hash}</div>
        `;
     }
     if (entry.body_hash) {
+       let hash = escapeHtml(entry.body_hash);
        text += `
-       <div>Body hash: ${entry.body_hash}</div>
+       <div>Body hash: ${hash}</div>
        `;
     }
     if (entry.permanent != null) {
@@ -690,9 +692,12 @@ function getEntryOpParameters(entry) {
     if (entry.user_visits != null) {
        text += `<div>User Visits: ${entry.user_visits}</div>`;
     }
+    /*
     if (entry.thumbnail != null) {
-       text += `<div><a href="${entry.thumbnail}>Thumbnail</a></div>`;
+       let thumbnail = escapeHtml(entry.thumbnail);
+       text += `<div><a href="${thumbnail}>Thumbnail</a></div>`;
     }
+    */
 
     return text;
 }
@@ -769,6 +774,7 @@ function getOneEntryEntryText(entry) {
         "gallery": entryGalleryTemplate,
         "search-engine": entrySearchEngineTemplate,
         "content-centric": entryContentCentricTemplate,
+        "accordion": entryAccordionTemplate,
         "read-later": getEntryReadLaterBar,
         "realated": getEntryRelatedBar,
         "visits": getEntryVisitsBar,
@@ -897,7 +903,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let author = entry.author;
     if (author && author != source__title)
     {
-       "by " + escapeHtml(entry.author);
+       "by " + getEntryAuthorText(author);
     }
     else
     {
@@ -999,6 +1005,80 @@ function entrySearchEngineTemplate(entry, show_icons = true, small_icons = false
                </div>
             </div>
         </a>
+    `;
+}
+
+
+function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
+    let page_rating_votes = entry.page_rating_votes;
+
+    let badge_text = getEntryVotesBadge(entry);
+    let badge_star = highlight_bookmarks ? getEntryBookmarkBadge(entry) : "";
+    let badge_age = getEntryAgeBadge(entry);
+    let badge_dead = getEntryDeadBadge(entry);
+    let badge_read_later = getEntryReadLaterBadge(entry);
+    let badge_visited = getEntryVisitedBadge(entry);
+   
+    let entry_style = getEntryDisplayStyle(entry);
+
+    let thumbnail = getEntryThumbnailOrFavicon(entry);
+
+    let thumbnail_text = '';
+    if (show_icons) {
+        const iconClass = small_icons ? 'icon-small' : 'icon-normal';
+        thumbnail_text = `
+            <div style="position: relative; display: inline-block;">
+                <img src="${thumbnail}" class="rounded ${iconClass}"/>
+            </div>`;
+    }
+    let tags_text = getEntryTagStrings(entry);
+    let language_text = "";
+    if (entry.language != null) {
+        language_text = `Language:${entry.language}`;
+    }
+    let title_safe = getEntryTitleSafe(entry);
+    let entry_link = getEntryLink(entry);
+    let hover_title = title_safe + " " + tags_text;
+    let link = entry.link;
+    let social = getEntrySocialDataText(entry);
+    let detail_text = getEntryBodyText(entry);
+
+    return `
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading-${entry.id}">
+           <button
+               entry="${entry.id}"
+               title="${hover_title}"
+               class="accordion-button"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#collapse-${entry.id}"
+           >
+               <div class="d-flex">
+                  ${thumbnail_text}
+                  <div class="mx-2">
+                     <span style="font-weight:bold" class="text-reset" entryTitle="true">${title_safe}</span>
+                     <div class="text-reset text-decoration-underline" entryDetails="true">@ ${entry.link}</div>
+                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>
+                     <div class="entry-social">${social}</div>
+                  </div>
+
+                  <div class="mx-2 ms-auto">
+                     ${badge_text}
+                     ${badge_star}
+                     ${badge_age}
+                     ${badge_dead}
+                     ${badge_read_later}
+                  </div>
+               </div>
+           </button>
+        </h2>
+        <div id="collapse-${entry.id}" class="accordion-collapse collapse" data-bs-parent="#accordion-parent">
+          <div class="accordion-body">
+             ${detail_text}
+          </div>
+        </div>
+      </div>
     `;
 }
 
@@ -1182,15 +1262,15 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
                     ${thumbnail_text}
                 </div>
                 <div
-		   style="
+                      style="
                       flex: 0 0 auto;
                       overflow: hidden;
                       text-overflow: ellipsis;
                       white-space: normal;
                       line-height: 1.2em;
                       max-height: 4.8em;
-			  "
-	           id="entryDetails">
+                      "
+                      id="entryDetails">
                     <span style="font-weight: bold" class="text-primary" entryTitle="true">${title_safe}</span>
                     <div class="link-list-item-description" entryDetails="true">${source__title}</div>
                     <div class="text-reset mx-2">${tags_text} ${language_text}</div>
@@ -1479,6 +1559,9 @@ function getEntriesList(entries) {
     if (view_display_type == "gallery") {
         htmlOutput += `  <span class="d-flex flex-wrap">`;
     }
+    if (view_display_type == "accordion") {
+        htmlOutput += `  <div class="accordion" id="accordion-parent">`;
+    }
 
     if (entries && entries.length > 0) {
         entries.forEach((entry) => {
@@ -1494,6 +1577,9 @@ function getEntriesList(entries) {
 
     if (view_display_type == "gallery") {
         htmlOutput += `</span>`;
+    }
+    if (view_display_type == "accordion") {
+        htmlOutput += `</div>`;
     }
 
     htmlOutput += `</span>`;
