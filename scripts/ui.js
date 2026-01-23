@@ -349,6 +349,15 @@ function getNavBarViewMenu() {
                         <label class="form-check-label" for="directLinks" title="Links lead directly to URL">Direct links</label>
                     </div>
                 </li>
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li>
+                    <div class="dropdown-item form-check">
+                        <input class="form-check-input me-2" type="checkbox" id="highlight-bookmarks">
+                        <label class="form-check-label" for="directLinks" title="Highlights bookmarks">Highlight bookmark</label>
+                    </div>
+                </li>
             </ul>
           </li>
           `;
@@ -405,10 +414,11 @@ function setDarkMode() {
 
 
 function updateWidgets() {
-    $('#showIcons').prop('checked', view_show_icons);
-    $('#directLinks').prop('checked', entries_direct_links);
-
     $('input[name="viewMode"][value="' + view_display_type + '"]').prop('checked', true);
     $('input[name="theme"][value="' + view_display_style + '"]').prop('checked', true);
     $('input[name="order"][value="' + sort_function + '"]').prop('checked', true);
+
+    $('#showIcons').prop('checked', view_show_icons);
+    $('#directLinks').prop('checked', entries_direct_links);
+    $('#highlight-bookmarks').prop('checked', highlight_bookmarks);
 }

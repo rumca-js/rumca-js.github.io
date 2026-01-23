@@ -247,6 +247,14 @@ function registerEventsListeners() {
    
        fillListData();
    });
+
+
+   //-----------------------------------------------
+   $(document).on('click', '#highlight-bookmarks', function(e) {
+       highlight_bookmarks = $(this).is(':checked');
+   
+       fillListData();
+   });
    
    
    //-----------------------------------------------

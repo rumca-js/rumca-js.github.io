@@ -79,21 +79,6 @@ function canUserView(entry) {
 }
 
 
-function getEntryAuthorText(entry) {
-    if (entry.author && entry.album)
-    {
-        return getEntryAuthorSafe(entry.author) + " / " + entry.album;
-    }
-    else if (entry.author) {
-        return getEntryAuthorSafe(entry.author);
-    }
-    else if (entry.album) {
-        return entry.album;
-    }
-    return "";
-}
-
-
 function getEntryVotesBadge(entry, overflow=false) {
     let style = "font-size: 0.8rem;"
     if (overflow) {
@@ -384,6 +369,21 @@ function getEntryTitleSafe(entry) {
 function getEntryAuthorSafe(entry) {
     let author = entry.author;
     return escapeHtml(entry.author);
+}
+
+
+function getEntryAuthorText(entry) {
+    if (entry.author && entry.album)
+    {
+        return getEntryAuthorSafe(entry) + " / " + entry.album;
+    }
+    else if (entry.author) {
+        return getEntryAuthorSafe(entry);
+    }
+    else if (entry.album) {
+        return entry.album;
+    }
+    return "";
 }
 
 
@@ -698,29 +698,35 @@ function getEntryOpParameters(entry) {
     if (entry.user_visits != null) {
        text += `<div>User Visits: ${entry.user_visits}</div>`;
     }
-    /*
     if (entry.thumbnail != null) {
-       let thumbnail = escapeHtml(entry.thumbnail);
-       text += `<div><a href="${thumbnail}>Thumbnail</a></div>`;
+       text += `<div><a href="${entry.thumbnail}">Thumbnail</a></div>`;
     }
-    */
 
     return text;
 }
 
 
-function getEntryDetailThumbnailPreview(entry) {
-    let text = `<div entry="${entry.id}" class="entry-detail">`;
+function getEntryDetailThumbnailPreview(entry, center=false) {
+    let div_style = "";
+    if (center) {
+      div_style = 'text-align:center;';
+    }
 
+
+    let text = "";
     if (entry.thumbnail) {
+       text = `<div entry="${entry.id}" class="entry-detail" style="${div_style}">`;
+
        text += `
        <div><img src="" style="max-width:30%;"/></div>
        `;
 
+       text += "</div>";
+
        if (canUserView(entry))
        {
           text = `
-          <div><img src="${entry.thumbnail}" style="max-width:30%;"/></div>
+          <div style="${div_style}"><img src="${entry.thumbnail}" style="max-width:30%;"/></div>
           `;
        }
     }
@@ -878,7 +884,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
     let badge_visited = getEntryVisitedBadge(entry);
 
     let invalid_style = getEntryDisplayStyle(entry);
-    let bookmark_class = entry.bookmarked ? `list-group-item-primary` : '';
+    let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `list-group-item-primary` : '';
     let thumbnail = getEntryThumbnailOrFavicon(entry);
 
     let img_text = '';
@@ -1026,6 +1032,7 @@ function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
     let badge_visited = getEntryVisitedBadge(entry);
    
     let entry_style = getEntryDisplayStyle(entry);
+    let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `` : '';
 
     let thumbnail = getEntryThumbnailOrFavicon(entry);
 
@@ -1047,15 +1054,16 @@ function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
     let hover_title = title_safe + " " + tags_text;
     let link = entry.link;
     let social = getEntrySocialDataText(entry);
+    let preview_text = getEntryDetailThumbnailPreview(entry, center=true);
     let detail_text = getEntryBodyText(entry);
 
     return `
-      <div class="accordion-item">
+      <div class="accordion-item my-1 p-1">
         <h2 class="accordion-header" id="heading-${entry.id}">
            <button
                entry="${entry.id}"
                title="${hover_title}"
-               class="accordion-button"
+               class="accordion-button ${bookmark_class}"
                type="button"
                data-bs-toggle="collapse"
                data-bs-target="#collapse-${entry.id}"
@@ -1081,6 +1089,7 @@ function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
         </h2>
         <div id="collapse-${entry.id}" class="accordion-collapse collapse" data-bs-parent="#accordion-parent">
           <div class="accordion-body">
+	     ${preview_text}
              ${detail_text}
           </div>
         </div>
@@ -1261,7 +1270,7 @@ function entryGalleryTemplateDesktop(entry, show_icons = true, small_icons = fal
             entry="${entry.id}"
             title="${hover_title}"
             class="list-group-item list-group-item-action m-1 border rounded p-2"
-            style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style}"
+            style="text-overflow: ellipsis; max-width: 18%; min-width: 18%; width: auto; aspect-ratio: 1 / 1; text-decoration: none; display:flex; flex-direction:column; ${invalid_style} ${bookmark_class}"
         >
             <div style="display: flex; flex-direction:column; align-content:normal; height:100%">
                 <div style="flex: 0 0 70%; flex-shrink: 0;flex-grow:0;max-height:70%" id="entryTumbnail">
