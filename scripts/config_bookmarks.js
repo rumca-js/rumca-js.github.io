@@ -81,8 +81,8 @@ function getOrderPossibilities() {
     return [
         ['page_rating_votes', "Votes ASC"],
         ['-page_rating_votes', "Votes DESC"],
-        ['page_rating_views', "Views ASC"],
-        ['-page_rating_views', "Views DESC"],
+        ['view_count', "Views ASC"],
+        ['-view_count', "Views DESC"],
         ['date_published', "Date published ASC"],
         ['-date_published', "Date published DESC"],
         ['followers_count', "Followers ASC"],
