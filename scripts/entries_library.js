@@ -436,19 +436,19 @@ function getEntryDetailText(entry) {
 }
 
 
-function getEntryDetailPreview(entry) {
+function getEntryDetailPreview(entry, lazy=false) {
     let handler_yt = new YouTubeVideoHandler(entry.link);
     let handler_od = new OdyseeVideoHandler(entry.link);
 
     if (handler_yt.isHandledBy())
     {
-        return getEntryDetailYouTubePreview(entry);
+        return getEntryDetailYouTubePreview(entry, lazy);
     }
     else if (handler_od.isHandledBy())
     {
-        return getEntryDetailOdyseePreview(entry);
+        return getEntryDetailOdyseePreview(entry, lazy);
     }
-    return getEntryDetailThumbnailPreview(entry);
+    return getEntryDetailThumbnailPreview(entry, true, lazy);
 }
 
 
@@ -706,7 +706,7 @@ function getEntryOpParameters(entry) {
 }
 
 
-function getEntryDetailThumbnailPreview(entry, center=false) {
+function getEntryDetailThumbnailPreview(entry, center=false, lazy=false) {
     let div_style = "";
     if (center) {
       div_style = 'text-align:center;';
@@ -735,7 +735,7 @@ function getEntryDetailThumbnailPreview(entry, center=false) {
 }
 
 
-function getEntryDetailYouTubePreview(entry) {
+function getEntryDetailYouTubePreview(entry, lazy=false) {
     let handler = new YouTubeVideoHandler(entry.link);
     if (!handler.isHandledBy())
     {
@@ -744,15 +744,30 @@ function getEntryDetailYouTubePreview(entry) {
 
     const embedUrl = handler.getEmbedUrl();
 
+    if (lazy) {
+        return `
+          <div class="ratio ratio-16x9 youtube-lazy"
+               data-youtube-src="${embedUrl}">
+            <div class="d-flex justify-content-center align-items-center bg-dark text-white">
+                ▶ Click to load video
+            </div>
+          </div>
+        `;
+    }
+
     return `
-      <div class="youtube_player_container">
-          <iframe src="${embedUrl}" frameborder="0" allowfullscreen class="youtube_player_frame" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="ratio ratio-16x9">
+          <iframe src="${embedUrl}"
+                  frameborder="0"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
       </div>
     `;
 }
 
 
-function getEntryDetailOdyseePreview(entry) {
+function getEntryDetailOdyseePreview(entry, lazy=false) {
     let handler = new OdyseeVideoHandler(entry.link);
     if (!handler.isHandledBy())
     {
@@ -761,15 +776,27 @@ function getEntryDetailOdyseePreview(entry) {
 
     const embedUrl = handler.getEmbedUrl();
 
-    let text = `<div entry="${entry.id}" class="entry-detail">`;
-
-    if (videoId) {
-        text += `
-           <div class="youtube_player_container">
-               <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" width="100%" height="100%" src="${embedUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-           </div>
+    if (lazy) {
+        return `
+          <div class="ratio ratio-16x9 youtube-lazy"
+               data-youtube-src="${embedUrl}">
+            <div class="d-flex justify-content-center align-items-center bg-dark text-white">
+                ▶ Click to load video
+            </div>
+          </div>
         `;
     }
+
+    return `
+      <div class="ratio ratio-16x9">
+          <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" width="100%" height="100%" 
+                        src="${embedUrl}"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                        >
+          </iframe>
+      </div>
+    `;
 
     return text;
 }
@@ -787,6 +814,7 @@ function getOneEntryEntryText(entry) {
         "search-engine": entrySearchEngineTemplate,
         "content-centric": entryContentCentricTemplate,
         "accordion": entryAccordionTemplate,
+	"modal": entryModalButtonTemplate,
         "read-later": getEntryReadLaterBar,
         "realated": getEntryRelatedBar,
         "visits": getEntryVisitsBar,
@@ -1054,7 +1082,7 @@ function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
     let hover_title = title_safe + " " + tags_text;
     let link = entry.link;
     let social = getEntrySocialDataText(entry);
-    let preview_text = getEntryDetailThumbnailPreview(entry, center=true);
+    let preview_text = getEntryDetailPreview(entry, true);
     let detail_text = getEntryBodyText(entry);
 
     return `
@@ -1094,6 +1122,121 @@ function entryAccordionTemplate(entry, show_icons = true, small_icons = false) {
           </div>
         </div>
       </div>
+    `;
+}
+
+
+function entryModalButtonTemplate(entry, show_icons = true, small_icons = false) {
+
+    let badge_text = getEntryVotesBadge(entry);
+    let badge_star = highlight_bookmarks ? getEntryBookmarkBadge(entry) : "";
+    let badge_age = getEntryAgeBadge(entry);
+    let badge_dead = getEntryDeadBadge(entry);
+    let badge_read_later = getEntryReadLaterBadge(entry);
+    let badge_visited = getEntryVisitedBadge(entry);
+
+    let bookmark_class = (entry.bookmarked && highlight_bookmarks) ? `` : '';
+
+    let thumbnail = getEntryThumbnailOrFavicon(entry);
+    let title_safe = getEntryTitleSafe(entry);
+    let tags_text = getEntryTagStrings(entry);
+    let language_text = entry.language ? `Language:${entry.language}` : "";
+    let hover_title = `${title_safe} ${tags_text}`;
+
+    let entry_link = getEntryLink(entry);
+    let social = getEntrySocialDataText(entry);
+    let preview_text = getEntryDetailPreview(entry, true);
+    let detail_text = getEntryBodyText(entry);
+
+    let thumbnail_text = '';
+    if (show_icons) {
+        const iconClass = small_icons ? 'icon-small' : 'icon-normal';
+        thumbnail_text = `
+            <img src="${thumbnail}" class="rounded ${iconClass}"/>
+        `;
+    }
+
+    return `
+    <!-- Trigger button -->
+    <button
+        entry="${entry.id}"
+        title="${hover_title}"
+        type="button"
+        class="btn btn-light w-100 text-start my-1 p-2 ${bookmark_class}"
+        data-bs-toggle="modal"
+        data-bs-target="#modal-${entry.id}"
+    >
+        <div class="d-flex">
+            ${thumbnail_text}
+            <div class="mx-2">
+                <span style="font-weight:bold" class="text-reset" entryTitle="true">
+                    ${title_safe}
+                </span>
+                <div class="text-reset text-decoration-underline" entryDetails="true">
+                    @ ${entry.link}
+                </div>
+                <div class="text-reset mx-2">
+                    ${tags_text} ${language_text}
+                </div>
+                <div class="entry-social">${social}</div>
+            </div>
+
+            <div class="mx-2 ms-auto">
+                ${badge_text}
+                ${badge_star}
+                ${badge_age}
+                ${badge_dead}
+                ${badge_read_later}
+                ${badge_visited}
+            </div>
+        </div>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-${entry.id}" tabindex="-1"
+         aria-labelledby="modalLabel-${entry.id}" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel-${entry.id}">
+                        ${title_safe}
+                    </h5>
+                    <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="mb-2">
+                        <a href="${entry_link}" target="_blank"
+                           class="text-decoration-underline">
+                            ${entry_link}
+                        </a>
+                    </div>
+
+                    <div class="mb-3">
+                        ${badge_text}
+                        ${badge_star}
+                        ${badge_age}
+                        ${badge_dead}
+                        ${badge_read_later}
+                        ${badge_visited}
+                    </div>
+
+                    ${preview_text}
+                    ${detail_text}
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     `;
 }
 

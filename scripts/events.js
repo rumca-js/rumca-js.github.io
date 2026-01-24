@@ -320,6 +320,55 @@ function registerEventsListeners() {
        clearInput();
      }
    });
+
+   function onShowContainer(container) {
+       if (!container || container.dataset.loaded) return;
+   
+       const src = container.dataset.youtubeSrc;
+   
+       container.innerHTML = `
+           <iframe
+               src="${src}"
+               title="YouTube video"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+           </iframe>
+       `;
+   
+       container.dataset.loaded = 'true';
+   }
+
+   function onHideContainer(container) {
+       if (!container) return;
+   
+       container.innerHTML = `
+           <div class="d-flex justify-content-center align-items-center bg-dark text-white">
+               ▶ Click to load video
+           </div>
+       `;
+   
+       delete container.dataset.loaded;
+   }
+
+   document.addEventListener('shown.bs.modal', function (e) {
+       const container = e.target.querySelector('.youtube-lazy');
+       onShowContainer(container);
+   });
+   
+   document.addEventListener('hidden.bs.modal', function (e) {
+       const container = e.target.querySelector('.youtube-lazy');
+       onHideContainer(container);
+   });
+
+   document.addEventListener('shown.bs.collapse', function (e) {
+       const container = e.target.querySelector('.youtube-lazy');
+       onShowContainer(container);
+   });
+   
+   document.addEventListener('hidden.bs.collapse', function (e) {
+       const container = e.target.querySelector('.youtube-lazy');
+       onHideContainer(container);
+   });
 }
 
 

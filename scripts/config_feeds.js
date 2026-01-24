@@ -97,6 +97,7 @@ function getViewStyles() {
         "search-engine",
         "content-centric",
         "accordion",
+        "modal",
         "links-only",
     ];
 }
