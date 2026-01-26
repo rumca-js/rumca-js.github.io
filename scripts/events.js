@@ -250,6 +250,14 @@ function registerEventsListeners() {
 
 
    //-----------------------------------------------
+   $(document).on('click', '#modal-preview', function(e) {
+       click_behavior_modal_window = $(this).is(':checked');
+   
+       fillListData();
+   });
+
+
+   //-----------------------------------------------
    $(document).on('click', '#highlight-bookmarks', function(e) {
        highlight_bookmarks = $(this).is(':checked');
    

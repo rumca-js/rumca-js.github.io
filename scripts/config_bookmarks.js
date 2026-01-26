@@ -12,6 +12,7 @@ let debug_mode = false;
 
 let entries_direct_links = false;
 let highlight_bookmarks = false;
+let click_behavior_modal_window = true;
 let sort_function = "-date_published"; // page_rating_votes, date_published
 let default_page_size = 200;
 
@@ -72,7 +73,6 @@ function getViewStyles() {
         "search-engine",
         "content-centric",
         "accordion",
-        "modal",
         "links-only",
     ];
 }
