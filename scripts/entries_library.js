@@ -60,10 +60,10 @@ function getEntryLink(entry) {
         if (entry.link) {
            return entry.link;
 	}
-        return `?entry_id=${entry.id}`;
+        return getEntryLocalLink(entry);
     }
     else {
-        return `?entry_id=${entry.id}`;
+        return getEntryLocalLink(entry);
     }
 }
 
@@ -934,7 +934,7 @@ function entryStandardTemplate(entry, show_icons = true, small_icons = false) {
         >
 	  ${contents}
         </a>
-        ${modal_view}
+        ${modal_view_window}
     `;
 }
 
