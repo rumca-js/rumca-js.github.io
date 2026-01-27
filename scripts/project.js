@@ -4,6 +4,7 @@ let entries_length = 0;
 let search_suggestions = [];
 
 
+
 function getFileName() {
     let file_name = getQueryParam('file') || getDefaultFileName();
 
@@ -16,6 +17,11 @@ function getFileName() {
         file_name = adir + file_name
 
     return file_name;
+}
+
+
+function getEntryLocalLink(entry) {
+    return `?entry_id=${entry.id}`;
 }
 
 
