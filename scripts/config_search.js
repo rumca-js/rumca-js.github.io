@@ -1,3 +1,4 @@
+
 let worker = null;
 let db = null;
 let object_list_data = null;   // all objects lists
@@ -25,11 +26,23 @@ function getDefaultFileName() {
 }
 
 
+function getEntryAPI() {
+   return;
+}
+
+
+function getEntryLocalLink(entry) {
+    return `?entry_id=${entry.id}`;
+}
+
+
+function getHomeLocation() {
+    return "#";
+}
+
+
 function getFileList() {
-    return ["top.zip",
-	    "bookmarks.zip",
-	    "music.zip",
-	    "internet.db.zip",
+    return [
     ];
 }
 
@@ -110,4 +123,15 @@ function getOrderPossibilities() {
         ['stars', "Stars ASC"],
         ['-stars', "Stars DESC"],
     ];
+}
+
+
+function notify(text) {
+    console.log(text);
+}
+
+function debug(text) {
+    if (debug_mode) {
+    console.log(text);
+    }
 }

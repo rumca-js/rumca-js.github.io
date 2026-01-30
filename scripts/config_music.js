@@ -26,10 +26,7 @@ function getDefaultFileName() {
 
 
 function getFileList() {
-    return ["top.zip",
-	    "bookmarks.zip",
-	    "music.zip",
-	    "internet.db.zip",
+    return [
     ];
 }
 
@@ -95,4 +92,9 @@ function getOrderPossibilities() {
         ['stars', "Stars ASC"],
         ['-stars', "Stars DESC"],
     ];
+}
+
+
+function getEntryLocalLink(entry) {
+    return `?entry_id=${entry.id}`;
 }
