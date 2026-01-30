@@ -21,8 +21,30 @@ let entries_visit_alpha=1.0;
 let entries_dead_alpha=0.5;
 
 
+function getFileVersion() {
+    /* Forces refresh of the file */
+    return "71";
+}
+
+
+function getSystemVersion() {
+    return "1.0.4";
+}
+
+
 function getDefaultFileName() {
     return "top.zip";
+}
+
+
+function getFileList() {
+    return [
+    ];
+}
+
+
+function getDefaultFileLocation() {
+    return "/data/";
 }
 
 
@@ -38,28 +60,6 @@ function getEntryLocalLink(entry) {
 
 function getHomeLocation() {
     return "#";
-}
-
-
-function getFileList() {
-    return [
-    ];
-}
-
-
-function getDefaultFileLocation() {
-    return "/data/";
-}
-
-
-function getFileVersion() {
-    /* Forces refresh of the file */
-    return "71";
-}
-
-
-function getSystemVersion() {
-    return "1.0.4";
 }
 
 

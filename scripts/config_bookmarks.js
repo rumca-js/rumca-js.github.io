@@ -20,6 +20,17 @@ let entries_visit_alpha=1.0;
 let entries_dead_alpha=0.5;
 
 
+function getFileVersion() {
+    /* Forces refresh of the file */
+    return "71";
+}
+
+
+function getSystemVersion() {
+    return "1.0.3";
+}
+
+
 function getDefaultFileName() {
     return "bookmarks.zip";
 }
@@ -35,14 +46,18 @@ function getDefaultFileLocation() {
 }
 
 
-function getFileVersion() {
-    /* Forces refresh of the file */
-    return "71";
+function getEntryAPI() {
+   return;
 }
 
 
-function getSystemVersion() {
-    return "1.0.3";
+function getEntryLocalLink(entry) {
+    return `?entry_id=${entry.id}`;
+}
+
+
+function getHomeLocation() {
+    return "#";
 }
 
 
