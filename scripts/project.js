@@ -208,7 +208,6 @@ async function InitializeForJSON() {
    all_entries = { ...object_list_data };
 
    console.log("On system ready");
-   onSystemReady();
 
    let entry_id = getQueryParam("entry_id");
    if (!entry_id) {
