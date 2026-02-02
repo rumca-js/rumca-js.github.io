@@ -242,16 +242,36 @@ async function Initialize() {
 
     $('#searchInput').prop('disabled', true);
 
-    console.log("On system ready");
-    onSystemReady();
-
     if (getDefaultFileName()) {
       if (isWorkerNeeded(file_name)) {
-         return await InitializeForDb();
+         await InitializeForDb();
       }
       else {
-         return await InitializeForJSON();
+         await InitializeForJSON();
       }
+    }
+    onSystemReady();
+}
+
+
+function onSystemReady() {
+    /* shared between JSON and DB */
+
+    system_initialized = true;
+    $('#searchInput').prop('disabled', false);
+    $('#searchInput').focus();
+
+    let search = getQueryParam("search");
+    let entry_id = getQueryParam("entry_id");
+
+    if (entry_id) {
+       performSearch();
+    }
+    else if (search) {
+       performSearch();
+    }
+    else {
+       $('#statusLine').html("System is ready! You can perform search now");
     }
 }
 
