@@ -245,12 +245,13 @@ async function Initialize() {
     if (getDefaultFileName()) {
       if (isWorkerNeeded(file_name)) {
          await InitializeForDb();
+         // onSystemReady is called when message about db being ready is received
       }
       else {
          await InitializeForJSON();
+         onSystemReady();
       }
     }
-    onSystemReady();
 }
 
 
