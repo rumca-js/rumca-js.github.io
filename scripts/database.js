@@ -225,7 +225,6 @@ function getEntriesSelectDefault(userInput, page_size) {
 
 
 function getEntriesSelectDefaultUserInput(userInput, page_size) {
-   console.log(userInput);
    let text = "SELECT " + getEntriesSelectColumns();
    text += getEntriesSelectFromStmt();
 
@@ -314,8 +313,6 @@ async function getQueryTotalRows(text) {
 function getQueryText(page_size=PAGE_SIZE) {
    let userInput = $("#searchInput").val();
 
-   console.log("getQueryText");
-   console.log(page_size);
    let text = getEntriesSelectDefault(userInput, page_size);
 
    let entry_id = getQueryParam("entry_id");
