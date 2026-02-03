@@ -71,7 +71,7 @@ function performSearchJSON() {
 
        fillListData();
 
-       $('#pagination').html(getPaginationText());
+       $('#pagination').html(GetPaginationNavSimple());
 
        onSearchStop();
     }
@@ -200,7 +200,7 @@ async function InitializeForJSON() {
    let spinner_text_3 = getSpinnerText("Unpacking zip");
    console.log("Unpacking zip");
    $("#statusLine").html(spinner_text_3);
-   await unPackFileJSONS(zip);
+   await unPackFileJSONS(zip, updateListData);
    $("#statusLine").html("");
 
    console.log("Sorting links");
@@ -313,3 +313,24 @@ function readConfig() {
         default_page_size = parseInt(urlParams.get('default_page_size'), 10);
     }
 }
+
+
+function updateListData(jsonData) {
+    if (!object_list_data) {
+        object_list_data = { entries: [] };
+    }
+
+    if (!object_list_data.entries) {
+        object_list_data.entries = [];
+    }
+
+    if (jsonData && Array.isArray(jsonData.entries)) {
+        object_list_data.entries.push(...jsonData.entries);
+    } else if (jsonData && Array.isArray(jsonData)) {
+        object_list_data.entries.push(...jsonData);
+    } else {
+        console.error("Invalid JSON data: jsonData.entries is either not defined or not an array.");
+    }
+}
+
+
