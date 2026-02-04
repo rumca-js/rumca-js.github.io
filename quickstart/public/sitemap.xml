@@ -2,25 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-02-04-found-peace/</loc>
+    <lastmod>2026-02-04T07:00:32+00:00</lastmod>
+  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2025-10-05T08:43:32+00:00</lastmod>
+    <lastmod>2026-02-04T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/</loc>
-    <lastmod>2025-10-05T08:43:32+00:00</lastmod>
+    <lastmod>2026-02-04T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-01-13-youtube-analysis/</loc>
+    <lastmod>2026-01-13T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-11-04-future-problems/</loc>
+    <lastmod>2025-11-04T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-dropped-celery/</loc>
+    <lastmod>2025-10-20T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-sources-started-working/</loc>
+    <lastmod>2025-10-20T08:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/</loc>
+    <lastmod>2025-10-20T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-10-05-windows-mess/</loc>
     <lastmod>2025-10-05T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-21-business-oriented-focus/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/it/2025-09-30-recommended-extensions/</loc>
+    <lastmod>2025-09-30T18:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/it/</loc>
+    <lastmod>2025-09-30T18:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-29-mr.anderson/</loc>
+    <lastmod>2025-09-29T18:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-21-business-oriented-focus/</loc>
     <lastmod>2025-09-21T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-14-youtube-best/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-14-youtube-best/</loc>
     <lastmod>2025-09-14T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-11-hatespeech/</loc>
     <lastmod>2025-09-11T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-09-04-dem-bugs/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-04-dem-bugs/</loc>
     <lastmod>2025-09-04T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/selfhost/2025-08-26-smart-home/</loc>
@@ -32,7 +59,7 @@
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-29-distopian/</loc>
     <lastmod>2025-06-29T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-15-seo/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/it/2025-06-15-seo/</loc>
     <lastmod>2025-06-15T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-14-banned-on-reddit/</loc>
@@ -41,7 +68,7 @@
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-06-03-a-futuristic-book-idea/</loc>
     <lastmod>2025-06-03T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-05-29-free-web/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-05-29-free-web/</loc>
     <lastmod>2025-05-29T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-05-22-2030-morning-routine/</loc>
@@ -56,13 +83,13 @@
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-24-plan-for-future/</loc>
     <lastmod>2025-03-24T08:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-23-full-internet-search/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-23-full-internet-search/</loc>
     <lastmod>2025-03-23T08:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-12-ai-slop-does-not-affect-me/</loc>
     <lastmod>2025-03-12T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-12-state-of-dead-internet/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-12-state-of-dead-internet/</loc>
     <lastmod>2025-03-12T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-03-client-based-application/</loc>
@@ -74,25 +101,25 @@
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-03-01-waterfox-vs-firefox/</loc>
     <lastmod>2025-03-01T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-02-19-search-engines-are-obsolete/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-02-19-search-engines-are-obsolete/</loc>
     <lastmod>2025-02-19T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2025-01-30_self_hosting_hurdles/</loc>
     <lastmod>2025-01-30T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-01-29_another_bug_bites_the_dust/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-29_another_bug_bites_the_dust/</loc>
     <lastmod>2025-01-29T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2025-01-09_share_your_links/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-09_share_your_links/</loc>
     <lastmod>2025-01-09T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-12-11_googles_tough_luck/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-11_googles_tough_luck/</loc>
     <lastmod>2024-12-11T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-12-08_will_the_internet_exist/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-08_will_the_internet_exist/</loc>
     <lastmod>2024-12-08T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-12-05_boomer_internet_is_dead/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-05_boomer_internet_is_dead/</loc>
     <lastmod>2024-12-05T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2024-12-01-infantocracy/</loc>
@@ -101,16 +128,19 @@
     <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-28-secular-religion/</loc>
     <lastmod>2024-11-28T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-26-web-sins/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-26-web-sins/</loc>
     <lastmod>2024-11-26T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-21-awesome/</loc>
     <lastmod>2024-11-21T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-13-table-problem/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-13-table-problem/</loc>
     <lastmod>2024-11-14T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-14-bug-problem/</loc>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-12-init/</loc>
+    <lastmod>2024-11-14T16:43:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-14-bug-problem/</loc>
     <lastmod>2024-11-13T16:43:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2024-11-07-my-first-post/</loc>

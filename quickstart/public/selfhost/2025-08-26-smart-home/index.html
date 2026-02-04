@@ -52,46 +52,33 @@
         <h1>Self-Host</h1>
     </header>
     <div class="content__body">
-        <p>Smart-Home:</p>
+        <h1 id="smart-home-elements">Smart-Home elements</h1>
 <ul>
-<li>
-<p>Cloud documents - Next cloud</p>
-</li>
-<li>
-<p>Pictures - Immich</p>
-</li>
-<li>
-<p>Bookmarks, RSS reader - Karakeep</p>
-</li>
-<li>
-<p>PiHole - network blocking</p>
-</li>
-<li>
-<p>NetBox - management of the network clients (if you have 2 places you visit)</p>
-</li>
-<li>
-<p>Jellyfin - movies, shows, streaming</p>
-</li>
-<li>
-<p>Paperless - ??</p>
-</li>
-<li>
-<p>Samba - dockur samba  <a href="https://github.com/dockur/samba">https://github.com/dockur/samba</a></p>
-</li>
-<li>
-<p>Vaultwarden</p>
-</li>
-<li>
-<p>Nginx Proxy manager or Traefik</p>
-</li>
+<li>Cloud documents - Next cloud</li>
+<li>Pictures - Immich</li>
+<li>Bookmarks, RSS reader - Karakeep</li>
+<li>PiHole - network blocking</li>
+<li>NetBox - management of the network clients (if you have 2 places you visit)</li>
+<li>Jellyfin - movies, shows, streaming</li>
+<li>Paperless - ??</li>
+<li>Samba - dockur samba  <a href="https://github.com/dockur/samba">https://github.com/dockur/samba</a></li>
+<li>NoIp</li>
+<li>No ip for domain - <a href="https://www.noip.com/support/knowledgebase/ip-linux-duc-docker">https://www.noip.com/support/knowledgebase/ip-linux-duc-docker</a></li>
+<li>docker-mailserver - E-Mail server</li>
+<li>rainloop, roundcube, nextcloud mail - E-mail client</li>
+<li>Vaultwarden - passwords</li>
+<li>Nginx Proxy manager or Traefik</li>
 </ul>
-<p>Setup</p>
+<h1 id="server">Server</h1>
 <ul>
-<li>You can have them as different docker images</li>
-<li>YOu can have different computers with them</li>
+<li>use samba to provide network access to your files. You can use open media vault then.</li>
+<li>install docker, install smart home elements</li>
 </ul>
-<p>Install docker
-NAS with samba (open media vault?) should be separate because of network and setup shananingans?</p>
+<h1 id="one-big-image-or-separate-images">One big image, or separate images</h1>
+<p>You can consider using one uber image, but it may lead to some problems with some images.
+More versatile approach is to use docker images for each functionality.</p>
+<h1 id="examples">Examples</h1>
+<p>One big image</p>
 <pre tabindex="0"><code>version: &#34;3.9&#34;
 
 services:

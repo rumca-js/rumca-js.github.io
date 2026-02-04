@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Windows mess &ndash; rumca-js</title>
+    <head><title>Table problem &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,43 +49,23 @@
 
             <section class="page__body">
     <header class="content__header">
-        <h1>Windows mess</h1>
+        <h1>Table problem</h1>
     </header>
     <div class="content__body">
-        <p>For years, Windows was the go-to &ldquo;just works&rdquo; operating system. Plug something in, run an installer, play your game—simple. Meanwhile, Linux was for the patient and tech-savvy, often requiring manual configs and command-line tinkering.</p>
-<p>But somewhere along the way, things changed.</p>
-<h1 id="windows-familiar-but-fragmented">Windows: Familiar, But Fragmented</h1>
-<p>After a fresh Windows install, I tried launching an old game. It failed—missing Visual C++ Redistributable 2010. Finding the right version meant digging through sketchy download sites and dodging ad-ridden content farms.</p>
-<p>My son ran into similar issues with an older .exe installer. Windows SmartScreen blocked it, demanding permissions with no clear option to proceed. Even figuring out a safe download source was a challenge.</p>
-<p>This isn’t plug and play anymore. It’s plug and troubleshoot.</p>
-<p>When I wanted to install Minecraft, one of the most popular games, I spent hour to configure account. I don&rsquo;t remember exactly why, but it had to do about sons account being restricted, I did not want to add online account into the system, online setup for micorsoft account could not reset my missing pin, and could not reset pin on machine because I was missing login credentials, etc.</p>
-<p>All in all Microsoft push for online-only, to push features users don&rsquo;t like, and don&rsquo;t need result in half baked solutions, need to authenticate in many places, giving data about you.</p>
-<h1 id="linux-still-manual-but-smarter">Linux: Still Manual, But Smarter</h1>
-<p>Linux used to be intimidating. Now, it’s often the more straightforward choice—especially for gaming.</p>
-<p>Tools like:</p>
-<ul>
-<li>
-<p>Steam with Proton</p>
-</li>
-<li>
-<p>Bottles</p>
-</li>
-<li>
-<p>Lutris</p>
-</li>
-</ul>
-<p>make running Windows games easy and often more compatible than on modern Windows. Even old titles run better, thanks to Linux&rsquo;s focus on preserving legacy support rather than cutting it off.</p>
-<h1 id="the-shift">The Shift</h1>
-<p>Today:</p>
-<ul>
-<li>
-<p>Windows often requires digging through outdated dependencies and bypassing security roadblocks.</p>
-</li>
-<li>
-<p>Linux may still involve manual steps, but they&rsquo;re usually well-documented and logical.</p>
-</li>
-</ul>
-<p>The myth that Windows &ldquo;just works&rdquo; and Linux doesn’t is getting harder to believe. In fact, for many use cases—especially gaming—Linux might now be the smoother ride.</p>
+        <p>Once upon a time I got up and checked my webpage. It&rsquo;s a habit of mine — checking, making sure everything is up and running. I&rsquo;m not doing it for anyone else. Nobody uses my app instances; I’m the sole user. Yet, I&rsquo;m devoted.</p>
+<p>That day, I ran into a problem. A table in my database had a data error and became completely unreadable. I tried fixing it—several times. I sifted through pages of documentation and even enlisted ChatGPT for assistance. Nothing worked.</p>
+<p>Eventually, I tried creating a new table instance and copying over what I could. Unfortunately, every copy operation failed. Perhaps it was my limited SQL skills, or maybe I was missing some internal PostgreSQL trickery.</p>
+<p>One webpage I stumbled upon had an amusing piece of SQL advice:</p>
+<ol>
+<li>Try step A.</li>
+<li>If that doesn’t work, try step B.</li>
+<li>Then step C.</li>
+<li>If all else fails, restore from a backup. And, of course, if you don’t have a backup? Well, congratulations - you’ve just learned the importance of making backups.</li>
+</ol>
+<p>Luckily, I had a backup—of sorts. It was in JSON format. Importing it worked, but it was a painstakingly slow process. I spent some time experimenting with PostgreSQL’s native tools, like pg_backup and pg_restore. To my amazement, they worked like magic, taking a fraction of the time and resources compared to my improvised import/export process. It turns out my manual methods weren’t “optimal,” or perhaps PostgreSQL’s internal scripts benefit from directly copying tables, which is always faster for straightforward operations.</p>
+<p>In the end, I wrote a handy new script to perform PostgreSQL backups using its native tools—a silver lining to the ordeal.</p>
+<p>A week later, disaster struck again: a cascade delete operation wiped out most of my data. But this time, I was prepared. With my new backup script, I restored everything within minutes. Funny how things turn out sometimes.</p>
+<p>You better watchout, because there can always be another monster after your bug.</p>
 
     </div>
     <footer class="content__footer"></footer>
@@ -132,7 +112,7 @@
     
         <p>
             
-            2025-10-05
+            2024-11-13
         </p>
     
 

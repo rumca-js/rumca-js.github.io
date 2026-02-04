@@ -7,9 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://rumca-js.github.io/quickstart/public/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>IT</title>
+      <link>https://rumca-js.github.io/quickstart/public/it/</link>
+      <pubDate>Tue, 30 Sep 2025 18:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Posts</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/</link>
-      <pubDate>Sun, 05 Oct 2025 08:43:32 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 07:00:32 +0000</pubDate>
       
       <guid>https://rumca-js.github.io/quickstart/public/posts/</guid>
       <description></description>
@@ -21,6 +30,15 @@
       <pubDate>Tue, 26 Aug 2025 08:43:32 +0000</pubDate>
       
       <guid>https://rumca-js.github.io/quickstart/public/selfhost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webscraping</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/</link>
+      <pubDate>Mon, 20 Oct 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/</guid>
       <description></description>
     </item>
     

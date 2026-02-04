@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on rumca-js</title>
+    <link>https://rumca-js.github.io/quickstart/public/it/</link>
+    <description>Recent content in IT on rumca-js</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Sep 2025 18:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital ID</title>
+      <link>https://rumca-js.github.io/quickstart/public/it/2025-09-30-recommended-extensions/</link>
+      <pubDate>Tue, 30 Sep 2025 18:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/it/2025-09-30-recommended-extensions/</guid>
+      <description>My recommended extensions:
+ublock origin - Blocks not only ads. Makes you safer when browsing return YouTube dislike - shows video dislikes on Videos ClearUrl - cleans up links NoScript - prevents Javascript code from executing. Meaning you are safer. Not recommended for users who do not know how to enable them back Video Downloader Helper YouTube No Translation </description>
+    </item>
+    
+    <item>
+      <title>SEO</title>
+      <link>https://rumca-js.github.io/quickstart/public/it/2025-06-15-seo/</link>
+      <pubDate>Sun, 15 Jun 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/it/2025-06-15-seo/</guid>
+      <description>SEO is an art of positioning pages in Google search results. For most people, it is magic. Everyone knows the concept from the output side of things:
+Yeah, just make my page rank higher. This is not trivial because Google — or any other search engine — does not provide a clean and clear formula for how links are positioned. That’s what makes it the art of guessing. It’s like trying to solve a puzzle that changes shape every few months.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Windows mess &ndash; rumca-js</title>
+    <head><title>Bug problem &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,43 +49,28 @@
 
             <section class="page__body">
     <header class="content__header">
-        <h1>Windows mess</h1>
+        <h1>Bug problem</h1>
     </header>
     <div class="content__body">
-        <p>For years, Windows was the go-to &ldquo;just works&rdquo; operating system. Plug something in, run an installer, play your game—simple. Meanwhile, Linux was for the patient and tech-savvy, often requiring manual configs and command-line tinkering.</p>
-<p>But somewhere along the way, things changed.</p>
-<h1 id="windows-familiar-but-fragmented">Windows: Familiar, But Fragmented</h1>
-<p>After a fresh Windows install, I tried launching an old game. It failed—missing Visual C++ Redistributable 2010. Finding the right version meant digging through sketchy download sites and dodging ad-ridden content farms.</p>
-<p>My son ran into similar issues with an older .exe installer. Windows SmartScreen blocked it, demanding permissions with no clear option to proceed. Even figuring out a safe download source was a challenge.</p>
-<p>This isn’t plug and play anymore. It’s plug and troubleshoot.</p>
-<p>When I wanted to install Minecraft, one of the most popular games, I spent hour to configure account. I don&rsquo;t remember exactly why, but it had to do about sons account being restricted, I did not want to add online account into the system, online setup for micorsoft account could not reset my missing pin, and could not reset pin on machine because I was missing login credentials, etc.</p>
-<p>All in all Microsoft push for online-only, to push features users don&rsquo;t like, and don&rsquo;t need result in half baked solutions, need to authenticate in many places, giving data about you.</p>
-<h1 id="linux-still-manual-but-smarter">Linux: Still Manual, But Smarter</h1>
-<p>Linux used to be intimidating. Now, it’s often the more straightforward choice—especially for gaming.</p>
-<p>Tools like:</p>
-<ul>
-<li>
-<p>Steam with Proton</p>
-</li>
-<li>
-<p>Bottles</p>
-</li>
-<li>
-<p>Lutris</p>
-</li>
-</ul>
-<p>make running Windows games easy and often more compatible than on modern Windows. Even old titles run better, thanks to Linux&rsquo;s focus on preserving legacy support rather than cutting it off.</p>
-<h1 id="the-shift">The Shift</h1>
-<p>Today:</p>
-<ul>
-<li>
-<p>Windows often requires digging through outdated dependencies and bypassing security roadblocks.</p>
-</li>
-<li>
-<p>Linux may still involve manual steps, but they&rsquo;re usually well-documented and logical.</p>
-</li>
-</ul>
-<p>The myth that Windows &ldquo;just works&rdquo; and Linux doesn’t is getting harder to believe. In fact, for many use cases—especially gaming—Linux might now be the smoother ride.</p>
+        <p>Another amusing yet frustrating incident occurred recently.</p>
+<p>I discovered a particularly nasty bug in my code - it froze the entire app after exactly 10 page refreshes. I was initially baffled and unsure where to start debugging.</p>
+<p>I’m no Python expert, and my main safety net is a solid suite of unit tests. Clearly, I still have a lot to learn.</p>
+<p>When you lack advanced debugging skills, you make do with what you have. I started by observing the logs:</p>
+<ol>
+<li>PostgreSQL logs</li>
+<li>Apache logs</li>
+<li>dmesg</li>
+</ol>
+<p>Unfortunately, dmesg revealed issues with the drive, which made me a bit uneasy. I could not replace the drive, so I decided to poke around more.</p>
+<p>Next, I investigated my software dependencies. I’d recently upgraded several third-party packages, opting for newer versions. I wondered if that introduced a bug. However, this led to another roadblock: downgrading wasn’t straightforward since my requirements.txt file does not fully track all packages. I didn&rsquo;t know which packages to downgrade. Frustrating.</p>
+<h1 id="reason">Reason</h1>
+<p>I then checked the app’s stability at a previous commit. I identified a version where everything was working smoothly, pulled the code, and ran it. Success! The app was stable. What now?</p>
+<p>From there, I began the painstaking process of copy-pasting changes, line by line, to isolate the issue. Initially, I copied significant chunks of code, but the app froze again. This required many back-and forth copy and restart operations. Frustration mounted. Sigh. Coffee. Sigh. Repeat.</p>
+<p>Finally, after considerable effort, I pinpointed the culprit. Ironically, it was a bug I had recently fixed. It was a simple typo in variable name. Fixing that bug caused the freeze—a bizarre and unexpected outcome. Why? The subsequent lines of code checked whether a grammar library (Spacy) was loaded. Since the earlier bug was resolved, these lines executed for the first time and caused the app to freeze.</p>
+<p>So fixing a simple bug created a very nasty behavior. Sigh.</p>
+<h1 id="solution">Solution</h1>
+<p>The solution was simple - ensure the library was loaded only once, and not call it from apache. After making that change, everything worked perfectly.</p>
+<p>What a journey—debugging truly tests both patience and creativity!</p>
 
     </div>
     <footer class="content__footer"></footer>
@@ -132,7 +117,7 @@
     
         <p>
             
-            2025-10-05
+            2024-11-14
         </p>
     
 

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webscraping on rumca-js</title>
+    <link>https://rumca-js.github.io/quickstart/public/webscraping/</link>
+    <description>Recent content in Webscraping on rumca-js</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2025 08:43:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/webscraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropped celery</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-dropped-celery/</link>
+      <pubDate>Mon, 20 Oct 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-dropped-celery/</guid>
+      <description>My project throughout time has changed a lot.
+started by being a simple server, my friend from previous company departament once suggested django I used django, but had a background thread for RSS source data processing, which was junky on 4programmers.net I was suggested to use celery configuring celery was a pain in the ass, since I required one continuous task, and celery seems to be more of set of little jobs, that can be called.</description>
+    </item>
+    
+    <item>
+      <title>Sources started working</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-sources-started-working/</link>
+      <pubDate>Mon, 20 Oct 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-sources-started-working/</guid>
+      <description>Recently I have been working on my scraping library webtoolkit.
+To create it I had to extract code, simplify and streamline code.
+After these operations my main project sources started working.
+In summary: by simplifying code, cleaning API, you can fix problems. Unreadable code is prone to error.
+It may be obvious, but too often we are lazy not to clean up APIs.</description>
+    </item>
+    
+    <item>
+      <title>Business oriented focus</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-21-business-oriented-focus/</link>
+      <pubDate>Sun, 21 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-21-business-oriented-focus/</guid>
+      <description>Business oriented thinking It&amp;rsquo;s common to think about the outcome before starting a project. For example: Should I build a program if a similar one already exists? This mindset has benefits. Knowing your end goal helps define the path to reach it. It also allows you to find niches and differentiate your product from existing ones. This is often how business units operate - focused on ROI, market fit, and uniqueness.</description>
+    </item>
+    
+    <item>
+      <title>YouTube&#39;s best</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-14-youtube-best/</link>
+      <pubDate>Sun, 14 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-14-youtube-best/</guid>
+      <description>I have been updating database of links Until now the most viewed channel could have around 20M of followers in my database. I had maybe 200 channels I found wikipedia page with the most subscribed to channels, Mr. Beast at the time of writing has 430M of followers Most of these &amp;lsquo;most subscribed to channels&amp;rsquo; are either aimed toward children, or mindless entertainment, waste of time. Something analogic to &amp;lsquo;fast food&amp;rsquo; Many originate from India, maybe not something particularly surprising since India demographic structure could indicate that Many of channels are for kids.</description>
+    </item>
+    
+    <item>
+      <title>Dem bugs</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-04-dem-bugs/</link>
+      <pubDate>Thu, 04 Sep 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-09-04-dem-bugs/</guid>
+      <description>Today I have fixed a quite nasty bug in my hobby project.
+Maybe it was easy to spot. Request from python requests was not closed after being made.
+This lead to memory leak, which fortunately was detected by own &amp;ldquo;memory traps&amp;rdquo;.
+It&amp;rsquo;s hard to develop project without some &amp;ldquo;contraints&amp;rdquo;, &amp;ldquo;limits&amp;rdquo;, that will be triggered and notify the mastah.
+This also makes me more careful about python. It is full of traps.</description>
+    </item>
+    
+    <item>
+      <title>Free web</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-05-29-free-web/</link>
+      <pubDate>Thu, 29 May 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-05-29-free-web/</guid>
+      <description>I like to think about the future — and often, my predictions turn out to be accurate, which makes me happy.
+Lately, I’ve been reflecting on Texas’ new law requiring age verification for app stores. I believe this is just continuation of a broader trend that will only become more pronounced. Increasingly, platforms and websites will be legally required to collect more data from users — and it won’t stop at age verification.</description>
+    </item>
+    
+    <item>
+      <title>Full internet search</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-23-full-internet-search/</link>
+      <pubDate>Sun, 23 Mar 2025 08:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-23-full-internet-search/</guid>
+      <description>So it happened. Finally. I finished the full internet offline search.
+So what it is?
+It&amp;rsquo;s an internet search tool, designed to find domains on the web. It’s offline, meaning all searches are performed directly on your device. it uses JavaScript heresy It utilizes SQLite to fetch data. Link: Internet search
+There are other side projects, mind you:
+Music I Like My Bookmarks Top Domains Search </description>
+    </item>
+    
+    <item>
+      <title>The State of the Dead Internet</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-12-state-of-dead-internet/</link>
+      <pubDate>Wed, 12 Mar 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-03-12-state-of-dead-internet/</guid>
+      <description>Yesterday, I stumbled upon an obscure video that resonated deeply with thoughts I’ve been having for a while. One idea in particular stood out:
+&amp;ldquo;Creators create videos for the algorithm, not for the users&amp;rdquo;.
+I had never thought about it that way before.
+The video in question State of The Dead Internet explores the current state of the Internet and how it has changed. Some key takeaways:
+The Internet feels increasingly empty and artificial.</description>
+    </item>
+    
+    <item>
+      <title>Search engines are obsolete</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-02-19-search-engines-are-obsolete/</link>
+      <pubDate>Wed, 19 Feb 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-02-19-search-engines-are-obsolete/</guid>
+      <description>Let’s run an experiment.
+Start tracking the sites you visit manually. Where have you been today? This month?
+Most likely, your browsing habits follow a predictable pattern:
+You watch a YouTube video, maybe checking your favorite channels. Or perhaps you don’t even have subscriptions—you just watch whatever &amp;ldquo;the algorithm&amp;rdquo; serves up. You check what&amp;rsquo;s new on Reddit or Rumble to stay updated. Occasionally, you visit mainstream news sites like BBC, CNN, or a tech blog.</description>
+    </item>
+    
+    <item>
+      <title>Another bug bites the dust</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-29_another_bug_bites_the_dust/</link>
+      <pubDate>Wed, 29 Jan 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-29_another_bug_bites_the_dust/</guid>
+      <description>It always starts with a bug.
+Recently I had several problems:
+my RSS feed server, that I wrote, started freezing my web crawler, lead to OS freeze This happened after major code refactor. I split my RSS feed reader into two projects, so naturally things blew up.
+I have unit tests mind you, but unit tests do not cover 100% of code.
+My functional manual testing also did not show anything outstanding.</description>
+    </item>
+    
+    <item>
+      <title>Share your links</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-09_share_your_links/</link>
+      <pubDate>Thu, 09 Jan 2025 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2025-01-09_share_your_links/</guid>
+      <description>Why You Should Share Your Links
+Sharing and organizing links is more important than you might think. Here&amp;rsquo;s why:
+Your Knowledge is Valuable: You&amp;rsquo;ve likely visited interesting places online. Even if they seem obvious to you, others might find them invaluable. For the Greater Good: By storing and sharing your links, you&amp;rsquo;re creating a resource that benefits not just you, but also others who might need that information. Avoid Closed Platforms: Storing your links on closed platforms limits their accessibility and portability.</description>
+    </item>
+    
+    <item>
+      <title>Google&#39;s tough luck</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-11_googles_tough_luck/</link>
+      <pubDate>Wed, 11 Dec 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-11_googles_tough_luck/</guid>
+      <description>For years, Google stood at the pinnacle of the corporate world, recognized as one of the most valuable companies globally. Its dominance was built on the strength of its search engine, which became indispensable to anyone wanting to be seen or heard online. &amp;ldquo;Play nice with Google,&amp;rdquo; they said, and you would thrive.
+In its early days, Google&amp;rsquo;s business model relied heavily on user-generated web pages to build and refine its search algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Will the Internet exist in 20 years?</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-08_will_the_internet_exist/</link>
+      <pubDate>Sun, 08 Dec 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-08_will_the_internet_exist/</guid>
+      <description>The Illusion of Boundless Opportunity We often think of the Internet as a vast, limitless space—a digital world where anyone can carve out their own unique niche and &amp;ldquo;own&amp;rdquo; a piece of private digital land.
+But nothing could be more misleading.
+The Internet is often compared to Lake Baikal, the world&amp;rsquo;s deepest lake. And in some ways, this metaphor is apt: immense in theory, but with most of its life concentrated in a small portion.</description>
+    </item>
+    
+    <item>
+      <title>Boomer Internet is dead</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-05_boomer_internet_is_dead/</link>
+      <pubDate>Thu, 05 Dec 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-12-05_boomer_internet_is_dead/</guid>
+      <description>I’ve created a project which contains collection of domains. I have many, many links. It was wonderful experience for me to see that many of links.
+When I search &amp;ldquo;Search engine&amp;rdquo; i receive a clean list of search engines, not some content farms.
+I tried advertising it on reddit, with some limited positive feedback. Some, but not too much.
+Google is potemkin village. You will not find some my links using normal search, so why people are not interested?</description>
+    </item>
+    
+    <item>
+      <title>Internet sins</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-26-web-sins/</link>
+      <pubDate>Tue, 26 Nov 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-26-web-sins/</guid>
+      <description>There are many things wrong with the current web, I wanted to keep track of them.
+You can disagree with some of them, but that may not indicate you are right.
+your page does not provide valid meta fields. There is a lot of them. Title, description. There are og: fields, image thumbnails, og: publish date. There is also LD-JSON data, and other SEO keyword tags your page is not bot friendly.</description>
+    </item>
+    
+    <item>
+      <title>Bug problem</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-13-table-problem/</link>
+      <pubDate>Thu, 14 Nov 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-13-table-problem/</guid>
+      <description>Another amusing yet frustrating incident occurred recently.
+I discovered a particularly nasty bug in my code - it froze the entire app after exactly 10 page refreshes. I was initially baffled and unsure where to start debugging.
+I’m no Python expert, and my main safety net is a solid suite of unit tests. Clearly, I still have a lot to learn.
+When you lack advanced debugging skills, you make do with what you have.</description>
+    </item>
+    
+    <item>
+      <title>Init</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-12-init/</link>
+      <pubDate>Thu, 14 Nov 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-12-init/</guid>
+      <description>Here I will be discussing problems and hurdles with internet scraping / crawling.</description>
+    </item>
+    
+    <item>
+      <title>Table problem</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-14-bug-problem/</link>
+      <pubDate>Wed, 13 Nov 2024 16:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2024-11-14-bug-problem/</guid>
+      <description>Once upon a time I got up and checked my webpage. It&amp;rsquo;s a habit of mine — checking, making sure everything is up and running. I&amp;rsquo;m not doing it for anyone else. Nobody uses my app instances; I’m the sole user. Yet, I&amp;rsquo;m devoted.
+That day, I ran into a problem. A table in my database had a data error and became completely unreadable. I tried fixing it—several times. I sifted through pages of documentation and even enlisted ChatGPT for assistance.</description>
+    </item>
+    
+  </channel>
+</rss>

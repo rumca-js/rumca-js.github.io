@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Windows mess &ndash; rumca-js</title>
+    <head><title>Another bug bites the dust &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,43 +49,27 @@
 
             <section class="page__body">
     <header class="content__header">
-        <h1>Windows mess</h1>
+        <h1>Another bug bites the dust</h1>
     </header>
     <div class="content__body">
-        <p>For years, Windows was the go-to &ldquo;just works&rdquo; operating system. Plug something in, run an installer, play your game—simple. Meanwhile, Linux was for the patient and tech-savvy, often requiring manual configs and command-line tinkering.</p>
-<p>But somewhere along the way, things changed.</p>
-<h1 id="windows-familiar-but-fragmented">Windows: Familiar, But Fragmented</h1>
-<p>After a fresh Windows install, I tried launching an old game. It failed—missing Visual C++ Redistributable 2010. Finding the right version meant digging through sketchy download sites and dodging ad-ridden content farms.</p>
-<p>My son ran into similar issues with an older .exe installer. Windows SmartScreen blocked it, demanding permissions with no clear option to proceed. Even figuring out a safe download source was a challenge.</p>
-<p>This isn’t plug and play anymore. It’s plug and troubleshoot.</p>
-<p>When I wanted to install Minecraft, one of the most popular games, I spent hour to configure account. I don&rsquo;t remember exactly why, but it had to do about sons account being restricted, I did not want to add online account into the system, online setup for micorsoft account could not reset my missing pin, and could not reset pin on machine because I was missing login credentials, etc.</p>
-<p>All in all Microsoft push for online-only, to push features users don&rsquo;t like, and don&rsquo;t need result in half baked solutions, need to authenticate in many places, giving data about you.</p>
-<h1 id="linux-still-manual-but-smarter">Linux: Still Manual, But Smarter</h1>
-<p>Linux used to be intimidating. Now, it’s often the more straightforward choice—especially for gaming.</p>
-<p>Tools like:</p>
+        <p>It always starts with a bug.</p>
+<p>Recently I had several problems:</p>
 <ul>
-<li>
-<p>Steam with Proton</p>
-</li>
-<li>
-<p>Bottles</p>
-</li>
-<li>
-<p>Lutris</p>
-</li>
+<li>my RSS feed server, that I wrote, started freezing</li>
+<li>my web crawler, lead to OS freeze</li>
 </ul>
-<p>make running Windows games easy and often more compatible than on modern Windows. Even old titles run better, thanks to Linux&rsquo;s focus on preserving legacy support rather than cutting it off.</p>
-<h1 id="the-shift">The Shift</h1>
-<p>Today:</p>
+<p>This happened after major code refactor. I split my RSS feed reader into two projects, so naturally things blew up.</p>
+<p>I have unit tests mind you, but unit tests do not cover 100% of code.</p>
+<p>My functional manual testing also did not show anything outstanding.</p>
+<p>Turns out my celery tasks had an unkown bug in which it would spin forever that did not happen because:</p>
 <ul>
-<li>
-<p>Windows often requires digging through outdated dependencies and bypassing security roadblocks.</p>
-</li>
-<li>
-<p>Linux may still involve manual steps, but they&rsquo;re usually well-documented and logical.</p>
-</li>
+<li>my RSS feed had been eating memory for a long period of time</li>
+<li>celery had defined memory limit for workers</li>
+<li>workers ate too much memory, which lead to worker restart and everything was all rosy</li>
 </ul>
-<p>The myth that Windows &ldquo;just works&rdquo; and Linux doesn’t is getting harder to believe. In fact, for many use cases—especially gaming—Linux might now be the smoother ride.</p>
+<p>When I fixed memory bug it showed that behind that bug there was lurking a more nasty one.</p>
+<p>After some time I have been able to track it down and kill.</p>
+<p>What are my closing thoughts? It was all worth it. Now my application runs better than ever!</p>
 
     </div>
     <footer class="content__footer"></footer>
@@ -132,7 +116,7 @@
     
         <p>
             
-            2025-10-05
+            2025-01-29
         </p>
     
 
