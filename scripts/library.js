@@ -162,7 +162,7 @@ function GetPaginationNav(currentPage, totalPages, totalRows) {
         </nav>
     `;
 
-    return paginationText;
+    return nav_html;
 }
 
 

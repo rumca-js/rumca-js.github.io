@@ -12,7 +12,9 @@ let debug_mode = false;
 
 let entries_direct_links = false;
 let highlight_bookmarks = false;
+let perform_auto_search = true;
 let click_behavior_modal_window = true;
+let initialization_mode = "api"; // database, json
 let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
 let default_page_size = 200;
 
