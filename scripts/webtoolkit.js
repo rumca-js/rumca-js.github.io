@@ -172,9 +172,13 @@ class ContentDisplay {
   removeImgs(link) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(this.text, "text/html");
-
-    const imgs = doc.querySelectorAll(`img[src="${link}"]`);
-    imgs.forEach(img => img.remove());
+    
+    const imgs = doc.querySelectorAll("img");
+    imgs.forEach(img => {
+      if (img.getAttribute("src") === link) {
+        img.remove();
+      }
+    });
 
     this.text = doc.body.innerHTML;
     return this.text;
