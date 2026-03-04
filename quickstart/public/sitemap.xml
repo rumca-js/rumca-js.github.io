@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-02-04-found-peace/</loc>
-    <lastmod>2026-02-04T07:00:32+00:00</lastmod>
-  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2026-02-04T07:00:32+00:00</lastmod>
+    <lastmod>2026-03-03T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/</loc>
+    <lastmod>2026-03-03T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-03-04-you-are-banned/</loc>
+    <lastmod>2026-03-03T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-02-23-rules-for-rss/</loc>
+    <lastmod>2026-02-23T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-02-04-found-peace/</loc>
     <lastmod>2026-02-04T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2026-01-13-youtube-analysis/</loc>
