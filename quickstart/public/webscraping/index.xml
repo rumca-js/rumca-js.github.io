@@ -208,5 +208,16 @@ When you lack advanced debugging skills, you make do with what you have.</descri
 That day, I ran into a problem. A table in my database had a data error and became completely unreadable. I tried fixing it—several times. I sifted through pages of documentation and even enlisted ChatGPT for assistance.</description>
     </item>
     
+    <item>
+      <title>Memory leaks</title>
+      <link>https://rumca-js.github.io/quickstart/public/webscraping/2026-03-11-memory-leaks/</link>
+      <pubDate>Sat, 11 Mar 2023 21:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/webscraping/2026-03-11-memory-leaks/</guid>
+      <description>I had problems with web scraping for a very long time
+I think there could have been some parts where there was no particular problem. Now it returned
+I am experienced programmer so I fixed it with a little bit of duct tape and a zip tie: the processing script watches virtual memory. If 95% is taken, it exists. There is also a calling script, that calls processing script in a loop.</description>
+    </item>
+    
   </channel>
 </rss>

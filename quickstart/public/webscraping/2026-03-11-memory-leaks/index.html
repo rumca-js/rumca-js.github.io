@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Webscraping &ndash; rumca-js</title>
+    <head><title>Memory leaks &ndash; rumca-js</title>
 <meta name="description" content="...[]...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,6 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://rumca-js.github.io/quickstart/public/webscraping/index.xml" title="rumca-js">
 
 </head>
 
@@ -49,71 +48,81 @@
 </header>
 
             <section class="page__body">
-    <h1 id="webscraping">Webscraping</h1>
+    <header class="content__header">
+        <h1>Memory leaks</h1>
+    </header>
+    <div class="content__body">
+        <ul>
+<li>
+<p>I had problems with web scraping for a very long time</p>
+</li>
+<li>
+<p>I think there could have been some parts where there was no particular problem. Now it returned</p>
+</li>
+<li>
+<p>I am experienced programmer so I fixed it with a little bit of duct tape and a zip tie: the processing script watches virtual memory. If 95% is taken, it exists. There is also a calling script, that calls processing script in a loop. This is a very common way to handle memory leaks. It is a very simple, effective solution, but definitely not clean and correct</p>
+</li>
+</ul>
+<p>I asked chatgpt how can he help me with python memory leaks</p>
+<h1 id="1st">1st</h1>
+<ul>
+<li>first it said to try to manually release memory with gc.collect() because it could have been just &lsquo;delayed&rsquo; release of memory</li>
+</ul>
+<h1 id="2nd">2nd</h1>
+<pre tabindex="0"><code>&#39;pip install memory-profiler&#39;
+</code></pre><p>with the following to see which line increases</p>
+<pre tabindex="0"><code>from memory_profiler import profile
 
-    
+@profile
+def my_function():
+</code></pre><h1 id="3rd">3rd</h1>
+<p>Shows which lines allocated the most memory</p>
+<pre tabindex="0"><code>import tracemalloc
 
-    <ul>
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-dropped-celery/">Dropped celery</a></li>
+tracemalloc.start()
 
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-10-20-sources-started-working/">Sources started working</a></li>
+run_my_program()
+snapshot = tracemalloc.take_snapshot()
+top = snapshot.statistics(&#39;lineno&#39;)
 
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-09-21-business-oriented-focus/">Business oriented focus</a></li>
+for stat in top[:10]:
+   print(stat)
+</code></pre><h1 id="4th">4th</h1>
+<p>Print objects that are accumulating</p>
+<pre tabindex="0"><code>import gc
 
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-09-14-youtube-best/">YouTube&rsquo;s best</a></li>
+gc.collect()
 
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-09-04-dem-bugs/">Dem bugs</a></li>
+for obj in gc.get_objects():
+    if isinstance(obj, MyClass):
+        print(obj)
+</code></pre><h1 id="5th">5th</h1>
+<p>This will show uncollectable objects</p>
+<pre tabindex="0"><code>import gc
+gc.set_debug(gc.DEBUG_LEAK)
+gc.collect()
+</code></pre><h1 id="6th">6th</h1>
+<p>install objgraph</p>
+<pre tabindex="0"><code>pip install objgraph
+</code></pre><pre tabindex="0"><code>import objgraph
+objgraph.show_growth()
+</code></pre><p>Then inspect
+objgraph.show_backrefs(objgraph.by_type(&lsquo;MyClass&rsquo;)[0])</p>
+<h1 id="7th">7th</h1>
+<p>Common causes</p>
+<ul>
+<li>appending global lists</li>
+<li>Unbounded dictionaries</li>
+<li>Arrays that stay references</li>
+<li>quques that are not drained</li>
+</ul>
+<h1 id="8th">8th</h1>
+<p>pip install memray</p>
+<p>memray run script.py
+memray flamegraph</p>
 
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-05-29-free-web/">Free web</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-03-23-full-internet-search/">Full internet search</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-03-12-state-of-dead-internet/">The State of the Dead Internet</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-02-19-search-engines-are-obsolete/">Search engines are obsolete</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-01-29_another_bug_bites_the_dust/">Another bug bites the dust</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2025-01-09_share_your_links/">Share your links</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-12-11_googles_tough_luck/">Google&rsquo;s tough luck</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-12-08_will_the_internet_exist/">Will the Internet exist in 20 years?</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-12-05_boomer_internet_is_dead/">Boomer Internet is dead</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-11-26-web-sins/">Internet sins</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-11-13-table-problem/">Bug problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-11-12-init/">Init</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2024-11-14-bug-problem/">Table problem</a></li>
-
-    
-        <li><a href="https://rumca-js.github.io/quickstart/public/webscraping/2026-03-11-memory-leaks/">Memory leaks</a></li>
-
-    
-    </ul>
-
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -153,7 +162,15 @@
 </div>
                 <hr>
                 <div class="aside__content">
-    <p>Web scraping blog</p>
+    
+    
+        <p>
+            
+            2023-03-11
+        </p>
+    
+
+    
 
                 </div>
             </section>
