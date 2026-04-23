@@ -5,18 +5,18 @@ let system_initialized = false;
 
 let view_display_type = "search-engine";
 let view_display_style = "style-light";
-let view_show_icons = false;
-let view_small_icons = false;
+let view_show_icons = true;
+let view_small_icons = true;
 let user_age = 1;
 let debug_mode = false;
 
-let entries_direct_links = false;
+let entries_direct_links = true;
 let highlight_bookmarks = false;
 let perform_auto_search = true;
 let click_behavior_modal_window = true;
-let sort_function = "-date_published"; // page_rating_votes, date_published
-let default_page_size = 200;
 let initialization_mode = "api"; // database, json
+let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
+let default_page_size = 200;
 
 let entries_visit_alpha=1.0;
 let entries_dead_alpha=0.5;
@@ -38,13 +38,14 @@ function getDefaultFileName() {
 }
 
 
-function getFileList() {
-    return [];
+function getDefaultFileLocation() {
+    return "/data/";
 }
 
 
-function getDefaultFileLocation() {
-    return "/data/";
+function getFileList() {
+    return [
+    ];
 }
 
 
@@ -65,17 +66,42 @@ function getHomeLocation() {
 
 function getInitialSearchSuggestsions() {
     return [
-        "tag=jeffrey epstein",
-        "tag=privacy",
-        "tag=survaillance",
-        "tag=censorship",
-        "tag=technofeudalism",
-        "tag=climate change",
-        "tag=covid",
-        "tag=facebook",
-        "tag=google",
-        "tag=inequality",
+        "t.tag LIKE '%artificial intelligence%'",
+        "t.tag LIKE '%artificial intelligence bot%'",
+        "t.tag LIKE '%search engine%'",
+        "t.tag LIKE '%operating system%'",
+        "t.tag LIKE '%technology%'",
+        "t.tag LIKE '%science%'",
+        "t.tag LIKE '%news%'",
+        "t.tag LIKE '%music artist%'",
+        "t.tag LIKE '%music band%'",
+        "t.tag LIKE '%web browser%'",
+        "t.tag LIKE '%video game%'",
+        "t.tag LIKE '%video games%'",
+        "t.tag LIKE '%personal%'",
+        "t.tag LIKE '%personal sites%'",
+        "t.tag LIKE '%interesting%'",
+        "t.tag LIKE '%interesting page design%'",
+        "t.tag LIKE '%interesting page contents%'",
+        "t.tag LIKE '%anime%'",
+        "t.tag LIKE '%self-host%'",
+        "t.tag LIKE '%programming%'",
+        "t.tag LIKE '%programming language%'",
+        "t.tag LIKE '%open source%'",
+        "t.tag LIKE '%wtf%'",
+        "t.tag LIKE '%funny%'",
+        "l.language LIKE '%pl%'",
+        "l.link LIKE '%youtube.com%'",
+        "l.link LIKE '%github.com%'",
+        "l.link LIKE '%reddit.com%'",
     ];
+}
+
+
+function debug(text) {
+    if (true) {
+      console.log(text);
+    }
 }
 
 
