@@ -24,7 +24,7 @@ let entries_dead_alpha=0.5;
 
 function getFileVersion() {
     /* Forces refresh of the file */
-    return "71";
+    return "72";
 }
 
 
