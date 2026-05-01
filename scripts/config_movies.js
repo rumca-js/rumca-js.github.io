@@ -10,7 +10,7 @@ let view_small_icons = true;
 let user_age = 1;
 let debug_mode = false;
 
-let entries_direct_links = true;
+let entries_direct_links = false;
 let highlight_bookmarks = false;
 let perform_auto_search = true;
 let click_behavior_modal_window = true;
@@ -38,14 +38,14 @@ function getDefaultFileName() {
 }
 
 
-function getDefaultFileLocation() {
-    return "/data/";
-}
-
-
 function getFileList() {
     return [
     ];
+}
+
+
+function getDefaultFileLocation() {
+    return "/data/";
 }
 
 
@@ -66,34 +66,13 @@ function getHomeLocation() {
 
 function getInitialSearchSuggestsions() {
     return [
-        "t.tag LIKE '%artificial intelligence%'",
-        "t.tag LIKE '%artificial intelligence bot%'",
-        "t.tag LIKE '%search engine%'",
-        "t.tag LIKE '%operating system%'",
-        "t.tag LIKE '%technology%'",
-        "t.tag LIKE '%science%'",
-        "t.tag LIKE '%news%'",
-        "t.tag LIKE '%music artist%'",
-        "t.tag LIKE '%music band%'",
-        "t.tag LIKE '%web browser%'",
-        "t.tag LIKE '%video game%'",
-        "t.tag LIKE '%video games%'",
-        "t.tag LIKE '%personal%'",
-        "t.tag LIKE '%personal sites%'",
-        "t.tag LIKE '%interesting%'",
-        "t.tag LIKE '%interesting page design%'",
-        "t.tag LIKE '%interesting page contents%'",
-        "t.tag LIKE '%anime%'",
-        "t.tag LIKE '%self-host%'",
-        "t.tag LIKE '%programming%'",
-        "t.tag LIKE '%programming language%'",
-        "t.tag LIKE '%open source%'",
-        "t.tag LIKE '%wtf%'",
-        "t.tag LIKE '%funny%'",
-        "l.language LIKE '%pl%'",
-        "l.link LIKE '%youtube.com%'",
-        "l.link LIKE '%github.com%'",
-        "l.link LIKE '%reddit.com%'",
+        "tag = action",
+        "tag = comedy",
+        "tag = science-fiction",
+        "language = fr",
+        "language = mn",
+        "language = pl",
+        "link = youtube.com",
     ];
 }
 

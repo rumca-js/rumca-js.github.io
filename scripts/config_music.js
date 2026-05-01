@@ -79,6 +79,13 @@ function getInitialSearchSuggestsions() {
 }
 
 
+function debug(text) {
+    if (true) {
+      console.log(text);
+    }
+}
+
+
 function getViewStyles() {
     return [
         "standard",
