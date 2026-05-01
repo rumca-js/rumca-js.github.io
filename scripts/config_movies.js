@@ -34,7 +34,7 @@ function getSystemVersion() {
 
 
 function getDefaultFileName() {
-    return "movies.db.zip";
+    return "movies.zip";
 }
 
 
