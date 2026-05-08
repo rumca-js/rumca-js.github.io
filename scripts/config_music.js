@@ -2,6 +2,7 @@ let worker = null;
 let db = null;
 let object_list_data = null;   // all objects lists
 let system_initialized = false;
+let initialize_on_start = false; // google does not like our reading of zips
 
 let view_display_type = "gallery";
 let view_display_style = "style-light";

@@ -399,11 +399,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (!object_list_data) {
-        try {
-            Initialize();
-        }
-        catch {
-            $("#statusLine").html("Cannot initialize search system");
+        if (initialize_on_start)
+        {
+           try {
+               Initialize();
+           }
+           catch {
+               $("#statusLine").html("Cannot initialize search system");
+           }
         }
     }
 

@@ -57,7 +57,7 @@ function sortAndFilter() {
 
 function performSearchJSON() {
     if (!system_initialized) {
-        $("#statusLine").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Reading data...`);
+        Initialize();
         return;
     }
 
