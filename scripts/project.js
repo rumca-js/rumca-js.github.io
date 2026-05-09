@@ -57,7 +57,7 @@ function sortAndFilter() {
 
 function performSearchJSON() {
     if (!system_initialized) {
-        Initialize();
+        $('#statusLine').html("System is not initialized");
         return;
     }
 
@@ -124,6 +124,8 @@ function performSearch() {
     const currentUrl = new URL(window.location.href);
     currentUrl.searchParams.set('search', userInput);
     window.history.pushState({}, '', currentUrl);
+
+    Initialize();
 
     onSearchStart();
 
