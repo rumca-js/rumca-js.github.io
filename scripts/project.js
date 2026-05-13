@@ -240,6 +240,11 @@ async function initWorker() {
 
 
 async function Initialize() {
+	if (system_initialized)
+	{
+		return;
+	}
+	
     let file_name = getFileName();
 
     $('#searchInput').prop('disabled', true);
