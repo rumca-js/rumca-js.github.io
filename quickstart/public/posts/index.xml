@@ -6,7 +6,19 @@
     <description>Recent content in Posts on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:00:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 May 2026 07:00:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiny Tiny Success</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2026-05-18-success/</link>
+      <pubDate>Mon, 18 May 2026 07:00:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2026-05-18-success/</guid>
+      <description>Had a very funny encounter today. I received an email from a local newspaper saying that they had fixed their RSS feed.
+It was strange because I had notified them on 2026-08-02 that the Content-Type of their feed was set to text/html.
+That was incorrect, RSS feed should use application/rss+xml.
+It was not a big deal, but I thought it would be fun to report it. I assumed it would most likely never be fixed, but maybe at least someone would notice it.</description>
+    </item>
+    
     <item>
       <title>Purgatory</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2026-03-09-purgatory/</link>

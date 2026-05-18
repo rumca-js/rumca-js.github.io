@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
+    <lastmod>2026-05-18T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/</loc>
+    <lastmod>2026-05-18T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-05-18-success/</loc>
+    <lastmod>2026-05-18T07:00:32+00:00</lastmod>
+  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/me/</loc>
     <lastmod>2026-05-14T17:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2026-03-09T07:00:32+00:00</lastmod>
-  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2026-03-09-purgatory/</loc>
-    <lastmod>2026-03-09T07:00:32+00:00</lastmod>
-  </url><url>
-    <loc>https://rumca-js.github.io/quickstart/public/</loc>
     <lastmod>2026-03-09T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2026-04-02-think-about-your-life/</loc>
