@@ -57,7 +57,8 @@ function sortAndFilter() {
 
 function performSearchJSON() {
     if (!system_initialized) {
-        $('#statusLine').html("System is not initialized");
+        let spinner_text_1 = getSpinnerText("Initializing system");
+        $('#statusLine').html(spinner_text_1);
         return;
     }
 
@@ -84,7 +85,8 @@ function performSearchDb() {
         return;
     }
     if (!system_initialized) {
-        $('#statusLine').html("Cannot make query - database is not ready");
+        let spinner_text_1 = getSpinnerText("Initializing system");
+        $('#statusLine').html(spinner_text_1);
     }
 
     let query = getQueryText(default_page_size);
