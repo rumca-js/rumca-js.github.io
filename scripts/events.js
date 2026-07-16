@@ -408,6 +408,9 @@ document.addEventListener('DOMContentLoaded', () => {
                $("#statusLine").html("Cannot initialize search system");
            }
         }
+        else {
+               $("#statusLine").html("Perform search to view items");
+        }
     }
 
     $("#system-information").html(getSystemInformationHtml());
