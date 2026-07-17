@@ -37,3 +37,31 @@ jsons:
 	poetry run python filter.py --db moviedb.db --file-names movies --redundant
 	poetry run python filter.py --db places.db --file-names places --votes
 	poetry run python filter.py --db rsshistory.db --file-names bookmark --redundant
+
+databases:
+	rm awesomelists.db.zip
+	rm books.db.zip
+	rm feeds.db.zip
+	rm memes.db.zip
+	rm movies.db.zip
+	rm music.db.zip
+	rm top.db.zip
+	rm youtube.db.zip
+	
+	zip awesomelists.db.zip awesomelistsdb.db 
+	zip books.db.zip booksdb.db 
+	zip feeds.db.zip feedsdb.db 
+	zip memes.db.zip memesdb.db 
+	zip movies.db.zip moviesdb.db 
+	zip music.db.zip musicdb.db 
+	zip top.db.zip topdb.db 
+	zip youtube.db.zip youtubedb.db 
+	
+	rm awesomelistsdb.db 
+	rm booksdb.db 
+	rm feedsdb.db 
+	rm memesdb.db 
+	rm moviesdb.db 
+	rm musicdb.db 
+	rm topdb.db 
+	rm youtubedb.db 
