@@ -65,3 +65,8 @@ databases:
 	rm musicdb.db 
 	rm topdb.db 
 	rm youtubedb.db 
+
+youtube:
+	rm youtube.db.zip
+	zip youtube.db.zip youtubedb.db 
+	rm youtubedb.db 
