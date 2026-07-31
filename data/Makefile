@@ -70,3 +70,8 @@ youtube:
 	rm youtube.db.zip
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
+
+bookmarks-db:
+	rm bookmarks.db.zip
+	zip bookmarks.db.zip rsshistory.db 
+	rm rsshistory.db 
