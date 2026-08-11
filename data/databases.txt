@@ -1,5 +1,5 @@
 https://rumca-js.github.io/data/feeds.db.zip
-https://github.com/rumca-js/rumca-js.github.io/releases/download/1.0.0/top.db.zip
+https://rumca-js.github.io/data/top.db.zip
 https://github.com/rumca-js/rumca-js.github.io/releases/download/1.0.0/youtube.db.zip
 https://rumca-js.github.io/data/books.db.zip
 https://rumca-js.github.io/data/memes.db.zip
