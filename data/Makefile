@@ -38,7 +38,7 @@ jsons:
 	poetry run python filter.py --db places.db --file-names places --votes
 	poetry run python filter.py --db rsshistory.db --file-names bookmark --redundant
 
-databases:
+databases: youtube-db bookmarks-db
 	rm awesomelists.db.zip
 	rm books.db.zip
 	rm feeds.db.zip
@@ -46,7 +46,6 @@ databases:
 	rm movies.db.zip
 	rm music.db.zip
 	rm top.db.zip
-	rm youtube.db.zip
 	
 	zip awesomelists.db.zip awesomelistsdb.db 
 	zip books.db.zip booksdb.db 
@@ -55,7 +54,6 @@ databases:
 	zip movies.db.zip moviesdb.db 
 	zip music.db.zip musicdb.db 
 	zip top.db.zip topdb.db 
-	zip youtube.db.zip youtubedb.db 
 	
 	rm awesomelistsdb.db 
 	rm booksdb.db 
@@ -64,14 +62,18 @@ databases:
 	rm moviesdb.db 
 	rm musicdb.db 
 	rm topdb.db 
-	rm youtubedb.db 
 
-youtube:
+youtube-db:
 	rm youtube.db.zip
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
 
 bookmarks-db:
-	rm bookmarks.db.zip
-	zip bookmarks.db.zip rsshistory.db 
+	#rm bookmarks.db.zip
+	poetry run python filter.py --db rsshistory.db --output-file rsshistory_filtered.db --redundant --user-data
+	zip bookmarks.db.zip rsshistory_filtered.db 
 	rm rsshistory.db 
+	rm rsshistory_filtered.db 
+
+bookmarks-db-summary:
+	poetry run python dataanalyzer.py --db rsshistory_filtered.db --summary
