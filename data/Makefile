@@ -65,9 +65,14 @@ databases: youtube-db bookmarks-db
 	rm topdb.db 
 
 youtube-db:
-	rm youtube.db.zip
+	#rm youtube.db.zip
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
+
+music-db:
+	rm music.db.zip
+	zip music.db.zip musicdb.db 
+	rm musicdb.db 
 
 bookmarks-db:
 	#rm bookmarks.db.zip
