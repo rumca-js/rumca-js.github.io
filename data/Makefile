@@ -32,12 +32,13 @@ pack:
 
 jsons:
 	# from smaller to bigger
-	poetry run python filter.py --db awesomelistsdb.db --file-names awesome
-	poetry run python filter.py --db musicdb.db --file-names music --redundant
-	poetry run python filter.py --db moviedb.db --file-names movies --redundant
-	poetry run python filter.py --db places.db --file-names places --votes
-	poetry run python filter.py --db rsshistory.db --file-names bookmark --redundant
-	poetry run python filter.py --db internet.db --file-names places --redundant
+	poetry run python filter.py --db awesomelistsdb.db --jsons --file-names awesome
+	poetry run python filter.py --db musicdb.db --jsons --file-names music --redundant
+	poetry run python filter.py --db moviedb.db --jsons --file-names movies --redundant
+	poetry run python filter.py --db places.db --jsons --file-names places --votes
+	poetry run python filter.py --db rsshistory.db --jsons --file-names bookmark --redundant
+	poetry run python filter.py --db internet.db --jsons --file-names places --redundant
+	rm tmp.db
 
 databases: youtube-db bookmarks-db
 	rm awesomelists.db.zip
