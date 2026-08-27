@@ -66,21 +66,32 @@ databases: youtube-db bookmarks-db
 	rm topdb.db 
 
 youtube-db:
-	#rm youtube.db.zip
-	zip youtube.db.zip youtubedb.db 
+	rm youtube.db.zip
+	poetry run python filter.py --db youtubedb.db --output-file youtubedb_filtered.db --redundant --user-data --search-data
+	zip youtube.db.zip youtubedb-filtered.db 
 	rm youtubedb.db 
+	rm youtubedb_filtered.db 
 
 music-db:
 	rm music.db.zip
-	zip music.db.zip musicdb.db 
+	poetry run python filter.py --db music.db --output-file musicdb_filtered.db --redundant --user-data --search-data
+	zip music.db.zip musicdb_filtered.db 
 	rm musicdb.db 
+	rm musicdb_filtered.db 
 
 bookmarks-db:
-	#rm bookmarks.db.zip
-	poetry run python filter.py --db rsshistory.db --output-file rsshistory_filtered.db --redundant --user-data
+	rm bookmarks.db.zip
+	poetry run python filter.py --db rsshistory.db --output-file rsshistory_filtered.db --redundant --user-data --search-data
 	zip bookmarks.db.zip rsshistory_filtered.db 
 	rm rsshistory.db 
 	rm rsshistory_filtered.db 
+
+top-db:
+	rm top.db.zip
+	poetry run python filter.py --db topdb.db --output-file topdb_filtered.db --redundant --user-data --search-data
+	zip top.db.zip topdb_filtered.db 
+	rm topdb.db 
+	rm topdb_filtered.db 
 
 bookmarks-db-summary:
 	poetry run python dataanalyzer.py --db rsshistory_filtered.db --summary

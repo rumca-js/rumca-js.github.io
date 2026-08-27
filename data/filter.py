@@ -1,5 +1,6 @@
 import argparse
 
+from linkarchivetools.tableconfig import *
 from linkarchivetools.dbfilter import DbFilter
 from linkarchivetools.db2json import Db2JSON
 from linkarchivetools.dbanalyzer import DbAnalyzer
@@ -8,16 +9,23 @@ from linkarchivetools.model import DbConnection
 
 
 def parse():
+    """
+    TODO - I think we should use DbFilter parser
+    """
     parser = argparse.ArgumentParser(description="filtering program")
     parser.add_argument("--db", help="DB to be processed")
     parser.add_argument("--output-dir", help="Directory to be created")
     parser.add_argument("--output-file", help="Output file")
     parser.add_argument("--file-names", help="File names")
+    parser.add_argument("--jsons", action="store_true", help="exported to JSONs")
+
     parser.add_argument("--bookmarked", action="store_true", help="Filtering by bookmarks. Entries that are bookmarked are left in")
     parser.add_argument("--votes", action="store_true", help="Filtering by votes. Entries with votes are maintained.")
     parser.add_argument("--redundant", action="store_true", help="Removes entries that are redundant")
     parser.add_argument("--user-data", action="store_true", help="Removes user data")
-    parser.add_argument("--jsons", action="store_true", help="exported to JSONs")
+    parser.add_argument("--search-data", action="store_true", help="Removes user data")
+    parser.add_argument("--visits-data", action="store_true", help="Removes user data")
+
     parser.add_argument("-v", "--verbosity", help="Verbosity level")
     
     args = parser.parse_args()
@@ -49,6 +57,12 @@ def main():
         filter.filter_redundant()
     if args.user_data:
         filter.truncate_no_users()
+    if args.search_data:
+        filter.truncate_tables(get_search_tables())
+    if args.visits_data:
+        filter.truncate_tables(get_visits_tables())
+
+    filter.obfuscate()
 
     filter.close()
     print("Filtering DONE")
