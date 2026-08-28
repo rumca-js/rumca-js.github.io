@@ -41,71 +41,82 @@ jsons:
 	poetry run python filter.py --db internet.db --jsons --file-names places --redundant
 	rm tmp.db
 
-databases: awesomelists-db books-db feeds-db memes-db movies-db music-db youtube-db bookmarks-db top-db
+databases: awesomelists-db bookmarks-db books-db feeds-db memes-db movies-db music-db reddit-db videogames-db vr-db youtube-db top-db
 
-youtube-db:
-	rm youtube.db.zip
-	poetry run python filter.py --db youtubedb.db --output-file youtubedb_filtered.db --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip youtube.db.zip youtubedb-filtered.db 
-	rm youtubedb.db 
-	rm youtubedb_filtered.db 
-
-music-db:
-	rm music.db.zip
-	poetry run python filter.py --db music.db --output-file musicdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip music.db.zip musicdb_filtered.db 
-	rm musicdb.db 
-	rm musicdb_filtered.db 
+awesomelists-db:
+	#rm awesomelists.db.zip
+	poetry run python filter.py --db awesomelistsdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip awesomelists.db.zip awesomelistsdb.db 
+	rm awesomelistsdb.db 
 
 bookmarks-db:
 	rm bookmarks.db.zip
-	poetry run python filter.py --db rsshistory.db --output-file rsshistory_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip bookmarks.db.zip rsshistory_filtered.db 
+	poetry run python filter.py --db rsshistory.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip bookmarks.db.zip rsshistory.db 
 	rm rsshistory.db 
-	rm rsshistory_filtered.db 
-
-top-db:
-	rm top.db.zip
-	poetry run python filter.py --db topdb.db --output-file topdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip top.db.zip topdb_filtered.db 
-	rm topdb.db 
-	rm topdb_filtered.db 
 
 books-db:
 	rm books.db.zip
-	poetry run python filter.py --db booksdb.db --output-file booksdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --domains --obfuscate
-	zip books.db.zip booksdb_filtered.db 
+	poetry run python filter.py --db booksdb.db --redundant --user-data --search-data --configuration --dynamic-data --domains --obfuscate
+	zip books.db.zip booksdb.db 
 	rm booksdb.db 
-	rm booksdb_filtered.db 
-
 
 feeds-db:
-	rm feeds.db.zip
-	poetry run python filter.py --db feedsdb.db --output-file feedsdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip feeds.db.zip feedsdb_filtered.db 
+	#rm feeds.db.zip
+	poetry run python filter.py --db feedsdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip feeds.db.zip feedsdb.db 
 	rm feedsdb.db 
-	rm feedsdb_filtered.db 
-
-movies-db:
-	rm movies.db.zip
-	poetry run python filter.py --db moviesdb.db --output-file moviesdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip movies.db.zip moviesdb_filtered.db 
-	rm moviesdb.db 
-	rm moviesdb_filtered.db 
 
 memes-db:
 	rm memes.db.zip
-	poetry run python filter.py --db memesdb.db --output-file memesdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip memes.db.zip memesdb_filtered.db 
+	poetry run python filter.py --db memesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip memes.db.zip memesdb.db 
 	rm memesdb.db 
-	rm memesdb_filtered.db 
 
-awesomelists-db:
-	rm awesomelists.db.zip
-	poetry run python filter.py --db awesomelistsdb.db --output-file awesomelistsdb_filtered.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
-	zip awesomelists.db.zip awesomelistsdb_filtered.db 
-	rm awesomelistsdb.db 
-	rm awesomelistsdb_filtered.db 
+movies-db:
+	rm movies.db.zip
+	poetry run python filter.py --db moviesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip movies.db.zip moviesdb.db 
+	rm moviesdb.db 
+
+music-db:
+	#rm music.db.zip
+	poetry run python filter.py --db musicdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip music.db.zip musicdb.db 
+	rm musicdb.db 
+
+reddit-db:
+	#rm redditdb.db.zip
+	poetry run python filter.py --db redditdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip redditdb.db.zip redditdb.db 
+	rm redditdb.db 
+
+videogames-db:
+	#rm videogamesdb.db.zip
+	poetry run python filter.py --db videogamesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip videogamesdb.db.zip videogamesdb.db 
+	rm videogamesdb.db 
+
+vr-db:
+	#rm vrdb.db.zip
+	poetry run python filter.py --db vrdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip vrdb.db.zip vrdb.db 
+	rm vrdb.db 
+
+youtube-db:
+	#rm youtube.db.zip
+	poetry run python filter.py --db youtubedb.db --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip youtube.db.zip youtubedb.db 
+	rm youtubedb.db 
+
+
+top-db:
+	#rm top.db.zip
+	poetry run python filter.py --db places.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
+	zip top.db.zip places.db 
+	rm places.db 
+
+
 
 bookmarks-db-summary:
-	poetry run python dataanalyzer.py --db rsshistory_filtered.db --summary
+	poetry run python dataanalyzer.py --db rsshistory.db --summary

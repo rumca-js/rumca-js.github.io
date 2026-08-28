@@ -21,7 +21,7 @@ def parse():
 
     parser.add_argument("--bookmarked", action="store_true", help="Removes non bookmarked")
     parser.add_argument("--votes", action="store_true", help="Removes entries without a vote")
-    parser.add_argument("--no-users", action="store_true", help="Prepares for setup with no users")
+    parser.add_argument("--user-data", action="store_true", help="Prepares for setup with no users")
     parser.add_argument("--obfuscate", action="store_true", help="Obfuscates private data")
     parser.add_argument("--dynamic-data", action="store_true", help="Truncates dynamic tables")
     parser.add_argument("--redundant", action="store_true", help="Removes entries that are redundant - not bookmarked, no votes")
@@ -52,10 +52,10 @@ def main():
     #analyzer.print_summary()
 
     print("Filtering")
-    thefilter = DbFilter(input_db=args.db,output_db=temporary_file)
+    thefilter = DbFilter(db=args.db)
 
     entries_changed = False
-    if args.no_users:
+    if args.user_data:
         entries_changed = True
         thefilter.truncate_user_tables()
         thefilter.truncate_configuration_tables()
@@ -74,7 +74,7 @@ def main():
     if args.redundant:
         entries_changed = True
         thefilter.delete_entries_redundant()
-    if args.configuration_tables:
+    if args.configuration:
         thefilter.truncate_configuration_tables()
     if args.search_data:
         thefilter.truncate_tables(get_search_tables())
