@@ -19,12 +19,16 @@ def parse():
     parser.add_argument("--file-names", help="File names")
     parser.add_argument("--jsons", action="store_true", help="exported to JSONs")
 
-    parser.add_argument("--bookmarked", action="store_true", help="Filtering by bookmarks. Entries that are bookmarked are left in")
-    parser.add_argument("--votes", action="store_true", help="Filtering by votes. Entries with votes are maintained.")
-    parser.add_argument("--redundant", action="store_true", help="Removes entries that are redundant")
-    parser.add_argument("--user-data", action="store_true", help="Removes user data")
+    parser.add_argument("--bookmarked", action="store_true", help="Removes non bookmarked")
+    parser.add_argument("--votes", action="store_true", help="Removes entries without a vote")
+    parser.add_argument("--no-users", action="store_true", help="Prepares for setup with no users")
+    parser.add_argument("--obfuscate", action="store_true", help="Obfuscates private data")
+    parser.add_argument("--dynamic-data", action="store_true", help="Truncates dynamic tables")
+    parser.add_argument("--redundant", action="store_true", help="Removes entries that are redundant - not bookmarked, no votes")
+    parser.add_argument("--configuration", action="store_true", help="Removes uneceesary configuration")
     parser.add_argument("--search-data", action="store_true", help="Removes user data")
     parser.add_argument("--visits-data", action="store_true", help="Removes user data")
+    parser.add_argument("--domains", action="store_true", help="Removes domains data")
 
     parser.add_argument("-v", "--verbosity", help="Verbosity level")
     
@@ -48,23 +52,40 @@ def main():
     #analyzer.print_summary()
 
     print("Filtering")
-    filter = DbFilter(input_db=args.db,output_db=temporary_file)
-    if args.votes:
-        filter.filter_votes()
+    thefilter = DbFilter(input_db=args.db,output_db=temporary_file)
+
+    entries_changed = False
+    if args.no_users:
+        entries_changed = True
+        thefilter.truncate_user_tables()
+        thefilter.truncate_configuration_tables()
+    if args.obfuscate:
+        entries_changed = True
+        thefilter.obfuscate()
+    if args.dynamic_data:
+        entries_changed = True
+        thefilter.truncate_dynamic_data()
     if args.bookmarked:
-        filter.filter_bookmarked()
+        entries_changed = True
+        thefilter.delete_non_bookmarked()
+    if args.votes:
+        entries_changed = True
+        thefilter.delete_entries_no_votes()
     if args.redundant:
-        filter.filter_redundant()
-    if args.user_data:
-        filter.truncate_no_users()
+        entries_changed = True
+        thefilter.delete_entries_redundant()
+    if args.configuration_tables:
+        thefilter.truncate_configuration_tables()
     if args.search_data:
-        filter.truncate_tables(get_search_tables())
+        thefilter.truncate_tables(get_search_tables())
     if args.visits_data:
-        filter.truncate_tables(get_visits_tables())
+        thefilter.truncate_tables(get_visits_tables())
+    if args.domains:
+        thefilter.truncate_tables({"domains"})
 
-    filter.obfuscate()
+    thefilter.obfuscate()
 
-    filter.close()
+    thefilter.close()
     print("Filtering DONE")
 
     #analyzer = DbAnalyzer(input_db = temporary_file)
