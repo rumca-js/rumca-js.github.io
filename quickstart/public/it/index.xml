@@ -18,6 +18,17 @@ ublock origin - Blocks not only ads. Makes you safer when browsing return YouTub
     </item>
     
     <item>
+      <title>Gemini Cli on raspberry PI</title>
+      <link>https://rumca-js.github.io/quickstart/public/it/2026-05-22-gemini-cli/</link>
+      <pubDate>Tue, 30 Sep 2025 18:43:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/it/2026-05-22-gemini-cli/</guid>
+      <description>Install curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - sudo apt install nodejs -y
+Verify node -v npm -v
+Install gemini npm install -g @google/gemini-cli</description>
+    </item>
+    
+    <item>
       <title>SEO</title>
       <link>https://rumca-js.github.io/quickstart/public/it/2025-06-15-seo/</link>
       <pubDate>Sun, 15 Jun 2025 08:43:32 +0000</pubDate>
