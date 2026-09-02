@@ -1,10 +1,10 @@
 +++
-title = "Think about yourselve"
+title = "Cultivate your garden"
 date = 2026-03-09 07:00:32
 draft = false
 +++
 
-Often we are caught in thinking about what presiden does, or not.
+Often we are caught in thinking about what president does, or does not.
 
 We think about what celebrity said about other person.
 
