@@ -105,7 +105,7 @@ vr-db:
 
 youtube-db:
 	#rm youtube.db.zip
-	poetry run python filter.py --db youtubedb.db --user-data --search-data --configuration --dynamic-data --obfuscate
+	poetry run python dbupdate.py --db youtubedb.db --trunc-no-users --trunc-search-data --trunc-configuration --trunc-dynamic-data --create-tables --obfuscate
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
 

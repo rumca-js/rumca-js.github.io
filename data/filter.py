@@ -1,7 +1,7 @@
 import argparse
 
 from linkarchivetools.tableconfig import *
-from linkarchivetools.dbfilter import DbFilter
+from linkarchivetools.dbupdate import DbUpdate
 from linkarchivetools.db2json import Db2JSON
 from linkarchivetools.dbanalyzer import DbAnalyzer
 from linkarchivetools.utils.reflected import ReflectedTable
@@ -52,7 +52,7 @@ def main():
     #analyzer.print_summary()
 
     print("Filtering")
-    thefilter = DbFilter(db=args.db)
+    thefilter = DbUpdate(db=args.db)
 
     entries_changed = False
     if args.user_data:
