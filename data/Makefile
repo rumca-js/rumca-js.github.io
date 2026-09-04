@@ -119,4 +119,4 @@ top-db:
 
 
 bookmarks-db-summary:
-	poetry run python dataanalyzer.py --db rsshistory.db --summary
+	poetry run python dbanalyzer.py --db rsshistory.db --tables
