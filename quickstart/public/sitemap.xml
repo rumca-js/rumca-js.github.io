@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-09-01-family/</loc>
-    <lastmod>2026-09-01T07:00:32+00:00</lastmod>
-  </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/</loc>
-    <lastmod>2026-09-01T07:00:32+00:00</lastmod>
+    <lastmod>2026-09-06T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-09-06-i-hate-google/</loc>
+    <lastmod>2026-09-06T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/</loc>
+    <lastmod>2026-09-06T07:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://rumca-js.github.io/quickstart/public/posts/2026-09-01-family/</loc>
     <lastmod>2026-09-01T07:00:32+00:00</lastmod>
   </url><url>
     <loc>https://rumca-js.github.io/quickstart/public/posts/2026-08-29-god-i-hate-google/</loc>

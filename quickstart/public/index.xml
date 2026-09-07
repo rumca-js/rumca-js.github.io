@@ -6,7 +6,19 @@
     <description>Recent content on rumca-js</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 07:00:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2026 07:00:32 +0000</lastBuildDate><atom:link href="https://rumca-js.github.io/quickstart/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publishing app on Google Play Store</title>
+      <link>https://rumca-js.github.io/quickstart/public/posts/2026-09-06-i-hate-google/</link>
+      <pubDate>Sun, 06 Sep 2026 07:00:32 +0000</pubDate>
+      
+      <guid>https://rumca-js.github.io/quickstart/public/posts/2026-09-06-i-hate-google/</guid>
+      <description>The experience is far more inferior than publishing on f-droid. Sure, on f-droid it can take a while. It may require some technical knowledge to speed things up. I have created myself a fork of f-droid data, built, etc.
+The amount of work was nothing, in comparison with Google Play Store.
+You need to verify account
+that means you need to pay to have developer account. It is not a small amount.</description>
+    </item>
+    
     <item>
       <title>Found Family on Reddit</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2026-09-01-family/</link>
@@ -67,7 +79,7 @@ You have to let go. Do not think that much about immigrants, do not read about w
     </item>
     
     <item>
-      <title>Purgatory</title>
+      <title>My dream - Purgatory</title>
       <link>https://rumca-js.github.io/quickstart/public/posts/2026-03-09-purgatory/</link>
       <pubDate>Mon, 09 Mar 2026 07:00:32 +0000</pubDate>
       
