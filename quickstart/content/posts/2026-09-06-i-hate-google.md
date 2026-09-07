@@ -36,3 +36,12 @@ All in all many questions, but I have a feeling that bad actors can still go aro
 The protection does nothing, while it all looks like a game to get off government lawyers. If they did not implement such measured, they would receive many complains.
 
 All this work, which just make it all harder for simple developers like me.
+
+# Data
+
+What I don't like is how much data Google captures about you:
+
+ - Email
+ - Phone number (verified)
+ - Real Name
+ - ID (so city, street)
