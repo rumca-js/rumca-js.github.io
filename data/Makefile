@@ -117,6 +117,14 @@ top-db:
 	rm places.db 
 
 
+update:
+	rm top.db.zip
+	wget https://github.com/rumca-js/awesome-database-top/raw/refs/heads/main/internet.db.zip
+	mv internet.db.zip top.db.zip
+	rm feeds.db.zip
+	wget https://github.com/rumca-js/awesome-database-feeds/raw/refs/heads/main/feeds.db.zip
+	rm awesomelists.db.zip
+	wget https://github.com/rumca-js/awesome-database-awesomelists/raw/refs/heads/main/awesomelists.db.zip
 
 bookmarks-db-summary:
 	poetry run python dbanalyzer.py --db rsshistory.db --tables
