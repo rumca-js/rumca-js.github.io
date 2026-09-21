@@ -5,6 +5,7 @@
    </head>
    <body>
        <outline text="feeds">
+          <outline type="rss" text="Hacker News" xmlUrl="https://hnrss.org/frontpage"/>
           <outline type="rss" text="TechLinked" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA"/>
           <outline type="rss" text="Marques Brownlee" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ"/>
           <outline type="rss" text="Dave2D" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVYamHliCI9rw1tHR1xbkfw"/>
