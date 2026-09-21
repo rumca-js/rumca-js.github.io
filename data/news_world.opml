@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+   <head>
+   <title>Tech sources</title>
+   </head>
+   <body>
+       <outline text="feeds">
+          <outline type="rss" text="Reuters" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChqUTb7kYRX8-EiaN3XFrSQ"/>
+          <outline type="rss" text="BBC" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCj956IF62FbT7Gouszaj9w"/>
+          <outline type="rss" text="CNN" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCupvZG-5ko_eiXAupbDfxWw"/>
+       </outline>
+   </body>
+</opml>
