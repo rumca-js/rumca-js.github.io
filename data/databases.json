@@ -34,5 +34,13 @@
   {
      "url" : "https://rumca-js.github.io/data/awesomelists.db.zip",
      "title" : "Awesome lists links"
+  },
+  {
+     "url" : "https://rumca-js.github.io/data/list_news_tech.opml",
+     "title" : "Tech News"
+  },
+  {
+     "url" : "https://rumca-js.github.io/data/list_news_world.opml",
+     "title" : "Tech News"
   }
 ]
