@@ -4,7 +4,7 @@ let object_list_data = null;   // all objects lists
 let system_initialized = false;
 let initialize_on_start = false; // google does not like our reading of zips
 
-let view_display_type = "search-engine";
+let view_display_type = "gallery";
 let view_display_style = "style-light";
 let view_show_icons = true;
 let view_small_icons = true;
@@ -16,7 +16,7 @@ let highlight_bookmarks = false;
 let perform_auto_search = true;
 let click_behavior_modal_window = true;
 let initialization_mode = "api"; // database, json
-let sort_function = "-page_rating_votes"; // page_rating_votes, date_published
+let sort_function = "-date_published"; // page_rating_votes, date_published
 let default_page_size = 200;
 
 let entries_visit_alpha=1.0;
