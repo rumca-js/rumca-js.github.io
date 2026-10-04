@@ -1,46 +1,62 @@
 [
   {
      "url" : "https://rumca-js.github.io/data/feeds.db.zip",
-     "title" : "Feeds"
+     "title" : "Feeds",
+     "date_updated": "2026-10-04T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/top.db.zip",
-     "title" : "Top domains"
+     "title" : "Top domains",
+     "date_updated": "2026-10-04T22:36:00Z"
   },
   {
      "url" : "https://github.com/rumca-js/rumca-js.github.io/releases/download/1.0.0/youtube.db.zip",
-     "title" : "YouTube channels"
+     "title" : "YouTube channels",
+     "date_updated": "2026-10-04T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/books.db.zip",
-     "title" : "Books"
+     "title" : "Books",
+     "date_updated": "2026-10-04T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/memes.db.zip",
-     "title" : "Memes"
+     "title" : "Memes",
+     "date_updated": "2026-08-28T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/movies.db.zip",
-     "title" : "Movies"
+     "title" : "Movies",
+     "date_updated": "2026-08-28T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/music.db.zip",
-     "title" : "Music"
+     "title" : "Music",
+     "date_updated": "2026-09-19T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/bookmarks.db.zip",
-     "title" : "Bookmarks"
+     "title" : "Bookmarks",
+     "date_updated": "2026-08-28T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/awesomelists.db.zip",
-     "title" : "Awesome lists links"
+     "title" : "Awesome lists links",
+     "date_updated": "2026-09-11T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/list_news_tech.opml",
-     "title" : "Tech News"
+     "title" : "Tech News",
+     "date_updated": "2026-09-21T22:36:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/list_news_world.opml",
-     "title" : "World News"
+     "title" : "World News",
+     "date_updated": "2026-09-21T22:36:00Z"
+  },
+  {
+     "url" : "https://rumca-js.github.io/data/list_youtube.sources",
+     "title" : "YouTube channels",
+     "date_updated": "2026-09-21T22:36:00Z"
   }
 ]
