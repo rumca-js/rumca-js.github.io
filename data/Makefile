@@ -62,7 +62,7 @@ books-db:
 	rm booksdb.db 
 
 feeds-db:
-	#rm feeds.db.zip
+	rm feeds.db.zip
 	poetry run python filter.py --db feedsdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip feeds.db.zip feedsdb.db 
 	rm feedsdb.db 
@@ -80,38 +80,38 @@ movies-db:
 	rm moviesdb.db 
 
 music-db:
-	#rm music.db.zip
+	rm music.db.zip
 	poetry run python filter.py --db musicdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip music.db.zip musicdb.db 
 	rm musicdb.db 
 
 reddit-db:
-	#rm redditdb.db.zip
+	rm redditdb.db.zip
 	poetry run python filter.py --db redditdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip redditdb.db.zip redditdb.db 
 	rm redditdb.db 
 
 videogames-db:
-	#rm videogamesdb.db.zip
+	rm videogamesdb.db.zip
 	poetry run python filter.py --db videogamesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip videogamesdb.db.zip videogamesdb.db 
 	rm videogamesdb.db 
 
 vr-db:
-	#rm vrdb.db.zip
+	rm vrdb.db.zip
 	poetry run python filter.py --db vrdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip vrdb.db.zip vrdb.db 
 	rm vrdb.db 
 
 youtube-db:
-	#rm youtube.db.zip
+	rm youtube.db.zip
 	poetry run python dbupdate.py --db youtubedb.db --trunc-no-users --trunc-search-data --trunc-configuration --trunc-dynamic-data --create-tables --obfuscate
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
 
 
 top-db:
-	#rm top.db.zip
+	rm top.db.zip
 	poetry run python filter.py --db places.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip top.db.zip places.db 
 	rm places.db 
