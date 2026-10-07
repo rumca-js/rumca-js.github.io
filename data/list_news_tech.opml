@@ -9,6 +9,11 @@
           <outline type="rss" text="TechLinked" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA"/>
           <outline type="rss" text="Marques Brownlee" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ"/>
           <outline type="rss" text="Dave2D" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVYamHliCI9rw1tHR1xbkfw"/>
+          <outline type="rss" text="Boston Dynamics" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7vVhkEfw4nOGp8TyDk7RcQ"/>
+          <outline type="rss" text="Technology Connections" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCy0tKL1T7wFoYcxCe0xjN6Q"/>
+          <outline type="rss" text="Fireship" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"/>
+          <outline type="rss" text="Jeff Geerling" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg"/>
+          <outline type="rss" text="Benn Jordan" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCshObcm-nLhbu8MY50EZ5Ng"/>
        </outline>
    </body>
 </opml>
