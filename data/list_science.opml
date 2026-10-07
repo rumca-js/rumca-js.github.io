@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+   <head>
+   <title>Tech sources</title>
+   </head>
+   <body>
+       <outline text="feeds">
+          <outline type="rss" text="Action Lab" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1VLQPn9cYSqx8plbk9RxxQ"/>
+          <outline type="rss" text="Veritasium" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"/>
+          <outline type="rss" text="Kurzgesagt – In a Nutshell" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q"/>
+          <outline type="rss" text="Joe Scott" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-2YHgc363EdcusLIBbgxzg"/>
+          <outline type="rss" text="Tom Scott" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A"/>
+          <outline type="rss" text="Star Talk" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqoAEDirJPjEUFcF2FklnBA"/>
+          <outline type="rss" text="Anton Petrov" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCciQ8wFcVoIIMi-lfu8-cjQ"/>
+       </outline>
+   </body>
+</opml>
