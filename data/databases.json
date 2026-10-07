@@ -47,12 +47,17 @@
   {
      "url" : "https://rumca-js.github.io/data/list_news_tech.opml",
      "title" : "Tech News",
-     "date_updated": "2026-09-21T22:36:00Z"
+     "date_updated": "2026-10-07T14:23:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/list_news_world.opml",
      "title" : "World News",
      "date_updated": "2026-09-21T22:36:00Z"
+  },
+  {
+     "url" : "https://rumca-js.github.io/data/list_science.opml",
+     "title" : "Science",
+     "date_updated": "2026-10-07T14:23:00Z"
   },
   {
      "url" : "https://rumca-js.github.io/data/list_youtube.sources",
