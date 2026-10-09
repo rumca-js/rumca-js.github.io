@@ -44,74 +44,74 @@ jsons:
 databases: awesomelists-db bookmarks-db books-db feeds-db memes-db movies-db music-db reddit-db videogames-db vr-db youtube-db top-db
 
 awesomelists-db:
-	#rm awesomelists.db.zip
+	rm -f awesomelists.db.zip
 	poetry run python filter.py --db awesomelistsdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip awesomelists.db.zip awesomelistsdb.db 
 	rm awesomelistsdb.db 
 
 bookmarks-db:
-	rm bookmarks.db.zip
+	rm -f bookmarks.db.zip
 	poetry run python filter.py --db rsshistory.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip bookmarks.db.zip rsshistory.db 
 	rm rsshistory.db 
 
 books-db:
-	rm books.db.zip
+	rm -f books.db.zip
 	poetry run python filter.py --db booksdb.db --redundant --user-data --search-data --configuration --dynamic-data --domains --obfuscate
 	zip books.db.zip booksdb.db 
 	rm booksdb.db 
 
 feeds-db:
-	rm feeds.db.zip
+	rm -f feeds.db.zip
 	poetry run python filter.py --db feedsdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip feeds.db.zip feedsdb.db 
 	rm feedsdb.db 
 
 memes-db:
-	rm memes.db.zip
+	rm -f memes.db.zip
 	poetry run python filter.py --db memesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip memes.db.zip memesdb.db 
 	rm memesdb.db 
 
 movies-db:
-	rm movies.db.zip
+	rm -f movies.db.zip
 	poetry run python filter.py --db moviesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip movies.db.zip moviesdb.db 
 	rm moviesdb.db 
 
 music-db:
-	rm music.db.zip
+	rm -f music.db.zip
 	poetry run python filter.py --db musicdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip music.db.zip musicdb.db 
 	rm musicdb.db 
 
 reddit-db:
-	rm redditdb.db.zip
+	rm -f redditdb.db.zip
 	poetry run python filter.py --db redditdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip redditdb.db.zip redditdb.db 
 	rm redditdb.db 
 
 videogames-db:
-	rm videogamesdb.db.zip
+	rm -f videogamesdb.db.zip
 	poetry run python filter.py --db videogamesdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip videogamesdb.db.zip videogamesdb.db 
 	rm videogamesdb.db 
 
 vr-db:
-	rm vrdb.db.zip
+	rm -f vrdb.db.zip
 	poetry run python filter.py --db vrdb.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip vrdb.db.zip vrdb.db 
 	rm vrdb.db 
 
 youtube-db:
-	rm youtube.db.zip
+	rm -f youtube.db.zip
 	poetry run python dbupdate.py --db youtubedb.db --trunc-no-users --trunc-search-data --trunc-configuration --trunc-dynamic-data --create-tables --obfuscate
 	zip youtube.db.zip youtubedb.db 
 	rm youtubedb.db 
 
 
 top-db:
-	rm top.db.zip
+	rm -f top.db.zip
 	poetry run python filter.py --db places.db --redundant --user-data --search-data --configuration --dynamic-data --obfuscate
 	zip top.db.zip places.db 
 	rm places.db 
